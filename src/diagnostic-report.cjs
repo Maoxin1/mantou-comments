@@ -4,14 +4,17 @@
 // not that a database check succeeded. The diagnostic outcome remains explicit.
 const STATUS = new Set(['ok','schema_incomplete','configuration_invalid','connection_failed','tls_unverified','read_only_unconfirmed','query_failed','timeout','cleanup_or_transport_failed']);
 const FAILURE = new Set(['none','configuration','connection','authentication','network','tls_verification','database_unavailable','read_only_check','query','timeout','cleanup','unknown','request']);
+const PHASE = new Set(['configuration','driver_load','pool_creation','connect','tls_verification','read_only_check','catalog_query','cleanup','unknown']);
+const REASON = new Set(['none','module_unavailable','driver_initialization','dns_lookup','tcp_transport','tls_certificate','authentication','database_unavailable','driver_timeout','deadline_timeout','protocol_rejected','startup_rejected','connection_limit','server_error','unknown']);
+const SETTING = new Set(['replication','options','statement_timeout','lock_timeout','idle_in_transaction_session_timeout','search_path','default_transaction_read_only']);
 const TABLES = ['wl_comment','wl_counter','wl_users'];
 const STATES = new Set(['readable','not_readable','absent']);
 function projectDiagnosticReport(body, httpStatus) {
-  const unavailable = () => ({ status: 'unavailable', transport: 'unconfirmed', failureClass: 'unknown', diagnosticHttpStatus: 503 });
+  const unavailable = () => ({ status: 'unavailable', transport: 'unconfirmed', failureClass: 'unknown', failurePhase: 'unknown', failureReason: 'unknown', diagnosticHttpStatus: 503 });
   let value;
   try { value = JSON.parse(body); } catch { return unavailable(); }
   if (!value || typeof value !== 'object' || Array.isArray(value)) return unavailable();
-  if (value.errno === 503 && value.errmsg === 'Comments are not enabled') return { status: 'request_rejected', transport: 'unconfirmed', failureClass: 'request', diagnosticHttpStatus: 503 };
+  if (value.errno === 503 && value.errmsg === 'Comments are not enabled') return { status: 'request_rejected', transport: 'unconfirmed', failureClass: 'request', failurePhase: 'unknown', failureReason: 'unknown', diagnosticHttpStatus: 503 };
   if (!STATUS.has(value.status) || !['verified','unconfirmed'].includes(value.transport) || ![200,503].includes(httpStatus)) return unavailable();
   const report = { status: value.status, transport: value.transport, failureClass: FAILURE.has(value.failureClass) ? value.failureClass : 'unknown', diagnosticHttpStatus: httpStatus };
   if (['ok','schema_incomplete'].includes(value.status)) {
@@ -19,6 +22,10 @@ function projectDiagnosticReport(body, httpStatus) {
     if ((value.status === 'ok') !== TABLES.every(name => value.tables[name] === 'readable')) return unavailable();
     report.tables = Object.fromEntries(TABLES.map(name => [name,value.tables[name]]));
     report.failureClass = 'none';
+  } else {
+    report.failurePhase = PHASE.has(value.failurePhase) ? value.failurePhase : 'unknown';
+    report.failureReason = REASON.has(value.failureReason) ? value.failureReason : 'unknown';
+    if (report.failurePhase === 'connect' && report.failureReason === 'startup_rejected' && SETTING.has(value.failureSetting)) report.failureSetting = value.failureSetting;
   }
   return report;
 }

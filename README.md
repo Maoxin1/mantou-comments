@@ -59,3 +59,7 @@ Earlier licensing-hold wording remains inside the byte-preserved derivative,
 generator and provenance records. Current `LICENSE-CHOICES.md` and the approved
 source-release plan supersede that historical status. Component grants are
 retained; fonts/assets are not blanket-relicensed.
+
+## Diagnostic classification checkpoint (2026-10-05)
+
+The phase-classification update passed a fresh offline install and all 65 tests (61 application + 4 reference). The nine additive regressions failed against the published prior runtime before the fix. Existing test/helper files, dependency lock, timeouts, verified TLS and fixed read-only SQL are unchanged. See [the classification report](docs/DIAGNOSTIC-PHASE-CLASSIFICATION.md). This is not a real database acceptance pass; the latest live result remains connection_failed with unconfirmed transport.

@@ -39,8 +39,8 @@ function createPostgresqlOptions(environment) {
     debounce: false,
   };
 }
-function fixedResult(status, transport = 'unconfirmed', tables, failureClass) {
-  return Object.freeze({ status, transport, ...(tables ? { tables: Object.freeze(tables) } : {}), ...(failureClass ? { failureClass } : {}) });
+function fixedResult(status, transport = 'unconfirmed', tables, failureClass, failurePhase, failureReason, failureSetting) {
+  return Object.freeze({ status, transport, ...(tables ? { tables: Object.freeze(tables) } : {}), ...(failureClass ? { failureClass } : {}), ...(failurePhase ? { failurePhase, failureReason } : {}), ...(failureSetting ? { failureSetting } : {}) });
 }
 function classifyFailure(error, stage) {
   // Classify only explicit error codes. Never echo a driver message/code, SQL,
@@ -50,6 +50,33 @@ function classifyFailure(error, stage) {
     ERR_TLS_CERT_ALTNAME_INVALID:'tls_verification', CERT_HAS_EXPIRED:'tls_verification', DEPTH_ZERO_SELF_SIGNED_CERT:'tls_verification', SELF_SIGNED_CERT_IN_CHAIN:'tls_verification', UNABLE_TO_VERIFY_LEAF_SIGNATURE:'tls_verification', UNABLE_TO_GET_ISSUER_CERT_LOCALLY:'tls_verification' };
   try { if (error && typeof error.code === 'string' && Object.hasOwn(codes,error.code)) return codes[error.code]; } catch {}
   return {configuration_invalid:'configuration',connection_failed:'connection',tls_unverified:'tls_verification',read_only_unconfirmed:'read_only_check',query_failed:'query',timeout:'timeout',cleanup_or_transport_failed:'cleanup'}[stage] || 'unknown';
+}
+function failureDetail(error, phase, deadline) {
+  if (deadline) return { timeout: true, reason: 'deadline_timeout' };
+  let code, message;
+  try { code = typeof error?.code === 'string' ? error.code : undefined; } catch {}
+  try { message = typeof error?.message === 'string' ? error.message : undefined; } catch {}
+  // Match only fixed driver timeout texts; never serialize a message or cause.
+  // pg's own deadline occurs before our outer timer and carries no error code.
+  if (code === 'ETIMEDOUT' ||
+      (phase === 'connect' && ['Connection terminated due to connection timeout', 'timeout expired', 'timeout exceeded when trying to connect'].includes(message)) ||
+      (['read_only_check','catalog_query'].includes(phase) && message === 'Query read timeout')) {
+    return { timeout: true, reason: 'driver_timeout' };
+  }
+  const rejected = phase === 'connect' && typeof message === 'string' && /^unsupported startup parameter(?: in options)?: (replication|options|statement_timeout|lock_timeout|idle_in_transaction_session_timeout|search_path|default_transaction_read_only)$/.exec(message);
+  if (rejected && rejected[0] === message) return { reason: 'startup_rejected', setting: rejected[1] };
+  if (phase === 'driver_load') return { reason: ['MODULE_NOT_FOUND','ERR_MODULE_NOT_FOUND'].includes(code) ? 'module_unavailable' : 'driver_initialization' };
+  if (phase === 'pool_creation') return { reason: 'driver_initialization' };
+  const reasons = {
+    ENOTFOUND:'dns_lookup', EAI_AGAIN:'dns_lookup',
+    ECONNREFUSED:'tcp_transport', ECONNRESET:'tcp_transport', EPIPE:'tcp_transport', EHOSTUNREACH:'tcp_transport', ENETUNREACH:'tcp_transport',
+    '28P01':'authentication', '28000':'authentication', '3D000':'database_unavailable',
+    ERR_TLS_CERT_ALTNAME_INVALID:'tls_certificate', CERT_HAS_EXPIRED:'tls_certificate', DEPTH_ZERO_SELF_SIGNED_CERT:'tls_certificate', SELF_SIGNED_CERT_IN_CHAIN:'tls_certificate', UNABLE_TO_VERIFY_LEAF_SIGNATURE:'tls_certificate', UNABLE_TO_GET_ISSUER_CERT_LOCALLY:'tls_certificate',
+    EPROTO:'protocol_rejected', '08P01':'protocol_rejected', '53300':'connection_limit', XX000:'server_error',
+  };
+  if (code && Object.hasOwn(reasons,code)) return { reason: reasons[code] };
+  if (phase === 'connect' && code === '0A000') return { reason: 'startup_rejected' };
+  return { reason: 'unknown' };
 }
 function classifyCatalog(rows) {
   if (!Array.isArray(rows) || rows.length !== TABLES.length) throw new Error('Invalid diagnostic result');
@@ -64,10 +91,10 @@ function classifyCatalog(rows) {
 async function runPostgresqlDiagnostic(environment) {
   let options;
   try { options = createPostgresqlOptions(environment); }
-  catch { return fixedResult('configuration_invalid','unconfirmed',undefined,'configuration'); }
+  catch { return fixedResult('configuration_invalid','unconfirmed',undefined,'configuration','configuration','unknown'); }
   let socket, pool, client, connection;
   let begun = false, aborted = false, asynchronousError = false;
-  let stage = 'connection_failed', transport = 'unconfirmed';
+  let stage = 'connection_failed', phase = 'driver_load', transport = 'unconfirmed';
   let result = fixedResult(stage);
   const markError = () => { asynchronousError = true; };
   async function bounded(promise, milliseconds) {
@@ -86,17 +113,19 @@ async function runPostgresqlDiagnostic(environment) {
   }
   try {
     const Socket = require('think-model-postgresql/lib/socket');
+    phase = 'pool_creation';
     socket = new Socket(options); // Never share the upstream instance cache.
     pool = socket.pool;
     pool.on('error', markError);
     // If a driver resolves after our deadline, discard that late connection.
+    phase = 'connect';
     const connecting = pool.connect().then(value => {
       if (aborted) { try { value.release(true); } catch {} throw new Error('Diagnostic timeout'); }
       return value;
     });
     client = await bounded(connecting, 5500);
     client.on('error', markError);
-    stage = 'tls_unverified';
+    stage = 'tls_unverified'; phase = 'tls_verification';
     const stream = client.connection?.stream;
     if (stream?.encrypted !== true || stream?.authorized !== true ||
       !['TLSv1.2', 'TLSv1.3'].includes(stream.getProtocol?.())) throw new Error('Diagnostic unavailable');
@@ -104,18 +133,19 @@ async function runPostgresqlDiagnostic(environment) {
     // The upstream socket normally auto-releases after every statement. Hold a
     // single checkout through this proxy and destroy it exactly once in finally.
     connection = { query: client.query.bind(client), release: noop, transaction: 1 };
-    stage = 'read_only_unconfirmed';
+    stage = 'read_only_unconfirmed'; phase = 'read_only_check';
     begun = true;
     await query('BEGIN READ ONLY');
     const state = await query('SHOW transaction_read_only');
     if (!Array.isArray(state?.rows) || state.rows.length !== 1 || state.rows[0].transaction_read_only !== 'on') throw new Error('Diagnostic unavailable');
-    stage = 'query_failed';
+    stage = 'query_failed'; phase = 'catalog_query';
     const catalog = await query(CATALOG_SQL);
     const tables = classifyCatalog(catalog?.rows);
     result = fixedResult(TABLES.every(name => tables[name] === 'readable') ? 'ok' : 'schema_incomplete', transport, tables);
   } catch (error) {
-    const status = aborted ? 'timeout' : stage;
-    result = fixedResult(status, transport, undefined, classifyFailure(error,status));
+    const detail = failureDetail(error,phase,aborted);
+    const status = detail.timeout ? 'timeout' : stage;
+    result = fixedResult(status, transport, undefined, classifyFailure(error,status),phase,detail.reason,detail.setting);
   } finally {
     let cleanupFailed = false;
     if (begun && connection && !aborted) {
@@ -130,7 +160,7 @@ async function runPostgresqlDiagnostic(environment) {
     }
     // Keep safe error listeners on disposed resources for late driver events.
     // No listener serializes the error or emits it to a log/HTTP response.
-    if (cleanupFailed || asynchronousError) result = fixedResult('cleanup_or_transport_failed', transport, undefined, 'cleanup');
+    if (cleanupFailed || asynchronousError) result = fixedResult('cleanup_or_transport_failed', transport, undefined, 'cleanup','cleanup',aborted ? 'deadline_timeout' : 'unknown');
   }
   return result;
 }
