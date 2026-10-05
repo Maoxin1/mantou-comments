@@ -8,10 +8,11 @@
   },
   "scripts": {
     "test": "npm run test:application && npm run test:reference",
-    "check": "node --check index.cjs && node --check src/candidate.cjs && node --check src/policy.cjs && node --check src/bootstrap.cjs",
+    "check": "node --check index.cjs && node --check src/candidate.cjs && node --check src/policy.cjs && node --check src/bootstrap.cjs && node --check diagnostic.cjs && node --check src/postgresql-diagnostic.cjs && node --check src/protected-diagnostic-handler.cjs && node --check deployment/staged-readonly.cjs && node --check api/readonly.js && node --check api/disabled.js",
     "build:derivative": "python scripts/build-derivative.py",
     "test:application": "node --test --test-concurrency=1 test/*.test.cjs",
-    "test:reference": "node scripts/run-reference-regressions.cjs"
+    "test:reference": "node scripts/run-reference-regressions.cjs",
+    "test:diagnostic": "node --test test/postgresql-diagnostic.test.cjs"
   },
   "dependencies": {
     "@waline/vercel": "file:vendor/generated/mantou-waline-postgresql-1.43.4-mantou.1.tgz"

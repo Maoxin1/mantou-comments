@@ -1,5 +1,7 @@
 # Mantou comments: source snapshot
 
+Latest diagnostic preparation: 51 local tests pass (47 application/diagnostic and four unchanged reference regressions), with a fresh offline installation and zero known audit findings at the earlier 47-test checkpoint. Both default entrypoints remain disabled. A separate staged read-only diagnostic adapter is available only for an explicitly reviewed protected deployment; it is not database or production acceptance. See [diagnostic scope and limits](docs/POSTGRESQL-DIAGNOSTIC.md).
+
 A disabled-by-default, PostgreSQL-only Waline backend candidate, with security
 boundaries, deterministic derivation, original tests, license choices and
 source-provenance evidence. Approved public target: `Maoxin1/mantou-comments`.
