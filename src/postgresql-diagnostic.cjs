@@ -39,8 +39,17 @@ function createPostgresqlOptions(environment) {
     debounce: false,
   };
 }
-function fixedResult(status, transport = 'unconfirmed', tables) {
-  return Object.freeze({ status, transport, ...(tables ? { tables: Object.freeze(tables) } : {}) });
+function fixedResult(status, transport = 'unconfirmed', tables, failureClass) {
+  return Object.freeze({ status, transport, ...(tables ? { tables: Object.freeze(tables) } : {}), ...(failureClass ? { failureClass } : {}) });
+}
+function classifyFailure(error, stage) {
+  // Classify only explicit error codes. Never echo a driver message/code, SQL,
+  // host, user, database, certificate or stack into the report or any log.
+  const codes = { ENOTFOUND:'network', EAI_AGAIN:'network', ECONNREFUSED:'network', ECONNRESET:'network', EHOSTUNREACH:'network', ENETUNREACH:'network', ETIMEDOUT:'timeout',
+    '28P01':'authentication', '28000':'authentication', '3D000':'database_unavailable',
+    ERR_TLS_CERT_ALTNAME_INVALID:'tls_verification', CERT_HAS_EXPIRED:'tls_verification', DEPTH_ZERO_SELF_SIGNED_CERT:'tls_verification', SELF_SIGNED_CERT_IN_CHAIN:'tls_verification', UNABLE_TO_VERIFY_LEAF_SIGNATURE:'tls_verification', UNABLE_TO_GET_ISSUER_CERT_LOCALLY:'tls_verification' };
+  try { if (error && typeof error.code === 'string' && Object.hasOwn(codes,error.code)) return codes[error.code]; } catch {}
+  return {configuration_invalid:'configuration',connection_failed:'connection',tls_unverified:'tls_verification',read_only_unconfirmed:'read_only_check',query_failed:'query',timeout:'timeout',cleanup_or_transport_failed:'cleanup'}[stage] || 'unknown';
 }
 function classifyCatalog(rows) {
   if (!Array.isArray(rows) || rows.length !== TABLES.length) throw new Error('Invalid diagnostic result');
@@ -55,7 +64,7 @@ function classifyCatalog(rows) {
 async function runPostgresqlDiagnostic(environment) {
   let options;
   try { options = createPostgresqlOptions(environment); }
-  catch { return fixedResult('configuration_invalid'); }
+  catch { return fixedResult('configuration_invalid','unconfirmed',undefined,'configuration'); }
   let socket, pool, client, connection;
   let begun = false, aborted = false, asynchronousError = false;
   let stage = 'connection_failed', transport = 'unconfirmed';
@@ -104,8 +113,9 @@ async function runPostgresqlDiagnostic(environment) {
     const catalog = await query(CATALOG_SQL);
     const tables = classifyCatalog(catalog?.rows);
     result = fixedResult(TABLES.every(name => tables[name] === 'readable') ? 'ok' : 'schema_incomplete', transport, tables);
-  } catch {
-    result = fixedResult(aborted ? 'timeout' : stage, transport);
+  } catch (error) {
+    const status = aborted ? 'timeout' : stage;
+    result = fixedResult(status, transport, undefined, classifyFailure(error,status));
   } finally {
     let cleanupFailed = false;
     if (begun && connection && !aborted) {
@@ -120,7 +130,7 @@ async function runPostgresqlDiagnostic(environment) {
     }
     // Keep safe error listeners on disposed resources for late driver events.
     // No listener serializes the error or emits it to a log/HTTP response.
-    if (cleanupFailed || asynchronousError) result = fixedResult('cleanup_or_transport_failed', transport);
+    if (cleanupFailed || asynchronousError) result = fixedResult('cleanup_or_transport_failed', transport, undefined, 'cleanup');
   }
   return result;
 }

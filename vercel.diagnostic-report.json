@@ -1,0 +1,31 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
+  "regions": [
+    "sin1"
+  ],
+  "functions": {
+    "api/readonly.js": {
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/__diagnostics/report",
+      "destination": "/api/readonly"
+    },
+    {
+      "source": "/__diagnostics",
+      "destination": "/api/readonly"
+    },
+    {
+      "source": "/__diagnostics/postgresql",
+      "destination": "/api/readonly"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/api/disabled"
+    }
+  ]
+}

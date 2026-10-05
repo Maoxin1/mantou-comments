@@ -18,6 +18,19 @@ function createStagedHandler(environment) {
   });
   return async function stagedDiagnostic(req, res) {
     if (!eligible(req)) return disabled(req, res);
+    if (req.url === '/__diagnostics/report') {
+      const report = require('../src/diagnostic-report.cjs');
+      if (req.method === 'GET') return report.renderDiagnosticReportForm(res);
+      if (req.method !== 'POST') return disabled(req,res);
+      // Reuse the exact original authorization/framing checks and one-shot
+      // diagnostic; only presentation changes. This adapter reads no body.
+      const capture = {
+        statusCode: 503,
+        setHeader() {},
+        end(body) { report.renderDiagnosticReport(res,report.projectDiagnosticReport(body,this.statusCode)); },
+      };
+      return run({ method:req.method, url:'/__diagnostics/postgresql', headers:req.headers },capture);
+    }
     if (req.method === 'GET' && req.url === '/__diagnostics') {
       res.statusCode = 200;
       res.setHeader('content-type', 'text/html; charset=utf-8');
