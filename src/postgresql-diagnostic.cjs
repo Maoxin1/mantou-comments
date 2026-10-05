@@ -25,6 +25,15 @@ function createPostgresqlOptions(environment) {
   // Only a configured Neon DNS name. Never accept a URL, IP, socket, query,
   // userinfo or request-supplied destination; no localhost or PG_* fallback.
   if (values.host.length > 253 || !/^ep-[a-z0-9-]+(?:\.[a-z0-9-]+)*\.neon\.tech$/.test(values.host)) invalid();
+  // Diagnostic-only compatibility: PgBouncer can reject these safety startup
+  // settings. Use the integration's existing direct host, never a guessed host,
+  // and only when it proves the same endpoint/region after the documented suffix.
+  if (/^ep-[^.]+-pooler\./.test(values.host)) {
+    const directHost = environment.PGHOST_UNPOOLED;
+    const expected = values.host.replace(/-pooler(?=\.)/, '');
+    if (typeof directHost !== 'string' || directHost !== expected) invalid();
+    values.host = directHost;
+  }
   return {
     ...values, port: 5432, max: 1, min: 0, maxUses: 1,
     connectionTimeoutMillis: 5000, idleTimeoutMillis: 1000,
@@ -39,8 +48,8 @@ function createPostgresqlOptions(environment) {
     debounce: false,
   };
 }
-function fixedResult(status, transport = 'unconfirmed', tables, failureClass, failurePhase, failureReason, failureSetting) {
-  return Object.freeze({ status, transport, ...(tables ? { tables: Object.freeze(tables) } : {}), ...(failureClass ? { failureClass } : {}), ...(failurePhase ? { failurePhase, failureReason } : {}), ...(failureSetting ? { failureSetting } : {}) });
+function fixedResult(status, transport = 'unconfirmed', tables, failureClass, failurePhase, failureReason, failureSetting, protocolSource) {
+  return Object.freeze({ status, transport, ...(tables ? { tables: Object.freeze(tables) } : {}), ...(failureClass ? { failureClass } : {}), ...(failurePhase ? { failurePhase, failureReason } : {}), ...(failureSetting ? { failureSetting } : {}), ...(protocolSource ? { protocolSource } : {}) });
 }
 function classifyFailure(error, stage) {
   // Classify only explicit error codes. Never echo a driver message/code, SQL,
@@ -50,6 +59,9 @@ function classifyFailure(error, stage) {
     ERR_TLS_CERT_ALTNAME_INVALID:'tls_verification', CERT_HAS_EXPIRED:'tls_verification', DEPTH_ZERO_SELF_SIGNED_CERT:'tls_verification', SELF_SIGNED_CERT_IN_CHAIN:'tls_verification', UNABLE_TO_VERIFY_LEAF_SIGNATURE:'tls_verification', UNABLE_TO_GET_ISSUER_CERT_LOCALLY:'tls_verification' };
   try { if (error && typeof error.code === 'string' && Object.hasOwn(codes,error.code)) return codes[error.code]; } catch {}
   return {configuration_invalid:'configuration',connection_failed:'connection',tls_unverified:'tls_verification',read_only_unconfirmed:'read_only_check',query_failed:'query',timeout:'timeout',cleanup_or_transport_failed:'cleanup'}[stage] || 'unknown';
+}
+function protocolFailureSource(error) {
+  try { const code = error?.code; return code === 'EPROTO' ? 'node_transport' : code === '08P01' ? 'postgresql' : undefined; } catch { return undefined; }
 }
 function failureDetail(error, phase, deadline) {
   if (deadline) return { timeout: true, reason: 'deadline_timeout' };
@@ -92,6 +104,7 @@ async function runPostgresqlDiagnostic(environment) {
   let options;
   try { options = createPostgresqlOptions(environment); }
   catch { return fixedResult('configuration_invalid','unconfirmed',undefined,'configuration','configuration','unknown'); }
+  const connectionRoute = options.host === environment.POSTGRES_HOST ? 'already_direct' : 'same_endpoint_unpooled';
   let socket, pool, client, connection;
   let begun = false, aborted = false, asynchronousError = false;
   let stage = 'connection_failed', phase = 'driver_load', transport = 'unconfirmed';
@@ -145,7 +158,7 @@ async function runPostgresqlDiagnostic(environment) {
   } catch (error) {
     const detail = failureDetail(error,phase,aborted);
     const status = detail.timeout ? 'timeout' : stage;
-    result = fixedResult(status, transport, undefined, classifyFailure(error,status),phase,detail.reason,detail.setting);
+    result = fixedResult(status, transport, undefined, classifyFailure(error,status),phase,detail.reason,detail.setting,protocolFailureSource(error));
   } finally {
     let cleanupFailed = false;
     if (begun && connection && !aborted) {
@@ -162,6 +175,6 @@ async function runPostgresqlDiagnostic(environment) {
     // No listener serializes the error or emits it to a log/HTTP response.
     if (cleanupFailed || asynchronousError) result = fixedResult('cleanup_or_transport_failed', transport, undefined, 'cleanup','cleanup',aborted ? 'deadline_timeout' : 'unknown');
   }
-  return result;
+  return Object.freeze({ ...result, connectionRoute });
 }
 module.exports = { createPostgresqlOptions, runPostgresqlDiagnostic };

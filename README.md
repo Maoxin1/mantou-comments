@@ -63,3 +63,7 @@ retained; fonts/assets are not blanket-relicensed.
 ## Diagnostic classification checkpoint (2026-10-05)
 
 The phase-classification update passed a fresh offline install and all 65 tests (61 application + 4 reference). The nine additive regressions failed against the published prior runtime before the fix. Existing test/helper files, dependency lock, timeouts, verified TLS and fixed read-only SQL are unchanged. See [the classification report](docs/DIAGNOSTIC-PHASE-CLASSIFICATION.md). This is not a real database acceptance pass; the latest live result remains connection_failed with unconfirmed transport.
+
+## Same-endpoint direct diagnostic candidate (2026-10-05)
+
+The diagnostic can use the existing PGHOST_UNPOOLED only when it exactly matches the configured pooled endpoint with its -pooler suffix removed; missing/mismatched identity fails closed. Strict TLS, read-only startup/SQL and timeouts stay intact. All 70 tests pass, but the live root cause remains unconfirmed. See [evidence and interpretation](docs/DIRECT-DIAGNOSTIC-CANDIDATE.md).

@@ -27,6 +27,8 @@ function projectDiagnosticReport(body, httpStatus) {
     report.failureReason = REASON.has(value.failureReason) ? value.failureReason : 'unknown';
     if (report.failurePhase === 'connect' && report.failureReason === 'startup_rejected' && SETTING.has(value.failureSetting)) report.failureSetting = value.failureSetting;
   }
+  if (['already_direct','same_endpoint_unpooled'].includes(value.connectionRoute)) report.connectionRoute = value.connectionRoute;
+  if (!['ok','schema_incomplete'].includes(report.status) && ['node_transport','postgresql'].includes(value.protocolSource)) report.protocolSource = value.protocolSource;
   return report;
 }
 function headers(res) {
