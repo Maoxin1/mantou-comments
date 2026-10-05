@@ -1,0 +1,45 @@
+[
+  {
+    "name": "ua-parser-js",
+    "repo": "faisalman/ua-parser-js",
+    "commit": "4121c59060c3f9b814f07978c361e44016028c74",
+    "url": "https://codeload.github.com/faisalman/ua-parser-js/tar.gz/4121c59060c3f9b814f07978c361e44016028c74",
+    "file": "sources/ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74.tar.gz",
+    "sha256": "cae43cc8f7ac4a7673ce9ea8c9ae5047b7148259f458ea166986847c84b946f8",
+    "bytes": 925305,
+    "member_count": 457,
+    "notice_paths": [
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/LICENSE.md",
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/THIRD_PARTY_NOTICES.md",
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/dist/icons/color/LICENSE.md",
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/dist/icons/mono/LICENSE.md"
+    ]
+  },
+  {
+    "name": "mathjax-src",
+    "repo": "mathjax/MathJax-src",
+    "commit": "fb987178c2d279a99b0db5ea02e751691703955e",
+    "url": "https://codeload.github.com/mathjax/MathJax-src/tar.gz/fb987178c2d279a99b0db5ea02e751691703955e",
+    "file": "sources/mathjax-src-fb987178c2d279a99b0db5ea02e751691703955e.tar.gz",
+    "sha256": "9fe7988432f3eba74b6bcb1e991c6ce496f0f361c15a8f4fbc7013a03f909a4b",
+    "bytes": 1012834,
+    "member_count": 977,
+    "notice_paths": [
+      "MathJax-src-fb987178c2d279a99b0db5ea02e751691703955e/LICENSE"
+    ]
+  },
+  {
+    "name": "speech-rule-engine",
+    "repo": "Speech-Rule-Engine/speech-rule-engine",
+    "commit": "d60c0650509e1dd9db004d22b077d05b63507657",
+    "url": "https://codeload.github.com/Speech-Rule-Engine/speech-rule-engine/tar.gz/d60c0650509e1dd9db004d22b077d05b63507657",
+    "file": "sources/speech-rule-engine-d60c0650509e1dd9db004d22b077d05b63507657.tar.gz",
+    "sha256": "b99689f5617670bf276fb06a5620f89581fca81d107e1b01adc9e44ad6c5570f",
+    "bytes": 4981439,
+    "member_count": 2476,
+    "notice_paths": [
+      "speech-rule-engine-d60c0650509e1dd9db004d22b077d05b63507657/LICENSE",
+      "speech-rule-engine-d60c0650509e1dd9db004d22b077d05b63507657/NOTICE"
+    ]
+  }
+]

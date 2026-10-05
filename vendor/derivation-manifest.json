@@ -1,0 +1,124 @@
+{
+  "derived": {
+    "archive": "vendor/generated/mantou-waline-postgresql-1.43.4-mantou.1.tgz",
+    "integrity": "sha512-tDlwA+0mhq9WQlj9KlD8xYpgoMY8vx7HHGeauVYDNHqLeJzfY9cqd+kNgRNLk//fJ2Lign1FITJtK08i9s3Fdg==",
+    "name": "@mantou/waline-postgresql",
+    "sha256": "e986bf7d43dadd85650fcc7bfe8f68b003afbfe9c8cc3771b96c42bce4d15485",
+    "version": "1.43.4-mantou.1"
+  },
+  "licenseFileSHA256": "010728bac3f86aa3c028f766a28f4ec2da4289335571dc9756e5a7d595de59bc",
+  "licenseStatus": "CONFLICT_REQUIRES_REVIEW_BEFORE_DISTRIBUTION_OR_DEPLOYMENT",
+  "modifiedOrAddedFiles": {
+    "DERIVATION.md": {
+      "after": "0841c3773faf15f7b2592053b1158876a6d7541a58e6c7b2f94567d56f3c8bba",
+      "before": null
+    },
+    "UPSTREAM-README.md": {
+      "after": "3fd7071ea944caf839b847926b8da77c2930302b7ee5ab688cbdcf11c0d2d52a",
+      "before": null
+    },
+    "index.js": {
+      "after": "c3ec6a8a625a2f99faf8f2825603721cbdcc7679110d350c77d8ea31864f5044",
+      "before": "3628bfdc8f2923138f8199493be06e7bb3e3d0f5d37bfc87629687d3cc86b42c"
+    },
+    "package.json": {
+      "after": "b3b137053b660ca7173cd1e6371dd562d4aa5d22d1346cc89d8025497ccf0051",
+      "before": "e895c3deb6f4f113fbf81a2b4b1c546ffde774f6ec6799b64c8079cd157a1c5f"
+    },
+    "src/config/adapter.js": {
+      "after": "3d52e2dcaeb54236ddb62f846433a5d9d768ecb47e40d1e47c4ed369bc699b04",
+      "before": "3681cbba58cec858a57d8717ea4f639fe8ab7ecec0b971d113f410e3aaadead4"
+    },
+    "src/config/config.js": {
+      "after": "09a6a6b8ed5aaa72919e5988f0241e0def01add3eb10a10d48415f760bea0db6",
+      "before": "bd2d29a1a35cfe7e98a2f3daf1d4820491d32f0151962426b266a7ee602bd130"
+    },
+    "src/config/extend.js": {
+      "after": "37f7b5436200eebe05d54d43472e1f23b6f84b2be124afbb86d1a75158a7d09d",
+      "before": "cf563cf9ca564c020cce0bb2bed4151c9b011dba4c1c7f1e65b6242465d8f2e0"
+    },
+    "src/middleware/version.js": {
+      "after": "2e391dbacd1866f7a1438f91b7718017647b8b65ab462ffcc78569153897195c",
+      "before": "b74a18a93459abe6a304fc23f81bf66404ec628506c1a8a8880fe1c5336e8da8"
+    }
+  },
+  "preservedFiles": {
+    "LICENSE": "010728bac3f86aa3c028f766a28f4ec2da4289335571dc9756e5a7d595de59bc",
+    "node_modules/@waline/core/LICENSE": "010728bac3f86aa3c028f766a28f4ec2da4289335571dc9756e5a7d595de59bc",
+    "node_modules/@waline/core/dist/index.cjs": "eb67ef3068bafa975714250ce4d48781cf79f6773a5443866e58025a44d9caf5",
+    "node_modules/@waline/core/dist/index.d.cts": "42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128",
+    "node_modules/@waline/core/dist/index.d.ts": "42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128",
+    "node_modules/@waline/core/dist/index.js": "cab3b45c1f682364e1d859163a364f4d2c7928c8c3be479d946d65c1e3831b50",
+    "node_modules/@waline/core/package.json": "3dccdba9a04625443f079060b197de7e1bb4330a00ad23f26fc29ccf31247838",
+    "src/controller/article.js": "6fbe5bde56134e77a27ce8b1bee32f5aa6fc92ebd0d3823597b28562f1a90f29",
+    "src/controller/comment.js": "5025cdd0201e574c61e242777425bb19e88ec09413faf1fff090975db44280e7",
+    "src/controller/comment/rss.js": "d7e68781a49d592790d89622f9d0e84d513d35d6e684ebfac858d4dcdd97d6f2",
+    "src/controller/db.js": "70d222e7c4ee1fc8e8e5775e0556f063e6b5ab458b841a87b89346675c6d7063",
+    "src/controller/index.js": "7660e94cbbc452b76031ce66a9b44b5365526ea4d53c5c2406e2db739820c005",
+    "src/controller/oauth.js": "599a119c9a29e14709efb5e2eb8e37181d684f557b965dc08702b44797683f9d",
+    "src/controller/rest.js": "a188d5287eef92236175ab9dd1158fe28ba656af4319410618ff423de6696d3f",
+    "src/controller/token.js": "de37aa41b58677f1ea13f506d4a69b20e1508abdbc6a7c75aebf10bd5c99259c",
+    "src/controller/token/2fa.js": "23c47880a9fa35019d8caed80c7ae0faa35bccbe7eb61e7c1ea546f44d72d95e",
+    "src/controller/user.js": "1b6027a22acb1b312017ca721168ee1782d50582490ead7a60e6fb3ebe07300a",
+    "src/controller/user/password.js": "c7f635e4a684be5b047efc12a106370dfd60695e10706f7d2e23af258f751650",
+    "src/controller/verification.js": "3fc5eb3df8183549125691d474e1e204d485c58ffa2d86294502c512984e04d0",
+    "src/logic/article.js": "7d3f3a611ef4ced5f8b138bfaf53fb4e250e62986ba19b81aacc277eeeccfad2",
+    "src/logic/base.js": "c696acc8206e9d3e825c89103ad08279a3b43dfc6be282dc89b8c21bc00874b1",
+    "src/logic/comment.js": "0880b7496a3996525aa55bc39be74f12deb5dfd9fb10550c3260871b99bdbc75",
+    "src/logic/comment/rss.js": "e340bb42fd9d7a1b78487d6469fdc34977b8af4767bc91fa15ef48c0d8a22a4f",
+    "src/logic/db.js": "71c2a1781dde9401ca115bb18774d60f3bb5e871575ce47c03e06d73ea22d9fa",
+    "src/logic/oauth.js": "c2b85ca0e87a9df56014a820f2ef53776750a95ebfe628638167fe993a505dfa",
+    "src/logic/token.js": "b64da18007bb0f206b3f9c4027558d840eeff3cf205bfebb6335533650b38a39",
+    "src/logic/token/2fa.js": "8cbc45077db3513f6a1eb1fa269c34645c7a0a9942b50b438f4f6cd28d6264dc",
+    "src/logic/user.js": "1be8281fc7adad0227378dabb874140482fa71fab1e858c825c49965e3c7ae67",
+    "src/logic/user/password.js": "bbfb3d811052d56ce8e3f4f4c67948a4607ce48570ada857c9733c0c8591b0c8",
+    "src/service/storage/base.js": "138c73d40739ebc14a5c23ad53be4ff0151806df83e0ee08c630b956078b3585",
+    "src/service/storage/mysql.js": "2eedaa89c0d86276c68660b4efbfcf2fed37ff4d22ae9a8b632fc56c9aeeabc9",
+    "src/service/storage/order.js": "617909459a38a926efe3eb4b0755ad56c7956405ab66280394d0cc325917ed51",
+    "src/service/storage/postgresql.js": "0b5717816234da8a5f7fe3ff09338cf27e8e64009b301263827f0be95a7f8045"
+  },
+  "removedDependencies": [
+    "@cloudbase/node-sdk",
+    "leancloud-storage",
+    "akismet",
+    "think-model-mysql",
+    "think-model-mysql2",
+    "think-model-sqlite",
+    "think-mongo"
+  ],
+  "removedFiles": [
+    "Dockerfile",
+    "Dockerfile.alpine",
+    "Dockerfile.source-build-alpine",
+    "README.md",
+    "__tests__/__snapshots__/xss.spec.js.snap",
+    "__tests__/comment-count.spec.js",
+    "__tests__/fixtures/vercel/index.cjs",
+    "__tests__/fixtures/vercel/index.html",
+    "__tests__/fixtures/vercel/vercel.json",
+    "__tests__/github-storage.spec.js",
+    "__tests__/markdown.spec.js",
+    "__tests__/notify-spam.spec.js",
+    "__tests__/notify.spec.js",
+    "__tests__/storage-order.spec.js",
+    "__tests__/token.spec.js",
+    "__tests__/xss.spec.js",
+    "development.js",
+    "docker-compose.yml",
+    "openapi.yaml",
+    "src/service/akismet.js",
+    "src/service/storage/cloudbase.js",
+    "src/service/storage/github.js",
+    "src/service/storage/leancloud.js",
+    "src/service/storage/mongodb.js",
+    "src/service/storage/sqlite.js",
+    "src/service/storage/tidb.js",
+    "vanilla.js"
+  ],
+  "upstream": {
+    "integrity": "sha512-g6qblq8i5H0ByDbsYRdPcsvauXicXfiLYhxIynwHpuYuawM1QuxAGkttQQgCOi+u960JFjbsQOmRzA0XHJfydw==",
+    "name": "@waline/vercel",
+    "sha256": "d719b6592178d0ad6f93a803def4b93cbb27fa812b6742dc32f732abed788a7c",
+    "version": "1.43.4"
+  }
+}

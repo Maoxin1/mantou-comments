@@ -1,0 +1,7 @@
+{
+  "scope": "Explicit application source/test/docs allowlist, excluding immutable public vendor archives; no environment/home/profile/database files collected",
+  "textFilesScanned": 39,
+  "patternHits": [],
+  "forbiddenLocalDataFiles": [],
+  "limitations": "Pattern scan is not proof against every possible secret; immutable dependency/source archives are public, hash-provenanced upstream artifacts and may contain their own public synthetic fixtures."
+}

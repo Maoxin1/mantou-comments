@@ -1,0 +1,1173 @@
+[
+  {
+    "name": "@asamuzakjp/dom-selector",
+    "version": "9.2.4",
+    "url": "https://registry.npmjs.org/%40asamuzakjp%2Fdom-selector/9.2.4",
+    "metadata_file": "registry/@asamuzakjp__dom-selector.json",
+    "sha256": "a4e02bc583f94788771440f4ba9ea8c9cfa87dbcd5b31b1736ea5f31a42c6a2e",
+    "gitHead": "d8b0e1f5d8235364474fb825a8d118be199349db",
+    "repo": "asamuzaK/domSelector",
+    "repository": {
+      "url": "git+https://github.com/asamuzaK/domSelector.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@bramus/specificity",
+    "version": "2.4.2",
+    "url": "https://registry.npmjs.org/%40bramus%2Fspecificity/2.4.2",
+    "metadata_file": "registry/@bramus__specificity.json",
+    "sha256": "9ae1e5f1130b517931ff058838a168ae33ec6d785f553bca74b16d5d4c8766e6",
+    "gitHead": "80938c4cf77518a4d4abe559eb5a5ff919626c39",
+    "repo": "bramus/specificity",
+    "repository": {
+      "url": "git+https://github.com/bramus/specificity.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@csstools/color-helpers",
+    "version": "6.1.2",
+    "url": "https://registry.npmjs.org/%40csstools%2Fcolor-helpers/6.1.2",
+    "metadata_file": "registry/@csstools__color-helpers.json",
+    "sha256": "811b2b51ad68b77faa4f1ff7fa828e4915044e0b3e943c6b553eb48988e69749",
+    "gitHead": "68489844957b0efaf7a5538ea108d70ea53dbe21",
+    "repo": "csstools/postcss-plugins",
+    "repository": {
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "type": "git",
+      "directory": "packages/color-helpers"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@csstools/css-calc",
+    "version": "3.4.3",
+    "url": "https://registry.npmjs.org/%40csstools%2Fcss-calc/3.4.3",
+    "metadata_file": "registry/@csstools__css-calc.json",
+    "sha256": "4ed01fd37bd02acbe87882ea1c9f8b6858276b4c1cf6afd39dcc514bfd58f433",
+    "gitHead": "504d5ed8923a3d23712e593338994f5819779da6",
+    "repo": "csstools/postcss-plugins",
+    "repository": {
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "type": "git",
+      "directory": "packages/css-calc"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@csstools/css-color-parser",
+    "version": "4.2.6",
+    "url": "https://registry.npmjs.org/%40csstools%2Fcss-color-parser/4.2.6",
+    "metadata_file": "registry/@csstools__css-color-parser.json",
+    "sha256": "314714d607195e730761e0825877e3d0f6fe926e0b2606dab845143ac28e4f56",
+    "gitHead": "251430543b2f03907ea14c8d36053113cbf1a5b8",
+    "repo": "csstools/postcss-plugins",
+    "repository": {
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "type": "git",
+      "directory": "packages/css-color-parser"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@csstools/css-parser-algorithms",
+    "version": "4.0.2",
+    "url": "https://registry.npmjs.org/%40csstools%2Fcss-parser-algorithms/4.0.2",
+    "metadata_file": "registry/@csstools__css-parser-algorithms.json",
+    "sha256": "46ffa9bb4260eac85480dcf6e1b8722ecd135c40401f0250136015d634008a09",
+    "gitHead": "b574543bca424e19305c8bc5c86469f0e9ee72fb",
+    "repo": "csstools/postcss-plugins",
+    "repository": {
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "type": "git",
+      "directory": "packages/css-parser-algorithms"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@csstools/css-syntax-patches-for-csstree",
+    "version": "1.1.15",
+    "url": "https://registry.npmjs.org/%40csstools%2Fcss-syntax-patches-for-csstree/1.1.15",
+    "metadata_file": "registry/@csstools__css-syntax-patches-for-csstree.json",
+    "sha256": "5a4682d6cff3839fbf2c1751a3cb75dde6163d4dd0e244f24bb368f73ea0ac92",
+    "gitHead": "6919c06c0a164f521deee5cd0bc0bb6933cec230",
+    "repo": "csstools/postcss-plugins",
+    "repository": {
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "type": "git",
+      "directory": "packages/css-syntax-patches-for-csstree"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@csstools/css-tokenizer",
+    "version": "4.0.2",
+    "url": "https://registry.npmjs.org/%40csstools%2Fcss-tokenizer/4.0.2",
+    "metadata_file": "registry/@csstools__css-tokenizer.json",
+    "sha256": "8cc04ab1b57d442c52bbaf2d2cd9bd647013ff32e6980c8e1ddb1dfc3b55a234",
+    "gitHead": "4cad0552728a803976c121586307742477d84171",
+    "repo": "csstools/postcss-plugins",
+    "repository": {
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "type": "git",
+      "directory": "packages/css-tokenizer"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@fast-csv/format",
+    "version": "5.0.7",
+    "url": "https://registry.npmjs.org/%40fast-csv%2Fformat/5.0.7",
+    "metadata_file": "registry/@fast-csv__format.json",
+    "sha256": "06b01e4ca7a23958483ecb87c2e385a61332eb1fd5ce43e7507dbaf1ad47e064",
+    "gitHead": "e8b8bf960defb26f945744242321afcd930f808a",
+    "repo": "C2FO/fast-csv",
+    "repository": {
+      "url": "git+https://github.com/C2FO/fast-csv.git",
+      "type": "git",
+      "directory": "packages/format"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@fast-csv/parse",
+    "version": "5.0.7",
+    "url": "https://registry.npmjs.org/%40fast-csv%2Fparse/5.0.7",
+    "metadata_file": "registry/@fast-csv__parse.json",
+    "sha256": "345d83015796db11dade7d1800ac61135a7a0807b885f9d5e7a929bc94ce1dd0",
+    "gitHead": "e8b8bf960defb26f945744242321afcd930f808a",
+    "repo": "C2FO/fast-csv",
+    "repository": {
+      "url": "git+https://github.com/C2FO/fast-csv.git",
+      "type": "git",
+      "directory": "packages/parse"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mathjax/mathjax-newcm-font",
+    "version": "4.1.3",
+    "url": "https://registry.npmjs.org/%40mathjax%2Fmathjax-newcm-font/4.1.3",
+    "metadata_file": "registry/@mathjax__mathjax-newcm-font.json",
+    "sha256": "fdfebd3cd3ac565788b2e22843bf525ff5f6c13b9c0ec9a11664b2909cb53812",
+    "gitHead": "b3b77f655ed2d9009078301626e27b56dcfa90d9",
+    "repo": "mathjax/MathJax-fonts",
+    "repository": {
+      "url": "git+https://github.com/mathjax/MathJax-fonts.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "@mathjax/mathjax-tex-font",
+    "version": "4.1.3",
+    "url": "https://registry.npmjs.org/%40mathjax%2Fmathjax-tex-font/4.1.3",
+    "metadata_file": "registry/@mathjax__mathjax-tex-font.json",
+    "sha256": "1fa23024a92402871f5669a63f428e6e3286fef5236dcaed8b03129814863101",
+    "gitHead": "b3b77f655ed2d9009078301626e27b56dcfa90d9",
+    "repo": "mathjax/MathJax-fonts",
+    "repository": {
+      "url": "git+https://github.com/mathjax/MathJax-fonts.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "@mathjax/src",
+    "version": "4.1.3",
+    "url": "https://registry.npmjs.org/%40mathjax%2Fsrc/4.1.3",
+    "metadata_file": "registry/@mathjax__src.json",
+    "sha256": "1f4c7a4d8eede4c5165ace80efcacef01e1240d08a7e002a049336c4a4732db4",
+    "gitHead": null,
+    "repo": "mathjax/Mathjax-src",
+    "repository": {
+      "url": "git+https://github.com/mathjax/Mathjax-src.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "@mdit/helper",
+    "version": "1.1.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fhelper/1.1.2",
+    "metadata_file": "registry/@mdit__helper.json",
+    "sha256": "6a98da87b51cf1b22f00eaccc1a40452e95b88064b2e382e6b6f4002a48ad3a9",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/helper"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-emoji",
+    "version": "1.2.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-emoji/1.2.2",
+    "metadata_file": "registry/@mdit__plugin-emoji.json",
+    "sha256": "4e2fb60d4bf82cee913a690d8a0884a1c17db5e116b70141af3747cc4e0089f5",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-emoji"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-inline-rule",
+    "version": "2.2.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-inline-rule/2.2.2",
+    "metadata_file": "registry/@mdit__plugin-inline-rule.json",
+    "sha256": "543b681c0950184b9bd73375f98beafe70570125bd1221c04cacd5d199e87d46",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-inline-rule"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-katex",
+    "version": "1.1.3",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-katex/1.1.3",
+    "metadata_file": "registry/@mdit__plugin-katex.json",
+    "sha256": "abc5c4d3517ee2c3315f3eb400dc8d2c480b432516dfa5eadb23dcc0d25e25c6",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-katex"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-mathjax",
+    "version": "1.2.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-mathjax/1.2.2",
+    "metadata_file": "registry/@mdit__plugin-mathjax.json",
+    "sha256": "3e812edfb805d1eae677f7b93841dbcf3b64a56af28fa9e40b0688b8fb7d0572",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-mathjax"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-spoiler",
+    "version": "2.1.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-spoiler/2.1.2",
+    "metadata_file": "registry/@mdit__plugin-spoiler.json",
+    "sha256": "bf14bceb43bbd4eafd894ad2c341bf3e3f52cd5bc25e401e554bd70eac1c30c1",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-spoiler"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-sub",
+    "version": "1.1.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-sub/1.1.2",
+    "metadata_file": "registry/@mdit__plugin-sub.json",
+    "sha256": "92077ad5520d303d1efe205d38cd064219eba0f5975903977c2022aa75fe5ddf",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-sub"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-sup",
+    "version": "1.1.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-sup/1.1.2",
+    "metadata_file": "registry/@mdit__plugin-sup.json",
+    "sha256": "152599d591e8f59839675c98e0dbe703416a9f25b00aeaeb09e66410ef160bca",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-sup"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "@mdit/plugin-tex",
+    "version": "1.1.2",
+    "url": "https://registry.npmjs.org/%40mdit%2Fplugin-tex/1.1.2",
+    "metadata_file": "registry/@mdit__plugin-tex.json",
+    "sha256": "367c93f1e28faf0397a04510cd3fcbb0597083df51c8732598c9ad6a99876eb0",
+    "gitHead": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "repo": "mdit-plugins/mdit-plugins",
+    "repository": {
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "type": "git",
+      "directory": "packages/plugin-tex"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "base32.js",
+    "version": "0.0.1",
+    "url": "https://registry.npmjs.org/base32.js/0.0.1",
+    "metadata_file": "registry/base32.js.json",
+    "sha256": "e4680d364b58abb69d86920cbb6a4a9de921071b2f61bcf24b9c669958b643ec",
+    "gitHead": "ac54140633c50df34172d276a21339e873a9c9af",
+    "repo": "mikepb/base32.js",
+    "repository": {
+      "url": "git://github.com/mikepb/base32.js.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "bidi-js",
+    "version": "1.1.0",
+    "url": "https://registry.npmjs.org/bidi-js/1.1.0",
+    "metadata_file": "registry/bidi-js.json",
+    "sha256": "10b36daa96d5880f104d0f4f4b3a2aee17d02c865ed0f925236bc24de96bce96",
+    "gitHead": "f7826ac23bf365552bf2ac3dd51296e5f3e72970",
+    "repo": "lojjic/bidi-js",
+    "repository": {
+      "url": "git+https://github.com/lojjic/bidi-js.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "co",
+    "version": "4.6.0",
+    "url": "https://registry.npmjs.org/co/4.6.0",
+    "metadata_file": "registry/co.json",
+    "sha256": "6295f78df0e4bae5e4337691cdf36ce0290d62c1dff3bf8740a59c144bbeda4b",
+    "gitHead": "b54d18f8f472ad1314800e786993c4169a5ff9f8",
+    "repo": "tj/co",
+    "repository": {
+      "url": "git+https://github.com/tj/co.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "css-tree",
+    "version": "3.2.1",
+    "url": "https://registry.npmjs.org/css-tree/3.2.1",
+    "metadata_file": "registry/css-tree.json",
+    "sha256": "a6b877926e148cc2b64643c7679dfcc38ba8a35a9a515f6fd1b8df85d02f8264",
+    "gitHead": "8a6caba481be4cae4b0e8690af643ff8e59271f2",
+    "repo": "csstree/csstree",
+    "repository": {
+      "url": "git+https://github.com/csstree/csstree.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "detect-europe-js",
+    "version": "0.1.2",
+    "url": "https://registry.npmjs.org/detect-europe-js/0.1.2",
+    "metadata_file": "registry/detect-europe-js.json",
+    "sha256": "9760c2c56e892dbcb70bb752b7e90845df99ba0ec58e017c86190d436ff223ee",
+    "gitHead": "6d64c65c14bf468062811bf10370c8a77d7d8e86",
+    "repo": "faisalman/detect-europe-js",
+    "repository": {
+      "url": "git+https://github.com/faisalman/detect-europe-js.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "dompurify",
+    "version": "3.4.16",
+    "url": "https://registry.npmjs.org/dompurify/3.4.16",
+    "metadata_file": "registry/dompurify.json",
+    "sha256": "999a27c2f815a95c87d89f6411c04f21ece124e5404bb1cbb665fcac6d8a545a",
+    "gitHead": "b9b9d80f7e401771c2ccaef5f45def7eec8f27d7",
+    "repo": "cure53/DOMPurify",
+    "repository": {
+      "url": "git://github.com/cure53/DOMPurify.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "entities",
+    "version": "8.1.0",
+    "url": "https://registry.npmjs.org/entities/8.1.0",
+    "metadata_file": "registry/entities.json",
+    "sha256": "76a7262e9c2dd3d916d31e651d85d3703b2b8ffc7db3e78c770b4404ca21f523",
+    "gitHead": "c71f5625c6bb604c63fb62ff500736b4563c4c00",
+    "repo": "fb55/entities",
+    "repository": {
+      "url": "git+https://github.com/fb55/entities.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "fast-csv",
+    "version": "5.0.7",
+    "url": "https://registry.npmjs.org/fast-csv/5.0.7",
+    "metadata_file": "registry/fast-csv.json",
+    "sha256": "e83f790be5ab87a96fcc26f1051c477d2ffaf55df46a8ade27a92f627930c9b7",
+    "gitHead": "e8b8bf960defb26f945744242321afcd930f808a",
+    "repo": "C2FO/fast-csv",
+    "repository": {
+      "url": "git+https://github.com/C2FO/fast-csv.git",
+      "type": "git",
+      "directory": "packages/fast-csv"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "flatted",
+    "version": "3.4.4",
+    "url": "https://registry.npmjs.org/flatted/3.4.4",
+    "metadata_file": "registry/flatted.json",
+    "sha256": "53593fc96d655685eb0342e660608a04b49ee9945f97ce27dc49a23874e4f6d4",
+    "gitHead": "e6f5ca700c4ca8104a6a83472c8219e267bd5e84",
+    "repo": "WebReflection/flatted",
+    "repository": {
+      "url": "git+https://github.com/WebReflection/flatted.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "ip2region",
+    "version": "2.3.0",
+    "url": "https://registry.npmjs.org/ip2region/2.3.0",
+    "metadata_file": "registry/ip2region.json",
+    "sha256": "fec47a8a7a7d33fbafd6dd8d169789d8d8a0bb657e547e163a79607eab25cd81",
+    "gitHead": "23fcbe6f58bea685749df5da23dece910019bda7",
+    "repo": "yourtion/node-ip2region",
+    "repository": {
+      "url": "git+https://github.com/yourtion/node-ip2region.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "is-standalone-pwa",
+    "version": "0.1.1",
+    "url": "https://registry.npmjs.org/is-standalone-pwa/0.1.1",
+    "metadata_file": "registry/is-standalone-pwa.json",
+    "sha256": "b066618a9b3b5365e5d0b3e141d21b58849e3a66d88d223b5c029e2d244b556f",
+    "gitHead": "a52aa091efcc3e5cb3a6b2d9d2da213d4e0d9510",
+    "repo": "faisalman/is-standalone-pwa",
+    "repository": {
+      "url": "git+https://github.com/faisalman/is-standalone-pwa.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "isarray",
+    "version": "0.0.1",
+    "url": "https://registry.npmjs.org/isarray/0.0.1",
+    "metadata_file": "registry/isarray.json",
+    "sha256": "5bdc45cb5db22804a8f5f45ae195a714641515e438f89f63d3b4dd2f4349f256",
+    "gitHead": null,
+    "repo": "juliangruber/isarray",
+    "repository": {
+      "url": "git://github.com/juliangruber/isarray.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "katex",
+    "version": "0.18.10",
+    "url": "https://registry.npmjs.org/katex/0.18.10",
+    "metadata_file": "registry/katex.json",
+    "sha256": "4cc898cc7db6da228af89c8c418af14a8e120afce0984a09f758955d6f6e2ce7",
+    "gitHead": "411da7029f5c095943c2805ce6db16c2be5f214d",
+    "repo": "KaTeX/KaTeX",
+    "repository": {
+      "url": "git+https://github.com/KaTeX/KaTeX.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "koa",
+    "version": "3.2.1",
+    "url": "https://registry.npmjs.org/koa/3.2.1",
+    "metadata_file": "registry/koa.json",
+    "sha256": "bb5e0e18562a4d691c3081ca83e635ff8a918b9b54b334a1383879abb99c132b",
+    "gitHead": "6984592d41946ed746f15afcb05554e073f64dad",
+    "repo": "koajs/koa",
+    "repository": {
+      "url": "git+https://github.com/koajs/koa.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "koa-compose",
+    "version": "4.1.0",
+    "url": "https://registry.npmjs.org/koa-compose/4.1.0",
+    "metadata_file": "registry/koa-compose.json",
+    "sha256": "c41a797135b0075815bafb078f865ee34f460f76de0810ed36c430f361dff317",
+    "gitHead": "06e82e65a368ac12cd6405beaf19fd5d208a1477",
+    "repo": "koajs/compose",
+    "repository": {
+      "url": "git+https://github.com/koajs/compose.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "koa-send",
+    "version": "3.3.0",
+    "url": "https://registry.npmjs.org/koa-send/3.3.0",
+    "metadata_file": "registry/koa-send.json",
+    "sha256": "78202d2b19af5ae91a82413ac0347fbae2bb41804ea710aebf06e5455d593b60",
+    "gitHead": "134a6f62464286e4c3109086fb73b6cc052daf78",
+    "repo": "koajs/send",
+    "repository": {
+      "url": "git+https://github.com/koajs/send.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "linkify-it",
+    "version": "6.1.0",
+    "url": "https://registry.npmjs.org/linkify-it/6.1.0",
+    "metadata_file": "registry/linkify-it.json",
+    "sha256": "7ae0fafca12865a7371936c4bcc2a989c43977a4d9657c859e0e5de545ebec4a",
+    "gitHead": "7c568a123a17727fa2f34a0abcabbd46437299c1",
+    "repo": "markdown-it/linkify-it",
+    "repository": {
+      "url": "git+https://github.com/markdown-it/linkify-it.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "long-timeout",
+    "version": "0.1.1",
+    "url": "https://registry.npmjs.org/long-timeout/0.1.1",
+    "metadata_file": "registry/long-timeout.json",
+    "sha256": "dda69017dcbcabbdac0382dc6056412630b7daa75150214af0823adf8dab599b",
+    "gitHead": "7a0ef28412d1b40e70800a07c093f05530dcf280",
+    "repo": "tellnes/long-timeout",
+    "repository": {
+      "url": "git://github.com/tellnes/long-timeout.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "lru-cache",
+    "version": "11.5.3",
+    "url": "https://registry.npmjs.org/lru-cache/11.5.3",
+    "metadata_file": "registry/lru-cache.json",
+    "sha256": "bb5dc2a3778a8f0aa5da88d7bb130ed1a3ceb7f0f7294835705be1e5ab383323",
+    "gitHead": "7e71a1f3babdc68dfbadde91f28eaeea919dad9b",
+    "repo": "isaacs/node-lru-cache",
+    "repository": {
+      "url": "git+ssh://git@github.com/isaacs/node-lru-cache.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "markdown-it",
+    "version": "15.0.2",
+    "url": "https://registry.npmjs.org/markdown-it/15.0.2",
+    "metadata_file": "registry/markdown-it.json",
+    "sha256": "89593525b43aa5d2b83825c9fc4e1ffd734fcf889e641bc34df83d134fb6298b",
+    "gitHead": "3c51991c32aaa2b002a52c009334ebe5752c84b3",
+    "repo": "markdown-it/markdown-it",
+    "repository": {
+      "url": "git+https://github.com/markdown-it/markdown-it.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "mdurl",
+    "version": "2.1.0",
+    "url": "https://registry.npmjs.org/mdurl/2.1.0",
+    "metadata_file": "registry/mdurl.json",
+    "sha256": "b28a7a19bbda7ae818885e4f6715e4c16bcd5f30aeb43ed82f5caa2323e7fa99",
+    "gitHead": "dd913f6290a4d8772240a401aab993eb65c5786d",
+    "repo": "markdown-it/mdurl",
+    "repository": {
+      "url": "git+https://github.com/markdown-it/mdurl.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "minipass",
+    "version": "7.1.3",
+    "url": "https://registry.npmjs.org/minipass/7.1.3",
+    "metadata_file": "registry/minipass.json",
+    "sha256": "bf7491b7dc7457525153e9c31eb27e98939785ab6c44297bb99d305f4541aa87",
+    "gitHead": "ab4b3b05d0d557ac6bb178f38501b11d0c96454e",
+    "repo": "isaacs/minipass",
+    "repository": {
+      "url": "git+https://github.com/isaacs/minipass.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "mj-context-menu",
+    "version": "1.0.0",
+    "url": "https://registry.npmjs.org/mj-context-menu/1.0.0",
+    "metadata_file": "registry/mj-context-menu.json",
+    "sha256": "54ddad4a881e5cd72c4f81963cbfa95ae376d45fccd3ccfcd342b6adf61e1f13",
+    "gitHead": "2156b7db7cac02ca8451deb4ee6075d55b591d37",
+    "repo": "zorkow/context-menu",
+    "repository": {
+      "url": "git+https://github.com/zorkow/context-menu.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "nodemailer",
+    "version": "10.0.14",
+    "url": "https://registry.npmjs.org/nodemailer/10.0.14",
+    "metadata_file": "registry/nodemailer.json",
+    "sha256": "6d1861b53d3db785401723cd1b4cdee5d7c8f4c3fb145ed5858b6ab850dfa304",
+    "gitHead": "aefd1da2af1e7c1641d1bdad7852476fcba8a57f",
+    "repo": "nodemailer/nodemailer",
+    "repository": {
+      "url": "git+https://github.com/nodemailer/nodemailer.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "nunjucks",
+    "version": "3.2.4",
+    "url": "https://registry.npmjs.org/nunjucks/3.2.4",
+    "metadata_file": "registry/nunjucks.json",
+    "sha256": "5de521df0281159580d317bc5579b8a7a7693a31d5b3a703316d1e5360dd7c89",
+    "gitHead": "86a77f49da4779d55414d8337e1a4d7ec7582da5",
+    "repo": "mozilla/nunjucks",
+    "repository": {
+      "url": "git+https://github.com/mozilla/nunjucks.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "package-json-from-dist",
+    "version": "1.0.1",
+    "url": "https://registry.npmjs.org/package-json-from-dist/1.0.1",
+    "metadata_file": "registry/package-json-from-dist.json",
+    "sha256": "68505c843fd9336d8a230e9f5b9f70e477dab0fabe7ab5ab7b09049ea64ceeb7",
+    "gitHead": "5a84db04548091c086c514d3bac5c3141e790b6f",
+    "repo": "isaacs/package-json-from-dist",
+    "repository": {
+      "url": "git+https://github.com/isaacs/package-json-from-dist.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "parse5",
+    "version": "8.0.1",
+    "url": "https://registry.npmjs.org/parse5/8.0.1",
+    "metadata_file": "registry/parse5.json",
+    "sha256": "84d53f636c6da77153f63907b05763dde0fa9b4476d18198ee539de5b345785a",
+    "gitHead": "0d56627fc924d40f560fd260ade0e1a935e2369c",
+    "repo": "inikulin/parse5",
+    "repository": {
+      "url": "git://github.com/inikulin/parse5.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "path-scurry",
+    "version": "2.0.2",
+    "url": "https://registry.npmjs.org/path-scurry/2.0.2",
+    "metadata_file": "registry/path-scurry.json",
+    "sha256": "507b4c9543bf3c14c1883a6d3bc876e34d4ed4f5880f54d2ca14feb77a2005b6",
+    "gitHead": "1372560386e080834cfb0943e1aaaf5b2ec9b70b",
+    "repo": "isaacs/path-scurry",
+    "repository": {
+      "url": "git+https://github.com/isaacs/path-scurry.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "pg",
+    "version": "8.23.1",
+    "url": "https://registry.npmjs.org/pg/8.23.1",
+    "metadata_file": "registry/pg.json",
+    "sha256": "928cc53cd24d6e2ea6caa11d74422c9291d117d88c8cc4c1974b074f638b9d35",
+    "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+    "repo": "brianc/node-postgres",
+    "repository": {
+      "url": "git://github.com/brianc/node-postgres.git",
+      "type": "git",
+      "directory": "packages/pg"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "pg-cloudflare",
+    "version": "1.4.1",
+    "url": "https://registry.npmjs.org/pg-cloudflare/1.4.1",
+    "metadata_file": "registry/pg-cloudflare.json",
+    "sha256": "e77c9f9bd4eaef167a479e301d678913015fddbad00b7481ed85fe37ca55ed55",
+    "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+    "repo": "brianc/node-postgres",
+    "repository": {
+      "url": "git://github.com/brianc/node-postgres.git",
+      "type": "git",
+      "directory": "packages/pg-cloudflare"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "pg-connection-string",
+    "version": "2.14.1",
+    "url": "https://registry.npmjs.org/pg-connection-string/2.14.1",
+    "metadata_file": "registry/pg-connection-string.json",
+    "sha256": "fc8c05c3fb664f515464d6cbe5d07031391bba1e81395da97da3d42b82e05ac1",
+    "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+    "repo": "brianc/node-postgres",
+    "repository": {
+      "url": "git://github.com/brianc/node-postgres.git",
+      "type": "git",
+      "directory": "packages/pg-connection-string"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "pg-pool",
+    "version": "3.14.0",
+    "url": "https://registry.npmjs.org/pg-pool/3.14.0",
+    "metadata_file": "registry/pg-pool.json",
+    "sha256": "2306b78d03e80e7d89d63647ca46109cd8f1f9980a432de906e279205538106d",
+    "gitHead": "544b1ce8152bc280e398dc1e8a66920abe6a640e",
+    "repo": "brianc/node-postgres",
+    "repository": {
+      "url": "git://github.com/brianc/node-postgres.git",
+      "type": "git",
+      "directory": "packages/pg-pool"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "pg-protocol",
+    "version": "1.16.1",
+    "url": "https://registry.npmjs.org/pg-protocol/1.16.1",
+    "metadata_file": "registry/pg-protocol.json",
+    "sha256": "8075041445d133cfa2d49d4026305e1992f78861a1d826231233238d72737fe1",
+    "gitHead": "0980cefebe0ae461da8883703be049fe13ca96cf",
+    "repo": "brianc/node-postgres",
+    "repository": {
+      "url": "git://github.com/brianc/node-postgres.git",
+      "type": "git",
+      "directory": "packages/pg-protocol"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "pg-types",
+    "version": "2.2.0",
+    "url": "https://registry.npmjs.org/pg-types/2.2.0",
+    "metadata_file": "registry/pg-types.json",
+    "sha256": "a9d61026999df90498f658bf0bc1e02d68818ba1aea319dcc6b17320b09a3c09",
+    "gitHead": "d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+    "repo": "brianc/node-pg-types",
+    "repository": {
+      "url": "git://github.com/brianc/node-pg-types.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "pgpass",
+    "version": "1.0.5",
+    "url": "https://registry.npmjs.org/pgpass/1.0.5",
+    "metadata_file": "registry/pgpass.json",
+    "sha256": "753a7666f79449faed8e9c9676c6398dd43bca237c92e8fbfff27a66e116961d",
+    "gitHead": "4230ed5e417ba6044ea7eb80b7c33db9ec301398",
+    "repo": "hoegaarden/pgpass",
+    "repository": {
+      "url": "git+https://github.com/hoegaarden/pgpass.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "pure-uuid",
+    "version": "2.0.0",
+    "url": "https://registry.npmjs.org/pure-uuid/2.0.0",
+    "metadata_file": "registry/pure-uuid.json",
+    "sha256": "7a2615f8eb7adca0447603dbf2ac4cf4a78ff9f64c79d653556357898eeec45e",
+    "gitHead": "c71cf83e608a1fabe1c0d1ba114214151c92bef5",
+    "repo": "rse/pure-uuid",
+    "repository": {
+      "url": "git://github.com/rse/pure-uuid.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "rimraf",
+    "version": "6.1.3",
+    "url": "https://registry.npmjs.org/rimraf/6.1.3",
+    "metadata_file": "registry/rimraf.json",
+    "sha256": "4abcc90902a96eaf7613629615fb0043e6f3621067ef3f3e0a458fa4ca7293cd",
+    "gitHead": "f738c781d14fa7bc06f8e39e062d78f701fde3f1",
+    "repo": "isaacs/rimraf",
+    "repository": {
+      "url": "git+ssh://git@github.com/isaacs/rimraf.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "balanced-match",
+    "version": "4.0.4",
+    "url": "https://registry.npmjs.org/balanced-match/4.0.4",
+    "metadata_file": "registry/balanced-match.json",
+    "sha256": "1088a8c15776ff2c39df62fee9e044a559225ec5e933ec4f0e2e4e63aae4f7e4",
+    "gitHead": "adf286f7c6142102f932c8d7c7066463741a0036",
+    "repo": "juliangruber/balanced-match",
+    "repository": {
+      "url": "git://github.com/juliangruber/balanced-match.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "brace-expansion",
+    "version": "5.0.12",
+    "url": "https://registry.npmjs.org/brace-expansion/5.0.12",
+    "metadata_file": "registry/brace-expansion.json",
+    "sha256": "5421e68ea58a0286041e3f11998da4fa44055026b11c527cc14ec74895b58929",
+    "gitHead": "f3410159d768f56c9d9f4511d3e1b46425fc1099",
+    "repo": "juliangruber/brace-expansion",
+    "repository": {
+      "url": "git+https://github.com/juliangruber/brace-expansion.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "glob",
+    "version": "13.0.6",
+    "url": "https://registry.npmjs.org/glob/13.0.6",
+    "metadata_file": "registry/glob.json",
+    "sha256": "fcc00e0272292524f86f8128ee095ed63f2221e1dbf668279788254decf42c18",
+    "gitHead": "e80cb38ae60d6cbff9e75f39032a994858994d35",
+    "repo": "isaacs/node-glob",
+    "repository": {
+      "url": "git+ssh://git@github.com/isaacs/node-glob.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "minimatch",
+    "version": "10.2.6",
+    "url": "https://registry.npmjs.org/minimatch/10.2.6",
+    "metadata_file": "registry/minimatch.json",
+    "sha256": "938adf25bff40260a930f723f448231fc7a03f9e85dd809f2196b50ebd06d88c",
+    "gitHead": "ded1bbd01beca62a5978bc1650ed0a1ccf9039d5",
+    "repo": "isaacs/minimatch",
+    "repository": {
+      "url": "git+ssh://git@github.com/isaacs/minimatch.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "saxes",
+    "version": "6.0.0",
+    "url": "https://registry.npmjs.org/saxes/6.0.0",
+    "metadata_file": "registry/saxes.json",
+    "sha256": "49e633171169d15e096b3a85f976a723bfcd25f97d2d63915901e0990b0e8c42",
+    "gitHead": "211fa0ebec9b628affc09219199639887174bfc3",
+    "repo": "lddubeau/saxes",
+    "repository": {
+      "url": "git+https://github.com/lddubeau/saxes.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "source-map",
+    "version": "0.5.7",
+    "url": "https://registry.npmjs.org/source-map/0.5.7",
+    "metadata_file": "registry/source-map.json",
+    "sha256": "4ab3de109356d08af69f80628fe8357a08cf4059f18b3ed2e329ca00671b0c8f",
+    "gitHead": "326dd955a366569759d9537ef5f0f167c89d92d2",
+    "repo": "mozilla/source-map",
+    "repository": {
+      "url": "git+ssh://git@github.com/mozilla/source-map.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "url": "https://registry.npmjs.org/source-map-js/1.2.2",
+    "metadata_file": "registry/source-map-js.json",
+    "sha256": "2a7a225c550e3a0e75f9af72a635e33d7b2e4a0fca4f596679a2775971f53ed6",
+    "gitHead": "0a1d334fd1e55a47df97fcd60a7915d46df3b08a",
+    "repo": "7rulnik/source-map-js",
+    "repository": {
+      "url": "git+https://github.com/7rulnik/source-map-js.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "speech-rule-engine",
+    "version": "5.0.0-rc.4",
+    "url": "https://registry.npmjs.org/speech-rule-engine/5.0.0-rc.4",
+    "metadata_file": "registry/speech-rule-engine.json",
+    "sha256": "9776b3299dbac7228c2ddb6248aeadd35a61cb2fd2f72694fc0c515881ae95ac",
+    "gitHead": null,
+    "repo": "zorkow/speech-rule-engine",
+    "repository": {
+      "url": "git+https://github.com/zorkow/speech-rule-engine.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "string-hash",
+    "version": "1.1.3",
+    "url": "https://registry.npmjs.org/string-hash/1.1.3",
+    "metadata_file": "registry/string-hash.json",
+    "sha256": "01155355c9b7d6a8db650a8d63e2608cc31372bef218505774dc9a3bfc64c0e0",
+    "gitHead": "5bf7547a91372c399f4052cc1094a93f73e10284",
+    "repo": "darkskyapp/string-hash",
+    "repository": {
+      "url": "git://github.com/darkskyapp/string-hash.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "think-model",
+    "version": "1.5.4",
+    "url": "https://registry.npmjs.org/think-model/1.5.4",
+    "metadata_file": "registry/think-model.json",
+    "sha256": "18b38146d57746188716ffa0c4a8adb3141c9ecf61f0d3512cf6d9b6c79a7c74",
+    "gitHead": "66201030bb2349eb99cf09cabbcc6478a9eaeb73",
+    "repo": "thinkjs/think-model",
+    "repository": {
+      "url": "git+https://github.com/thinkjs/think-model.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "think-trace",
+    "version": "1.0.18",
+    "url": "https://registry.npmjs.org/think-trace/1.0.18",
+    "metadata_file": "registry/think-trace.json",
+    "sha256": "f7b9af60dd8a95a4d505da08837526b18e96829d894cbe0db80f1b1b22107f9b",
+    "gitHead": "3189396f5f5099225b1bbb3b0a9d8f67bb4b8ba3",
+    "repo": "thinkjs/think-trace",
+    "repository": {
+      "url": "git+https://github.com/thinkjs/think-trace.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "tldts",
+    "version": "7.4.16",
+    "url": "https://registry.npmjs.org/tldts/7.4.16",
+    "metadata_file": "registry/tldts.json",
+    "sha256": "f98bd7e6cfc5524e53165e6fdfb4c8616725832124fd673f291db3f79f25bee1",
+    "gitHead": "b9519e00ba47ad557cc9fc0416ea0cf5f89a4a12",
+    "repo": "remusao/tldts",
+    "repository": {
+      "url": "git+ssh://git@github.com/remusao/tldts.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "tldts-core",
+    "version": "7.4.16",
+    "url": "https://registry.npmjs.org/tldts-core/7.4.16",
+    "metadata_file": "registry/tldts-core.json",
+    "sha256": "dbb6a54e8e32badcc73a61da9271eacbccc082fdeb4a4088c0c9915a05ed1624",
+    "gitHead": "b9519e00ba47ad557cc9fc0416ea0cf5f89a4a12",
+    "repo": "remusao/tldts",
+    "repository": {
+      "url": "git+ssh://git@github.com/remusao/tldts.git",
+      "type": "git"
+    },
+    "build_source_needed": false
+  },
+  {
+    "name": "tough-cookie",
+    "version": "6.0.2",
+    "url": "https://registry.npmjs.org/tough-cookie/6.0.2",
+    "metadata_file": "registry/tough-cookie.json",
+    "sha256": "3245cee61d1ddf72650956099abf0a659af4a4cac8825666ff8c779d6dc912e1",
+    "gitHead": "40708dd809cfb1dd658270dc85597bf9f68a6ccc",
+    "repo": "salesforce/tough-cookie",
+    "repository": {
+      "url": "git://github.com/salesforce/tough-cookie.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "content-type",
+    "version": "2.1.0",
+    "url": "https://registry.npmjs.org/content-type/2.1.0",
+    "metadata_file": "registry/content-type.json",
+    "sha256": "60a2a8a77b4305debe41dfd326b2738c73c8a8e571b04f1a9532d7179303a2d3",
+    "gitHead": "8c2fedda8b40bd519c3ca49cc2a80aebaa1446e3",
+    "repo": "jshttp/content-type",
+    "repository": {
+      "url": "git+https://github.com/jshttp/content-type.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "ua-is-frozen",
+    "version": "0.1.2",
+    "url": "https://registry.npmjs.org/ua-is-frozen/0.1.2",
+    "metadata_file": "registry/ua-is-frozen.json",
+    "sha256": "a727c80becde904a07c064af65d16f1d822f06473682f618a23e0554ce506dce",
+    "gitHead": "46043fa3abcd90f56d146c72f6efd061c1acdf4d",
+    "repo": "faisalman/ua-is-frozen",
+    "repository": {
+      "url": "git+https://github.com/faisalman/ua-is-frozen.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "uc.micro",
+    "version": "3.0.0",
+    "url": "https://registry.npmjs.org/uc.micro/3.0.0",
+    "metadata_file": "registry/uc.micro.json",
+    "sha256": "21c58f614aed9065a52f9a6bdad43bd94768baee84607fc8fefea7e6c451e3d2",
+    "gitHead": "c740a5dadc1090203cb21e6f28bf215ad9ddec28",
+    "repo": "markdown-it/uc.micro",
+    "repository": {
+      "url": "git+https://github.com/markdown-it/uc.micro.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "undici",
+    "version": "8.11.2",
+    "url": "https://registry.npmjs.org/undici/8.11.2",
+    "metadata_file": "registry/undici.json",
+    "sha256": "18855bc7a5d2f4c4fcc56cfd7e1a4d789baf90a18def6f0e9128765d9322c750",
+    "gitHead": "7e016ad7e5bd6540170069a9a28b1e633b29664f",
+    "repo": "nodejs/undici",
+    "repository": {
+      "url": "git+https://github.com/nodejs/undici.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "validator",
+    "version": "13.15.35",
+    "url": "https://registry.npmjs.org/validator/13.15.35",
+    "metadata_file": "registry/validator.json",
+    "sha256": "287351601b039d8537c0539a8ad8e55c1e5a0da9f3c2a1ddb3783f5ce30d726b",
+    "gitHead": "7a8079709cd4cb27b2a1846e6f6508d68c9d928f",
+    "repo": "validatorjs/validator.js",
+    "repository": {
+      "url": "git+https://github.com/validatorjs/validator.js.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "whatwg-url",
+    "version": "17.2.0",
+    "url": "https://registry.npmjs.org/whatwg-url/17.2.0",
+    "metadata_file": "registry/whatwg-url.json",
+    "sha256": "cfc4a37f327e59e02c6caa345e61a25b63823b09c7eb1126b1b353910f826da6",
+    "gitHead": "65ef489415cd0497dc842117f60ebde2969462dc",
+    "repo": "jsdom/whatwg-url",
+    "repository": {
+      "url": "git+https://github.com/jsdom/whatwg-url.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "wicked-good-xpath",
+    "version": "1.3.0",
+    "url": "https://registry.npmjs.org/wicked-good-xpath/1.3.0",
+    "metadata_file": "registry/wicked-good-xpath.json",
+    "sha256": "2ed0ecad52d914a247f5fde02455cc20157b3525cc05c1ab3500c8038e789cbf",
+    "gitHead": "ce916fcfaf97247e3b8ec6cada64a6f6687175b4",
+    "repo": "google/wicked-good-xpath",
+    "repository": {
+      "url": "git+https://github.com/google/wicked-good-xpath.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "xmlbuilder",
+    "version": "11.0.1",
+    "url": "https://registry.npmjs.org/xmlbuilder/11.0.1",
+    "metadata_file": "registry/xmlbuilder.json",
+    "sha256": "92ae4cd0fce9192f5e44691a992103698abe81c8240ac9da1e7039c995dac67a",
+    "gitHead": "fc3301d1bd7bde1351bdb95532b420f0ca9f5862",
+    "repo": "oozcitak/xmlbuilder-js",
+    "repository": {
+      "url": "git://github.com/oozcitak/xmlbuilder-js.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  },
+  {
+    "name": "xmlchars",
+    "version": "2.2.0",
+    "url": "https://registry.npmjs.org/xmlchars/2.2.0",
+    "metadata_file": "registry/xmlchars.json",
+    "sha256": "9d3589a69257ee2bc6b9765da1a94bec79274b9b7ad42cd1e6a4e87f3eeed493",
+    "gitHead": null,
+    "repo": "lddubeau/xmlchars",
+    "repository": {
+      "url": "git+https://github.com/lddubeau/xmlchars.git",
+      "type": "git"
+    },
+    "build_source_needed": true
+  }
+]

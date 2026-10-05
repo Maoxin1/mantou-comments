@@ -1,0 +1,28 @@
+Verified 1396 exact source files from c4b0f1ebb9a7970d36493d4c3580f3f43e098fa5
+Restored 48 integrity-verified packages without network access
+Runtime: v24.20.0
+ℹ tsdown v0.23.0 powered by rolldown v1.2.11
+ℹ config file: BUILD_WORKDIR/final-verified-replay/source/packages/core/tsdown.config.ts 
+ℹ entry: ./src/index.ts
+ℹ target: es2022
+ℹ tsconfig: tsconfig.json
+ℹ Build start
+
+ WARN  TypeScript 7.0 does not yet have a stable API and is experimental. Some options will be unavailable.
+
+ℹ Emit types with typescript@7.0.2
+ℹ [CJS] dist/index.cjs  28.99 kB │ gzip: 7.46 kB
+ℹ [CJS] 1 files, total: 28.99 kB
+ℹ [CJS] dist/index.d.cts  11.75 kB │ gzip: 2.72 kB
+ℹ [CJS] 1 files, total: 11.75 kB
+ℹ [ESM] dist/index.js    28.88 kB │ gzip: 7.41 kB
+ℹ [ESM] dist/index.d.ts  11.75 kB │ gzip: 2.72 kB
+ℹ [ESM] 2 files, total: 40.63 kB
+✔ Build complete in 388ms
+✔ Build complete in 389ms
+ℹ [publint] The package does not specify the "engines.node" field. Consumers may install it on an unsupported Node.js version. Consider adding the field with your actual minimum supported Node.js version. (This may be a breaking change)
+MATCH index.js cab3b45c1f682364e1d859163a364f4d2c7928c8c3be479d946d65c1e3831b50
+MATCH index.cjs eb67ef3068bafa975714250ce4d48781cf79f6773a5443866e58025a44d9caf5
+MATCH index.d.ts 42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128
+MATCH index.d.cts 42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128
+All four generated files match the shipped baseline SHA-256 values

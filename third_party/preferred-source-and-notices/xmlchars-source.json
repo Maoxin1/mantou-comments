@@ -1,0 +1,20 @@
+{
+  "package": "xmlchars",
+  "version": "2.2.0",
+  "repository": "https://github.com/lddubeau/xmlchars",
+  "tag": "v2.2.0",
+  "annotatedTagObject": "10f4e78216412f407248d4bfda5e88c250d8182d",
+  "commit": "1b54de0e417a1744a505f101b28314466b380bb0",
+  "url": "https://codeload.github.com/lddubeau/xmlchars/tar.gz/1b54de0e417a1744a505f101b28314466b380bb0",
+  "path": "sources/lddubeau__xmlchars-1b54de0e417a1744a505f101b28314466b380bb0.tar.gz",
+  "sha256": "e9e1e37d810a6d23638a1535015b72f14ccc3c782b71b8f73b05aa2d4784fb9b",
+  "sizeBytes": 40571,
+  "typescriptSources": [
+    "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xml/1.0/ed4.ts",
+    "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xml/1.0/ed5.ts",
+    "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xml/1.1/ed2.ts",
+    "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xmlns/1.0/ed3.ts",
+    "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/test/xmlchars.spec.ts"
+  ],
+  "tagResolution": "git ls-remote refs/tags/v2.2.0 and peeled object"
+}

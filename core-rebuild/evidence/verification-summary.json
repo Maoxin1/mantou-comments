@@ -1,0 +1,43 @@
+{
+  "upstreamCommit": "c4b0f1ebb9a7970d36493d4c3580f3f43e098fa5",
+  "sourceArchiveSha256": "35b81cf1b3b99ba568553f226cae38f97ccdf7a36e788a8204787299c9dc5949",
+  "sourceTrackedBlobCount": 1396,
+  "core": {
+    "index.cjs": {
+      "sha256": "eb67ef3068bafa975714250ce4d48781cf79f6773a5443866e58025a44d9caf5",
+      "bytes": 28990
+    },
+    "index.d.cts": {
+      "sha256": "42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128",
+      "bytes": 11751
+    },
+    "index.d.ts": {
+      "sha256": "42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128",
+      "bytes": 11751
+    },
+    "index.js": {
+      "sha256": "cab3b45c1f682364e1d859163a364f4d2c7928c8c3be479d946d65c1e3831b50",
+      "bytes": 28879
+    }
+  },
+  "serverPackage": {
+    "name": "@waline/vercel",
+    "version": "1.43.4",
+    "sha256": "d719b6592178d0ad6f93a803def4b93cbb27fa812b6742dc32f732abed788a7c",
+    "packedFileCount": 95
+  },
+  "tests": {
+    "filesPassed": 2,
+    "testsPassed": 17,
+    "scope": "upstream packages/core/__tests__; original frozen full-monorepo install"
+  },
+  "toolArchiveCount": 48,
+  "toolArchivesBytes": 49659809,
+  "nodePrerequisite": "24.20.0",
+  "optionalRepackNpmPrerequisite": "11.9.0",
+  "platform": "linux-x64-glibc",
+  "coreReplayPassed": true,
+  "isolatedMinimalPathFreshHomeReplayPassed": true,
+  "serverDryRunExactArchiveMatch": true,
+  "toolchainRebuiltFromSource": false
+}

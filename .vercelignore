@@ -1,0 +1,9 @@
+# No deployment is authorized. Keep reference-only retired dependencies and
+# historical evidence out of any future reviewed application upload.
+reference/
+vendor/upstream/
+evidence/
+test/
+scripts/
+patches/
+docs/

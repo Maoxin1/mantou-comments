@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+
+# Generated installs, downloads and credentials are not repository source.
+.npmrc
+.vercel/
+*.zip
+.release-work/
+third_party/npm/
+third_party/preferred-source-and-notices/sources/
+core-rebuild/archives/
+core-rebuild/build-registry-tarballs/*.tgz

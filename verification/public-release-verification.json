@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "date": "2026-10-05",
+  "publicTarget": "Maoxin1/mantou-comments",
+  "releaseTag": "source-2026-10-05",
+  "status": "Prepared locally for approved public source release; publication and anonymous-access verification are separate steps.",
+  "applicationVerification": {
+    "command": "node scripts/verify-source-bundle.cjs",
+    "node": "v24.19.0",
+    "npm": "11.9.0",
+    "freshCache": true,
+    "offlineArchiveCount": 488,
+    "lifecycleScriptsDisabled": true,
+    "applicationTestsPassed": 33,
+    "referenceTestsPassed": 4,
+    "testsFailed": 0,
+    "syntaxCheck": "passed",
+    "dependencyTree": "passed"
+  },
+  "testSourcePreservation": {
+    "unchangedFiles": [
+      {
+        "path": "application/reference/test/dependency-security.test.cjs",
+        "sha256": "1cd4099ce12e6598ef6b9b47cf30a8ff5992f31c7ceba67be24f5c1602d9655e"
+      },
+      {
+        "path": "application/test/bootstrap-security.test.cjs",
+        "sha256": "8c85cff0861cbcd952e426421edf6428445c551d6eb289a44642360ed655aff1"
+      },
+      {
+        "path": "application/test/derivative-security.test.cjs",
+        "sha256": "2c39faf3d8857c943ad14f6d2b1ccc8af4f4e3ced823fe2880b9292f796e7a31"
+      },
+      {
+        "path": "application/test/disabled-entrypoint.test.cjs",
+        "sha256": "0c685b472ae621f0b758e60fa01fada2caabd0a8a404f047b2d3d54e48925329"
+      },
+      {
+        "path": "application/test/fault-contract.test.cjs",
+        "sha256": "813093fa2f33457ee2e46ca9903fc8afd17f8715263ab0e41f90bebb0cdb1e4e"
+      },
+      {
+        "path": "application/test/http-contract.test.cjs",
+        "sha256": "acc68cd527498ed2294aa26703504e5d4ecd72590a778e74e639c36c290539f0"
+      },
+      {
+        "path": "application/test/memory-model.cjs",
+        "sha256": "84b43b57471b2c1a14c4c1b2027b997d1dc71e84d10c59fae551ec58d521df12"
+      },
+      {
+        "path": "application/test/policy.test.cjs",
+        "sha256": "ab83a760d25295e7cd649cdc6e2ae4165c0931eef4afda7e5b98a4f9dcdb8b3b"
+      },
+      {
+        "path": "application/test/preparse-security.test.cjs",
+        "sha256": "e85ad4d28e3f5edd0dcb1a0db0d80e5157357f9e0d8c25a8de62d3dc98004546"
+      },
+      {
+        "path": "application/test/probe-bootstrap.cjs",
+        "sha256": "efde8140cd015634ed9aa7f6a9f2b0bc6039a96ab6ff8f5d1f384720641ae459"
+      }
+    ],
+    "testCount": 37,
+    "scope": "All original application and reference test/helper files match the input source archive byte-for-byte."
+  },
+  "archivePreservation": {
+    "count": 608,
+    "allByteIdentical": true,
+    "scope": "All bundled compressed upstream, tool, registry and generated derivative archives match the input source archive byte-for-byte."
+  },
+  "priorEvidencePreserved": {
+    "coreOutputsMatching": 4,
+    "serverArchiveSha256": "d719b6592178d0ad6f93a803def4b93cbb27fa812b6742dc32f732abed788a7c",
+    "knownApplicationAdvisories": 0,
+    "auditSnapshotDate": "2026-10-05",
+    "coreReplayRuntime": "Node 24.20.0 Linux x64/glibc",
+    "scope": "Original exact-core rebuild, exact-server repack and audit evidence are preserved, not rerun by this metadata-only publication pass."
+  },
+  "publicationSanitation": {
+    "modifiedOriginalFiles": [
+      "LICENSE-CHOICES.md",
+      "README.md",
+      "application/LICENSE-CHOICES.md",
+      "application/README.md",
+      "application/docs/LICENSE-REVIEW.md",
+      "application/docs/POSTGRESQL-DERIVATIVE.md",
+      "application/docs/PRE-DERIVATIVE-README.md",
+      "application/docs/REMAINING-GATES.md",
+      "application/docs/SECURITY-HARDENING.md",
+      "application/docs/SOURCE-RELEASE-PLAN.md",
+      "third_party/preferred-source-and-notices/fetch_additional_sources.py",
+      "third_party/preferred-source-and-notices/fetch_sources.py",
+      "third_party/preferred-source-and-notices/inventory.py",
+      "third_party/preferred-source-and-notices/llhttp-source.json",
+      "third_party/preferred-source-and-notices/verify_sources.py",
+      "third_party/preferred-source-and-notices/xmlchars-source.json",
+      "verification/application-fresh-verify.log"
+    ],
+    "plainTextFilesReviewed": 1373,
+    "localAbsolutePathHits": [],
+    "prohibitedLocalDataFiles": [],
+    "portablePythonScriptsCompile": true,
+    "scope": "Authored status/docs/scripts and path-bearing metadata/logs only; generic leak-test patterns remain intact."
+  },
+  "limitations": [
+    "A bounded path/file review is not a guarantee against every possible secret; immutable upstream archives may retain their published synthetic fixtures.",
+    "MathJax font-generation inputs/tools are not available from a verified public release; original font assets and notices remain. KaTeX font and Undici WASM regeneration were not performed.",
+    "No database, administrator setup, live moderation/persistence acceptance, service activation, deployment, CI integration, webhook, or secret grants were performed. Public entrypoint remains inert (503)."
+  ]
+}

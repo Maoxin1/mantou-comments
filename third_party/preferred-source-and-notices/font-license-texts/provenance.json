@@ -1,0 +1,27 @@
+[
+  {
+    "file": "OFL-1.1.txt",
+    "url": "https://openfontlicense.org/documents/OFL.txt",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "GUST-FONT-LICENSE.txt",
+    "url": "https://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt",
+    "sha256": "5eb61bb836bb1845ef668717cb15b382e997748ce2629e4388cc5e4c3fa4e433",
+    "bytes": 1417
+  },
+  {
+    "file": "LPPL-1.3c.txt",
+    "url": "https://www.latex-project.org/lppl/lppl-1-3c.txt",
+    "sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66",
+    "bytes": 19102
+  },
+  {
+    "file": "OFL-1.1.txt",
+    "source": "Standard SIL OFL 1.1 license body extracted from system /usr/share/inkscape/doc/OFL-1.1.txt, beginning at first dashed divider; unrelated fonts header excluded. Applicable MathJax/KaTeX copyright and reserved-name records are separate in font metadata and FONT-NOTICES.md. Body verified against official web-tool text.",
+    "verification_url": "https://openfontlicense.org/open-font-license-official-text/",
+    "sha256": "fba7fe59c0b0498318014001ccb3fb0cbcc8d8402bfc09af7100cbe7d352f6ac",
+    "bytes": 4215,
+    "source_sha256": "7d883ba6132ee00ba5dc7cc133a9fb476eb63cd29d07f4ebabafdd182241f45d"
+  }
+]

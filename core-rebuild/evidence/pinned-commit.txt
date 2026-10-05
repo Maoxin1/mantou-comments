@@ -1,0 +1,7 @@
+commit c4b0f1ebb9a7970d36493d4c3580f3f43e098fa5
+Author:     Austin Lee <i@imnerd.org>
+AuthorDate: Tue Sep 29 23:44:12 2026 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: Tue Sep 29 23:44:12 2026 +0800
+
+    chore: release @waline/vercel 1.43.4

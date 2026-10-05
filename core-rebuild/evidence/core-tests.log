@@ -1,0 +1,9 @@
+
+ RUN  v5.0.2 BUILD_WORKDIR/source
+
+
+ Test Files  2 passed (2)
+      Tests  17 passed (17)
+   Start at  19:46:44
+   Duration  427ms (transform 68%, tests 19%, import 9%, setup 2%, worker 2%)
+

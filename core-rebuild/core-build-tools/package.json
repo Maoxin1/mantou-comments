@@ -1,0 +1,13 @@
+{
+  "name": "waline-core-reproduction-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Install-only tool closure derived from pinned Waline upstream lock; not published",
+  "engines": {
+    "node": "24.20.0"
+  },
+  "devDependencies": {
+    "tsdown": "0.23.0",
+    "typescript": "7.0.2"
+  }
+}

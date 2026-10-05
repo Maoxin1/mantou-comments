@@ -1,0 +1,64 @@
+{
+  "archives": [
+    {
+      "component": "llhttp",
+      "version": "9.3.1",
+      "kind": "source",
+      "commit": "06b12e87f209da43e3e9e0f958b7464a4a218896",
+      "url": "https://codeload.github.com/nodejs/llhttp/tar.gz/06b12e87f209da43e3e9e0f958b7464a4a218896",
+      "path": "sources/nodejs__llhttp-source-06b12e87f209da43e3e9e0f958b7464a4a218896.tar.gz",
+      "sha256": "074c8b930cab82731db85dd6960b5499bc060609174b691cb07356a1b95a0585",
+      "sizeBytes": 6286625
+    },
+    {
+      "component": "llhttp",
+      "version": "9.3.1",
+      "kind": "release",
+      "commit": "4fce8cac9433aa4728428bb3b26880d32ad05c88",
+      "url": "https://codeload.github.com/nodejs/llhttp/tar.gz/4fce8cac9433aa4728428bb3b26880d32ad05c88",
+      "path": "sources/nodejs__llhttp-release-4fce8cac9433aa4728428bb3b26880d32ad05c88.tar.gz",
+      "sha256": "ac1d762ad696e05cc6f8be52465632a2700af662b4682b2e6d13228d92fd5c09",
+      "sizeBytes": 39211
+    }
+  ],
+  "vendoredCComparison": [
+    {
+      "file": "src/api.c",
+      "undiciSHA256": "2c8e26df05af120323130b388d9afd102f793fba84f59f3765f018d24144eb78",
+      "releaseSHA256": "2c8e26df05af120323130b388d9afd102f793fba84f59f3765f018d24144eb78",
+      "match": true
+    },
+    {
+      "file": "src/http.c",
+      "undiciSHA256": "a1f2b23168f8e9b5bfa464c89027d3ca259fc649ae3d7e72bfff997d1aeb5d72",
+      "releaseSHA256": "a1f2b23168f8e9b5bfa464c89027d3ca259fc649ae3d7e72bfff997d1aeb5d72",
+      "match": true
+    },
+    {
+      "file": "src/llhttp.c",
+      "undiciSHA256": "8abf28b888089ee6c21fe2fa616e8ec5d6224f83e518aaf68579256ed4600c9a",
+      "releaseSHA256": "8abf28b888089ee6c21fe2fa616e8ec5d6224f83e518aaf68579256ed4600c9a",
+      "match": true
+    },
+    {
+      "file": "include/llhttp.h",
+      "undiciSHA256": "a812a1aa52c07532d163dad7725c1c135235c43ce2c954ede39b48e99d830d61",
+      "releaseSHA256": "a812a1aa52c07532d163dad7725c1c135235c43ce2c954ede39b48e99d830d61",
+      "match": true
+    }
+  ],
+  "typescriptSources": [
+    "bench/index.ts",
+    "bin/build_wasm.ts",
+    "bin/generate.ts",
+    "examples/wasm.ts",
+    "src/llhttp.ts",
+    "src/llhttp/c-headers.ts",
+    "src/llhttp/constants.ts",
+    "src/llhttp/http.ts",
+    "src/llhttp/url.ts",
+    "test/fixtures/index.ts",
+    "test/md-test.ts"
+  ],
+  "note": "Source and release tags resolved with git ls-remote; no WASM rebuild has been performed."
+}

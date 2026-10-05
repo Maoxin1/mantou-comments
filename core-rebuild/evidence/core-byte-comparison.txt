@@ -1,0 +1,12 @@
+index.js MATCH
+cab3b45c1f682364e1d859163a364f4d2c7928c8c3be479d946d65c1e3831b50  packages/core/dist/index.js
+cab3b45c1f682364e1d859163a364f4d2c7928c8c3be479d946d65c1e3831b50  baseline-core-dist/index.js
+index.cjs MATCH
+eb67ef3068bafa975714250ce4d48781cf79f6773a5443866e58025a44d9caf5  packages/core/dist/index.cjs
+eb67ef3068bafa975714250ce4d48781cf79f6773a5443866e58025a44d9caf5  baseline-core-dist/index.cjs
+index.d.ts MATCH
+42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128  packages/core/dist/index.d.ts
+42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128  baseline-core-dist/index.d.ts
+index.d.cts MATCH
+42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128  packages/core/dist/index.d.cts
+42e613818d93515b26d0f16659aeab50568b1ade71308e32b702f80d1a3b8128  baseline-core-dist/index.d.cts

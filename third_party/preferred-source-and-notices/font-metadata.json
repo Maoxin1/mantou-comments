@@ -1,0 +1,4558 @@
+[
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ab.woff2",
+    "sha256": "9813052b6bca662c7d7242e35e6b754de3edb6c469dc4c3af747a6b1d7de9962",
+    "bytes": 9600,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ab"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-abi.woff2",
+    "sha256": "544e713025065edf43e9b34b671bc47203d0879c73cccbaa000093ff07ae09da",
+    "bytes": 10688,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-abi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ai.woff2",
+    "sha256": "ba7e5230b13bc7744e8b51f3cff12d43c4590b18122b4acd6b9bd03b9588d9b0",
+    "bytes": 11580,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ai"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ar.woff2",
+    "sha256": "9e942b15ecbf57c84324aa27fdfbea5679de4bee0e1a578eb209153c60d8ad79",
+    "bytes": 25492,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ar"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-arl.woff2",
+    "sha256": "ac5a25c0ab7082074f811aecf807cb16dc087879e3d58b5e2893eae0d6f1c449",
+    "bytes": 7160,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-arl"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-b-a.woff2",
+    "sha256": "036467b277fb41f43d7a37b1190bb8c9069ff9896ffad8a3ea373fc3d4dba88a",
+    "bytes": 9480,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-b-a"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-b.woff2",
+    "sha256": "ea04057759e00963656c9cb63070acdfa20a6ebf441b63a004032fba63c01aef",
+    "bytes": 8636,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-b"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-bi.woff2",
+    "sha256": "925f5064cbe2c9236c59821cb3ec9a411ee46ec32eaaee0fc1c5fd855fe9d098",
+    "bytes": 9504,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-bi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-br.woff2",
+    "sha256": "5276058e417131564b8e122e79564a5357bcfbe52ec99f381323f510bdab3e6c",
+    "bytes": 3292,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-br"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-brd.woff2",
+    "sha256": "dd74ff0393fc3662d30626a464c2a49e244b8c4407304fa048be097525882bfa",
+    "bytes": 3640,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-brd"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-brk.woff2",
+    "sha256": "4ba8ef6cf75997b0f62b21fac1633612469d6864026dc431a2f98565f4f86666",
+    "bytes": 864,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-brk"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-c.woff2",
+    "sha256": "bfe4cd45950bd79704ad58fa97edb3d716c7d14a8a493e41ae3f537c43ada90d",
+    "bytes": 5948,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-c"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cb.woff2",
+    "sha256": "68ebec1310a6cbb92b4a968ea63e89353b06e3d06423e6073fd7e7aa0d528605",
+    "bytes": 6216,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ch.woff2",
+    "sha256": "22cf130d6ce128ec6b97e66c256b36a29e1732c85fa8c972e6b9829b88e881f1",
+    "bytes": 10096,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ch"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-chb.woff2",
+    "sha256": "5cf157d3e5ac9147a5a965d8faa6b887e11a1e9cc6138b850b722a18cb4d90e5",
+    "bytes": 10216,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-chb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-chbi.woff2",
+    "sha256": "f8495cf659299b1d7478b0b23f6e28b829ea6e690e2b511e2f83b7fbcb316cb7",
+    "bytes": 11472,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-chbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-chi.woff2",
+    "sha256": "e10555212099fcfa9185103b7ac220e772ed6648ec1bb0cd22b5f2c40f8278aa",
+    "bytes": 14132,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-chi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cy.woff2",
+    "sha256": "de6ce6188dfd327a493068d627914e3b32ddcec311e70b34f50b010da9980b14",
+    "bytes": 21724,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cy"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cyb.woff2",
+    "sha256": "eea8c28d0f92014ee12419acaaf419b054eaedbf487b42aa95433c06c2fd2670",
+    "bytes": 21212,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cyb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cybi.woff2",
+    "sha256": "d2c8c1b3858fcd6987615b7fc49a2e17c999d7b91467ec9399d6cf83370282cf",
+    "bytes": 28984,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cybi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cyi.woff2",
+    "sha256": "3eccf65ab880d43cceb8c2c877d2606d8a60ca2164c7459246a4f4c7677db2cc",
+    "bytes": 37528,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cyi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cyss.woff2",
+    "sha256": "deafc77bf727a846a89923c3353378a66d8e2b331a0943f9e5da8d175976e2ad",
+    "bytes": 16864,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cyss"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cyssb.woff2",
+    "sha256": "5cfeaebdbf462af0cf7e468140148c8f3665d8f1e88ca7496a6a4ce776a095b1",
+    "bytes": 14720,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cyssb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cyssbi.woff2",
+    "sha256": "75ff63948be2b93f01f9ce92b7c01ceab3b165a98ec130b6f68e21e2a4a4243f",
+    "bytes": 15352,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cyssbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-cyssi.woff2",
+    "sha256": "630b634836e36fbad04d9589eba321a686a5bc7a8552d031dfa51fa36f7e5aac",
+    "bytes": 17836,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-cyssi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ds.woff2",
+    "sha256": "55fa7c9ee61db7ea6d5cd498016ac5c559bf4c48c8ade952c46196ba82384064",
+    "bytes": 9900,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ds"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-dv.woff2",
+    "sha256": "7a4b89bd20aa94003f6a88fcac7b37823503c894337dc3767e8602b934385c0f",
+    "bytes": 10280,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-dv"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-em.woff2",
+    "sha256": "e438743a1e217e6dd12adc0e3dd7ad99f06b6bd61836561aa07de48cc960dfcb",
+    "bytes": 2176,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-em"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-f.woff2",
+    "sha256": "807ba2d061385e9429ffdc99436374dd30bb818b7fb2a93e37a73f0cc6cfc46c",
+    "bytes": 9920,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-f"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-fb.woff2",
+    "sha256": "9e27ed005c6303eecaae27e775b11b8eac3d2c85be5b62653ae1f93df124fc51",
+    "bytes": 10344,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-fb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gk.woff2",
+    "sha256": "5086fdd28a4ae938452a4b177736d040f5b4495f1907da4dd9a5cb24cf0cdba4",
+    "bytes": 25136,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gk"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gkb.woff2",
+    "sha256": "6174a6b8ace7fbbedd4e4517689d9ef7acc6e260328791f906aa8a8f57ddd378",
+    "bytes": 23016,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gkb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gkbi.woff2",
+    "sha256": "81463eeb14b85e7a63979c773050fda8d59a6c36dd9a682f38635b8cce85260f",
+    "bytes": 25944,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gkbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gki.woff2",
+    "sha256": "0185126699ae80e0c27dbdfa136d4aeb66cf7b1640b8b7965ea74e7987c2c29a",
+    "bytes": 35948,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gki"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gkss.woff2",
+    "sha256": "eb9a2b7cbde5ace2303b6e5cc1938c22fcc4941ce4203ae338f04e5cd84fbbd3",
+    "bytes": 13704,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gkss"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gkssb.woff2",
+    "sha256": "60c43c0b2ac2f7dae55875707a989c353aeba12ab1865f753f23ed165d132c72",
+    "bytes": 10652,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gkssb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gkssbi.woff2",
+    "sha256": "d2f5f0fa60dd3ceed92b6e58d04114001b965ef5668b1a307036cd8e07f30fdc",
+    "bytes": 11292,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gkssbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-gkssi.woff2",
+    "sha256": "aaa7ddddaecf4f318edb90602f0281d35b8c9f8cd055d037bf3171be3f0c2966",
+    "bytes": 14288,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-gkssi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-he.woff2",
+    "sha256": "6a735a8f6216f182a0cb1e2b0878f2ce4b24ec30e633fc21322ce22fa8607696",
+    "bytes": 6576,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-he"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-heb.woff2",
+    "sha256": "935d2cc9e8ec70822d0b45eff866645f2fa9399bc0a8ddc5b14802c1c21dcd19",
+    "bytes": 7720,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-heb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-hebi.woff2",
+    "sha256": "1a801f9c0de1b2ccf5221492c5a0d4c39c5d9233330bc458e9126034df18f3c3",
+    "bytes": 7904,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-hebi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-hei.woff2",
+    "sha256": "0c94513a5b8724e94ab07839334ca325e1093c62ac7b4141294fdc6efbb892ae",
+    "bytes": 8940,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-hei"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-i.woff2",
+    "sha256": "ff33843d3b60c451b8fb4680e8a5d086cb16c3a1e86c7f16d71b25262f826d68",
+    "bytes": 10116,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-i"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-lb.woff2",
+    "sha256": "0e6f9f50a9013c6ce6a8b9ee138be2b6414f16cc1349281ccfa590389ab7a88f",
+    "bytes": 25224,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-lb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-li.woff2",
+    "sha256": "8e613a25ee3a5dda011fb268d5e744a073f454ce0e8cfbe8f0d5735a8c9a2efe",
+    "bytes": 36500,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-li"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-lib.woff2",
+    "sha256": "83b129be6b3d81c9a7087aabdfcfa4324793fc1d6634a1f96420db8377cef9bf",
+    "bytes": 34112,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-lib"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-lo.woff2",
+    "sha256": "648bf3b073453537e31856d160ddd02198da3469843f4110a97ed50ace3e48cd",
+    "bytes": 10124,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-lo"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-lr.woff2",
+    "sha256": "e8e1f9f71f4ea8daf6655c131ec273d86bf79d951abe1c09ea43b6ec53b4e522",
+    "bytes": 35936,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-lr"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-lt.woff2",
+    "sha256": "ff9f74c262c17bd28903104f77f5d6fd666fd6a8a83af2d208eb465c8da8e553",
+    "bytes": 4208,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-lt"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-m.woff2",
+    "sha256": "e75f56e5a38356f27803f37a902e2a0ab6bfa35bbbd05eed57cf843a910eae75",
+    "bytes": 17608,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-m"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-mar.woff2",
+    "sha256": "7400843ff7a58f742971eda9c74aaf272d2808ec4192981806593598fe415907",
+    "bytes": 8000,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-mar"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-mi.woff2",
+    "sha256": "a033afc1ea52f834cb8077c200893a6f88681b81c88f34a03e03fb2492412429",
+    "bytes": 7556,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-mi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ml.woff2",
+    "sha256": "93a1d4a6312141f24fabfa0386f5f59ea0ed16c96732f91ab3d633cfedce4957",
+    "bytes": 36064,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ml"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-mm.woff2",
+    "sha256": "9090ab9f0d7c5b0ab458df758158710f0e5038cbe318bc3e8d5a42a1419411d1",
+    "bytes": 27484,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-mm"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-msh.woff2",
+    "sha256": "c65b2db9fcb2b1d63739a3a735227bb022f6386f93e732e81c81ab4e80f95e57",
+    "bytes": 9020,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-msh"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-mx.woff2",
+    "sha256": "0d8c5969f55c143b226282e54033f9f32b330a5abb626e73d9eef6da4ab13cde",
+    "bytes": 78760,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-mx"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-n.woff2",
+    "sha256": "6dcaf2ebcd1d1490fb6e85c3647ae0ed0d0a47ac43efe136c5328519f1da117b",
+    "bytes": 93764,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-n"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ob.woff2",
+    "sha256": "26dd14f86b65322d3fcf7b9a39f6cb04919dc85ec3ccea133dd10ea53cd2eceb",
+    "bytes": 2124,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ob"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-os.woff2",
+    "sha256": "d1d2a5396eafcd455f298e87eae9a4f2d7c7a7030d6c58fce16442ced46de4d7",
+    "bytes": 2172,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-os"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ph.woff2",
+    "sha256": "201c3759edf766eba7a3553e9fe8168fb61090d472cda6d26ae8bf79ebdd42ba",
+    "bytes": 14640,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ph"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phb.woff2",
+    "sha256": "a486b7c8495328fd659badb068d9801c39ffa946c3d8fe1287d14fa8409f3dca",
+    "bytes": 14388,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phbi.woff2",
+    "sha256": "f00610244688789ce72faedfeff6895c8e3d348352fd0792845e2caa152dc375",
+    "bytes": 11628,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phi.woff2",
+    "sha256": "7ec5eca55aefa6f9522db9a7eb0ba4b62ecca3aea4d4d9e957b0f951ad953b40",
+    "bytes": 14924,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phss.woff2",
+    "sha256": "fa635aa8f3e4f105e44b5435812fda4293796d0cbaa7b2cd98a7d0b7914a62d2",
+    "bytes": 12024,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phss"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phssb.woff2",
+    "sha256": "6feaef68a860c32379bcddbc5c6fc46a53e25942e9c8a52b0db1c262dca5db86",
+    "bytes": 9776,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phssb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phssbi.woff2",
+    "sha256": "3f449b868e8832fe82a1981ef3b0a334c889a42809ad1678f567210d188775d0",
+    "bytes": 10488,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phssbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-phssi.woff2",
+    "sha256": "bf8909c78f81450aeb4c0aaaa6556fc269c8ff873718834bc594d57a8cfc88d9",
+    "bytes": 13368,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-phssi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-pu.woff2",
+    "sha256": "495d1c4a40b57e0cfbaa7ad1b3281eff8dbd3562959dbde1fad58198739d4bd5",
+    "bytes": 27524,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-pu"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-pub.woff2",
+    "sha256": "746416d14d183491ee99b897a4fe38849420585fefc22c3de34b28a25d0a137c",
+    "bytes": 17468,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-pub"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-pubi.woff2",
+    "sha256": "6a143f2d149c4f996a83949566f7403392505cefa4e3585e194be368b28c746f",
+    "bytes": 15668,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-pubi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-pui.woff2",
+    "sha256": "98356729e9585e164b3cf488225fcfc62e74f2fea327522e864bbb53c05a0a99",
+    "bytes": 18328,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-pui"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-rb.woff2",
+    "sha256": "5c8c39f391adc2cef60afc74c4463e79541272e6c188f7efd336846a974e7cf7",
+    "bytes": 4232,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-rb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-s.woff2",
+    "sha256": "d35959160704891ed2e2bbe40e8bf35cfbbfa06ba3edfce35ffc957604eea628",
+    "bytes": 10068,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-s"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-s3.woff2",
+    "sha256": "e2e89eedebb6fcbdcdbd004a50851c295a26bb8247ea96827e88898b3262e825",
+    "bytes": 4488,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-s3"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-s4.woff2",
+    "sha256": "8358f1daeccf586e443217fc8235b17e6e84d75c63c5c3b4896b70500943de23",
+    "bytes": 4548,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-s4"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-s5.woff2",
+    "sha256": "4c1abef2f5676a4578d24eaefb4f07335fe9cf1b682d0a604391058eaf69d275",
+    "bytes": 4500,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-s5"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-s6.woff2",
+    "sha256": "3c6b241ce6cd8624cf7d52fa643482139d6836394909cfcb9d288dafa6cb001c",
+    "bytes": 4488,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-s6"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-s7.woff2",
+    "sha256": "30b429054c4daf2ff2679d1c644bc91ff093f9925c93c25bccfe4b1ef9d81f0f",
+    "bytes": 4512,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-s7"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sb.woff2",
+    "sha256": "49368a11a3abdb38d61e5eb23263bc2cca85473d6bd59ee4d9790ca1d981a6bb",
+    "bytes": 8288,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sh.woff2",
+    "sha256": "3481446acd6b8387ed1d0b91af9873200d1f378aaf931c1e4f728d13babb336b",
+    "bytes": 15964,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sh"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-shb.woff2",
+    "sha256": "2d3821e87f3123e98a83d65f73076c26eef6dc84c90049ed958101142680cd0c",
+    "bytes": 2072,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-shb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-shbi.woff2",
+    "sha256": "30b30e946801450e0ba23ef4d476a48dd571bc6613badf9108703650bd0a5511",
+    "bytes": 1804,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-shbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-shi.woff2",
+    "sha256": "14567da5867f27f942eebb08008c158eb6e39bf171a723e8464de7882a79e275",
+    "bytes": 1900,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-shi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-so.woff2",
+    "sha256": "6e63343722538572b8fbf86dfac75aa90d94180236ccb756101904887ff2fe3e",
+    "bytes": 5184,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-so"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ss.woff2",
+    "sha256": "d0374dd78c46443eb5d24cb7b9bfb70223dad02f402c7e067328db0f0fa4c874",
+    "bytes": 15560,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ss"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssb.woff2",
+    "sha256": "858e5774c936065a4b40e670004028b54c56fe91ff57771879fee7ace28e285d",
+    "bytes": 13620,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssbi.woff2",
+    "sha256": "799257bff4a868754ebbd80a25e3fcb15bded66005b0b90c358797ec9535fdde",
+    "bytes": 14920,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssbi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssbix.woff2",
+    "sha256": "dd390467fef0337857f471a4eaefe9271f2c4fd9c3234e685427c8db9d911e87",
+    "bytes": 29944,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssbix"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssbx.woff2",
+    "sha256": "5ca3f6d99f2f1d3d7e7f32cb20b637c5c2a1a9ff8349ed45c72afc5ab71829d7",
+    "bytes": 28404,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssbx"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssi.woff2",
+    "sha256": "a8f84256a414918cd01fc594c4dd8cb29d7c908e3536200e50357725de8f9883",
+    "bytes": 16640,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssix.woff2",
+    "sha256": "827a7494e70293b96e6b95fddc3a01f329661d9d85e944af9b7a4be6cdb1ffd0",
+    "bytes": 30100,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssix"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sslb.woff2",
+    "sha256": "e4b3ee31bc2630ecb97de5de0551b154655a9c8c3218227bfbb524f6e65ab21b",
+    "bytes": 21132,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sslb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssli.woff2",
+    "sha256": "8dacfee89ded1e1185edef2bda318c9cb9f3df55a880e36c8759edddbe4d0e50",
+    "bytes": 33432,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssli"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sslib.woff2",
+    "sha256": "e5add180f95f2d8894abe251aa544ca569611f0e23eac01f184e810d98595b20",
+    "bytes": 21884,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sslib"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sslr.woff2",
+    "sha256": "e62aecfb96f85cae8d8128b63c9fb50dc313a2d928d4108d521915a59ac4eae8",
+    "bytes": 29760,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sslr"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-ssx.woff2",
+    "sha256": "e9d6cef669ccc864f193c1ff7e778fa2897cdf9d82e3198004ca65a613e7df81",
+    "bytes": 27400,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-ssx"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sy.woff2",
+    "sha256": "eba20ca513d5e11ac19282f6b51d59b162cee0d8fcae4ef1078fe39ebba41af6",
+    "bytes": 34180,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sy"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-syb.woff2",
+    "sha256": "b0cc12efaa291e46bb5e381f684bca9d08cc5eb67746154b353889a0c7b667dc",
+    "bytes": 7912,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-syb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-sybi.woff2",
+    "sha256": "411b7361ee0dcf4f9c4be8a20244149692f1a56d80795f25cc98f998a2d9f967",
+    "bytes": 11416,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-sybi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-syi.woff2",
+    "sha256": "1d2e4e8030c2add700e641d6401d2b9d5374e228507acef16abefb7b8bb90652",
+    "bytes": 12032,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-syi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-u-a.woff2",
+    "sha256": "0a90315e8de88d568186257c9424bd4afc29b213104c8f9eb8ea67f2ffb774d9",
+    "bytes": 4464,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-u-a"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-u.woff2",
+    "sha256": "a2ee7f53173e685c3e04490f9a1531169ba0e669b8e3a5bfd07717b43326f02c",
+    "bytes": 4108,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-u"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-v.woff2",
+    "sha256": "5d8a55d28ac23f71a6966ca1ae7d7b34f534f23f59806f8abae8ac1b6853b565",
+    "bytes": 4528,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2024 MathJax, Inc. (www.mathjax.org)\nOriginal copyright:\n(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-v"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-vx.woff2",
+    "sha256": "8da9e1d5139531597fc248dbbb0bd28250a26fdd017dbef1cd6847525e933d6d",
+    "bytes": 3744,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-vx"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font/chtml/woff2/mjx-ncm-zero.woff2",
+    "sha256": "5871b40a61aec9c13826851150208b19e06a15419bebac653e638437daafbcfc",
+    "bytes": 840,
+    "name_records": {
+      "0": [
+        " ",
+        "(C) 2019-2021 Antonis Tsolomitis. \nThis work is released under the GUST Font License -- see http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt for details."
+      ],
+      "1": [
+        "mjx-ncm-zero"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " "
+      ],
+      "14": [
+        " "
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-b.woff2",
+    "sha256": "69e45ca329dd2fcc3671dc20884f2baf29348a43833104266be098eba544fda2",
+    "bytes": 19340,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-b"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-bi.woff2",
+    "sha256": "d0c95edf7b3223c8e66fcb4b6faaf74fc3376eea59c20f23677f4d54905a356e",
+    "bytes": 1484,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-bi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-brk.woff2",
+    "sha256": "4f03a0d86ff005f12cbb0ffd162bae0766415e48e07ed3fa5970e685594de15d",
+    "bytes": 980,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2009-2010 Design Science, Inc."
+      ],
+      "1": [
+        "mjx-tex-brk"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " ",
+        "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Main.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        " ",
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-c.woff2",
+    "sha256": "1faef92bbe440c459bcea0b7530044827749507e39bf49248c2203f9eb422bce",
+    "bytes": 6644,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-c"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-cb.woff2",
+    "sha256": "03de6a3467f88e79425df3505a936e6b336efbc5c0421f40905d1d52fddbe4ed",
+    "bytes": 7064,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-cb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-f.woff2",
+    "sha256": "6cb008e934883d1f4652562276469dfc1ade06ee4ceebd6979e79b1c98472b47",
+    "bytes": 5932,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-f"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-fb.woff2",
+    "sha256": "303b28cdca9c064d93dc1672b843933ab20e28f777adb08b9eafa6f442f074d7",
+    "bytes": 6180,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-fb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-i.woff2",
+    "sha256": "82c82a2e0c8bc89421ce9cbb4ecea806c8ceec4b4fd0269726b9439ca853b365",
+    "bytes": 7472,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-i"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-lo.woff2",
+    "sha256": "98b20475232f47749126ae098177b5c71d3b6512e068efedb3a912c2c8f6ed0f",
+    "bytes": 5160,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-lo"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-m.woff2",
+    "sha256": "82e8abfaecf005f639e18b1e7dece8700c56df76eac8ea94e4b5915bedee7567",
+    "bytes": 8552,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-m"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-mi.woff2",
+    "sha256": "4bd1e8cefc7cf1b9aa2f2c6beb01ecef7ebf5d1f81d82f954a9688360a399fc3",
+    "bytes": 9676,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-mi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-n.woff2",
+    "sha256": "fad3b88ec7aac4959e3de19044931682bd4d1500c72a85d2d113b73b694c4133",
+    "bytes": 164864,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-n"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-ob.woff2",
+    "sha256": "62f1a8f7ced532d6ab1f6af3a5b3363eb6c774fe40d29092bbea27ac95a9f89e",
+    "bytes": 8412,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-ob"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-os.woff2",
+    "sha256": "01bc6e82013dca9c1cbb132c353a0f63add97325bb979bba5e619591525c2a6e",
+    "bytes": 8164,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-os"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-s3.woff2",
+    "sha256": "07165a0e10ae4b6b24db34b28d0a8c46bd4ac53b4d1682098ee7a3e88d2f1c83",
+    "bytes": 2560,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-s3"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-s4.woff2",
+    "sha256": "b20a0e1b03043ae1a540857bdf1b220297ff0e78b110b1e15554addf91ad0937",
+    "bytes": 4352,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-s4"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-so.woff2",
+    "sha256": "0e9f0e5baa090d44c728e2ddaa39b4c465ff15d349e3547488503eb318628a45",
+    "bytes": 6472,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-so"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-ss.woff2",
+    "sha256": "e0d564a939fce2e4d0c09a86f0dc936c2a9cdb42e44eb264dbc5ef01d71e179c",
+    "bytes": 6168,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-ss"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-ssb.woff2",
+    "sha256": "4a2e4827bad85a9ae5fe906f179ccfce154bfc29e19115ceb8d7f1f6e8ce31cd",
+    "bytes": 4896,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-ssb"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-ssi.woff2",
+    "sha256": "b6dfb310dd7b5c059e9b748b4766fcdd6fa0005c17d9229f3bb1bd095acfae1a",
+    "bytes": 8472,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-ssi"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-v.woff2",
+    "sha256": "bd9d7db0883dc1adca7ed1c20042609e4e3d1f07f106b6bc8eeeab49d560393b",
+    "bytes": 6716,
+    "name_records": {
+      "0": [
+        "Copyright (c) 2022, MathJax, Inc. (&lt;www.mathjax.org&gt;)"
+      ],
+      "1": [
+        "mjx-tex-v"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font/chtml/woff2/mjx-tex-zero.woff2",
+    "sha256": "2c146f72c9a345aa282398a752d03af71d83a011f3d067297b533a31f0c5f5cb",
+    "bytes": 960,
+    "name_records": {
+      "0": [
+        " ",
+        "Copyright (c) 2009-2010 Design Science, Inc."
+      ],
+      "1": [
+        "mjx-tex-zero"
+      ],
+      "5": [
+        "1.0.0"
+      ],
+      "7": [
+        "Please refer to the Copyright section for the font trademark attribution notices."
+      ],
+      "8": [
+        " "
+      ],
+      "9": [
+        " "
+      ],
+      "11": [
+        " "
+      ],
+      "13": [
+        " ",
+        "Copyright (c) 2009-2010, Design Science, Inc. (<www.mathjax.org>),\nwith Reserved Font Name MathJax_Main.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.\nThis license available with a FAQ at:\nhttp://scripts.sil.org/OFL"
+      ],
+      "14": [
+        " ",
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "extended_metadata": null
+  }
+]

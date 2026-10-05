@@ -1,0 +1,8 @@
+{
+  "name": "waline-pinned-build-tools",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "pnpm": "12.6.0"
+  }
+}

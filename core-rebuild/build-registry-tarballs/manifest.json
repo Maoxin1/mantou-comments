@@ -1,0 +1,434 @@
+[
+  {
+    "name": "@esbuild/linux-x64",
+    "version": "0.27.0",
+    "integrity": "sha512-1hBWx4OUJE2cab++aVZ7pObD6s+DK4mPGpemtnAORBvb5l/g5xFGk0vc0PjSkrDs0XaXj9yyob3d14XqvnQ4gw==",
+    "url": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.27.0.tgz",
+    "filename": "esbuild-linux-x64-0.27.0.tgz",
+    "sha256": "b400ff0437cfe819bbc0f1aee1d265940e3ecebbcb29da7c47466c799dc9696b",
+    "bytes": 4645866
+  },
+  {
+    "name": "@oxc-project/types",
+    "version": "0.151.0",
+    "integrity": "sha512-J1yXrIlNDZVzE3ada310xeAw7nH8yCAyLPuUIsjKatFPmfn5bS1oW+cM+QsGOtVWd5nhSpbwZWx/rue+r5Z+PA==",
+    "url": "https://registry.npmjs.org/@oxc-project/types/-/types-0.151.0.tgz",
+    "filename": "oxc-project-types-0.151.0.tgz",
+    "sha256": "cf133aa60661a5716ab1659227718807d188fb86b152e9d4cdd1a1eb5e1e028f",
+    "bytes": 7677
+  },
+  {
+    "name": "@pkgr/core",
+    "version": "0.3.6",
+    "integrity": "sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==",
+    "url": "https://registry.npmjs.org/@pkgr/core/-/core-0.3.6.tgz",
+    "filename": "pkgr-core-0.3.6.tgz",
+    "sha256": "e2e38238b7d1fb836f2fb59adb1aae9d82eefdbbd1285d5798d41df7f475e5e3",
+    "bytes": 3769
+  },
+  {
+    "name": "@pnpm/exe.linux-x64",
+    "version": "12.6.0",
+    "integrity": "sha512-qFWBneHJAJ73W4whtbaFOL1M/7DBC6ILHXuxc7ZPtEhfPuT1zeZiGrmKHoMAfJA+mcm6xhOFljqVTUS+00Jabw==",
+    "url": "https://registry.npmjs.org/@pnpm/exe.linux-x64/-/exe.linux-x64-12.6.0.tgz",
+    "filename": "pnpm-exe.linux-x64-12.6.0.tgz",
+    "sha256": "2b5f62986b14f2891fb78e5b554e60e38f25987217fed578f0303bbfda5e124a",
+    "bytes": 24702322
+  },
+  {
+    "name": "@publint/pack",
+    "version": "0.1.7",
+    "integrity": "sha512-4EDEmvxWtgsCnnVeBvtFIFZtUhPPt1+bA9JrSwU4Sa//6oKtzCSlGGXYJr44OD9aGISymbieJ4mCKHUygUDU+g==",
+    "url": "https://registry.npmjs.org/@publint/pack/-/pack-0.1.7.tgz",
+    "filename": "publint-pack-0.1.7.tgz",
+    "sha256": "a83634a43aa1a34cbf644297f83581372452eda183994e04d000cec30d27cd5f",
+    "bytes": 7615
+  },
+  {
+    "name": "@quansync/fs",
+    "version": "1.1.0",
+    "integrity": "sha512-qAPG/t3HqML1TlN7sY/pTbEjzFVAKsMjNNMGheyDosro+kT4iw2KCUoHcVdmliwWjorm4elZbgNQyU2eD97eDg==",
+    "url": "https://registry.npmjs.org/@quansync/fs/-/fs-1.1.0.tgz",
+    "filename": "quansync-fs-1.1.0.tgz",
+    "sha256": "b42e8610d6452858e02ed0a8cc625daad161d1d4af02441a93b9f6d421d7d74a",
+    "bytes": 3389
+  },
+  {
+    "name": "@rolldown/binding-linux-x64-gnu",
+    "version": "1.2.11",
+    "integrity": "sha512-mOVBT3dPpkWm8XBWPmU4bf+U6dYDLeMo/9ojUmis4N0L5uu10qra5vOyngZ7/PSdoE4G9KvRt4bloRxNjLas7A==",
+    "url": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.11.tgz",
+    "filename": "rolldown-binding-linux-x64-gnu-1.2.11.tgz",
+    "sha256": "49f6e843133f72f3c286741fce027d36e0caac6f9f17512634318c93e3adba7a",
+    "bytes": 7940801
+  },
+  {
+    "name": "@rolldown/pluginutils",
+    "version": "1.0.1",
+    "integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+    "url": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+    "filename": "rolldown-pluginutils-1.0.1.tgz",
+    "sha256": "13fcb3423d37f95a8e861c172e4b62fd24f22412be4e942087367242476e3400",
+    "bytes": 6681
+  },
+  {
+    "name": "@typescript/typescript-linux-x64",
+    "version": "7.0.2",
+    "integrity": "sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==",
+    "url": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz",
+    "filename": "typescript-typescript-linux-x64-7.0.2.tgz",
+    "sha256": "7ecad6f67377e831856367ab062ef394f21506a611405bf8ac0ff039348637d3",
+    "bytes": 9669334
+  },
+  {
+    "name": "@yuku-codegen/binding-linux-x64-gnu",
+    "version": "0.10.2",
+    "integrity": "sha512-mVzWimEPPreaPyXIUvxsHoJzvO7ckZ5j0LgQFHz04zQIRwt9A9T2hA7K5/jYjJKkMxWG/U2VjhGNwVhtyU+uqg==",
+    "url": "https://registry.npmjs.org/@yuku-codegen/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.10.2.tgz",
+    "filename": "yuku-codegen-binding-linux-x64-gnu-0.10.2.tgz",
+    "sha256": "6f7928fb2ac11aad776b29e285cf3501452d111b87288579a06637c176c7dba5",
+    "bytes": 105577
+  },
+  {
+    "name": "@yuku-parser/binding-linux-x64-gnu",
+    "version": "0.10.2",
+    "integrity": "sha512-/nlcpR6IF5U+0m5L9wvAIXeQa2DT+BXuvqKDsTcOTlcc0B4dHNyqE5hTXsS4hAyimpy2ZK8A1zMNF5hTrjg2cg==",
+    "url": "https://registry.npmjs.org/@yuku-parser/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.10.2.tgz",
+    "filename": "yuku-parser-binding-linux-x64-gnu-0.10.2.tgz",
+    "sha256": "317010cbcf235a865d7fe386f9d35e605325e079d41ea8b4ec2a338acf4e853a",
+    "bytes": 352784
+  },
+  {
+    "name": "@yuku-toolchain/types",
+    "version": "0.10.2",
+    "integrity": "sha512-sSeo4SSSToiS+sSD+bwn/s94EEcaLJ7tG5LCp8gFYC1G5VzxzX7fqB6m9RU1yMD8KTpu6zdU/I1NlQf8hVBJ9Q==",
+    "url": "https://registry.npmjs.org/@yuku-toolchain/types/-/types-0.10.2.tgz",
+    "filename": "yuku-toolchain-types-0.10.2.tgz",
+    "sha256": "dc69c6764857eee4dde8d10bfa031d96a59251f8e4399d28cd3b67d5e76afada",
+    "bytes": 11068
+  },
+  {
+    "name": "cac",
+    "version": "7.0.0",
+    "integrity": "sha512-tixWYgm5ZoOD+3g6UTea91eow5z6AAHaho3g0V9CNSNb45gM8SmflpAc+GRd1InC4AqN/07Unrgp56Y94N9hJQ==",
+    "url": "https://registry.npmjs.org/cac/-/cac-7.0.0.tgz",
+    "filename": "cac-7.0.0.tgz",
+    "sha256": "fe0657b71db6eeef12010d16c9b0850ad984efe695b7c100977a9238c8fa3bf0",
+    "bytes": 13177
+  },
+  {
+    "name": "defu",
+    "version": "6.1.7",
+    "integrity": "sha512-7z22QmUWiQ/2d0KkdYmANbRUVABpZ9SNYyH5vx6PZ+nE5bcC0l7uFvEfHlyld/HcGBFTL536ClDt3DEcSlEJAQ==",
+    "url": "https://registry.npmjs.org/defu/-/defu-6.1.7.tgz",
+    "filename": "defu-6.1.7.tgz",
+    "sha256": "c9a6777f6837633e4eba91ed78dbd0be2d27ab0d9c53948dac6b927c819fbcd3",
+    "bytes": 4897
+  },
+  {
+    "name": "dts-resolver",
+    "version": "3.0.0",
+    "integrity": "sha512-1T1f+z+4tl9XD+m+0HBgWoL/nm0bOIffyWaUuUSBlFg/86IWvfx+wjNaO/ybU0AJzG9/Mi5hBUgGV6zCmWEN7Q==",
+    "url": "https://registry.npmjs.org/dts-resolver/-/dts-resolver-3.0.0.tgz",
+    "filename": "dts-resolver-3.0.0.tgz",
+    "sha256": "365fcea095e942a48f3a05680433f2822a3bfe7fec5225590cde700d9a734cd4",
+    "bytes": 2942
+  },
+  {
+    "name": "empathic",
+    "version": "2.1.0",
+    "integrity": "sha512-AnfC1ATldl49/cvZdLPDjBfrRNwbDO05aibiOtzQu3qtlbJtomNLhF30HEtn/7iBz50dlMECqATo3fG0LrdEgw==",
+    "url": "https://registry.npmjs.org/empathic/-/empathic-2.1.0.tgz",
+    "filename": "empathic-2.1.0.tgz",
+    "sha256": "8f2f5d2aba4ca39b4bf16ee4a07380c2b4c1b01eb5273d471417cd2b96decffa",
+    "bytes": 5482
+  },
+  {
+    "name": "esbuild",
+    "version": "0.27.0",
+    "integrity": "sha512-jd0f4NHbD6cALCyGElNpGAOtWxSq46l9X/sWB0Nzd5er4Kz2YTm+Vl0qKFT9KUJvD8+fiO8AvoHhFvEatfVixA==",
+    "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.27.0.tgz",
+    "filename": "esbuild-0.27.0.tgz",
+    "sha256": "468755cfdfeba6df7d7d7a5d63058616e919eaa14295661627b19bc14bf94e12",
+    "bytes": 30946
+  },
+  {
+    "name": "fdir",
+    "version": "6.5.0",
+    "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+    "url": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+    "filename": "fdir-6.5.0.tgz",
+    "sha256": "241ddcd9f31e2a1fca405326017dbb8333ce174198e887f0f96387c29f0d365e",
+    "bytes": 9742
+  },
+  {
+    "name": "get-tsconfig",
+    "version": "4.14.3",
+    "integrity": "sha512-++QEw4DIY7WGoukz+/+A/8dGYPT9l9yIadnmSgZ8Rjr3YVSVDipQSO9CdnJo9ePqFqUUqh+wk9uIaoiAwsiPkA==",
+    "url": "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.3.tgz",
+    "filename": "get-tsconfig-4.14.3.tgz",
+    "sha256": "6cb95a663ba4c9df1c3c193542795dd4ab290b1fb01c26b1794255d110c30716",
+    "bytes": 49036
+  },
+  {
+    "name": "get-tsconfig",
+    "version": "5.0.0-beta.6",
+    "integrity": "sha512-X6fBC0pmImC70gvX2zm56go9hx0MyoGVdG0tUCkg/D+Xnh5TJsOZ7iDbOdI3PvmtrDxnu1YdDufpK2QJX1Meqw==",
+    "url": "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-5.0.0-beta.6.tgz",
+    "filename": "get-tsconfig-5.0.0-beta.6.tgz",
+    "sha256": "d7a390a678fb8bbf1fc8524f7b54154a94f28c3013f7443ee2081e9ea6ae99bf",
+    "bytes": 34520
+  },
+  {
+    "name": "hookable",
+    "version": "6.1.2",
+    "integrity": "sha512-+abwxtiEA52GCVIsQqut3S/uKTbUwYIp4Pe/vv+6py5XiXBCqMZHg6pA6Y5qhgLSEys0/cYuPbO0z1QFj5ZCmg==",
+    "url": "https://registry.npmjs.org/hookable/-/hookable-6.1.2.tgz",
+    "filename": "hookable-6.1.2.tgz",
+    "sha256": "24cad484d81ea7ccc280f6796a95b2f0ce2789243414dc54d5397b6324497e14",
+    "bytes": 7654
+  },
+  {
+    "name": "import-without-cache",
+    "version": "0.4.1",
+    "integrity": "sha512-vXoV9PjKHEednCUu01e98TkImxy67e3BJXbTIOmIq4Hyzw3IAwYRcuPkfeTzJzwyyts4kjuA73x+pWJLc4f86A==",
+    "url": "https://registry.npmjs.org/import-without-cache/-/import-without-cache-0.4.1.tgz",
+    "filename": "import-without-cache-0.4.1.tgz",
+    "sha256": "21d6428e245824c1987fff12309765e3f515e601d5146626655cc741ebfc580b",
+    "bytes": 3384
+  },
+  {
+    "name": "mri",
+    "version": "1.2.0",
+    "integrity": "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==",
+    "url": "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz",
+    "filename": "mri-1.2.0.tgz",
+    "sha256": "9e383990963c167baa471cc928a02eb1768ee2ffabf8117082a09b5213f9a575",
+    "bytes": 4448
+  },
+  {
+    "name": "obug",
+    "version": "2.2.1",
+    "integrity": "sha512-XrsrhT5sybtKI6wakr2SPOlGZWWYbUXZ7a0jT8/QOeAPau+1X/bSegNe5YR75oJmEZQbKningirmGOEJCIk61Q==",
+    "url": "https://registry.npmjs.org/obug/-/obug-2.2.1.tgz",
+    "filename": "obug-2.2.1.tgz",
+    "sha256": "cbf042980f79918d07c46817fe18ed0db6a8e55893dd7347b7cad71e3e5f65a7",
+    "bytes": 10816
+  },
+  {
+    "name": "obug",
+    "version": "3.0.0",
+    "integrity": "sha512-5vvB5+W7ePv+p3uqxi+RcW1XAzLW0/hxt3/4X4Lc4qHudzOhmBiBwOY6DRob4WnanAEGvNcLjF+KNOufrUoEQw==",
+    "url": "https://registry.npmjs.org/obug/-/obug-3.0.0.tgz",
+    "filename": "obug-3.0.0.tgz",
+    "sha256": "ecfec0c0318c048b6abde3c42f3a1c3fc35b3f69392a4b262b848aab76ff3d11",
+    "bytes": 9311
+  },
+  {
+    "name": "package-manager-detector",
+    "version": "1.8.0",
+    "integrity": "sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==",
+    "url": "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-1.8.0.tgz",
+    "filename": "package-manager-detector-1.8.0.tgz",
+    "sha256": "fcf82d09555ad9ed291500b5c358c81e2a1860946b5b85e32477cbe31a59a6b1",
+    "bytes": 7930
+  },
+  {
+    "name": "picocolors",
+    "version": "1.1.1",
+    "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+    "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+    "filename": "picocolors-1.1.1.tgz",
+    "sha256": "d3aedb2807967b7eb37fd11b03b7e3701e725af79c650d0812ff7213f8f882d9",
+    "bytes": 2625
+  },
+  {
+    "name": "picomatch",
+    "version": "4.0.7",
+    "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+    "url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+    "filename": "picomatch-4.0.7.tgz",
+    "sha256": "697b463be3cdbd9ffc8f4194fd5019a69ddf95875fb703d78b2b115cc9e740a8",
+    "bytes": 24326
+  },
+  {
+    "name": "pnpm",
+    "version": "12.6.0",
+    "integrity": "sha512-PvaPlRyxEawgS0paFvCy3fDaVqluBBPoHYVdnwtV75JnFHCQKOHNAMQFwsX7e56OxNxGd3yAXQNzwvL/AP0g7A==",
+    "url": "https://registry.npmjs.org/pnpm/-/pnpm-12.6.0.tgz",
+    "filename": "pnpm-12.6.0.tgz",
+    "sha256": "05b7b921fbb31564505c967eabf825895a1cc18f50935c00be98815272cc9d56",
+    "bytes": 996484
+  },
+  {
+    "name": "publint",
+    "version": "0.3.24",
+    "integrity": "sha512-9zS56KrKBoqi5Qt8h92uMP8TTM9AYZSgnmCo4u2priMqkOZvQnTsziZ2p5LJ2ywbYkAjoCDp2jda9u4cgFefIw==",
+    "url": "https://registry.npmjs.org/publint/-/publint-0.3.24.tgz",
+    "filename": "publint-0.3.24.tgz",
+    "sha256": "83ad64151c95c63a4347635bbe6b67719fc105a053c9cedf7b785d896719e7c0",
+    "bytes": 31507
+  },
+  {
+    "name": "quansync",
+    "version": "1.0.0",
+    "integrity": "sha512-5xZacEEufv3HSTPQuchrvV6soaiACMFnq1H8wkVioctoH3TRha9Sz66lOxRwPK/qZj7HPiSveih9yAyh98gvqA==",
+    "url": "https://registry.npmjs.org/quansync/-/quansync-1.0.0.tgz",
+    "filename": "quansync-1.0.0.tgz",
+    "sha256": "79ff9faf2d1e62ce5fe30b70cbe5718e1bd6a69777f10d0a65a0d209c6da201a",
+    "bytes": 5071
+  },
+  {
+    "name": "resolve-pkg-maps",
+    "version": "1.0.0",
+    "integrity": "sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==",
+    "url": "https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz",
+    "filename": "resolve-pkg-maps-1.0.0.tgz",
+    "sha256": "4a7cbdb7054b1dd6e466067129be9577b495ff69d02064913e1723405db0df76",
+    "bytes": 5194
+  },
+  {
+    "name": "rolldown-plugin-dts",
+    "version": "0.28.6",
+    "integrity": "sha512-qKrFtBfRfR2hP233m7Ic9zf3wv6MSYdZghWKMdEO6dRYZGlNfINJAa1P5ZVvyHh3mrcd7IJQvIY8L9vnm+v5rQ==",
+    "url": "https://registry.npmjs.org/rolldown-plugin-dts/-/rolldown-plugin-dts-0.28.6.tgz",
+    "filename": "rolldown-plugin-dts-0.28.6.tgz",
+    "sha256": "8f288795bba6633b1e6e7f09aaf02dfcd7f49ebecdd113c90b920956c60f50d2",
+    "bytes": 30277
+  },
+  {
+    "name": "rolldown",
+    "version": "1.2.11",
+    "integrity": "sha512-qpSwIyz0jHQq5qXBTNxFmE6664rJ7O+4TvPFOiOaBSrz8IOHc1koKKSqTM2H6u1UG1+TveuC6vaDHKXFOvb1Kw==",
+    "url": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.11.tgz",
+    "filename": "rolldown-1.2.11.tgz",
+    "sha256": "3acd96aab699f4936c223ebe60a52882a22aaa7dba22393f97b30729dd26516b",
+    "bytes": 198125
+  },
+  {
+    "name": "sade",
+    "version": "1.8.1",
+    "integrity": "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==",
+    "url": "https://registry.npmjs.org/sade/-/sade-1.8.1.tgz",
+    "filename": "sade-1.8.1.tgz",
+    "sha256": "73dfd051a36ea90daf95c811ba503bb5230b24f86afbe755c254736dad5d045e",
+    "bytes": 10449
+  },
+  {
+    "name": "synckit",
+    "version": "0.11.13",
+    "integrity": "sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==",
+    "url": "https://registry.npmjs.org/synckit/-/synckit-0.11.13.tgz",
+    "filename": "synckit-0.11.13.tgz",
+    "sha256": "3e3ee301e44d9bea17a29dd936f9162bd9a5fd5ef8743466d5375cc3265fa96e",
+    "bytes": 25114
+  },
+  {
+    "name": "tinyexec",
+    "version": "1.3.1",
+    "integrity": "sha512-GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==",
+    "url": "https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz",
+    "filename": "tinyexec-1.3.1.tgz",
+    "sha256": "540b804f39c7716c232252085e4d43d9b10e2d89db39faaa1b31ed8cd93e2f1f",
+    "bytes": 9187
+  },
+  {
+    "name": "tinyglobby",
+    "version": "0.2.17",
+    "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+    "url": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+    "filename": "tinyglobby-0.2.17.tgz",
+    "sha256": "afb4afae9175f8b873ac13e1d21cea0997a0bcb40c3598613a834490058cb562",
+    "bytes": 7873
+  },
+  {
+    "name": "tree-kill",
+    "version": "1.2.2",
+    "integrity": "sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==",
+    "url": "https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz",
+    "filename": "tree-kill-1.2.2.tgz",
+    "sha256": "4a188633a6c3f39f12dca8b38bd682081e499459f6f07f362996d3e860e66061",
+    "bytes": 3243
+  },
+  {
+    "name": "tsdown",
+    "version": "0.23.0",
+    "integrity": "sha512-BaT+ep1xnj5hdyICLd5r5SYYE+TXnI1ATePLykv9vcKpHpFTWUWRH+x1AF/E2qcu3YB6+vI8IdyxIIIffEqw5Q==",
+    "url": "https://registry.npmjs.org/tsdown/-/tsdown-0.23.0.tgz",
+    "filename": "tsdown-0.23.0.tgz",
+    "sha256": "5b6ae24a627699db9563dcb34fd11d48bec7b33afde61bf8f241cc3560a71d40",
+    "bytes": 55654
+  },
+  {
+    "name": "tsx",
+    "version": "4.21.0",
+    "integrity": "sha512-5C1sg4USs1lfG0GFb2RLXsdpXqBSEhAaA/0kPL01wxzpMqLILNxIxIOKiILz+cdg/pLnOUxFYOR5yhHU666wbw==",
+    "url": "https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz",
+    "filename": "tsx-4.21.0.tgz",
+    "sha256": "d403b8208816de76eddbbe5642bfefbbfe7c8c2109fa886e3710e0a1907f33a5",
+    "bytes": 154267
+  },
+  {
+    "name": "typescript",
+    "version": "7.0.2",
+    "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+    "url": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+    "filename": "typescript-7.0.2.tgz",
+    "sha256": "da2513f4b95176d6dde8b51aab7afe8a927656c9d277369793f77f7e59371c08",
+    "bytes": 365612
+  },
+  {
+    "name": "unconfig-core",
+    "version": "7.5.0",
+    "integrity": "sha512-Su3FauozOGP44ZmKdHy2oE6LPjk51M/TRRjHv2HNCWiDvfvCoxC2lno6jevMA91MYAdCdwP05QnWdWpSbncX/w==",
+    "url": "https://registry.npmjs.org/unconfig-core/-/unconfig-core-7.5.0.tgz",
+    "filename": "unconfig-core-7.5.0.tgz",
+    "sha256": "94d4ba5f47188808fa160eede68e0b39deb0fa82bd40db9fd2bdc233f915eed8",
+    "bytes": 2583
+  },
+  {
+    "name": "unrun",
+    "version": "0.3.1",
+    "integrity": "sha512-onIck/oNnCaytwths1ZVp1LK2Gq2hPoyFhiHebObuUXqR3S0uHuLLaBK8K6mRRgV7Ptip8AnNvaUsgzwWwBZuA==",
+    "url": "https://registry.npmjs.org/unrun/-/unrun-0.3.1.tgz",
+    "filename": "unrun-0.3.1.tgz",
+    "sha256": "70946ecacb715b1c19436933f310575ba9290f454ce41ba7d49568abe3387115",
+    "bytes": 13271
+  },
+  {
+    "name": "verkit",
+    "version": "0.4.1",
+    "integrity": "sha512-mMVzj0TXExtVdlDEq+Mzp0eyOuyznNpFobNM3uAqe3HVm/Ps2c+u17BligMkZjZCA6EiXpoon8iRTer3iu40SQ==",
+    "url": "https://registry.npmjs.org/verkit/-/verkit-0.4.1.tgz",
+    "filename": "verkit-0.4.1.tgz",
+    "sha256": "7e365ef868c537996dc19b54244466cbb29b5045406ab152fa96faf1803ab26c",
+    "bytes": 18435
+  },
+  {
+    "name": "yuku-ast",
+    "version": "0.10.2",
+    "integrity": "sha512-UnG9mA6giglCvSErft2/40TVFX750Sj1xgwddPLpG7J7rlr/P1wPADg9G2RK+d/1tNLtRVoLdMMOMVBB9561TQ==",
+    "url": "https://registry.npmjs.org/yuku-ast/-/yuku-ast-0.10.2.tgz",
+    "filename": "yuku-ast-0.10.2.tgz",
+    "sha256": "0528e544ae88e649cae185a73a0a3149de8d5de281223525c0ebb50694da52c4",
+    "bytes": 17375
+  },
+  {
+    "name": "yuku-codegen",
+    "version": "0.10.2",
+    "integrity": "sha512-hentl2dtrF6cPjiAirtkfxfFZBA6Hdm61UqRJ7cA0qrlDNMk9PZGOjw5w1mx3E0hu/6pHcJF4dJW+D0SXHPZOA==",
+    "url": "https://registry.npmjs.org/yuku-codegen/-/yuku-codegen-0.10.2.tgz",
+    "filename": "yuku-codegen-0.10.2.tgz",
+    "sha256": "f4ea9116966244be684a5450006ad9252a8d759c823458f833885c6522991918",
+    "bytes": 16098
+  },
+  {
+    "name": "yuku-parser",
+    "version": "0.10.2",
+    "integrity": "sha512-CgaU0/PPjCAIEZ3WQroosOxTY3eeKldAN3h+vk8pMNz4+jl1CZzBR4pW+K/rRPF112VooCL5FdjJoiMNjDrL2A==",
+    "url": "https://registry.npmjs.org/yuku-parser/-/yuku-parser-0.10.2.tgz",
+    "filename": "yuku-parser-0.10.2.tgz",
+    "sha256": "d5ac3f95579595bc2981f57b5eed227177cc40f8e8ae2cd89ffbe364bdd4b6ac",
+    "bytes": 15871
+  }
+]

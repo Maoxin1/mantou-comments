@@ -1,0 +1,4033 @@
+[
+  {
+    "path": "node_modules/@asamuzakjp/dom-selector",
+    "name": "@asamuzakjp/dom-selector",
+    "version": "9.2.4",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/asamuzaK/domSelector.git"
+    },
+    "homepage": "https://github.com/asamuzaK/domSelector#readme",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "bench": "node --expose-gc benchmark/bench.js",
+      "bench:cache": "node --expose-gc benchmark/bench-cache.js",
+      "bench:nwsapi": "node --expose-gc benchmark/bench-nwsapi.js",
+      "bench:ps-form": "node --expose-gc benchmark/bench-default.js && node --expose-gc benchmark/bench-indeterminate.js && node --expose-gc benchmark/bench-valid-invalid.js",
+      "bench:ps-has": "node --expose-gc benchmark/bench-has.js",
+      "bench:ps-nth": "node --expose-gc benchmark/bench-nth-child.js && node --expose-gc benchmark/bench-nth-of-type.js",
+      "bench:ps-traverse": "node --expose-gc benchmark/bench-dir.js && node --expose-gc benchmark/bench-lang.js",
+      "bench:tl": "node --expose-gc benchmark/bench-testing-library.js",
+      "bench:universal": "node --expose-gc benchmark/bench-universal.js",
+      "build": "npm run tsc && npm run lint && npm test",
+      "lint": "eslint --fix .",
+      "test": "c8 --reporter=text mocha --exit test/**/*.test.js",
+      "test:wpt": "node test/wpt/wpt-runner.js",
+      "tsc": "node scripts/index clean --dir=types -i && npx tsc",
+      "update:wpt": "git submodule update --init --recursive --remote"
+    },
+    "resolved": "https://registry.npmjs.org/@asamuzakjp/dom-selector/-/dom-selector-9.2.4.tgz",
+    "integrity": "sha512-YnVzxDxLaqL0t7Q4wfcgHZjg55Wm6y5EaO7Bhu3q9J7wq/8iw3PhsnWiOQhYekx4VexnbkgWpTT6n+QIV7kczw==",
+    "package_json_sha256": "87548a412f3f5d9be79386f2117b70bf17168e0752819603690475c841b1228c",
+    "file_count_excluding_nested_node_modules": 33,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "package.json",
+      "src",
+      "types"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "7cdf9db3b91cc77b9ec947ad0c7126140f00e34528b67c3a58e9fc1a98055e14",
+        "bytes": 1093
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@bramus/specificity",
+    "name": "@bramus/specificity",
+    "version": "2.4.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bramus/specificity.git"
+    },
+    "homepage": "https://github.com/bramus/specificity#readme",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "scripts": {
+      "build-esm": "esbuild --bundle ./src/index.js --outfile=./dist/index.js --format=esm --sourcemap --minify",
+      "build-cjs": "esbuild --bundle ./src/index.js --outfile=./dist/index.cjs --format=cjs --sourcemap --minify",
+      "lint": "prettier --check '{src,test}/**/*.{ts,tsx,js,jsx}'",
+      "format": "prettier --write '{src,test}/**/*.{ts,tsx,js,jsx}'",
+      "build": "npm run build-esm && npm run build-cjs",
+      "prepack": "npm run prevent-dirty-tree && npm run test",
+      "prepublish": "npm run build",
+      "pretest": "npm run build",
+      "test": "mocha",
+      "prebenchmark": "npm run build",
+      "benchmark": "node ./benchmark/bench.cjs",
+      "beta-version-patch": "npm version $(semver $npm_package_version -i prerelease --preid beta)",
+      "beta-version-minor": "npm version $(semver $npm_package_version -i preminor --preid beta)",
+      "beta-version-major": "npm version $(semver $npm_package_version -i premajor --preid beta)",
+      "rc-version": "npm version $(semver $npm_package_version -i prerelease --preid rc)",
+      "final-release": "npm version $(semver $npm_package_version -i)",
+      "preversion": "npm run prevent-dirty-tree && npm run test",
+      "prevent-dirty-tree": "exit $(git status --porcelain | wc -l)"
+    },
+    "resolved": "https://registry.npmjs.org/@bramus/specificity/-/specificity-2.4.2.tgz",
+    "integrity": "sha512-ctxtJ/eA+t+6q2++vj5j7FYX3nRu311q1wfYH3xjlLOsczhlhxAg2FWNUXhpGvAw3BWo1xBcvOV6/YLc2r5FJw==",
+    "package_json_sha256": "af91f169ed7e5f9f3fdd1f3e775ae50092fe9204e51e368dfe9561acb92d9678",
+    "file_count_excluding_nested_node_modules": 16,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "bin",
+      "dist",
+      "index.d.ts",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "ae842a63dd9bc829c95a2ec22dda25a08e422a368b71dbca67a45cde7c4a4b81",
+        "bytes": 1083
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@csstools/color-helpers",
+    "name": "@csstools/color-helpers",
+    "version": "6.1.2",
+    "installed": true,
+    "declared_license": "MIT-0",
+    "legacy_licenses": null,
+    "lock_license": "MIT-0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "directory": "packages/color-helpers"
+    },
+    "homepage": "https://github.com/csstools/postcss-plugins/tree/main/packages/color-helpers#readme",
+    "main": null,
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/@csstools/color-helpers/-/color-helpers-6.1.2.tgz",
+    "integrity": "sha512-grhRy3OKmniaAEKXMjua5z/EODX0MSqBGjunw8+j/3HQjOnahs2AGhvEOIYVUWcU6ScApbhLhVrQTX8XqrMrow==",
+    "package_json_sha256": "d2728c35a2a2c476361c44bf50b29c6f6851ec599c5a68727cb095525435379b",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+        "bytes": 930
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@csstools/css-calc",
+    "name": "@csstools/css-calc",
+    "version": "3.4.3",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "directory": "packages/css-calc"
+    },
+    "homepage": "https://github.com/csstools/postcss-plugins/tree/main/packages/css-calc#readme",
+    "main": null,
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/@csstools/css-calc/-/css-calc-3.4.3.tgz",
+    "integrity": "sha512-iex20d8CHVkyvg6B7UKV7uHnI2Bqo9g+EFfT9E0y+GvTvhZ/DwONJ+9aKb1dlqm0ZiGsL5RXjp0fCoJYnkeDjA==",
+    "package_json_sha256": "e5e9bd6d2db488831e6839df231dc5addbbc85bf0ed3ec3f33a436d62e080072",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "bytes": 1111
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@csstools/css-color-parser",
+    "name": "@csstools/css-color-parser",
+    "version": "4.2.6",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "directory": "packages/css-color-parser"
+    },
+    "homepage": "https://github.com/csstools/postcss-plugins/tree/main/packages/css-color-parser#readme",
+    "main": null,
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/@csstools/css-color-parser/-/css-color-parser-4.2.6.tgz",
+    "integrity": "sha512-iiPQ3iRWwnJkeEn6RIu6SJPr7hYrLz6XZ9s/QZl+2/LI5KQVjpl2fdmDSZKuD4xP6GMmMPgHFFXg6k1Wkz0Trg==",
+    "package_json_sha256": "8b341647ec1177b3a699bf92c863331a9948f9d609342a488fe5f99e144f4b1c",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "bytes": 1111
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@csstools/css-parser-algorithms",
+    "name": "@csstools/css-parser-algorithms",
+    "version": "4.0.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "directory": "packages/css-parser-algorithms"
+    },
+    "homepage": "https://github.com/csstools/postcss-plugins/tree/main/packages/css-parser-algorithms#readme",
+    "main": null,
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.2.tgz",
+    "integrity": "sha512-40cSKyMvK+tq4qz6Awrlye2WGuOKt3FwPgtGg6KTfbHOWNw+Rk1rzbAtZnZ6IBhsY491HLRnDXwoyBAijmmILA==",
+    "package_json_sha256": "0dc6485eb3dedfd39b1e341d43f5b5768cd4cfeaba0428f95905ccf67127a26d",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "bytes": 1111
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@csstools/css-syntax-patches-for-csstree",
+    "name": "@csstools/css-syntax-patches-for-csstree",
+    "version": "1.1.15",
+    "installed": true,
+    "declared_license": "MIT-0",
+    "legacy_licenses": null,
+    "lock_license": "MIT-0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "directory": "packages/css-syntax-patches-for-csstree"
+    },
+    "homepage": "https://github.com/csstools/postcss-plugins/tree/main/packages/css-syntax-patches-for-csstree#readme",
+    "main": "dist/index.json",
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.15.tgz",
+    "integrity": "sha512-J0u7HkVl2nzSlhsiTOp4AmwcUQ3D+mGEEKfBy/7To5/y7F2OHwyLrXfrhR0SMgr4p5Lo+eaMVSeai24zUcBIxA==",
+    "package_json_sha256": "2daafd7d5af42ec0eb1512d33edc84a2b667a132921722ad621ef56fc13a9bc7",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "947e32047a166cd05f04e45938d172b412c07cbee0b9735afd14bae30e02c2f6",
+        "bytes": 930
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@csstools/css-tokenizer",
+    "name": "@csstools/css-tokenizer",
+    "version": "4.0.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csstools/postcss-plugins.git",
+      "directory": "packages/css-tokenizer"
+    },
+    "homepage": "https://github.com/csstools/postcss-plugins/tree/main/packages/css-tokenizer#readme",
+    "main": null,
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/@csstools/css-tokenizer/-/css-tokenizer-4.0.2.tgz",
+    "integrity": "sha512-OoKoR0f76dCY666JlcbhmVTs2drYj1GUXZTYTcbUgJjh9Nv41aFfZ21bPQTERm5+L5cBDo466NltB2lplS5GBw==",
+    "package_json_sha256": "0b65e9c0944ae5d0e71e97d99a847977dc9afe65fb2cf852871420cff7abdb8f",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "d00d032f517721b45c56c70c46bf904ebb71ad313df4d4db7722266b38069665",
+        "bytes": 1111
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@fast-csv/format",
+    "name": "@fast-csv/format",
+    "version": "5.0.7",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/C2FO/fast-csv.git",
+      "directory": "packages/format"
+    },
+    "homepage": "https://c2fo.github.io/fast-csv/docs/formatting/getting-started/",
+    "main": "build/src/index.js",
+    "module": null,
+    "scripts": {
+      "prepublishOnly": "npm run build",
+      "build": "npm run clean && npm run compile",
+      "clean": "rm -rf ./build && rm -rf tsconfig.tsbuildinfo",
+      "compile": "tsc"
+    },
+    "resolved": "https://registry.npmjs.org/@fast-csv/format/-/format-5.0.7.tgz",
+    "integrity": "sha512-VdypoRxv7PF+LsyPouTMKdB0d76hync+gLpgdNqfqVK44MsgW4oiCJSdrki2FisWT7v2QGUYDHjp4L7w5oO6gw==",
+    "package_json_sha256": "347c564d69ae199fc2d55ce5725a60a2243c8974f78f9af2ee6420b17ca60707",
+    "file_count_excluding_nested_node_modules": 24,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "build",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "df14384aeb006f9c9471508fb9a954da47669d05be8b06e29a0200e4fd03f50d",
+        "bytes": 1069
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@fast-csv/parse",
+    "name": "@fast-csv/parse",
+    "version": "5.0.7",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/C2FO/fast-csv.git",
+      "directory": "packages/parse"
+    },
+    "homepage": "https://c2fo.github.io/fast-csv/docs/parsing/getting-started",
+    "main": "build/src/index.js",
+    "module": null,
+    "scripts": {
+      "prepublishOnly": "npm run build",
+      "build": "npm run clean && npm run compile",
+      "clean": "rm -rf ./build && rm -rf tsconfig.tsbuildinfo",
+      "compile": "tsc"
+    },
+    "resolved": "https://registry.npmjs.org/@fast-csv/parse/-/parse-5.0.7.tgz",
+    "integrity": "sha512-MeuDeQj0DVmIGWky8STaKtvj232Gpq8kjrOGplHJ99Os7OO5CetVfXvUGqX/3GHYFOUsz6FK8isWtDY2XTFNWw==",
+    "package_json_sha256": "ffee1f05370372deeb4164eae34a7c7da547c71321c8a720b6acfc974de8d88f",
+    "file_count_excluding_nested_node_modules": 54,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "build",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "df14384aeb006f9c9471508fb9a954da47669d05be8b06e29a0200e4fd03f50d",
+        "bytes": 1069
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-newcm-font",
+    "name": "@mathjax/mathjax-newcm-font",
+    "version": "4.1.3",
+    "installed": true,
+    "declared_license": "Apache-2.0",
+    "legacy_licenses": null,
+    "lock_license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mathjax/MathJax-fonts.git"
+    },
+    "homepage": null,
+    "main": null,
+    "module": null,
+    "scripts": {
+      "=============================================================================== log": "",
+      "log:msg": "log() { echo \\\\033[32m\\\\xE2\\\\x96\\\\xB6 $1\\\\033[0m; }; log",
+      "log:header": "log() { echo \\\\033[34m=============; echo $1; echo =============\\\\033[0m; }; log",
+      "=============================================================================== clean": "",
+      "bin:rm": "node --no-warnings ../bin/rm.js",
+      "clear:dirs": "clear() { pnpm bin:rm ts/* def/*.js build $1 $2 $3 $4; }; clear",
+      "clear:tables": "clear() { pnpm -s log:msg \"Clearing $1 table directory\"; pnpm -s bin:rm tables-$1; }; clear",
+      "clear:mod": "clear() { pnpm -s log:msg \"Clearing $1 directories\"; pnpm -s clear:dirs $1 $2 $3 $4; }; clear",
+      "clean:cjs": " pnpm -s clear:mod cjs bundle-cjs",
+      "clean:mjs": " pnpm -s clear:mod mjs chtml svg *.js",
+      "======================================================================== def": "",
+      "def:compile": "pnpm log:msg 'Compiling font definition'; tsc -p tsconfig/def.json",
+      "def:run": "pnpm -s log:msg 'Processing font definition'; node def/mathjax-newcm.js",
+      "======================================================================== compile": "",
+      "compile:def": "def() { pnpm clean:$1 && pnpm def:compile && pnpm -s def:run $1; }; def",
+      "compile:tsc": "cmp() { pnpm log:msg \"Compiling $1 typescript files\"; tsc -p tsconfig/$1.json; }; cmp",
+      "compile:all": "all() { pnpm compile:def $1 && pnpm compile:tsc $1; }; all",
+      "mjs:compile": "pnpm -s compile:all mjs && pnpm -s mjs:package",
+      "mjs:package": "pnpm log:msg 'Creating package.json'; echo '{\n  \"type\": \"module\"\n}' > mjs/package.json",
+      "cjs:compile": "pnpm -s compile:all cjs && pnpm -s cjs:package",
+      "cjs:package": "pnpm log:msg 'Creating package.json'; echo '{\n  \"type\": \"commonjs\"\n}' > cjs/package.json",
+      "======================================================================== make": "",
+      "make:one": "one() { pnpm log:msg \"Building $1\"; echo; node ../node_modules/@mathjax/src/components/bin/makeAll --$2 $3 $4 build/$1; }; one",
+      "make:font": "font() { pnpm -- make:one chtml $1 $2 $3 && pnpm -- make:one svg $1 $2 $3; }; font",
+      "cjs:make-font": "pnpm -s log:msg 'Making cjs font'; pnpm -s -- make:font cjs --bundle-cjs",
+      "mjs:make-font": "pnpm -s log:msg 'Making mjs font'; pnpm -s -- make:font mjs",
+      "======================================================================== combine": "",
+      "combine:cmp": "cmp() { pnpm -- make:one tex-mml-$1-mathjax-newcm $2 $3; }; cmp",
+      "combine:one": "one() { pnpm -- make:one $1 $2 --build && pnpm -- combine:cmp $1 $2 $3; }; one",
+      "combine:all": "combine() { pnpm -- combine:one chtml $1 $2 $3 && pnpm -- combine:one svg $1 $2 $3; }; combine",
+      "cjs:combine": "pnpm -s -- combine:all cjs --bundle-cjs",
+      "mjs:combine": "pnpm -s -- combine:all mjs",
+      "======================================================================== build": "",
+      "build:cmp": "cmp() { pnpm $2:compile && echo && pnpm make:one $1 $2 $3 $4; }; cmp",
+      "build:one": "one() { pnpm make:one $1 $2 && pnpm make-one tex-mml-$1-mathjax-newcm $2; }; one",
+      "build:all": "build() { pnpm $1:compile && echo && pnpm build:one chtml $1 && pnpm build:one svg $1; }; build",
+      "cjs:build": "pnpm -s log:header 'Building cjs'; pnpm -s cjs:compile",
+      "mjs:build": "pnpm -s log:header 'Building mjs'; pnpm -s build:all mjs",
+      "======================================================================== tables": "",
+      "table": "table() { pnpm -s clear:tables $1 && pnpm -s log:msg \"Creating $1 tables\" && node ../bin/makeTables.js $1 mathjax-newcm; }; table",
+      "tables": "pnpm -s table svg && pnpm -s table chtml",
+      "======================================================================== aliases": "",
+      "clean": "pnpm -s clean:cjs; pnpm -s clean:mjs",
+      "compile": "cmp() { pnpm -s ${1:-mjs}:compile; }; cmp",
+      "make-one": "make() { pnpm -s make:one $1 ${2:-mjs}; }; make",
+      "make-font": "make() { pnpm -s ${1:-mjs}:make-font; }; make",
+      "combine": "cmb() { pnpm -s ${1:-mjs}:combine; }; cmb",
+      "build-one": "bld() { pnpm -- build:cmp $1 ${2:-mjs}; }; bld",
+      "build": "bld() { pnpm -s ${1:-mjs}:build; }; bld",
+      "build-all": "pnpm -s cjs:build && echo && pnpm -s mjs:build"
+    },
+    "resolved": "https://registry.npmjs.org/@mathjax/mathjax-newcm-font/-/mathjax-newcm-font-4.1.3.tgz",
+    "integrity": "sha512-gzAB3dFHilHX1l5x2xUqRL+1jDQt3Fyza1DkEMVXWC4E8SvsGdlgEza47HYi2WhVcgfkvf4zgUGzuhbq3Pjlew==",
+    "package_json_sha256": "b6fd3b04fb134b062950f1af6eb9f0fffc08e48c044f109f25775afa8ffc87ed",
+    "file_count_excluding_nested_node_modules": 1124,
+    "top_level_entries": [
+      "chtml",
+      "chtml.js",
+      "cjs",
+      "def",
+      "examples",
+      "mjs",
+      "package.json",
+      "svg",
+      "svg.js",
+      "tex-mml-chtml-mathjax-newcm.js",
+      "tex-mml-svg-mathjax-newcm.js",
+      "tsconfig",
+      "tsconfig.json"
+    ],
+    "editable_typescript_count": 1,
+    "editable_typescript_samples": [
+      "def/mathjax-newcm.ts"
+    ],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mathjax/mathjax-tex-font",
+    "name": "@mathjax/mathjax-tex-font",
+    "version": "4.1.3",
+    "installed": true,
+    "declared_license": "Apache-2.0",
+    "legacy_licenses": null,
+    "lock_license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mathjax/MathJax-fonts.git"
+    },
+    "homepage": null,
+    "main": null,
+    "module": null,
+    "scripts": {
+      "=============================================================================== log": "",
+      "log:msg": "log() { echo \\\\033[32m\\\\xE2\\\\x96\\\\xB6 $1\\\\033[0m; }; log",
+      "log:header": "log() { echo \\\\033[34m=============; echo $1; echo =============\\\\033[0m; }; log",
+      "=============================================================================== clean": "",
+      "bin:rm": "node --no-warnings ../bin/rm.js",
+      "clear:dirs": "clear() { pnpm bin:rm ts/* def/*.js build $1 $2 $3 $4; }; clear",
+      "clear:tables": "clear() { pnpm -s log:msg \"Clearing $1 table directory\"; pnpm -s bin:rm tables-$1; }; clear",
+      "clear:mod": "clear() { pnpm -s log:msg \"Clearing $1 directories\"; pnpm -s clear:dirs $1 $2 $3 $4; }; clear",
+      "clean:cjs": " pnpm -s clear:mod cjs bundle-cjs",
+      "clean:mjs": " pnpm -s clear:mod mjs chtml svg *.js",
+      "======================================================================== def": "",
+      "def:compile": "pnpm log:msg 'Compiling font definition'; tsc -p tsconfig/def.json",
+      "def:run": "pnpm -s log:msg 'Processing font definition'; node def/mathjax-tex.js",
+      "======================================================================== compile": "",
+      "compile:def": "def() { pnpm clean:$1 && pnpm def:compile && pnpm -s def:run $1; }; def",
+      "compile:tsc": "cmp() { pnpm log:msg \"Compiling $1 typescript files\"; tsc -p tsconfig/$1.json; }; cmp",
+      "compile:all": "all() { pnpm compile:def $1 && pnpm compile:tsc $1; }; all",
+      "mjs:compile": "pnpm -s compile:all mjs && pnpm -s mjs:package",
+      "mjs:package": "pnpm log:msg 'Creating package.json'; echo '{\n  \"type\": \"module\"\n}' > mjs/package.json",
+      "cjs:compile": "pnpm -s compile:all cjs && pnpm -s cjs:package",
+      "cjs:package": "pnpm log:msg 'Creating package.json'; echo '{\n  \"type\": \"commonjs\"\n}' > cjs/package.json",
+      "======================================================================== make": "",
+      "make:one": "one() { pnpm log:msg \"Building $1\"; echo; node ../node_modules/@mathjax/src/components/bin/makeAll --$2 $3 $4 build/$1; }; one",
+      "make:font": "font() { pnpm -- make:one chtml $1 $2 $3 && pnpm -- make:one svg $1 $2 $3; }; font",
+      "cjs:make-font": "pnpm -s log:msg 'Making cjs font'; pnpm -s -- make:font cjs --bundle-cjs",
+      "mjs:make-font": "pnpm -s log:msg 'Making mjs font'; pnpm -s -- make:font mjs",
+      "======================================================================== combine": "",
+      "combine:cmp": "cmp() { pnpm -- make:one tex-mml-$1-mathjax-tex $2 $3; }; cmp",
+      "combine:one": "one() { pnpm -- make:one $1 $2 --build && pnpm -- combine:cmp $1 $2 $3; }; one",
+      "combine:all": "combine() { pnpm -- combine:one chtml $1 $2 $3 && pnpm -- combine:one svg $1 $2 $3; }; combine",
+      "cjs:combine": "pnpm -s -- combine:all cjs --bundle-cjs",
+      "mjs:combine": "pnpm -s -- combine:all mjs",
+      "======================================================================== build": "",
+      "build:cmp": "cmp() { pnpm $2:compile && echo && pnpm make:one $1 $2 $3 $4; }; cmp",
+      "build:one": "one() { pnpm make:one $1 $2 && pnpm make-one tex-mml-$1-mathjax-tex $2; }; one",
+      "build:all": "build() { pnpm $1:compile && echo && pnpm build:one chtml $1 && pnpm build:one svg $1; }; build",
+      "cjs:build": "pnpm -s log:header 'Building cjs'; pnpm -s cjs:compile",
+      "mjs:build": "pnpm -s log:header 'Building mjs'; pnpm -s build:all mjs",
+      "======================================================================== tables": "",
+      "table": "table() { pnpm -s clear:tables $1 && pnpm -s log:msg \"Creating $1 tables\" && node ../bin/makeTables.js $1 mathjax-tex; }; table",
+      "tables": "pnpm -s table svg && pnpm -s table chtml",
+      "======================================================================== aliases": "",
+      "clean": "pnpm -s clean:cjs; pnpm -s clean:mjs",
+      "compile": "cmp() { pnpm -s ${1:-mjs}:compile; }; cmp",
+      "make-one": "make() { pnpm -s make:one $1 ${2:-mjs}; }; make",
+      "make-font": "make() { pnpm -s ${1:-mjs}:make-font; }; make",
+      "combine": "cmb() { pnpm -s ${1:-mjs}:combine; }; cmb",
+      "build-one": "bld() { pnpm -- build:cmp $1 ${2:-mjs}; }; bld",
+      "build": "bld() { pnpm -s ${1:-mjs}:build; }; bld",
+      "build-all": "pnpm -s cjs:build && echo && pnpm -s mjs:build"
+    },
+    "resolved": "https://registry.npmjs.org/@mathjax/mathjax-tex-font/-/mathjax-tex-font-4.1.3.tgz",
+    "integrity": "sha512-9B78brBEmmAwyumaREIyM1gF2HgDamDIXA36UyeXWxX7XrpLdmoSB5NLIf/c6tEA4L6xNrIdMxfgY6YX/kcSNw==",
+    "package_json_sha256": "86d89ab67ecdf67f642b0fc5fc249e7fcdf26ea6531ee8fa3eaba9a0378000a3",
+    "file_count_excluding_nested_node_modules": 325,
+    "top_level_entries": [
+      "chtml",
+      "chtml.js",
+      "cjs",
+      "def",
+      "examples",
+      "mjs",
+      "package.json",
+      "svg.js",
+      "tex-mml-chtml-mathjax-tex.js",
+      "tex-mml-svg-mathjax-tex.js",
+      "tsconfig",
+      "tsconfig.json"
+    ],
+    "editable_typescript_count": 1,
+    "editable_typescript_samples": [
+      "def/mathjax-tex.ts"
+    ],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mathjax/src",
+    "name": "@mathjax/src",
+    "version": "4.1.3",
+    "installed": true,
+    "declared_license": "Apache-2.0",
+    "legacy_licenses": null,
+    "lock_license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mathjax/Mathjax-src"
+    },
+    "homepage": null,
+    "main": "components/mjs/node-main/node-main.js",
+    "module": null,
+    "scripts": {
+      "=============================================================================== code hygene": "",
+      "lint": "check() { eslint ${1:-ts/}; }; check",
+      "lint:fix": "fix() { eslint --fix ${1:-ts/}; }; fix",
+      "format": "check() { prettier --check ${1:-\"ts/**/*.{ts,tsx}\"}; }; check",
+      "format:fix": "fix() { prettier --write ${1:-\"ts/**/*.{ts,tsx}\"}; }; fix",
+      "=============================================================================== clean": "",
+      "clean:dir": "clean() { pnpm -s log:single \"Cleaning $1 directory\"; pnpm rimraf $1; }; clean",
+      "clean:lib": "clean() { pnpm -s log:single \"Cleaning $1 component libs\"; pnpm rimraf -g components/$1'/**/lib'; }; clean",
+      "clean:mod": "clean() { pnpm -s log:comp \"Cleaning $1 module\"; pnpm -s clean:dir $1 && pnpm -s clean:lib $1; }; clean",
+      "=============================================================================== copy": "",
+      "copy:assets": "pnpm -s log:comp 'Copying assets'; copy() { pnpm -s copy:mj2 $1 && pnpm -s copy:mml3 $1 && pnpm -s copy:html $1; }; copy",
+      "copy:html": "copy() { pnpm -s log:single 'Copying sre auxiliary files'; pnpm copyfiles -u 1 'ts/a11y/sre/*.html' 'ts/a11y/sre/require.*' $1; }; copy",
+      "copy:mj2": "copy() { pnpm -s log:single 'Copying legacy code AsciiMath'; pnpm copyfiles -u 1 'ts/input/asciimath/legacy/**/*' $1; }; copy",
+      "copy:mml3": "copy() { pnpm -s log:single 'Copying legacy code MathML3'; pnpm copyfiles -u 1 ts/input/mathml/mml3/mml3.sef.json $1; }; copy",
+      "copy:pkg": "copy() { pnpm -s log:single \"Copying package.json to $1\"; pnpm copyfiles -u 2 components/bin/package.json $1; }; copy",
+      "=============================================================================== log": "",
+      "log:comp": "log() { echo \u001b[32m$1\u001b[0m; }; log",
+      "log:header": "log() { echo '\u001b[1m============='; echo $1; echo '=============\u001b[0m'; }; log",
+      "log:single": "log() { echo \u001b[94m--$1\u001b[0m; }; log",
+      "=============================================================================== cjs": "",
+      "cjs:build": "pnpm -s log:header 'Building cjs'; pnpm -s cjs:src:build && pnpm -s cjs:components:build",
+      "cjs:bundle:clean": "pnpm clean:dir bundle-cjs",
+      "cjs:bundle:finalize": "pnpm -s log:single 'Finalize cjs bundle'; echo '{\n  \"type\": \"commonjs\"\n}' > bundle-cjs/package.json;",
+      "cjs:compile": "pnpm -s cjs:copy:components && pnpm -s cjs:copy:ts && pnpm -s cjs:compile:tsc",
+      "cjs:compile:tsc": "pnpm -s log:single 'Compiling cjs typescript files' && pnpm tsc --project tsconfig/worker-cjs.json && pnpm tsc --project tsconfig/cjs.json",
+      "cjs:components:build": "pnpm -s log:comp 'Building cjs components'; pnpm -s cjs:components:src:build && pnpm clean:dir bundle-cjs && pnpm -s cjs:components:make --build",
+      "cjs:components:clean": "pnpm -s log:single \"Cleaning cjs components\"; pnpm rimraf components/cjs",
+      "cjs:components:compile": "pnpm -s log:single 'Compiling component files'; pnpm tsc --project tsconfig/components.json",
+      "cjs:components:copy": "pnpm copyfiles -u 2 -e 'components/mjs/**/*.js' 'components/mjs/**/*' components/cjs",
+      "cjs:components:finalize": "pnpm -s log:comp 'Finalize cjs components'; pnpm -s cjs:components:copy && pnpm -s copy:pkg components/cjs && pnpm -s clean:lib cjs",
+      "cjs:components:make": "make() { pnpm -s log:single 'Making cjs components'; node components/bin/makeAll --cjs --terse --bundle-cjs $1 components/cjs; }; make",
+      "cjs:components:src:build": "pnpm -s log:comp 'Building cjs components sources'; pnpm cjs:components:clean && pnpm cjs:components:compile && pnpm cjs:components:finalize",
+      "cjs:src:build": "pnpm -s log:comp 'Building cjs sources'; pnpm -s link:src && pnpm clean:dir cjs && pnpm -s cjs:compile && pnpm -s copy:assets cjs && pnpm -s copy:pkg cjs",
+      "cjs:copy:components": "pnpm -s log:single 'Moving cjs files from components' && pnpm copyfiles -u 2 'components/mjs/**/*.cjs' 'components/mjs/**/*.d.cts' components/cjs",
+      "cjs:copy:ts": "pnpm -s log:single 'Moving cjs files from ts' && pnpm copyfiles -u 1 'ts/**/*.cjs' cjs",
+      "=============================================================================== mjs": "",
+      "mjs:build": "pnpm -s log:header 'Building mjs'; pnpm -s mjs:src:build && pnpm -s mjs:components:build",
+      "mjs:bundle:finalize": "pnpm -s log:single 'Finalize mjs bundle'; echo '{\n  \"type\": \"commonjs\"\n}' > bundle/package.json;",
+      "mjs:compile": "pnpm -s log:single 'Compiling mjs typescript files'; pnpm tsc --project tsconfig/mjs.json && pnpm tsc --project tsconfig/worker.json",
+      "mjs:components:build": "pnpm -s log:comp 'Compiling mjs component files'; pnpm clean:lib mjs && pnpm clean:dir bundle && pnpm mjs:components:make && pnpm mjs:bundle:finalize",
+      "mjs:components:make": "pnpm -s log:single 'Making mjs components'; node components/bin/makeAll --mjs --terse components/mjs",
+      "mjs:src:build": "pnpm -s log:comp 'Building mjs sources'; pnpm -s link:src && pnpm -s clean:dir mjs && pnpm -s mjs:compile && pnpm -s copy:assets mjs",
+      "=============================================================================== mml3": "",
+      "mml3:make:xslt": "pnpm xslt3 -t -xsl:/tmp/mml3.xsl -export:ts/input/mathml/mml3/mml3.sef.json -nogo",
+      "mml3:post:xslt": "pnpm rimraf /tmp/mml3.xsl",
+      "mml3:pre:xslt": "grep '^\\s*\\(<\\|or\\|xmlns\\|excl\\|\">\\)' ts/input/mathml/mml3/mml3.ts > /tmp/mml3.xsl",
+      "mml3-xslt": "pnpm -s mml3:pre:xslt && pnpm -s mml3:make:xslt && pnpm -s mml3:post:xslt",
+      "=============================================================================== misc": "",
+      "lab:sre": "pnpm -s log:single 'Making lab/sre'; node components/bin/makeAll --terse lab/build",
+      "link:src": "pnpm -s log:single 'Setting symbolic link'; node components/bin/link-full",
+      "use-cjs": "echo '{\n  \"extends\": \"./tsconfig/cjs.json\"\n}' > tsconfig.json",
+      "use-mjs": "echo '{\n  \"extends\": \"./tsconfig/mjs.json\"\n}' > tsconfig.json",
+      "=============================================================================== aliases": "",
+      "test": "cd testsuite && pnpm -s test --verbose",
+      "test:gh": "cd testsuite && pnpm -s test --silent",
+      "clean": "pnpm -s clean:mod cjs && pnpm -s cjs:bundle:clean && pnpm -s clean:mod mjs && pnpm -s clean:dir bundle",
+      "compile-cjs": "pnpm -s cjs:compile",
+      "compile-mjs": "pnpm -s mjs:compile",
+      "build-cjs": "pnpm -s cjs:build",
+      "build-mjs": "pnpm -s mjs:build",
+      "make-cjs-components": "pnpm -s cjs:components:make && pnpm -s cjs:bundle:finalize",
+      "make-mjs-components": "pnpm -s mjs:components:make",
+      "make-one": "make() { node components/bin/makeAll --no-subdirs $3 $4 --${2:-mjs} components/${2-:mjs}/$1; }; make",
+      "make-components": "pnpm -s make-mjs-components",
+      "compile": "pnpm -s compile-mjs",
+      "build": "pnpm -s build-mjs",
+      "build-all": "pnpm -s build-mjs ; echo ; pnpm -s build-cjs"
+    },
+    "resolved": "https://registry.npmjs.org/@mathjax/src/-/src-4.1.3.tgz",
+    "integrity": "sha512-rIrWquuBSoJuoMBdC/1qD+AUHTorlccPicoVy6P2xbUgnuDBpCcpbHtOAsB8L3hdCHtNBg92lF8e3Fz+pkcQbw==",
+    "package_json_sha256": "385eb710405477cfbc7760becdc8acd26cacc563519f3e7f9f185769299401d3",
+    "file_count_excluding_nested_node_modules": 4287,
+    "top_level_entries": [
+      "CONTRIBUTING.md",
+      "LICENSE",
+      "README.md",
+      "bundle",
+      "cjs",
+      "components",
+      "mjs",
+      "package.json",
+      "ts",
+      "tsconfig",
+      "tsconfig.json"
+    ],
+    "editable_typescript_count": 396,
+    "editable_typescript_samples": [
+      "ts/mathjax.ts",
+      "ts/util/StyleJson.ts",
+      "ts/util/numeric.ts",
+      "ts/util/Styles.ts",
+      "ts/util/context.ts",
+      "ts/util/lengths.ts",
+      "ts/util/Retries.ts",
+      "ts/util/Entities.ts",
+      "ts/util/BitField.ts",
+      "ts/util/FunctionList.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/helper",
+    "name": "@mdit/helper",
+    "version": "1.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/helper"
+    },
+    "homepage": "https://mdit-plugins.github.io/",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/helper/-/helper-1.1.2.tgz",
+    "integrity": "sha512-xZywQ7aXrmkRCuGvFXguXVKeiQ7kHCxPkjtR+nK/n31YiSPPi/Rmb/ll+CYt0LdyeXR0Y1I16da7gxDT4/VXWg==",
+    "package_json_sha256": "917f4f8d716173fd7747038e73d22ad490b412c8ffe61e6a375ecbd444f68ec4",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "dbce1df8ee5bd72544721386ec2a0e55ab7b5ab2167b2ef3e1a807b51f503a16",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-emoji",
+    "name": "@mdit/plugin-emoji",
+    "version": "1.2.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-emoji"
+    },
+    "homepage": "https://github.com/mdit-plugins/mdit-plugins",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist",
+      "update-emoji": "node  --use-env-proxy --experimental-strip-types scripts/update.ts"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-emoji/-/plugin-emoji-1.2.2.tgz",
+    "integrity": "sha512-U+ASgI5ZxDrCtVjLb2FyI2RGlamstOH9rAYB8HgezU4jKNGdtIUW4Re1wL5NrKzPPvSN6i6OdNzT+srSIG3e8g==",
+    "package_json_sha256": "c939feb3ade5dd8285f7c06c82ae1a7b15adf3b9dfa1f01ad106373aa8cdfb22",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "6361cfe5b2cdee8005b450786b96b09fe4194ab151b81cdf09ede664a85135e7",
+        "bytes": 1120
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-inline-rule",
+    "name": "@mdit/plugin-inline-rule",
+    "version": "2.2.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-inline-rule"
+    },
+    "homepage": "https://mdit-plugins.github.io/inline-rule.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-inline-rule/-/plugin-inline-rule-2.2.2.tgz",
+    "integrity": "sha512-FQFiXeWjZCgolJ/3OPZfL7ycsWtEQIUoEXzin+j+rDgeer7lMp3ixBhYF7ye50zkKDIZi+wR/VMJ8dXlUQaXSQ==",
+    "package_json_sha256": "22a8ab3f7a6679cb958efcd09f0f03bc7da647be95b3b5681262de76dc05e181",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "064bc64e8647a52e96cd677f5eefa5cc33c50d5ad0a57c6a09af63ee9ed116df",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-katex",
+    "name": "@mdit/plugin-katex",
+    "version": "1.1.3",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-katex"
+    },
+    "homepage": "https://mdit-plugins.github.io/katex.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-katex/-/plugin-katex-1.1.3.tgz",
+    "integrity": "sha512-Y6A+X/tMhzHYr01N1IYGKV5zOTXCYUtbAVTOdkDID3NEW1W3hcCJKuFMcuE9SgDc/8CLUCuZwfhJpvhhaulqmw==",
+    "package_json_sha256": "3892674a3dac9a7aec6871ba666539e9b612ea9d6438d35431896d1870a585e4",
+    "file_count_excluding_nested_node_modules": 10,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "064bc64e8647a52e96cd677f5eefa5cc33c50d5ad0a57c6a09af63ee9ed116df",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-mathjax",
+    "name": "@mdit/plugin-mathjax",
+    "version": "1.2.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-mathjax"
+    },
+    "homepage": "https://mdit-plugins.github.io/mathjax.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-mathjax/-/plugin-mathjax-1.2.2.tgz",
+    "integrity": "sha512-rLy+BH1VOTzAcJlo/k2DdPYBRdxDu0ofZfVA65VswzLJD7HZH7vXKZ4ab8fUfI67qJKt/Q2mjQNPTnJ+GAfO/Q==",
+    "package_json_sha256": "adc0b3a7c040c6a7130ab76100822bdde75d1a85f2916435783f6798887149e8",
+    "file_count_excluding_nested_node_modules": 9,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "8b0b04396771e4773d03d2b07ecc54bc3efd42cb82d105b4c88988dadb58e2ca",
+        "bytes": 1118
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-spoiler",
+    "name": "@mdit/plugin-spoiler",
+    "version": "2.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-spoiler"
+    },
+    "homepage": "https://mdit-plugins.github.io/spoiler.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-spoiler/-/plugin-spoiler-2.1.2.tgz",
+    "integrity": "sha512-HE/+35N+m+uzCe2c9L7D3R/NGDk8UxbobgJaKOj8hC4vtPGCEDY5Kmhml+xuXcI1vkh/bMI8dPVfbL5r7lUKew==",
+    "package_json_sha256": "814d51f24adeb6e962f7d6b15d294e4971667d246920bba95643c94064c05e68",
+    "file_count_excluding_nested_node_modules": 9,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json",
+      "spoiler.css"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "064bc64e8647a52e96cd677f5eefa5cc33c50d5ad0a57c6a09af63ee9ed116df",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-sub",
+    "name": "@mdit/plugin-sub",
+    "version": "1.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-sub"
+    },
+    "homepage": "https://mdit-plugins.github.io/sub.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-sub/-/plugin-sub-1.1.2.tgz",
+    "integrity": "sha512-2aN/VzTRL7tSzJ2PO4PHRe0ODDJFHRo3uYAvOv9onZeUtAq7PeN2ySRXhc6tmg4HHdO8xjHQiwa7llZ7bqVNzQ==",
+    "package_json_sha256": "c09907a048ce4c621dd27544ac7f694e00221106c593c9556406b1872bca9182",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "064bc64e8647a52e96cd677f5eefa5cc33c50d5ad0a57c6a09af63ee9ed116df",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-sup",
+    "name": "@mdit/plugin-sup",
+    "version": "1.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-sup"
+    },
+    "homepage": "https://mdit-plugins.github.io/sup.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-sup/-/plugin-sup-1.1.2.tgz",
+    "integrity": "sha512-GMqWN5s783jjTSEmd06Ep3IRlY6F4umAp4hvNe7L95XD2Uy1BZrHiC94Dcd6BmGSQjEEO44hw4CMPIC3xrd9sg==",
+    "package_json_sha256": "debd6284ac5c1b7328455a994b6f4258e1f6ba459cf14fff0828188ddf6109d2",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "064bc64e8647a52e96cd677f5eefa5cc33c50d5ad0a57c6a09af63ee9ed116df",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/@mdit/plugin-tex",
+    "name": "@mdit/plugin-tex",
+    "version": "1.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdit-plugins/mdit-plugins.git",
+      "directory": "packages/plugin-tex"
+    },
+    "homepage": "https://mdit-plugins.github.io/tex.html",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "build": "tsdown",
+      "clean": "rimraf ./dist"
+    },
+    "resolved": "https://registry.npmjs.org/@mdit/plugin-tex/-/plugin-tex-1.1.2.tgz",
+    "integrity": "sha512-J6boAvyxJzzu87+3mR81YpEqeVBylbA1UKy90lJYSrUPK2jxiN78eC50amP2KhGq83LixcpCFLElATYYW14clw==",
+    "package_json_sha256": "98b10f280d638d4dc4a5e889e2464fdffd8e19009ec9311be4765fb5b8c962e2",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "8b0b04396771e4773d03d2b07ecc54bc3efd42cb82d105b4c88988dadb58e2ca",
+        "bytes": 1118
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/base32.js",
+    "name": "base32.js",
+    "version": "0.0.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mikepb/base32.js.git"
+    },
+    "homepage": null,
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "test": "mocha --reporter dot",
+      "karma": "karma start --single-run",
+      "dist": "webpack base32.js dist/base32.js && webpack --optimize-minimize base32.js dist/base32.min.js",
+      "doc": "jsdoc -c jsdoc.json"
+    },
+    "resolved": "https://registry.npmjs.org/base32.js/-/base32.js-0.0.1.tgz",
+    "integrity": "sha512-EGHIRiegFa62/SsA1J+Xs2tIzludPdzM064N9wjbiEgHnGnJ1V0WEpA4pEwCYT5nDvZk3ubf0shqaCS7k6xeUQ==",
+    "package_json_sha256": "1dc4d941587618a9e34c8b572b4ef91112a2f542a479a6d74aeb4d7a1f642fc0",
+    "file_count_excluding_nested_node_modules": 12,
+    "top_level_entries": [
+      ".npmignore",
+      "HISTORY.md",
+      "README.md",
+      "base32.js",
+      "dist",
+      "index.js",
+      "jsdoc.json",
+      "karma.conf.js",
+      "package.json",
+      "test",
+      "webpack.config.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/bidi-js",
+    "name": "bidi-js",
+    "version": "1.1.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lojjic/bidi-js.git"
+    },
+    "homepage": null,
+    "main": "dist/bidi.js",
+    "module": "dist/bidi.mjs",
+    "scripts": {
+      "build": "rollup -c rollup.config.js",
+      "test": "npx babel-node --plugins @babel/plugin-transform-modules-commonjs test/runTestsOnSrc.js",
+      "test-build": "node test/runTestsOnBuild.js"
+    },
+    "resolved": "https://registry.npmjs.org/bidi-js/-/bidi-js-1.1.0.tgz",
+    "integrity": "sha512-fX1Onk0tdVPC7obPWB5EbJ1z7NVhLq4m2xZLq2YXBkxzMXIGRpNMU88n0EPgWseKl12J7zXs7qrDxPK4sRs2fg==",
+    "package_json_sha256": "975c91119792da92bb7bb99e822cffcae2459ae8a2cca391c3f8696502be2041",
+    "file_count_excluding_nested_node_modules": 18,
+    "top_level_entries": [
+      "LICENSE.txt",
+      "README.md",
+      "dist",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+        "bytes": 1071
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/co",
+    "name": "co",
+    "version": "4.6.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "tj/co",
+    "homepage": null,
+    "main": null,
+    "module": null,
+    "scripts": {
+      "test": "mocha --harmony",
+      "test-cov": "node --harmony node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter dot",
+      "test-travis": "node --harmony node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --reporter dot",
+      "prepublish": "npm run browserify",
+      "browserify": "browserify index.js -o ./co-browser.js -s co"
+    },
+    "resolved": "https://registry.npmjs.org/co/-/co-4.6.0.tgz",
+    "integrity": "sha512-QVb0dM5HvG+uaxitm8wONl7jltx8dqhfU33DcqtOZcLSVIKSDDLDi7+0LbAKiyI8hD9u42m2YxXSkMGWThaecQ==",
+    "package_json_sha256": "1b9e8a17b4f62937c7f475df3b2d6d412ffefc677b44a41b829a7464754de606",
+    "file_count_excluding_nested_node_modules": 5,
+    "top_level_entries": [
+      "History.md",
+      "LICENSE",
+      "Readme.md",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "29f4d474804f60aae177d7fed67d0d613d00006640cc9cf80077eef03fb9a2cc",
+        "bytes": 1104
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/css-tree",
+    "name": "css-tree",
+    "version": "3.2.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "csstree/csstree",
+    "homepage": null,
+    "main": "./cjs/index.cjs",
+    "module": "./lib/index.js",
+    "scripts": {
+      "watch": "npm run build -- --watch",
+      "build": "npm run bundle && npm run esm-to-cjs --",
+      "build-and-test": "npm run build && npm run test:dist && npm run test:cjs",
+      "bundle": "node scripts/bundle",
+      "bundle-and-test": "npm run bundle && npm run test:dist",
+      "esm-to-cjs": "node scripts/esm-to-cjs.cjs",
+      "esm-to-cjs-and-test": "npm run esm-to-cjs && npm run test:cjs",
+      "lint": "eslint lib scripts && node scripts/review-syntax-patch --lint && node scripts/update-docs --lint",
+      "lint-and-test": "npm run lint && npm test",
+      "update:docs": "node scripts/update-docs",
+      "review:syntax-patch": "node scripts/review-syntax-patch",
+      "test": "mocha lib/__tests --require lib/__tests/helpers/setup.js --reporter progress",
+      "test:cjs": "mocha cjs/__tests --require lib/__tests/helpers/setup.js --reporter progress",
+      "test:dist": "mocha dist/__tests --reporter progress",
+      "coverage": "c8 --exclude lib/__tests --reporter=lcovonly npm test",
+      "prepublishOnly": "npm run lint-and-test && npm run build-and-test"
+    },
+    "resolved": "https://registry.npmjs.org/css-tree/-/css-tree-3.2.1.tgz",
+    "integrity": "sha512-X7sjQzceUhu1u7Y/ylrRZFU2FS6LRiFVp6rKLPg23y3x3c3DOKAwuXGDp+PAGjh6CSnCjYeAul8pcT8bAl+lSA==",
+    "package_json_sha256": "bd734f2de92e7a254bd05970fa83b30f8be9ed73e33577065a1529e59843cfd4",
+    "file_count_excluding_nested_node_modules": 278,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "cjs",
+      "data",
+      "dist",
+      "lib",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "719a251ceca49c057ea90a1152af6546b767ec88e6d573bb6324454267b32c22",
+        "bytes": 1065
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/detect-europe-js",
+    "name": "detect-europe-js",
+    "version": "0.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/faisalman/detect-europe-js.git"
+    },
+    "homepage": "https://github.com/faisalman/detect-europe-js#readme",
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "build:cjs": "tsc --module commonjs --outDir ./dist/cjs --target es5",
+      "build:esm": "tsc --module esnext --outDir ./dist/esm --target es6 && echo '{\"type\":\"module\"}' > ./dist/esm/package.json",
+      "build": "npm run build:cjs && npm run build:esm",
+      "build+test": "npm run build && npm run test",
+      "test": "playwright test"
+    },
+    "resolved": "https://registry.npmjs.org/detect-europe-js/-/detect-europe-js-0.1.2.tgz",
+    "integrity": "sha512-lgdERlL3u0aUdHocoouzT10d9I89VVhk0qNRmll7mXdGfJT1/wqZ2ZLA4oJAjeACPY5fT1wsbq2AT+GkuInsow==",
+    "package_json_sha256": "850a69cb50cb5570e8b0766f0120b3f65c0c82c856d22f453b3d49b56f11d7b4",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "480baec60a0d9583f13592e1ef5c9ebe17ec2d86c75ac30e9c4072f84281d885",
+        "bytes": 1070
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/dompurify",
+    "name": "dompurify",
+    "version": "3.4.16",
+    "installed": true,
+    "declared_license": "(MPL-2.0 OR Apache-2.0)",
+    "legacy_licenses": null,
+    "lock_license": "(MPL-2.0 OR Apache-2.0)",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/cure53/DOMPurify.git"
+    },
+    "homepage": "https://github.com/cure53/DOMPurify",
+    "main": "./dist/purify.cjs.js",
+    "module": "./dist/purify.es.mjs",
+    "scripts": {
+      "prepare": "husky",
+      "lint": "xo src/*.ts",
+      "format": "npm run format:js && npm run format:md",
+      "format:md": "prettier --write --parser markdown '**/*.md'",
+      "format:js": "prettier --write '{src,demos,scripts,test,website}/*.{js,ts}'",
+      "commit-amend-build": "scripts/commit-amend-build.sh",
+      "prebuild": "rimraf dist",
+      "dev": "cross-env NODE_ENV=development DOMPURIFY_BUILD_TARGET=umd rolldown -w -c config/rolldown.config.js",
+      "build": "npm run build:types && npm run build:rolldown && npm run build:fix-types && npm run build:cleanup",
+      "build:types": "tsc -p config/tsconfig.json --outDir dist/types --declaration --emitDeclarationOnly",
+      "build:rolldown": "rolldown -c config/rolldown.config.js",
+      "build:fix-types": "node ./scripts/fix-types.js",
+      "build:umd": "cross-env DOMPURIFY_BUILD_TARGET=umd rolldown -c config/rolldown.config.js",
+      "build:umd:min": "cross-env DOMPURIFY_BUILD_TARGET=umd-min rolldown -c config/rolldown.config.js",
+      "build:es": "cross-env DOMPURIFY_BUILD_TARGET=es rolldown -c config/rolldown.config.js",
+      "build:cjs": "cross-env DOMPURIFY_BUILD_TARGET=cjs rolldown -c config/rolldown.config.js",
+      "build:cov": "rolldown -c config/rolldown.coverage.config.js",
+      "build:cleanup": "rimraf dist/types",
+      "bench": "node scripts/benchmark.js",
+      "test": "cross-env NODE_ENV=test npm run lint && npm run test:jsdom && npm run test:browser -- --project=chromium",
+      "test:jsdom": "cross-env NODE_ENV=test node test/jsdom-node-runner --dot",
+      "test:happydom": "cross-env NODE_ENV=test node test/happydom-node-runner --dot",
+      "test:browser": "playwright test --config config/playwright.config.js",
+      "test:browser:install": "playwright install",
+      "test:browser:legacy": "node test/browser/legacy-runner.js",
+      "test:ci": "cross-env NODE_ENV=test npm run test:jsdom && npm run test:browser",
+      "test:fuzz": "cross-env NODE_ENV=test node test/fuzz/sanitize.fast-check.js",
+      "coverage": "rimraf .nyc_output coverage dist/purify.cov.cjs.js && npm run build:cov && cross-env NODE_ENV=test DOMPURIFY_COV=1 node test/jsdom-node-runner --dot && nyc report --reporter=html --reporter=text --report-dir=coverage",
+      "verify-typescript": "node ./typescript/verify.js"
+    },
+    "resolved": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.16.tgz",
+    "integrity": "sha512-sqo+pNp3qRhCIpbgRi1y8Tgk27Bo2Ry7w0dC1NBeNTdZChWjz9Xb/KOoZbRP/R6pQZ80Qw8YhXw13hWWBbMRnQ==",
+    "package_json_sha256": "a4a555e42e07bab175db53902b6c3caa6510b3319b0af56d2d3c46c1cbefae06",
+    "file_count_excluding_nested_node_modules": 24,
+    "top_level_entries": [
+      "LICENSE",
+      "LICENSE-MPL",
+      "README.md",
+      "dist",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 7,
+    "editable_typescript_samples": [
+      "src/utils.ts",
+      "src/attrs.ts",
+      "src/tags.ts",
+      "src/types.ts",
+      "src/config.ts",
+      "src/regexp.ts",
+      "src/purify.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE-MPL",
+        "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+        "bytes": 16726
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "bytes": 11358
+      },
+      {
+        "path": "src/license_header",
+        "sha256": "5803fa925ae1703b9c752921c95a321570e6cabf06fcf2de895ddaf1687cebef",
+        "bytes": 192
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/entities",
+    "name": "entities",
+    "version": "8.1.0",
+    "installed": true,
+    "declared_license": "BSD-2-Clause",
+    "legacy_licenses": null,
+    "lock_license": "BSD-2-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fb55/entities.git"
+    },
+    "homepage": null,
+    "main": "./dist/index.js",
+    "module": null,
+    "scripts": {
+      "benchmark": "node --import=tsx scripts/benchmark.ts",
+      "build": "tsc",
+      "build:docs": "typedoc --hideGenerator src/index.ts",
+      "build:encode-trie": "node --import=tsx scripts/write-encode-map.ts",
+      "build:trie": "node --import=tsx scripts/write-decode-map.ts",
+      "format": "npm run format:es && npm run format:biome",
+      "format:biome": "biome check --fix .",
+      "format:es": "npm run lint:es -- --fix",
+      "lint": "npm run lint:es && npm run lint:ts && npm run lint:biome",
+      "lint:biome": "biome check .",
+      "lint:es": "eslint .",
+      "lint:ts": "tsc --noEmit -p tsconfig.eslint.json",
+      "prepublishOnly": "npm run build",
+      "test": "npm run test:vi && npm run lint",
+      "test:vi": "vitest run"
+    },
+    "resolved": "https://registry.npmjs.org/entities/-/entities-8.1.0.tgz",
+    "integrity": "sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==",
+    "package_json_sha256": "b6ff1175be0fa103f032d52e42af95d95c674e3cba08d93670cc8944697bcc42",
+    "file_count_excluding_nested_node_modules": 53,
+    "top_level_entries": [
+      "LICENSE",
+      "dist",
+      "package.json",
+      "readme.md",
+      "src"
+    ],
+    "editable_typescript_count": 10,
+    "editable_typescript_samples": [
+      "src/encode.ts",
+      "src/escape.ts",
+      "src/decode-codepoint.ts",
+      "src/decode.ts",
+      "src/index.ts",
+      "src/internal/bin-trie-flags.ts",
+      "src/internal/decode-shared.ts",
+      "src/generated/encode-html.ts",
+      "src/generated/decode-data-xml.ts",
+      "src/generated/decode-data-html.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164",
+        "bytes": 1260
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/fast-csv",
+    "name": "fast-csv",
+    "version": "5.0.7",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/C2FO/fast-csv.git",
+      "directory": "packages/fast-csv"
+    },
+    "homepage": "https://c2fo.github.io/fast-csv",
+    "main": "./build/src/index.js",
+    "module": null,
+    "scripts": {
+      "prepublishOnly": "npm run build",
+      "build": "npm run clean && npm run compile",
+      "clean": "rm -rf ./build && rm -rf tsconfig.tsbuildinfo",
+      "compile": "tsc"
+    },
+    "resolved": "https://registry.npmjs.org/fast-csv/-/fast-csv-5.0.7.tgz",
+    "integrity": "sha512-KirK9wYIUXF/xTYmg/jv9ehUWbQ4Faf6XutuJKlEz72eoqKMMLdCnz+rGDeBSjpV2wwkHQnLSuJ5i+FRRnzZwA==",
+    "package_json_sha256": "7ace961cd2ffae932637de18ca6b73e8e254b2b047dc4249a59d3cebdd00254f",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "build",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "df14384aeb006f9c9471508fb9a954da47669d05be8b06e29a0200e4fd03f50d",
+        "bytes": 1069
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/flatted",
+    "name": "flatted",
+    "version": "3.4.4",
+    "installed": true,
+    "declared_license": "ISC",
+    "legacy_licenses": null,
+    "lock_license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/WebReflection/flatted.git"
+    },
+    "homepage": "https://github.com/WebReflection/flatted#readme",
+    "main": "./cjs/index.js",
+    "module": "./esm/index.js",
+    "scripts": {
+      "build": "npm run cjs && npm run rollup:esm && npm run rollup:es && npm run rollup:babel && npm run min && npm run test && npm run size",
+      "cjs": "ascjs esm cjs",
+      "rollup:es": "rollup --config rollup/es.config.js && sed -i.bck 's/^var /self./' es.js && rm -rf es.js.bck",
+      "rollup:esm": "rollup --config rollup/esm.config.js",
+      "rollup:babel": "rollup --config rollup/babel.config.js && sed -i.bck 's/^var /self./' index.js && rm -rf index.js.bck",
+      "min": "terser index.js -c -m -o min.js",
+      "size": "cat index.js | wc -c;cat min.js | wc -c;gzip -c9 min.js | wc -c;cat min.js | brotli | wc -c; cat es.js | brotli | wc -c; cat esm.js | brotli | wc -c",
+      "test": "c8 node test/index.js",
+      "test:php": "php php/test.php",
+      "test:py": "python python/test.py",
+      "ts": "tsc -p .",
+      "coverage": "mkdir -p ./coverage; c8 report --reporter=text-lcov > ./coverage/lcov.info"
+    },
+    "resolved": "https://registry.npmjs.org/flatted/-/flatted-3.4.4.tgz",
+    "integrity": "sha512-5+ybhBZANEJxaH3X5evAFatUxLfEHSr7n6kYJ+1Qd0mUqr4eu9gIf6GDbWHf8RJijHrjjO8G+la14SlL2SeS1Q==",
+    "package_json_sha256": "b2ff4da4785cbefcbdb4bd5951cf9232f3fe8d9c55c210cab5e28c0a120f0ba0",
+    "file_count_excluding_nested_node_modules": 15,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "cjs",
+      "es.js",
+      "esm",
+      "esm.js",
+      "golang",
+      "index.js",
+      "min.js",
+      "package.json",
+      "php",
+      "python",
+      "types"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "148718606d34f467fd08a2176bb4c1ab275f999576f779368503d8d3e3642861",
+        "bytes": 770
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/ip2region",
+    "name": "ip2region",
+    "version": "2.3.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourtion/node-ip2region.git"
+    },
+    "homepage": "https://github.com/yourtion/node-ip2region#readme",
+    "main": "dist/lib/index.js",
+    "module": null,
+    "scripts": {
+      "dev": "export NODE_ENV=dev && jest --verbose --watch",
+      "test": "jest --coverage",
+      "tag": "git tag v`node -p 'require(\"./package\").version'`",
+      "format": "prettier --write \"src/**/*.ts\"",
+      "clean": "rm -rf dist",
+      "compile": "npm run clean && tsc",
+      "prepublishOnly": "npm run format && npm run compile && npm test && coveralls < coverage/lcov.info",
+      "postpublish": "npm run tag && git push && git push --tags"
+    },
+    "resolved": "https://registry.npmjs.org/ip2region/-/ip2region-2.3.0.tgz",
+    "integrity": "sha512-zV5Xsadzrx9Ej6heoyhbXMsfGWWQ3C6bAIYStrHhw9kzLpGpVNlnAyRBxxPgxA1GNqr1Ti7oUxcWsMWNN3jZBg==",
+    "package_json_sha256": "f7f5baeb6b21b5c48c10c3d9f92eacf5514ceea1bbb4dd13424c2fcc8485fd6f",
+    "file_count_excluding_nested_node_modules": 17,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "data",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "ae379c88b510dbede0bde8f29656c970d3bca91a4b988477b76b076c6c64b5a9",
+        "bytes": 1066
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/is-standalone-pwa",
+    "name": "is-standalone-pwa",
+    "version": "0.1.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/faisalman/is-standalone-pwa.git"
+    },
+    "homepage": "https://github.com/faisalman/is-standalone-pwa#readme",
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "build": "npm run build:cjs && npm run build:esm",
+      "build:cjs": "tsc --module commonjs --outDir ./dist/cjs --target es2019",
+      "build:esm": "tsc --module esnext --moduleResolution bundler --outDir ./dist/esm --target es2019 && echo '{\"type\":\"module\"}' > ./dist/esm/package.json",
+      "test": "mocha ./test"
+    },
+    "resolved": "https://registry.npmjs.org/is-standalone-pwa/-/is-standalone-pwa-0.1.1.tgz",
+    "integrity": "sha512-9Cbovsa52vNQCjdXOzeQq5CnCbAcRk05aU62K20WO372NrTv0NxibLFCK6lQ4/iZEFdEA3p3t2VNOn8AJ53F5g==",
+    "package_json_sha256": "763fd4a3fca43b0aa1d5df8f93e2f2ec5a03fb0c9853d63c00d851ca786738b2",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "480baec60a0d9583f13592e1ef5c9ebe17ec2d86c75ac30e9c4072f84281d885",
+        "bytes": 1070
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/isarray",
+    "name": "isarray",
+    "version": "0.0.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/juliangruber/isarray.git"
+    },
+    "homepage": "https://github.com/juliangruber/isarray",
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "test": "tap test/*.js"
+    },
+    "resolved": "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz",
+    "integrity": "sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==",
+    "package_json_sha256": "083f974e63787f3d95611642c78c036bc2c5e0fbed443804500b9328ea69f74d",
+    "file_count_excluding_nested_node_modules": 5,
+    "top_level_entries": [
+      "README.md",
+      "build",
+      "component.json",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/katex",
+    "name": "katex",
+    "version": "0.18.10",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/KaTeX/KaTeX.git"
+    },
+    "homepage": "https://katex.org",
+    "main": "dist/katex.js",
+    "module": null,
+    "scripts": {
+      "test": "pnpm test:lint && pnpm test:ts && pnpm test:jest",
+      "test:lint": "pnpm test:lint:js && pnpm test:lint:css",
+      "test:lint:js": "eslint .",
+      "test:lint:css": "stylelint src/styles/katex.scss static/main.css website/static/**/*.css",
+      "test:jest": "jest",
+      "test:jest:watch": "jest --watch",
+      "test:jest:update": "jest --updateSnapshot",
+      "test:jest:coverage": "jest --coverage",
+      "test:screenshots": "pnpm test:screenshots:update --verify",
+      "test:screenshots:update": "dockers/screenshotter/screenshotter.sh",
+      "test:perf": "NODE_ENV=test node -e \"require('@babel/register')({extensions:['.js','.ts']}); require('./test/perf-test.ts')\"",
+      "test:ts": "tsc --noEmit",
+      "test:build": "node test/verify-build.js",
+      "clean": "rm -rf dist/ node_modules/",
+      "clean-install": "pnpm clean && pnpm install",
+      "start": "webpack serve --config webpack.dev.js",
+      "analyze": "webpack --config webpack.analyze.js",
+      "build": "rimraf dist/ && mkdirp dist && cp README.md dist && rollup -c --failAfterWarnings && webpack && node update-sri.js package dist/README.md",
+      "build:fonts": "dockers/fonts/buildFonts.sh",
+      "build:metrics": "dockers/fonts/buildMetrics.sh",
+      "watch": "pnpm build --watch",
+      "postversion": "pnpm dist && node update-sri.js package README.md contrib/*/README.md docs/*.md website/pages/index.html",
+      "semantic-release": "semantic-release",
+      "dist": "pnpm build && pnpm dist:zip",
+      "dist:zip": "rimraf katex/ katex.tar.gz katex.zip && cp -R dist katex && tar czf katex.tar.gz katex && zip -rq katex.zip katex && rimraf katex/",
+      "prepare": "husky"
+    },
+    "resolved": "https://registry.npmjs.org/katex/-/katex-0.18.10.tgz",
+    "integrity": "sha512-/B6p9eY9DX7aHBfpkHdpirDTZ5QH9xTwL9y837PWuzuv41O5jFdqNQwVQEQsimY0/iVNkwBY4+4hMfhQ7d4Dbw==",
+    "package_json_sha256": "ad36604c3a1bbef9c09d0be004a35e23ac763b105d7de1b50c1ffa1f9ace5fe7",
+    "file_count_excluding_nested_node_modules": 224,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "cli.js",
+      "contrib",
+      "dist",
+      "katex.ts",
+      "package.json",
+      "src",
+      "types"
+    ],
+    "editable_typescript_count": 97,
+    "editable_typescript_samples": [
+      "katex.ts",
+      "contrib/auto-render/splitAtDelimiters.ts",
+      "contrib/auto-render/auto-render.ts",
+      "contrib/auto-render/test/auto-render-spec.ts",
+      "contrib/render-a11y-string/render-a11y-string.ts",
+      "contrib/render-a11y-string/test/render-a11y-string-spec.ts",
+      "contrib/copy-tex/katex2tex.ts",
+      "contrib/copy-tex/copy-tex.ts",
+      "src/unicodeSupOrSub.ts",
+      "src/utils.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+        "bytes": 1107
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/koa",
+    "name": "koa",
+    "version": "3.2.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "koajs/koa",
+    "homepage": "https://koajs.com",
+    "main": "lib/application.js",
+    "module": null,
+    "scripts": {
+      "test": "node --test",
+      "test:coverage": "c8 --reporter=lcov --reporter=text-summary node --test",
+      "lint": "standard",
+      "lint:fix": "standard --fix",
+      "lint:pretty": "standard | snazzy",
+      "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
+      "build": "gen-esm-wrapper . ./dist/koa.mjs",
+      "prepare": "npm run build"
+    },
+    "resolved": "https://registry.npmjs.org/koa/-/koa-3.2.1.tgz",
+    "integrity": "sha512-e7IpWJrnanNUroVK2taAgMxoEZvHLXdQiNjeExSu/DEIWm83jaKGBgb7tLmu2rMYpA027qFB3iLR/k3AVpFRnA==",
+    "package_json_sha256": "820f640e2e5cd48496f0df97334da81531058d62dd574bbad4bda63150e4f831",
+    "file_count_excluding_nested_node_modules": 11,
+    "top_level_entries": [
+      "LICENSE",
+      "Readme.md",
+      "dist",
+      "lib",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "16943a6ac79711e26289640dcca989be857059b938380b118bca5afc1ea4e7d7",
+        "bytes": 1079
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/koa-compose",
+    "name": "koa-compose",
+    "version": "4.1.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "koajs/compose",
+    "homepage": null,
+    "main": null,
+    "module": null,
+    "scripts": {
+      "bench": "matcha bench/bench.js",
+      "lint": "standard --fix .",
+      "test": "jest --forceExit --coverage"
+    },
+    "resolved": "https://registry.npmjs.org/koa-compose/-/koa-compose-4.1.0.tgz",
+    "integrity": "sha512-8ODW8TrDuMYvXRwra/Kh7/rJo9BtOfPc6qO8eAfC80CnCvSjSl0bkRM24X6/XBBEyj0v1nRUQ1LyOy3dbqOWXw==",
+    "package_json_sha256": "c828a40e7ee17043a893cf7ab61b4b8a8505ca0fca2a2892fcdd138d21a35cbc",
+    "file_count_excluding_nested_node_modules": 4,
+    "top_level_entries": [
+      "History.md",
+      "Readme.md",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/koa-send",
+    "name": "koa-send",
+    "version": "3.3.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "koajs/send",
+    "homepage": null,
+    "main": null,
+    "module": null,
+    "scripts": {
+      "test": "mocha --require should --reporter spec",
+      "test-cov": "istanbul cover ./node_modules/.bin/_mocha -- --require should",
+      "test-travis": "istanbul cover ./node_modules/.bin/_mocha --report lcovonly -- --require should"
+    },
+    "resolved": "https://registry.npmjs.org/koa-send/-/koa-send-3.3.0.tgz",
+    "integrity": "sha512-5AH9ZrP8k9X13K5aAdyI+XPzqzKDMcM3omVgaWsTntQiZxIL9nkrvxgmjB8fmMXsNobvhIern21RNNSHCLSOeg==",
+    "package_json_sha256": "e266add01430dce2fc4b0a27a3750668c038437585be2308228ce45ff582751a",
+    "file_count_excluding_nested_node_modules": 4,
+    "top_level_entries": [
+      "History.md",
+      "Readme.md",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/linkify-it",
+    "name": "linkify-it",
+    "version": "6.1.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/markdown-it/linkify-it.git"
+    },
+    "homepage": null,
+    "main": "build/index.cjs.js",
+    "module": "build/index.mjs",
+    "scripts": {
+      "lint": "eslint .",
+      "type-check": "tsc --noEmit",
+      "test": "npm run lint && npm run build && npm run type-check && c8 --exclude build --exclude test -r text -r html -r lcov node --test",
+      "doc": "typedoc",
+      "build": "node support/build_dist.mjs && node support/build_demo.mjs",
+      "gh-pages": "npm run build && npm run doc && gh-pages -d demo -f",
+      "prepack": "npm test && npm run doc",
+      "postpublish": "npm run gh-pages"
+    },
+    "resolved": "https://registry.npmjs.org/linkify-it/-/linkify-it-6.1.0.tgz",
+    "integrity": "sha512-wJ/TwpSDTLepCrQoYWYIExIKg5Zchex2Nn5yk2mFnB+6PtdkHtyLx742md9csRjjOnGkKIS/RrbY7l8D6gT9Vw==",
+    "package_json_sha256": "5dc14a32eb18ce1de17e257c9059162683d939cf74bcfdbbf7526ece1742f821",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "build",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "95e3f7f0e81e9b4940cdfaa1956aaff5e4dfd2fb1565041e7c78eb9a606f23e3",
+        "bytes": 1058
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/long-timeout",
+    "name": "long-timeout",
+    "version": "0.1.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/tellnes/long-timeout.git"
+    },
+    "homepage": "https://github.com/tellnes/long-timeout",
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "resolved": "https://registry.npmjs.org/long-timeout/-/long-timeout-0.1.1.tgz",
+    "integrity": "sha512-BFRuQUqc7x2NWxfJBCyUrN8iYUYznzL9JROmRz1gZ6KlOIgmoD+njPVbb+VNn2nGMKggMsK79iUNErillsrx7w==",
+    "package_json_sha256": "2fa0b2aa613d890adcefb8e5e11a2692951b09b2a031f01eac3621b0bfc13c30",
+    "file_count_excluding_nested_node_modules": 4,
+    "top_level_entries": [
+      "README.md",
+      "example.js",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/lru-cache",
+    "name": "lru-cache",
+    "version": "11.5.3",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/isaacs/node-lru-cache.git"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.min.js",
+    "module": "./dist/esm/index.min.js",
+    "scripts": {
+      "build": "npm run prepare",
+      "prepare": "tshy && bash scripts/build.sh",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "format": "prettier --write .",
+      "typedoc": "typedoc --tsconfig ./.tshy/esm.json ./src/*.ts",
+      "benchmark-results-typedoc": "bash scripts/benchmark-results-typedoc.sh",
+      "prebenchmark": "npm run prepare",
+      "benchmark": "make -C benchmark",
+      "preprofile": "npm run prepare",
+      "profile": "make -C benchmark profile",
+      "lint": "oxlint --fix src test",
+      "postsnap": "npm run lint",
+      "postlint": "npm run format"
+    },
+    "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-11.5.3.tgz",
+    "integrity": "sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==",
+    "package_json_sha256": "c085d38560434a8915fd1817cd17cee316118078b07f40302b32ef4d8bc760f4",
+    "file_count_excluding_nested_node_modules": 113,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+        "bytes": 1552
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/markdown-it",
+    "name": "markdown-it",
+    "version": "15.0.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "markdown-it/markdown-it",
+    "homepage": null,
+    "main": "./dist/markdown-it.cjs.js",
+    "module": "./dist/markdown-it.mjs",
+    "scripts": {
+      "lint": "eslint .",
+      "type-check": "tsc --noEmit && tsc --noEmit --strict --skipLibCheck --ignoreConfig --module node20 --moduleResolution node16 test/build/*.[cm]ts",
+      "test": "npm run lint && npm run build && npm run type-check && npm run test:cmspec && npm run test:markdown-it && npm run test:build",
+      "test:cmspec": "node --test --test-reporter=dot test/cmspec/**/*.test.mjs",
+      "test:markdown-it": "node --test test/markdown-it/**/*.test.mjs",
+      "test:build": "node --test test/build/**/*.test.mjs",
+      "pathological:track-ref": "node support/track-ref-pathological.mjs",
+      "pathological:update-hash": "node support/track-ref-pathological.mjs --update",
+      "coverage": "npm run build && c8 --include 'src/**' -r text -r html -r lcov node --test --test-reporter=dot test/**/*.test.mjs",
+      "doc": "typedoc",
+      "doc:publish": "npm run doc && gh-pages -d apidoc -f",
+      "demo": "npm run lint && node support/build_demo.mjs",
+      "demo:publish": "npm run demo && gh-pages -d demo -f -b master -r git@github.com:markdown-it/markdown-it.github.io.git",
+      "build": "node support/build-dist.mjs",
+      "benchmark-deps": "npm install --prefix benchmark/extra/",
+      "specsplit": "support/specsplit.mjs good -o test/fixtures/commonmark/good.txt && support/specsplit.mjs bad -o test/fixtures/commonmark/bad.txt && support/specsplit.mjs",
+      "todo": "grep 'TODO' -n -r ./src 2>/dev/null",
+      "prepack": "npm test && npm run build && npm run demo && npm run doc",
+      "postpublish": "npm run demo:publish && npm run doc:publish"
+    },
+    "resolved": "https://registry.npmjs.org/markdown-it/-/markdown-it-15.0.2.tgz",
+    "integrity": "sha512-q4IGxMv56jCqT4OCRCADBoDP3LO4MhmTXjFbphHPXs4g3j9Xg5RDnxqN8IF/3vIWEU+VCnUq+7JUg/cfy2E6Qw==",
+    "package_json_sha256": "8139a013848ea3354dad52d9e025646e85620fca02805d4db0bacd5c05472946",
+    "file_count_excluding_nested_node_modules": 14,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "bin",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "792c48c5a849a15fdf9e37e8bcf9e6d1dd13b32b46c642a748a0a46a9919d473",
+        "bytes": 1073
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/mdurl",
+    "name": "mdurl",
+    "version": "2.1.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/markdown-it/mdurl.git"
+    },
+    "homepage": null,
+    "main": "build/index.cjs.js",
+    "module": "index.mjs",
+    "scripts": {
+      "lint": "eslint .",
+      "build": "rollup -c",
+      "type-check": "tsc --noEmit --strict --target ESNext --module ESNext --moduleResolution Bundler test/types.ts",
+      "test": "npm run lint && npm run build && npm run type-check && c8 --exclude build --exclude test -r text -r html -r lcov node --test test/**/*.test.*",
+      "prepack": "npm run build"
+    },
+    "resolved": "https://registry.npmjs.org/mdurl/-/mdurl-2.1.0.tgz",
+    "integrity": "sha512-1+HBaOx0zi/dQWht8rNv9MYf9qqpqL/kxI0hXImU6Y547zM6Sni8BQibt7ifgMcYtQg41ao3Ivd6cnSM86inpg==",
+    "package_json_sha256": "807e00f99605ba97f4953f8ceb6a65db877d23a9f5496ae367eb953c0e4e627d",
+    "file_count_excluding_nested_node_modules": 10,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "build",
+      "index.mjs",
+      "lib",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "6b6a356c4337e2446841f30f3cdf7e7023af8c5260b5e347c0f987b9f6aa2644",
+        "bytes": 2303
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/minipass",
+    "name": "minipass",
+    "version": "7.1.3",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/minipass",
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write . --loglevel warn",
+      "typedoc": "typedoc --tsconfig .tshy/esm.json ./src/*.ts"
+    },
+    "resolved": "https://registry.npmjs.org/minipass/-/minipass-7.1.3.tgz",
+    "integrity": "sha512-tEBHqDnIoM/1rXME1zgka9g6Q2lcoCkxHLuc7ODJ5BxbP5d4c2Z5cGgtXAku59200Cx7diuHTOYfSBD8n6mm8A==",
+    "package_json_sha256": "b8ab116187d5e9375d494f17437eb862cbee4b329c21f15412c6a5170ec2f55c",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+        "bytes": 1552
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/mj-context-menu",
+    "name": "mj-context-menu",
+    "version": "1.0.0",
+    "installed": true,
+    "declared_license": "Apache-2.0",
+    "legacy_licenses": null,
+    "lock_license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zorkow/context-menu"
+    },
+    "homepage": "https://github.com/zorkow/context-menu",
+    "main": "dist/ContextMenu.js",
+    "module": null,
+    "scripts": {
+      "format": "prettier --check ts/",
+      "format-fix": "prettier --write ts/",
+      "lint": "eslint ts/ --ext .ts,.tsx",
+      "lint-fix": "eslint ts/ --ext .ts,.tsx --fix",
+      "es5": "npx tsc --target es5 --module commonjs --outDir cjs",
+      "postes5": "node -e 'require(\"fs\").writeFileSync(\"cjs/package.json\", \"{\\n  \\\"type\\\": \\\"commonjs\\\"\\n}\\n\");'",
+      "es6": "npx tsc",
+      "build": "npm run es5; npm run es6; npx webpack",
+      "clean": "npx rimraf cjs; npx rimraf js; npx rimraf dist",
+      "prepare": "npm run clean; npm run build"
+    },
+    "resolved": "https://registry.npmjs.org/mj-context-menu/-/mj-context-menu-1.0.0.tgz",
+    "integrity": "sha512-OSgBFQRCVhrZwRa9lhqnKcJU92dd/YXgBjup0uyeuj9bOaVsf4myOyrjU4PfhYkdDk6AqVUTov7v5uFMvIbduA==",
+    "package_json_sha256": "1e25c827250d293c025ebb1665e36bba22db080fdb8c469c3f666f92e00d6e5e",
+    "file_count_excluding_nested_node_modules": 239,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "cjs",
+      "dist",
+      "js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "bytes": 11357
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/nodemailer",
+    "name": "nodemailer",
+    "version": "10.0.14",
+    "installed": true,
+    "declared_license": "MIT-0",
+    "legacy_licenses": null,
+    "lock_license": "MIT-0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nodemailer/nodemailer.git"
+    },
+    "homepage": "https://nodemailer.com/",
+    "main": "./dist/cjs/nodemailer.js",
+    "module": null,
+    "scripts": {
+      "build": "node scripts/build.js",
+      "typecheck": "node scripts/build.js --generate-only && tsc -p tsconfig.json",
+      "pretest": "npm run build",
+      "test": "node --import tsx --test --test-concurrency=1 $(find test \\( -name '*-test.ts' -o -name '*.test.ts' \\))",
+      "pretest:coverage": "npm run build",
+      "test:coverage": "c8 node --import tsx --test --test-concurrency=1 $(find test \\( -name '*-test.ts' -o -name '*.test.ts' \\))",
+      "pretest:bun": "npm run build",
+      "test:bun": "bun test --timeout 60000 $(find ./test \\( -name '*-test.ts' -o -name '*.test.ts' \\))",
+      "format": "prettier --write \"**/*.{js,cjs,ts,json,md}\"",
+      "format:check": "prettier --check \"**/*.{js,cjs,ts,json,md}\"",
+      "lint": "eslint . && npm run typecheck",
+      "lint:fix": "eslint . --fix",
+      "prepare": "npm run build",
+      "update": "rm -rf node_modules/ package-lock.json && ncu -u && npm install"
+    },
+    "resolved": "https://registry.npmjs.org/nodemailer/-/nodemailer-10.0.14.tgz",
+    "integrity": "sha512-eJoLFKg55fesSlzUekmfOv/SBXh4KUYT8oiQc2RLP0tfG0rbNMJBK7wgHJwXTJwqyKlSJMz9UzDZ4v+aHEvo8g==",
+    "package_json_sha256": "a7484605e1ddf322eca0ded5e92191560acccd8492638b0da17e5b0af8150fc2",
+    "file_count_excluding_nested_node_modules": 161,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "SECURITY.md",
+      "SECURITY.txt",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "4f814dcacd2da618d62829ea1f6238701cf421f18a6b36c91c5d8212245e2c78",
+        "bytes": 935
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/nunjucks",
+    "name": "nunjucks",
+    "version": "3.2.4",
+    "installed": true,
+    "declared_license": "BSD-2-Clause",
+    "legacy_licenses": null,
+    "lock_license": "BSD-2-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mozilla/nunjucks.git"
+    },
+    "homepage": null,
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "build:transpile": "babel nunjucks --out-dir .",
+      "build:bundle": "node scripts/bundle.js",
+      "build": "npm run build:transpile && npm run build:bundle",
+      "codecov": "codecov",
+      "mocha": "mocha -R spec tests",
+      "lint": "eslint nunjucks scripts tests",
+      "prepare": "npm run build",
+      "test:instrument": "cross-env NODE_ENV=test scripts/bundle.js",
+      "test:runner": "cross-env NODE_ENV=test NODE_PATH=tests/test-node-pkgs scripts/testrunner.js",
+      "test": "npm run lint && npm run test:instrument && npm run test:runner"
+    },
+    "resolved": "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.4.tgz",
+    "integrity": "sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ==",
+    "package_json_sha256": "42f45b16e11abf60de04f3ed4f2ed88563ac381b1ce1c6542eb063260f776caa",
+    "file_count_excluding_nested_node_modules": 35,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "bin",
+      "browser",
+      "index.js",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "dd9bb6e4b0e4c48da23c049ac9fbe0f10be5d429cd6a603a60b425567187b341",
+        "bytes": 1311
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/package-json-from-dist",
+    "name": "package-json-from-dist",
+    "version": "1.0.1",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/isaacs/package-json-from-dist.git"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": null,
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write . --log-level warn",
+      "typedoc": "typedoc"
+    },
+    "resolved": "https://registry.npmjs.org/package-json-from-dist/-/package-json-from-dist-1.0.1.tgz",
+    "integrity": "sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==",
+    "package_json_sha256": "38fdaf168bc63a6422a7dbe7e41a7b52b02326edef8b14019e0333ef60b37b47",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+        "bytes": 1764
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/parse5",
+    "name": "parse5",
+    "version": "8.0.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/inikulin/parse5.git"
+    },
+    "homepage": "https://parse5.js.org",
+    "main": "dist/index.js",
+    "module": "dist/index.js",
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/parse5/-/parse5-8.0.1.tgz",
+    "integrity": "sha512-z1e/HMG90obSGeidlli3hj7cbocou0/wa5HacvI3ASx34PecNjNQeaHNo5WIZpWofN9kgkqV1q5YvXe3F0FoPw==",
+    "package_json_sha256": "159187fd5c0c0c17456282f4cf7beab91eb46dfc717928522938c947007282b7",
+    "file_count_excluding_nested_node_modules": 33,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "8c535800331e1e4439835555b3f9edc7fe9dee2fab0d8bbbd5a982e8b8343d4d",
+        "bytes": 1109
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/path-scurry",
+    "name": "path-scurry",
+    "version": "2.0.2",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/isaacs/path-scurry"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write . --log-level warn",
+      "typedoc": "typedoc --tsconfig tsconfig-esm.json ./src/*.ts",
+      "bench": "bash ./scripts/bench.sh"
+    },
+    "resolved": "https://registry.npmjs.org/path-scurry/-/path-scurry-2.0.2.tgz",
+    "integrity": "sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==",
+    "package_json_sha256": "fb54fe908dbe5f288bd1c5d7429f033c4f527f435c3d3a583ee0ce9e78992087",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+        "bytes": 1552
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pg",
+    "name": "pg",
+    "version": "8.23.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianc/node-postgres.git",
+      "directory": "packages/pg"
+    },
+    "homepage": "https://github.com/brianc/node-postgres",
+    "main": "./lib",
+    "module": null,
+    "scripts": {
+      "test": "make test-all"
+    },
+    "resolved": "https://registry.npmjs.org/pg/-/pg-8.23.1.tgz",
+    "integrity": "sha512-aL96AHANtWjPLDOLqnhx+ngp9+UK7ETEU8VJrDCGvsSSi/mGLcWYsS6Herg7lmaBJe4uwrfqsa7gTEFaSizDoQ==",
+    "package_json_sha256": "b1e53333a3d0c2c47c49a5cb919d221135dc03145df740925b899bc2baacc435",
+    "file_count_excluding_nested_node_modules": 20,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "esm",
+      "lib",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+        "bytes": 1077
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pg-cloudflare",
+    "name": "pg-cloudflare",
+    "version": "1.4.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianc/node-postgres.git",
+      "directory": "packages/pg-cloudflare"
+    },
+    "homepage": null,
+    "main": "dist/index.js",
+    "module": null,
+    "scripts": {
+      "build": "tsc",
+      "build:watch": "tsc --watch",
+      "prepublish": "yarn build",
+      "test": "echo e2e test in pg package"
+    },
+    "resolved": "https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.4.1.tgz",
+    "integrity": "sha512-6PQbsFWZcp9EmJEwy5cGQ2La+AMWpP46lgbb8X+U/XsHIUweYDNCpeuKck5RxL2MdVFi7krbbEi5nX4Zh7JhrQ==",
+    "package_json_sha256": "93b30ce3bed1ce3b836aa344c8afdaab74a42c03720e8d5baa801b6ae84ca3e7",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "esm",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 2,
+    "editable_typescript_samples": [
+      "src/empty.ts",
+      "src/index.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+        "bytes": 1077
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pg-connection-string",
+    "name": "pg-connection-string",
+    "version": "2.14.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianc/node-postgres.git",
+      "directory": "packages/pg-connection-string"
+    },
+    "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-connection-string",
+    "main": "./index.js",
+    "module": null,
+    "scripts": {
+      "test": "nyc --reporter=lcov mocha && npm run check-coverage",
+      "check-coverage": "nyc check-coverage --statements 100 --branches 100 --lines 100 --functions 100"
+    },
+    "resolved": "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.14.1.tgz",
+    "integrity": "sha512-qR3kGNPBLpCNtz0evbKA0Y/MRFXwSSdT+pTJvYp/bXTcReZbvX1kzF0IyTc1QnxqF7AZbOeBhNL8R5mYQZV/MA==",
+    "package_json_sha256": "53d453c5a426e69a11ff479e0d8a293505faa1833e6eb3ff7ceefdaac569e3ea",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "esm",
+      "index.d.ts",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "2244b5486c4427001b6756a87b9a297d427c111dcc3ba64a097492a8979c23d0",
+        "bytes": 1082
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pg-pool",
+    "name": "pg-pool",
+    "version": "3.14.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianc/node-postgres.git",
+      "directory": "packages/pg-pool"
+    },
+    "homepage": "https://github.com/brianc/node-postgres/tree/master/packages/pg-pool#readme",
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "test": " node_modules/.bin/mocha"
+    },
+    "resolved": "https://registry.npmjs.org/pg-pool/-/pg-pool-3.14.0.tgz",
+    "integrity": "sha512-gKtPkFdQPU3DksooVLi9LsjZxrsBUZIpa+7aVx+LV5pNh0KzP4Zleud2po+ConrxbuXGBJ6Hfer6hdgpIBpBaw==",
+    "package_json_sha256": "0a9924def9e06f791b09a44eaefb227f323a39199887f6ce17b44cb5a9193134",
+    "file_count_excluding_nested_node_modules": 5,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "esm",
+      "index.js",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "4f15ee7fc2a72082859d7e0d12dfa4bcdd70b1c744ad3850d07780730ac08557",
+        "bytes": 1073
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pg-protocol",
+    "name": "pg-protocol",
+    "version": "1.16.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianc/node-postgres.git",
+      "directory": "packages/pg-protocol"
+    },
+    "homepage": null,
+    "main": "dist/index.js",
+    "module": null,
+    "scripts": {
+      "test": "mocha dist/**/*.test.js",
+      "build": "tsc",
+      "build:watch": "tsc --watch",
+      "prepublish": "yarn build",
+      "pretest": "yarn build"
+    },
+    "resolved": "https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.16.1.tgz",
+    "integrity": "sha512-p9VOFMiHB/ZbJATetbg+99PxssTVSQRnyuPSQ67mN1+1KBOjZaZ83ZQzltnxPhJwSsC3nwVjJ10DVJlerbFzLg==",
+    "package_json_sha256": "a4a4e23027b26c72be7729d045d0100ad9329959db0449c535fa7b2ba2e717c6",
+    "file_count_excluding_nested_node_modules": 42,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "esm",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 11,
+    "editable_typescript_samples": [
+      "src/buffer-reader.ts",
+      "src/buffer-writer.ts",
+      "src/b.ts",
+      "src/parser.ts",
+      "src/outbound-serializer.test.ts",
+      "src/inbound-parser.test.ts",
+      "src/messages.ts",
+      "src/serializer.ts",
+      "src/index.ts",
+      "src/testing/test-buffers.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+        "bytes": 1077
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pg-types",
+    "name": "pg-types",
+    "version": "2.2.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianc/node-pg-types.git"
+    },
+    "homepage": "https://github.com/brianc/node-pg-types",
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "test": "tape test/*.js | tap-spec && npm run test-ts",
+      "test-ts": "if-node-version '>= 8' tsd"
+    },
+    "resolved": "https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz",
+    "integrity": "sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==",
+    "package_json_sha256": "3ec0293cb38cc8d9475e3eb32ac5f19d195bf9fccc8b19a0714e6ecd6e7c2cf0",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      ".travis.yml",
+      "Makefile",
+      "README.md",
+      "index.d.ts",
+      "index.js",
+      "index.test-d.ts",
+      "lib",
+      "package.json",
+      "test"
+    ],
+    "editable_typescript_count": 1,
+    "editable_typescript_samples": [
+      "index.test-d.ts"
+    ],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pgpass",
+    "name": "pgpass",
+    "version": "1.0.5",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hoegaarden/pgpass.git"
+    },
+    "homepage": null,
+    "main": "lib/index",
+    "module": null,
+    "scripts": {
+      "pretest": "chmod 600 ./test/_pgpass",
+      "_hint": "jshint --exclude node_modules --verbose lib test",
+      "_test": "mocha --recursive -R list",
+      "_covered_test": "nyc --reporter html --reporter text \"$npm_execpath\" run _test",
+      "test": "\"$npm_execpath\" run _hint && \"$npm_execpath\" run _covered_test"
+    },
+    "resolved": "https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz",
+    "integrity": "sha512-FdW9r/jQZhSeohs1Z3sI1yxFQNFvMcnmfuj4WBMUTxOrAyLMaTcE1aAMBiTlbMNaXvBCQuVi0R7hd8udDSP7ug==",
+    "package_json_sha256": "d75240eb4fe759c10db9f903838275348676a8bdc1f329e20a833713cd7c99bd",
+    "file_count_excluding_nested_node_modules": 4,
+    "top_level_entries": [
+      "README.md",
+      "lib",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/pure-uuid",
+    "name": "pure-uuid",
+    "version": "2.0.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/rse/pure-uuid.git"
+    },
+    "homepage": "http://github.com/rse/pure-uuid",
+    "main": "./uuid.js",
+    "module": null,
+    "scripts": {
+      "prepublishOnly": "grunt default",
+      "build": "grunt default",
+      "test": "grunt mochaTest"
+    },
+    "resolved": "https://registry.npmjs.org/pure-uuid/-/pure-uuid-2.0.0.tgz",
+    "integrity": "sha512-xJzjKStYxaGLtRcrTObZx0XE63h+pdTxqrLZaPtpeIn/fKllOeOkYrAwKjpLMlEr+/dFMFHfDDxTElVn6Sb/Gg==",
+    "package_json_sha256": "28a2af9a839d4cea60d934286c00f12af7b4e7b9f59f448694ba58b075989b9f",
+    "file_count_excluding_nested_node_modules": 9,
+    "top_level_entries": [
+      "Gruntfile.js",
+      "Makefile",
+      "README.md",
+      "eslint.mjs",
+      "package.json",
+      "uuid.d.ts",
+      "uuid.js",
+      "uuid.min.js",
+      "uuid.test.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/rimraf",
+    "name": "rimraf",
+    "version": "6.1.3",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": "git@github.com:isaacs/rimraf.git",
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write . --log-level warn",
+      "benchmark": "node benchmark/index.js",
+      "typedoc": "typedoc --tsconfig .tshy/esm.json ./src/*.ts"
+    },
+    "resolved": "https://registry.npmjs.org/rimraf/-/rimraf-6.1.3.tgz",
+    "integrity": "sha512-LKg+Cr2ZF61fkcaK1UdkH2yEBBKnYjTyWzTJT6KNPcSPaiT7HSdhtMXQuN5wkTX0Xu72KQ1l8S42rlmexS2hSA==",
+    "package_json_sha256": "76521a33ba05c5a62f0f7f4900000e9827d9d7b0786a92a748f126ba33e4c806",
+    "file_count_excluding_nested_node_modules": 137,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+        "bytes": 1552
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/rimraf/node_modules/balanced-match",
+    "name": "balanced-match",
+    "version": "4.0.4",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/juliangruber/balanced-match.git"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write .",
+      "benchmark": "node benchmark/index.js",
+      "typedoc": "typedoc --tsconfig .tshy/esm.json ./src/*.ts"
+    },
+    "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-4.0.4.tgz",
+    "integrity": "sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==",
+    "package_json_sha256": "c984e6ae5c41fac085a07a732b665b22e0a26f28b61c692ba18ff458a8ecc95a",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+        "bytes": 1155
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/rimraf/node_modules/brace-expansion",
+    "name": "brace-expansion",
+    "version": "5.0.12",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/juliangruber/brace-expansion.git"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write .",
+      "format:check": "prettier --check .",
+      "benchmark": "node benchmark/index.js",
+      "typedoc": "typedoc --tsconfig .tshy/esm.json ./src/*.ts"
+    },
+    "resolved": "https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.12.tgz",
+    "integrity": "sha512-YovQ3rzhaLMIrDjNDMkNS01tea93qhEhG5xy8f6+R0l+dw3Ki+5sCoIoI942iuLZTHWogWktgwVDhU09iNEimQ==",
+    "package_json_sha256": "8af7dc0916002266f3b01459ef691d9f834d8ecdb0e021263280a50b913d85fa",
+    "file_count_excluding_nested_node_modules": 13,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+        "bytes": 1144
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/rimraf/node_modules/glob",
+    "name": "glob",
+    "version": "13.0.6",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:isaacs/node-glob.git"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.min.js",
+    "module": "./dist/esm/index.min.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "npm run benchclean; git push origin --follow-tags",
+      "prepare": "tshy && bash scripts/build.sh",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write . --log-level warn",
+      "typedoc": "typedoc",
+      "profclean": "rm -f v8.log profile.txt",
+      "test-regen": "npm run profclean && TEST_REGEN=1 node --no-warnings --loader ts-node/esm test/00-setup.ts",
+      "prebench": "npm run prepare",
+      "bench": "bash benchmark.sh",
+      "preprof": "npm run prepare",
+      "prof": "bash prof.sh",
+      "benchclean": "node benchclean.cjs"
+    },
+    "resolved": "https://registry.npmjs.org/glob/-/glob-13.0.6.tgz",
+    "integrity": "sha512-Wjlyrolmm8uDpm/ogGyXZXb1Z+Ca2B8NbJwqBVg0axK9GbBeoS7yGV6vjXnYdGm6X53iehEuxxbyiKp8QmN4Vw==",
+    "package_json_sha256": "5a28ef9a1f5252feb47ffe288a6350fe99b18311462e6a9cdacbdd0bb4be6be9",
+    "file_count_excluding_nested_node_modules": 65,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+        "bytes": 1764
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/rimraf/node_modules/minimatch",
+    "name": "minimatch",
+    "version": "10.2.6",
+    "installed": true,
+    "declared_license": "BlueOak-1.0.0",
+    "legacy_licenses": null,
+    "lock_license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:isaacs/minimatch"
+    },
+    "homepage": null,
+    "main": "./dist/commonjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "preversion": "npm test",
+      "postversion": "npm publish",
+      "prepublishOnly": "git push origin --follow-tags",
+      "prepare": "tshy",
+      "pretest": "npm run prepare",
+      "presnap": "npm run prepare",
+      "test": "tap",
+      "snap": "tap",
+      "format": "prettier --write .",
+      "benchmark": "node benchmark/index.js",
+      "typedoc": "typedoc --tsconfig .tshy/esm.json ./src/*.ts",
+      "lint": "oxlint --fix src test",
+      "postsnap": "npm run lint",
+      "postlint": "npm run format"
+    },
+    "resolved": "https://registry.npmjs.org/minimatch/-/minimatch-10.2.6.tgz",
+    "integrity": "sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==",
+    "package_json_sha256": "bb847ba240909c9a36d4eaeb4e0efdc3e31182aeef208c1611259a48f282ea75",
+    "file_count_excluding_nested_node_modules": 53,
+    "top_level_entries": [
+      "LICENSE.md",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+        "bytes": 1550
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/saxes",
+    "name": "saxes",
+    "version": "6.0.0",
+    "installed": true,
+    "declared_license": "ISC",
+    "legacy_licenses": null,
+    "lock_license": "ISC",
+    "repository": "https://github.com/lddubeau/saxes.git",
+    "homepage": null,
+    "main": "saxes.js",
+    "module": null,
+    "scripts": {
+      "tsc": "tsc",
+      "copy": "cp -p README.md build/dist && sed -e'/\"private\": true/d' package.json > build/dist/package.json",
+      "build": "npm run tsc && npm run copy",
+      "test": "npm run build && mocha --delay",
+      "lint": "eslint --ignore-path .gitignore '**/*.ts' '**/*.js'",
+      "lint-fix": "npm run lint -- --fix",
+      "posttest": "npm run lint",
+      "typedoc": "typedoc --tsconfig tsconfig.json --name saxes --out build/docs/ --listInvalidSymbolLinks --excludePrivate --excludeNotExported",
+      "build-docs": "npm run typedoc",
+      "gh-pages": "npm run build-docs && mkdir -p build && (cd build; rm -rf gh-pages; git clone .. --branch gh-pages gh-pages) && mkdir -p build/gh-pages/latest && find build/gh-pages/latest -type f -delete && cp -rp build/docs/* build/gh-pages/latest && find build/gh-pages -type d -empty -delete",
+      "self:publish": "cd build/dist && npm_config_tag=`simple-dist-tag` npm publish",
+      "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+      "postversion": "npm run test && npm run self:publish",
+      "postpublish": "git push origin --follow-tags"
+    },
+    "resolved": "https://registry.npmjs.org/saxes/-/saxes-6.0.0.tgz",
+    "integrity": "sha512-xAg7SOnEhrm5zI3puOOKyy1OMcMlIJZYNJY7xLBwSze0UjhPLnWfj2GF2EpT0jmzaJKIWKHLsaSSajf35bcYnA==",
+    "package_json_sha256": "32052572b41c2a890ed0854798c48454cc5991dcaafe5fb1718a4253046acfd3",
+    "file_count_excluding_nested_node_modules": 5,
+    "top_level_entries": [
+      "README.md",
+      "package.json",
+      "saxes.d.ts",
+      "saxes.js",
+      "saxes.js.map"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/source-map",
+    "name": "source-map",
+    "version": "0.5.7",
+    "installed": true,
+    "declared_license": "BSD-3-Clause",
+    "legacy_licenses": null,
+    "lock_license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/mozilla/source-map.git"
+    },
+    "homepage": "https://github.com/mozilla/source-map",
+    "main": "./source-map.js",
+    "module": null,
+    "scripts": {
+      "test": "npm run build && node test/run-tests.js",
+      "build": "webpack --color",
+      "toc": "doctoc --title '## Table of Contents' README.md && doctoc --title '## Table of Contents' CONTRIBUTING.md"
+    },
+    "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz",
+    "integrity": "sha512-LbrmJOMUSdEVxIKvdcJzQC+nQhe8FUZQTXQy6+I75skNgn3OoQ0DZA8YnFa7gp8tqtL3KPf1kmo0R5DoApeSGQ==",
+    "package_json_sha256": "b59a934eb7e663dd0e0ef9dc5888eaaa3f10016c029bd1962da31aaad6296277",
+    "file_count_excluding_nested_node_modules": 19,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "dist",
+      "lib",
+      "package.json",
+      "source-map.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+        "bytes": 1526
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/source-map-js",
+    "name": "source-map-js",
+    "version": "1.2.2",
+    "installed": true,
+    "declared_license": "BSD-3-Clause",
+    "legacy_licenses": null,
+    "lock_license": "BSD-3-Clause",
+    "repository": "7rulnik/source-map-js",
+    "homepage": "https://github.com/7rulnik/source-map-js",
+    "main": "./source-map.js",
+    "module": null,
+    "scripts": {
+      "test": "npm run build && node test/run-tests.js",
+      "build": "webpack --color",
+      "toc": "doctoc --title '## Table of Contents' README.md && doctoc --title '## Table of Contents' CONTRIBUTING.md"
+    },
+    "resolved": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+    "integrity": "sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==",
+    "package_json_sha256": "9f1ea63b1661d0f6e5fcd50b625d86cddd77de870a0019b23262360987b487f5",
+    "file_count_excluding_nested_node_modules": 18,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "lib",
+      "package.json",
+      "source-map.d.ts",
+      "source-map.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+        "bytes": 1526
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/speech-rule-engine",
+    "name": "speech-rule-engine",
+    "version": "5.0.0-rc.4",
+    "installed": true,
+    "declared_license": "Apache-2.0",
+    "legacy_licenses": null,
+    "lock_license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zorkow/speech-rule-engine"
+    },
+    "homepage": "https://github.com/zorkow/speech-rule-engine",
+    "main": "lib/sre.js",
+    "module": null,
+    "scripts": {
+      "local": "cd testsuite; pnpm local",
+      "format": "prettier --check ts/",
+      "format-fix": "prettier --write ts/",
+      "lint": "eslint ts/ --ext .ts,.tsx",
+      "lint-fix": "eslint ts/ --ext .ts,.tsx --fix",
+      "test": "cd testsuite; export SRE_JSON_PATH=../lib/mathmaps; pnpm test",
+      "test:json": "cd testsuite; export SRE_JSON_PATH=../lib/mathmaps; pnpm test tests/json",
+      "test:action": "cd testsuite; export SRE_JSON_PATH=../lib/mathmaps; pnpm test --silent --coverage",
+      "smoke": "cd testsuite; pnpm smoke",
+      "smoke:sync": "cd testsuite; pnpm smoke:sync",
+      "smoke:async": "cd testsuite; pnpm smoke:async",
+      "smoke:browser": "cd testsuite; pnpm smoke:browser",
+      "docs": "pnpm typedoc --entryPointStrategy ts/",
+      "commonjs": "pnpm tsc --module commonjs --outDir cjs --moduleResolution node",
+      "postcommonjs": "node -e 'require(\"fs\").writeFileSync(\"cjs/package.json\", \"{\\n  \\\"type\\\": \\\"commonjs\\\"\\n}\\n\");'",
+      "module": "pnpm tsc --module nodenext --outDir js --moduleResolution nodenext",
+      "postmodule": "node -e 'require(\"fs\").writeFileSync(\"js/package.json\", \"{\\n  \\\"type\\\": \\\"module\\\"\\n}\\n\");'",
+      "require": "node -e \"require(\\\"fs\\\").writeFileSync(\\\"lib/require.mjs\\\", \\\"import {createRequire} from 'module';\\nglobal.require = createRequire(import.meta.url);\\n\\\");\"",
+      "compile": "pnpm module",
+      "clean": "rimraf js lib cjs",
+      "cleanAll": "make clean; make clean_min",
+      "prepublish": "pnpm cleanAll; pnpm buildAll; rimraf js/**/*.js.map cjs/**/*.js.map",
+      "build": "make -j 12 all; pnpm module; pnpm webpack; pnpm require",
+      "buildAll": "make -j 12 all; pnpm commonjs; pnpm module; pnpm webpack; pnpm require; pnpm postcommonjs; pnpm postmodule"
+    },
+    "resolved": "https://registry.npmjs.org/speech-rule-engine/-/speech-rule-engine-5.0.0-rc.4.tgz",
+    "integrity": "sha512-3dFcH2QtQNhtvUUc09TxoaEK4WG03B9Z57krFG9jocrKykKGu35BhIkWr0vgEAxZZomEWkeluff69y/EbYzP4Q==",
+    "package_json_sha256": "b98b54c03ef1a14518d6c360a57c6cb441fddb9f719a6e19d1efdafb3d87bb87",
+    "file_count_excluding_nested_node_modules": 796,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "bin",
+      "cjs",
+      "index.js",
+      "js",
+      "lib",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "bytes": 10174
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/string-hash",
+    "name": "string-hash",
+    "version": "1.1.3",
+    "installed": true,
+    "declared_license": "CC0-1.0",
+    "legacy_licenses": null,
+    "lock_license": "CC0-1.0",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/darkskyapp/string-hash.git"
+    },
+    "homepage": null,
+    "main": "./index",
+    "module": null,
+    "scripts": {
+      "test": "mocha"
+    },
+    "resolved": "https://registry.npmjs.org/string-hash/-/string-hash-1.1.3.tgz",
+    "integrity": "sha512-kJUvRUFK49aub+a7T1nNE66EJbZBMnBgoC1UbCZ5n6bsZKBRga4KgBRTMn/pFkeCZSYtNeSyMxPDM0AXWELk2A==",
+    "package_json_sha256": "39e0ad7355fbdda44a12870d21b48021df4e000d3870b4905b058f8a71728703",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      ".npmignore",
+      "README.md",
+      "component.json",
+      "index.js",
+      "package.json",
+      "test.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/think-model",
+    "name": "think-model",
+    "version": "1.5.4",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thinkjs/think-model.git"
+    },
+    "homepage": "https://github.com/thinkjs/think-model#readme",
+    "main": null,
+    "module": null,
+    "scripts": {
+      "watch": "babel ./src --out-dir ./lib --watch",
+      "compile": "babel ./src --out-dir ./lib",
+      "test": "npm run compile && npm run eslint && npm run test-cov",
+      "test-cov": "nyc ava test/ && nyc report --reporter=html",
+      "eslint": "eslint ./src",
+      "prepublish": "npm test && npm run compile",
+      "semantic-release": "semantic-release"
+    },
+    "resolved": "https://registry.npmjs.org/think-model/-/think-model-1.5.4.tgz",
+    "integrity": "sha512-oZJGL0c/WHKnQEU+h3f7HfgDwTEc/AvgkY80qV4tvRTAZFjxPPz/uPBqEvyUEj8+ZtHzsBCa2RoVazPR8EoP0A==",
+    "package_json_sha256": "edc7aa34aff728db61aa95b46ef48d1b38e9ab8a8b35a01d321016825736afcc",
+    "file_count_excluding_nested_node_modules": 27,
+    "top_level_entries": [
+      ".eslintrc",
+      ".github",
+      ".travis.yml",
+      "LICENSE",
+      "README.md",
+      "index.d.ts",
+      "index.js",
+      "lib",
+      "mock",
+      "package.json",
+      "test"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "88d78fe9231ef902564d7ae27fa4fb379f28db71e5da5e07c18bc600417521ba",
+        "bytes": 1064
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/think-trace",
+    "name": "think-trace",
+    "version": "1.0.18",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thinkjs/think-trace.git"
+    },
+    "homepage": "https://github.com/thinkjs/think-trace#readme",
+    "main": "./lib",
+    "module": null,
+    "scripts": {
+      "compile": "webpack -p",
+      "eslint": "eslint ./lib",
+      "test": "npm run eslint && npm run test-cov",
+      "test-cov": "nyc ava test/ && nyc report --reporter=html",
+      "preversion": "npm test",
+      "postversion": "git push"
+    },
+    "resolved": "https://registry.npmjs.org/think-trace/-/think-trace-1.0.18.tgz",
+    "integrity": "sha512-ghTO3movOuT3gmWu1Fbv5XHTOkFCmcSOIFw8xMu4SEoW7em+XLHkG/w5mHRklua5vsZ8xdfYEaNBV06c1b0Rrg==",
+    "package_json_sha256": "c350624495fb9bc46bd3cbc1662bc4468ca3ca51aec8d448f8d14a6eb724eb0e",
+    "file_count_excluding_nested_node_modules": 24,
+    "top_level_entries": [
+      ".eslintrc",
+      ".travis.yml",
+      "LICENSE",
+      "README.md",
+      "lib",
+      "package.json",
+      "template",
+      "test",
+      "webpack.config.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "88d78fe9231ef902564d7ae27fa4fb379f28db71e5da5e07c18bc600417521ba",
+        "bytes": 1064
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/tldts",
+    "name": "tldts",
+    "version": "7.4.16",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/remusao/tldts.git"
+    },
+    "homepage": "https://github.com/remusao/tldts#readme",
+    "main": "dist/cjs/index.js",
+    "module": "dist/es6/index.js",
+    "scripts": {
+      "clean": "rimraf dist coverage",
+      "build": "tsc --build ./tsconfig.json",
+      "bundle": "tsc --build ./tsconfig.bundle.json && rollup --config ./rollup.config.mjs",
+      "prepack": "yarn run bundle",
+      "test": "c8 ../../node_modules/.bin/mocha --config ../../.mocharc.cjs"
+    },
+    "resolved": "https://registry.npmjs.org/tldts/-/tldts-7.4.16.tgz",
+    "integrity": "sha512-QwBER5KMR86IIjpIiO7H/Z3IMJPsZ1A6RKPAqzTTgOyUQUSt9FdnKcqhTaJmkY6HVrgouZHZR0ncK5QxvmnQeg==",
+    "package_json_sha256": "ee6f509afc31ee935e7b68bb6d50c80a64cbeb31b0c8ad6bf38922f984c891da",
+    "file_count_excluding_nested_node_modules": 30,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "bin",
+      "dist",
+      "index.ts",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 3,
+    "editable_typescript_samples": [
+      "index.ts",
+      "src/suffix-trie.ts",
+      "src/data/trie.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+        "bytes": 1078
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/tldts-core",
+    "name": "tldts-core",
+    "version": "7.4.16",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/remusao/tldts.git"
+    },
+    "homepage": "https://github.com/remusao/tldts#readme",
+    "main": "dist/cjs/index.js",
+    "module": "dist/es6/index.js",
+    "scripts": {
+      "clean": "rimraf dist coverage",
+      "build": "tsc --build ./tsconfig.json",
+      "bundle": "tsc --build ./tsconfig.bundle.json && rollup --config ./rollup.config.mjs",
+      "prepack": "yarn run bundle",
+      "test": "c8 ../../node_modules/.bin/mocha --config ../../.mocharc.cjs"
+    },
+    "resolved": "https://registry.npmjs.org/tldts-core/-/tldts-core-7.4.16.tgz",
+    "integrity": "sha512-MDolfaSJtlSK5Y0A1xl3277ekubZwobpBjugknDizI9O5Rm60a1m8k4ICK+MRsCDzPygT81mp3BBf5RKDlFRfA==",
+    "package_json_sha256": "2521722ebdde86c013567b70c24aec7c0210cf1840fad4de973ade9ad8a5bd3a",
+    "file_count_excluding_nested_node_modules": 77,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "index.ts",
+      "package.json",
+      "src"
+    ],
+    "editable_typescript_count": 12,
+    "editable_typescript_samples": [
+      "index.ts",
+      "src/options.ts",
+      "src/is-special-use.ts",
+      "src/domain-without-suffix.ts",
+      "src/factory.ts",
+      "src/domain.ts",
+      "src/is-valid.ts",
+      "src/subdomain.ts",
+      "src/extract-hostname.ts",
+      "src/is-ip.ts"
+    ],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "c64182d48160db948b6aa97a984f1a32974ce4d2053900361264cd33853796cb",
+        "bytes": 1078
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/tough-cookie",
+    "name": "tough-cookie",
+    "version": "6.0.2",
+    "installed": true,
+    "declared_license": "BSD-3-Clause",
+    "legacy_licenses": null,
+    "lock_license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/salesforce/tough-cookie.git"
+    },
+    "homepage": "https://github.com/salesforce/tough-cookie",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.js",
+    "scripts": {
+      "build": "tsup lib/cookie/index.ts --format cjs,esm --dts --clean --sourcemap",
+      "lint": "npm run _lint:check",
+      "prepack": "npm run build",
+      "prepare-pr": "npm run build && npm test -- run && npm run _api:update && npm run _docs:generate && npm run _format:fix && npm run _lint:fix && npm run _lint:types",
+      "test": "vitest",
+      "version": "npm run _version:generate && npm run prepare-pr && git add --renormalize .",
+      "_api:check": "api-extractor run --verbose",
+      "_api:update": "api-extractor run --verbose --local",
+      "_docs:generate": "api-documenter generate --input-folder ./tmp --output-folder ./api/docs",
+      "_format:check": "prettier . --check",
+      "_format:fix": "prettier . --write",
+      "_lint:check": "eslint .",
+      "_lint:fix": "eslint . --fix",
+      "_lint:types": "attw --pack .",
+      "_version:generate": "genversion --template version-template.ejs --force lib/version.ts"
+    },
+    "resolved": "https://registry.npmjs.org/tough-cookie/-/tough-cookie-6.0.2.tgz",
+    "integrity": "sha512-exgYmnmL/sJpR3upZfXG5PoatXQii55xAiXGXzY+sROLZ/Y+SLcp9PgJNI9Vz37HpQ74WvDcLT8eqm+kV3FzrA==",
+    "package_json_sha256": "a604b86eadd81d8e9c5a5de9571d15036225c20da0d51dd4af80c88e4e54feed",
+    "file_count_excluding_nested_node_modules": 9,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "22ec6791c91ba42c0516a05f4cbdde019aae4687f8a38c5ca7e8a69ee68f851d",
+        "bytes": 1485
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/type-is/node_modules/content-type",
+    "name": "content-type",
+    "version": "2.1.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "jshttp/content-type",
+    "homepage": null,
+    "main": "./dist/index.js",
+    "module": null,
+    "scripts": {
+      "bench": "vitest bench",
+      "build": "ts-scripts build",
+      "format": "ts-scripts format",
+      "prepare": "ts-scripts install && npm run build",
+      "specs": "ts-scripts specs",
+      "test": "ts-scripts test"
+    },
+    "resolved": "https://registry.npmjs.org/content-type/-/content-type-2.1.0.tgz",
+    "integrity": "sha512-mj7UPXE0jaqaOsukNZRUEfEi2AcL7C/vwmwcHV0O97eO1E1pxBZuyjlZrx5seTaNBg1U6+o35wpa35Qfcc+7ag==",
+    "package_json_sha256": "33102772db7c8375395bdcc11e7004c597b4cdbe457d8dd0ae2e56f5a2d28637",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38",
+        "bytes": 1089
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/ua-is-frozen",
+    "name": "ua-is-frozen",
+    "version": "0.1.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/faisalman/ua-is-frozen.git"
+    },
+    "homepage": "https://github.com/faisalman/ua-is-frozen#readme",
+    "main": "./dist/cjs/index.js",
+    "module": "./dist/esm/index.js",
+    "scripts": {
+      "build:cjs": "tsc --module commonjs --outDir ./dist/cjs --target es5",
+      "build:esm": "tsc --module esnext --outDir ./dist/esm --target es6 && echo '{\"type\":\"module\"}' > ./dist/esm/package.json",
+      "test": "mocha ./test"
+    },
+    "resolved": "https://registry.npmjs.org/ua-is-frozen/-/ua-is-frozen-0.1.2.tgz",
+    "integrity": "sha512-RwKDW2p3iyWn4UbaxpP2+VxwqXh0jpvdxsYpZ5j/MLLiQOfbsV5shpgQiw93+KMYQPcteeMQ289MaAFzs3G9pw==",
+    "package_json_sha256": "3bd25f593180e42596d77940e8e7f9892f7208632d6f87aa7f9f63053aabaa29",
+    "file_count_excluding_nested_node_modules": 8,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "096fb31626b1083121621dce4c0d9009ef9614be1e01da0712442f527e2e6b04",
+        "bytes": 1070
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/uc.micro",
+    "name": "uc.micro",
+    "version": "3.0.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "markdown-it/uc.micro",
+    "homepage": null,
+    "main": "build/index.cjs.js",
+    "module": "build/index.mjs",
+    "scripts": {
+      "test": "npm run build && npm run type-check && node --test test/**/*.test.*",
+      "build": "rollup -c",
+      "type-check": "tsc --noEmit --strict --target ESNext --module ESNext --moduleResolution Bundler test/types.ts",
+      "prepack": "npm run build"
+    },
+    "resolved": "https://registry.npmjs.org/uc.micro/-/uc.micro-3.0.0.tgz",
+    "integrity": "sha512-U3PppEkleoTnIfi8BozMx3yju3qc/L6SwqWo2Sw+54PX+PX0q9I+r1Um5HCmqD7n9VDX5/v3vQH/AjA6deDdtw==",
+    "package_json_sha256": "93f983d24c5f48a75c80d0019fc14d522bbbefa049a45545bb7617eab82ec2f4",
+    "file_count_excluding_nested_node_modules": 6,
+    "top_level_entries": [
+      "LICENSE.txt",
+      "README.md",
+      "build",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+        "bytes": 1077
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/undici",
+    "name": "undici",
+    "version": "8.11.2",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodejs/undici.git"
+    },
+    "homepage": "https://undici.nodejs.org",
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "build:node": "esbuild index-fetch.js --bundle --platform=node --outfile=undici-fetch.js --define:esbuildDetection=1 --keep-names && node scripts/strip-comments.js",
+      "build:wasm": "node build/wasm.js --docker",
+      "generate-pem": "node scripts/generate-pem.js",
+      "lint": "eslint --cache",
+      "lint:fix": "eslint --fix --cache",
+      "test": "npm run test:javascript && cross-env NODE_V8_COVERAGE= npm run test:typescript",
+      "test:javascript": "npm run test:javascript:no-jest && npm run test:jest",
+      "test:javascript:no-jest": "npm run generate-pem && npm run test:unit && npm run test:fetch && npm run test:node-fetch && npm run test:infra && npm run test:cache && npm run test:cache-interceptor && npm run test:interceptors && npm run test:cookies && npm run test:eventsource && npm run test:subresource-integrity && npm run test:wpt && npm run test:websocket && npm run test:node-test && npm run test:cache-tests",
+      "test:javascript:without-intl": "npm run test:javascript:no-jest",
+      "test:busboy": "borp --timeout 180000 -p \"test/busboy/*.js\"",
+      "test:cache": "borp --timeout 180000 -p \"test/cache/*.js\"",
+      "test:cache-interceptor": "borp --timeout 180000 -p \"test/cache-interceptor/*.js\"",
+      "test:cache-interceptor:sqlite": "cross-env NODE_OPTIONS=--experimental-sqlite npm run test:cache-interceptor",
+      "test:cookies": "borp --timeout 180000 -p \"test/cookie/*.js\"",
+      "test:eventsource": "npm run build:node && borp --timeout 180000 --expose-gc -p \"test/eventsource/*.js\"",
+      "test:fuzzing": "node test/fuzzing/fuzzing.test.js",
+      "test:fetch": "npm run build:node && borp --timeout 180000 --expose-gc --concurrency 1 -p \"test/fetch/*.js\" && npm run test:webidl && npm run test:busboy",
+      "test:subresource-integrity": "borp --timeout 180000 -p \"test/subresource-integrity/*.js\"",
+      "test:h2": "npm run test:h2:core && npm run test:h2:fetch",
+      "test:h2:core": "borp --timeout 180000 -p \"test/+(http2|h2)*.js\"",
+      "test:h2:fetch": "npm run build:node && borp --timeout 180000 -p \"test/fetch/http2*.js\"",
+      "test:infra": "borp --timeout 180000 -p \"test/infra/*.js\"",
+      "test:interceptors": "borp --timeout 180000 -p \"test/interceptors/*.js\"",
+      "test:jest": "cross-env NODE_V8_COVERAGE= jest",
+      "test:unit": "borp --timeout 180000 --expose-gc -p \"test/*.js\"",
+      "test:node-fetch": "borp --timeout 180000 -p \"test/node-fetch/**/*.js\"",
+      "test:node-test": "borp --timeout 180000 -p \"test/node-test/**/*.js\"",
+      "test:tdd": "borp --timeout 180000 --expose-gc -p \"test/*.js\"",
+      "test:tdd:node-test": "borp --timeout 180000 -p \"test/node-test/**/*.js\" -w",
+      "test:typescript": "tsd && tsc test/imports/undici-import.ts --typeRoots ./types --noEmit && tsc ./types/*.d.ts --noEmit --typeRoots ./types",
+      "test:webidl": "borp --timeout 180000 -p \"test/webidl/*.js\"",
+      "test:websocket": "borp --timeout 180000 -p \"test/websocket/**/*.js\"",
+      "test:websocket:autobahn": "node test/autobahn/client.js",
+      "test:websocket:autobahn:report": "node test/autobahn/report.js",
+      "test:wpt:setup": "node test/web-platform-tests/wpt-runner.mjs setup",
+      "test:wpt": "npm run test:wpt:setup && node test/web-platform-tests/wpt-runner.mjs run /fetch /mimesniff /xhr /websockets /eventsource",
+      "test:cache-tests": "node test/cache-interceptor/cache-tests.mjs --ci",
+      "coverage": "npm run coverage:clean && cross-env NODE_V8_COVERAGE=./coverage/tmp npm run test:javascript && npm run coverage:report",
+      "coverage:ci": "npm run coverage:clean && cross-env NODE_V8_COVERAGE=./coverage/tmp npm run test:javascript && npm run coverage:report:ci",
+      "coverage:clean": "node ./scripts/clean-coverage.js",
+      "coverage:report": "cross-env NODE_V8_COVERAGE= c8 report",
+      "coverage:report:ci": "c8 report",
+      "bench": "echo \"Error: Benchmarks have been moved to '/benchmarks'\" && exit 1",
+      "serve:website": "echo \"Error: Documentation has been moved to '/docs'\" && exit 1",
+      "prepare": "husky && node ./scripts/platform-shell.js"
+    },
+    "resolved": "https://registry.npmjs.org/undici/-/undici-8.11.2.tgz",
+    "integrity": "sha512-u4UB2/IrKdU6lFxumHmmo1a3fCQO5tzQllRorfoRS63txhrB7xTpSn1PftwC4qEHkOaqP95fCWW4lJzwErwzhQ==",
+    "package_json_sha256": "05686bb347560226dd9fffc0c8152e5d9aa154c76d9eeceae11b52d42eb6e1db",
+    "file_count_excluding_nested_node_modules": 214,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "docs",
+      "index-fetch.js",
+      "index.d.ts",
+      "index.js",
+      "lib",
+      "package.json",
+      "scripts",
+      "types"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+        "bytes": 1090
+      },
+      {
+        "path": "lib/web/fetch/LICENSE",
+        "sha256": "a21d6c8d3fc631198b97e57584697f7f9c37805c71c6cf9a12e4442b40394b88",
+        "bytes": 1071
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/validator",
+    "name": "validator",
+    "version": "13.15.35",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/validatorjs/validator.js.git"
+    },
+    "homepage": "https://github.com/validatorjs/validator.js",
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "lint": "eslint src test",
+      "lint:fix": "eslint --fix src test",
+      "clean:node": "rimraf index.js lib",
+      "clean:es": "rimraf es",
+      "clean:browser": "rimraf validator*.js",
+      "clean": "run-p clean:*",
+      "minify": "uglifyjs validator.js -o validator.min.js  --compress --mangle --comments /Copyright/",
+      "build:browser": "node --require @babel/register build-browser && npm run minify",
+      "build:es": "babel src -d es --env-name=es",
+      "build:node": "babel src -d .",
+      "build": "run-p build:*",
+      "pretest": "npm run build && npm run lint",
+      "test": "nyc --reporter=cobertura --reporter=text-summary mocha --require @babel/register --reporter dot --recursive"
+    },
+    "resolved": "https://registry.npmjs.org/validator/-/validator-13.15.35.tgz",
+    "integrity": "sha512-TQ5pAGhd5whStmqWvYF4OjQROlmv9SMFVt37qoCBdqRffuuklWYQlCNnEs2ZaIBD1kZRNnikiZOS1eqgkar0iw==",
+    "package_json_sha256": "e33c239e4e4cbd1142b7ad37e831951f45cce3e655f3164eb88c7e1eae1a2af5",
+    "file_count_excluding_nested_node_modules": 233,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "es",
+      "index.js",
+      "lib",
+      "package.json",
+      "validator.js",
+      "validator.min.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "683b3c34623e01daad41cb2a3d0a93578c590f8d0206cbd8b0b579fb7def2603",
+        "bytes": 1077
+      },
+      {
+        "path": "es/lib/isLicensePlate.js",
+        "sha256": "04c84addb56a46062746b066be3bffbb0b909c157e63a63794bf9b5191f4d948",
+        "bytes": 5054
+      },
+      {
+        "path": "es/lib/toFloat.js",
+        "sha256": "d9d73919f02b3e2ea9ae10efc1dddc655901f2079da3860ad3e084770ff56632",
+        "bytes": 132
+      },
+      {
+        "path": "lib/isLicensePlate.js",
+        "sha256": "f81c7c557d518df5d641739c8e3dc8b54e5022b4f3bfbb9e7ee2c5704cefbc4b",
+        "bytes": 5357
+      },
+      {
+        "path": "lib/toFloat.js",
+        "sha256": "853844be528b9f993b63bbc756535f9af13e64444d86dcb0097c809202da15ee",
+        "bytes": 428
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/whatwg-url",
+    "name": "whatwg-url",
+    "version": "17.2.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jsdom/whatwg-url.git"
+    },
+    "homepage": null,
+    "main": "index.js",
+    "module": null,
+    "scripts": {
+      "coverage": "c8 node --test --experimental-test-coverage test/*.js",
+      "lint": "eslint",
+      "prepare": "node scripts/transform.js",
+      "pretest": "node scripts/get-latest-platform-tests.js && node scripts/transform.js",
+      "build-live-viewer": "esbuild --bundle --format=esm --sourcemap --outfile=live-viewer/whatwg-url.mjs index.js",
+      "test": "node --test test/*.js",
+      "bench": "node scripts/benchmark.js"
+    },
+    "resolved": "https://registry.npmjs.org/whatwg-url/-/whatwg-url-17.2.0.tgz",
+    "integrity": "sha512-IhLIHNcBrzIixC5XXsbr4DxdjajyA5vQ5RwGZMtrUp+GbtE5Nrsge9QKau7jXrC0aTXLYGV0xiW7Tb4YS2aomw==",
+    "package_json_sha256": "9158b5f14567ce85b100876a9d2b716e0945fc87da243ced4c0fd6ef30ac5a5b",
+    "file_count_excluding_nested_node_modules": 19,
+    "top_level_entries": [
+      "LICENSE.txt",
+      "README.md",
+      "index.js",
+      "lib",
+      "package.json",
+      "webidl2js-wrapper.js"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE.txt",
+        "sha256": "db480f236292a093e77a83c35431a8496624e1e664a3547768a9ce2bdde39877",
+        "bytes": 1076
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/wicked-good-xpath",
+    "name": "wicked-good-xpath",
+    "version": "1.3.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/google/wicked-good-xpath.git"
+    },
+    "homepage": "https://github.com/google/wicked-good-xpath",
+    "main": "dist/wgxpath.install-node.js",
+    "module": null,
+    "scripts": {},
+    "resolved": "https://registry.npmjs.org/wicked-good-xpath/-/wicked-good-xpath-1.3.0.tgz",
+    "integrity": "sha512-Gd9+TUn5nXdwj/hFsPVx5cuHHiF5Bwuc30jZ4+ronF1qHK5O7HD0sgmXWSEgwKquT3ClLoKPVbO6qGwVwLzvAw==",
+    "package_json_sha256": "792eb8f385530f2436ab8ebfd4ec932d96ab17099ee2b07c1a7db67f8395cd57",
+    "file_count_excluding_nested_node_modules": 5,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "dist",
+      "package.json"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "1691999de7a5de50698e735c25506ea8ab6b71d008d27ef9e1400a5075000e78",
+        "bytes": 1110
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/xmlbuilder",
+    "name": "xmlbuilder",
+    "version": "11.0.1",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/oozcitak/xmlbuilder-js.git"
+    },
+    "homepage": "http://github.com/oozcitak/xmlbuilder-js",
+    "main": "./lib/index",
+    "module": null,
+    "scripts": {
+      "prepublishOnly": "coffee -co lib src",
+      "postpublish": "rm -rf lib",
+      "test": "mocha \"test/**/*.coffee\" && istanbul report text lcov"
+    },
+    "resolved": "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz",
+    "integrity": "sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==",
+    "package_json_sha256": "7e2f254e4004b5ea5f6ee351541afe893f8dfc66f8b527774c5a57860a8778d8",
+    "file_count_excluding_nested_node_modules": 45,
+    "top_level_entries": [
+      "CHANGELOG.md",
+      "LICENSE",
+      "README.md",
+      "appveyor.yml",
+      "lib",
+      "package.json",
+      "typings"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8",
+        "bytes": 1101
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  },
+  {
+    "path": "node_modules/xmlchars",
+    "name": "xmlchars",
+    "version": "2.2.0",
+    "installed": true,
+    "declared_license": "MIT",
+    "legacy_licenses": null,
+    "lock_license": "MIT",
+    "repository": "https://github.com/lddubeau/xmlchars.git",
+    "homepage": null,
+    "main": "xmlchars.js",
+    "module": null,
+    "scripts": {
+      "copy": "cp README.md LICENSE build/dist && sed -e'/\"private\": true/d' package.json > build/dist/package.json",
+      "build": "tsc && npm run copy",
+      "pretest": "npm run build",
+      "test": "mocha",
+      "posttest": "tslint -p tsconfig.json && tslint -p test/tsconfig.json",
+      "prepack": "node -e 'require(\"assert\")(!require(\"./package.json\").private)'",
+      "test-install": "npm run test && (test_dir=build/install_dir; rm -rf $test_dir; mkdir -p $test_dir/node_modules; packname=`npm run xmlchars:pack --silent`; (cd $test_dir; npm install ../$packname); rm -rf $test_dir)",
+      "xmlchars:pack": "cd build/dist/ && (packname=`npm pack --silent`; mv $packname ..; echo $packname)",
+      "prepublishOnly": "node -e 'require(\"assert\")(!require(\"./package.json\").private)'",
+      "xmlchars:publish": "npm run test-install && (cd build/dist && npm publish)",
+      "preversion": "npm run test-install",
+      "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+      "postversion": "npm run xmlchars:publish",
+      "postpublish": "git push origin --follow-tags",
+      "clean": "rm -rf build"
+    },
+    "resolved": "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz",
+    "integrity": "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw==",
+    "package_json_sha256": "a91c0b20003ff9399dde1de8c59681f1b6901c6fb1aac71780a3a876dc548583",
+    "file_count_excluding_nested_node_modules": 18,
+    "top_level_entries": [
+      "LICENSE",
+      "README.md",
+      "package.json",
+      "xml",
+      "xmlchars.d.ts",
+      "xmlchars.js",
+      "xmlchars.js.map",
+      "xmlns"
+    ],
+    "editable_typescript_count": 0,
+    "editable_typescript_samples": [],
+    "notice_files": [
+      {
+        "path": "LICENSE",
+        "sha256": "45d196313c2647d313cc65ca9b093d2d6974b64d35ee7346f2c60c9d518dff2c",
+        "bytes": 1086
+      }
+    ],
+    "preferred_source_status": "Not individually established by inventory; inspect build scripts and upstream source before asserting completeness"
+  }
+]

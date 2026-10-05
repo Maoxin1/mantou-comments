@@ -1,0 +1,15 @@
+? Verifying lockfile against supply-chain policies (127 entries)...
+Update available! 12.6.0 → 12.9.1.
+Changelog: https://pnpm.io/v/12.9.1
+To update, run: curl -fsSL https://get.pnpm.io/install.sh | sh -
+✓ Lockfile passes supply-chain policies (127 entries in 10.4s)
+Lockfile is up to date, resolution step is skipped
+Packages: +46
+++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 46, reused 46, downloaded 0, added 46, done
+
+devDependencies:
++ tsdown 0.23.0
++ typescript 7.0.2
+
+Done in 10.5s using pnpm v12.6.0

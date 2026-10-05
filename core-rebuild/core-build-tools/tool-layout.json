@@ -1,0 +1,1037 @@
+{
+  "format": 1,
+  "platform": "linux-x64-glibc",
+  "node": "24.20.0",
+  "packages": [
+    {
+      "path": "node_modules/.pnpm/@esbuild+linux-x64@0.27.0/node_modules/@esbuild/linux-x64",
+      "name": "@esbuild/linux-x64",
+      "version": "0.27.0",
+      "integrity": "sha512-1hBWx4OUJE2cab++aVZ7pObD6s+DK4mPGpemtnAORBvb5l/g5xFGk0vc0PjSkrDs0XaXj9yyob3d14XqvnQ4gw==",
+      "url": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.27.0.tgz",
+      "filename": "esbuild-linux-x64-0.27.0.tgz",
+      "sha256": "b400ff0437cfe819bbc0f1aee1d265940e3ecebbcb29da7c47466c799dc9696b",
+      "bytes": 4645866
+    },
+    {
+      "path": "node_modules/.pnpm/@oxc-project+types@0.151.0/node_modules/@oxc-project/types",
+      "name": "@oxc-project/types",
+      "version": "0.151.0",
+      "integrity": "sha512-J1yXrIlNDZVzE3ada310xeAw7nH8yCAyLPuUIsjKatFPmfn5bS1oW+cM+QsGOtVWd5nhSpbwZWx/rue+r5Z+PA==",
+      "url": "https://registry.npmjs.org/@oxc-project/types/-/types-0.151.0.tgz",
+      "filename": "oxc-project-types-0.151.0.tgz",
+      "sha256": "cf133aa60661a5716ab1659227718807d188fb86b152e9d4cdd1a1eb5e1e028f",
+      "bytes": 7677
+    },
+    {
+      "path": "node_modules/.pnpm/@pkgr+core@0.3.6/node_modules/@pkgr/core",
+      "name": "@pkgr/core",
+      "version": "0.3.6",
+      "integrity": "sha512-SEeaJLb3qBNF/OaXnaR1NmmBbFYk1zC0ZH/52fATcRPLFg/p791YrcyFFy44Bo9sLaGuSuLp5Q6axbb/O+v/RA==",
+      "url": "https://registry.npmjs.org/@pkgr/core/-/core-0.3.6.tgz",
+      "filename": "pkgr-core-0.3.6.tgz",
+      "sha256": "e2e38238b7d1fb836f2fb59adb1aae9d82eefdbbd1285d5798d41df7f475e5e3",
+      "bytes": 3769
+    },
+    {
+      "path": "node_modules/.pnpm/@publint+pack@0.1.7/node_modules/@publint/pack",
+      "name": "@publint/pack",
+      "version": "0.1.7",
+      "integrity": "sha512-4EDEmvxWtgsCnnVeBvtFIFZtUhPPt1+bA9JrSwU4Sa//6oKtzCSlGGXYJr44OD9aGISymbieJ4mCKHUygUDU+g==",
+      "url": "https://registry.npmjs.org/@publint/pack/-/pack-0.1.7.tgz",
+      "filename": "publint-pack-0.1.7.tgz",
+      "sha256": "a83634a43aa1a34cbf644297f83581372452eda183994e04d000cec30d27cd5f",
+      "bytes": 7615
+    },
+    {
+      "path": "node_modules/.pnpm/@quansync+fs@1.1.0/node_modules/@quansync/fs",
+      "name": "@quansync/fs",
+      "version": "1.1.0",
+      "integrity": "sha512-qAPG/t3HqML1TlN7sY/pTbEjzFVAKsMjNNMGheyDosro+kT4iw2KCUoHcVdmliwWjorm4elZbgNQyU2eD97eDg==",
+      "url": "https://registry.npmjs.org/@quansync/fs/-/fs-1.1.0.tgz",
+      "filename": "quansync-fs-1.1.0.tgz",
+      "sha256": "b42e8610d6452858e02ed0a8cc625daad161d1d4af02441a93b9f6d421d7d74a",
+      "bytes": 3389
+    },
+    {
+      "path": "node_modules/.pnpm/@rolldown+binding-linux-x64-gnu@1.2.11/node_modules/@rolldown/binding-linux-x64-gnu",
+      "name": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.2.11",
+      "integrity": "sha512-mOVBT3dPpkWm8XBWPmU4bf+U6dYDLeMo/9ojUmis4N0L5uu10qra5vOyngZ7/PSdoE4G9KvRt4bloRxNjLas7A==",
+      "url": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.11.tgz",
+      "filename": "rolldown-binding-linux-x64-gnu-1.2.11.tgz",
+      "sha256": "49f6e843133f72f3c286741fce027d36e0caac6f9f17512634318c93e3adba7a",
+      "bytes": 7940801
+    },
+    {
+      "path": "node_modules/.pnpm/@rolldown+pluginutils@1.0.1/node_modules/@rolldown/pluginutils",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "integrity": "sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==",
+      "url": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+      "filename": "rolldown-pluginutils-1.0.1.tgz",
+      "sha256": "13fcb3423d37f95a8e861c172e4b62fd24f22412be4e942087367242476e3400",
+      "bytes": 6681
+    },
+    {
+      "path": "node_modules/.pnpm/@typescript+typescript-linux-x64@7.0.2/node_modules/@typescript/typescript-linux-x64",
+      "name": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "integrity": "sha512-EYdf2cNg7rgCWJnxCdJ+F3V39O8ihb37eHAu1LK8oAFizgTQbPOK7zHHXbPt8rX24COqODXeI3sIf0fCXG7H/A==",
+      "url": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz",
+      "filename": "typescript-typescript-linux-x64-7.0.2.tgz",
+      "sha256": "7ecad6f67377e831856367ab062ef394f21506a611405bf8ac0ff039348637d3",
+      "bytes": 9669334
+    },
+    {
+      "path": "node_modules/.pnpm/@yuku-codegen+binding-linux-x64-gnu@0.10.2/node_modules/@yuku-codegen/binding-linux-x64-gnu",
+      "name": "@yuku-codegen/binding-linux-x64-gnu",
+      "version": "0.10.2",
+      "integrity": "sha512-mVzWimEPPreaPyXIUvxsHoJzvO7ckZ5j0LgQFHz04zQIRwt9A9T2hA7K5/jYjJKkMxWG/U2VjhGNwVhtyU+uqg==",
+      "url": "https://registry.npmjs.org/@yuku-codegen/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.10.2.tgz",
+      "filename": "yuku-codegen-binding-linux-x64-gnu-0.10.2.tgz",
+      "sha256": "6f7928fb2ac11aad776b29e285cf3501452d111b87288579a06637c176c7dba5",
+      "bytes": 105577
+    },
+    {
+      "path": "node_modules/.pnpm/@yuku-parser+binding-linux-x64-gnu@0.10.2/node_modules/@yuku-parser/binding-linux-x64-gnu",
+      "name": "@yuku-parser/binding-linux-x64-gnu",
+      "version": "0.10.2",
+      "integrity": "sha512-/nlcpR6IF5U+0m5L9wvAIXeQa2DT+BXuvqKDsTcOTlcc0B4dHNyqE5hTXsS4hAyimpy2ZK8A1zMNF5hTrjg2cg==",
+      "url": "https://registry.npmjs.org/@yuku-parser/binding-linux-x64-gnu/-/binding-linux-x64-gnu-0.10.2.tgz",
+      "filename": "yuku-parser-binding-linux-x64-gnu-0.10.2.tgz",
+      "sha256": "317010cbcf235a865d7fe386f9d35e605325e079d41ea8b4ec2a338acf4e853a",
+      "bytes": 352784
+    },
+    {
+      "path": "node_modules/.pnpm/@yuku-toolchain+types@0.10.2/node_modules/@yuku-toolchain/types",
+      "name": "@yuku-toolchain/types",
+      "version": "0.10.2",
+      "integrity": "sha512-sSeo4SSSToiS+sSD+bwn/s94EEcaLJ7tG5LCp8gFYC1G5VzxzX7fqB6m9RU1yMD8KTpu6zdU/I1NlQf8hVBJ9Q==",
+      "url": "https://registry.npmjs.org/@yuku-toolchain/types/-/types-0.10.2.tgz",
+      "filename": "yuku-toolchain-types-0.10.2.tgz",
+      "sha256": "dc69c6764857eee4dde8d10bfa031d96a59251f8e4399d28cd3b67d5e76afada",
+      "bytes": 11068
+    },
+    {
+      "path": "node_modules/.pnpm/cac@7.0.0/node_modules/cac",
+      "name": "cac",
+      "version": "7.0.0",
+      "integrity": "sha512-tixWYgm5ZoOD+3g6UTea91eow5z6AAHaho3g0V9CNSNb45gM8SmflpAc+GRd1InC4AqN/07Unrgp56Y94N9hJQ==",
+      "url": "https://registry.npmjs.org/cac/-/cac-7.0.0.tgz",
+      "filename": "cac-7.0.0.tgz",
+      "sha256": "fe0657b71db6eeef12010d16c9b0850ad984efe695b7c100977a9238c8fa3bf0",
+      "bytes": 13177
+    },
+    {
+      "path": "node_modules/.pnpm/defu@6.1.7/node_modules/defu",
+      "name": "defu",
+      "version": "6.1.7",
+      "integrity": "sha512-7z22QmUWiQ/2d0KkdYmANbRUVABpZ9SNYyH5vx6PZ+nE5bcC0l7uFvEfHlyld/HcGBFTL536ClDt3DEcSlEJAQ==",
+      "url": "https://registry.npmjs.org/defu/-/defu-6.1.7.tgz",
+      "filename": "defu-6.1.7.tgz",
+      "sha256": "c9a6777f6837633e4eba91ed78dbd0be2d27ab0d9c53948dac6b927c819fbcd3",
+      "bytes": 4897
+    },
+    {
+      "path": "node_modules/.pnpm/dts-resolver@3.0.0/node_modules/dts-resolver",
+      "name": "dts-resolver",
+      "version": "3.0.0",
+      "integrity": "sha512-1T1f+z+4tl9XD+m+0HBgWoL/nm0bOIffyWaUuUSBlFg/86IWvfx+wjNaO/ybU0AJzG9/Mi5hBUgGV6zCmWEN7Q==",
+      "url": "https://registry.npmjs.org/dts-resolver/-/dts-resolver-3.0.0.tgz",
+      "filename": "dts-resolver-3.0.0.tgz",
+      "sha256": "365fcea095e942a48f3a05680433f2822a3bfe7fec5225590cde700d9a734cd4",
+      "bytes": 2942
+    },
+    {
+      "path": "node_modules/.pnpm/empathic@2.1.0/node_modules/empathic",
+      "name": "empathic",
+      "version": "2.1.0",
+      "integrity": "sha512-AnfC1ATldl49/cvZdLPDjBfrRNwbDO05aibiOtzQu3qtlbJtomNLhF30HEtn/7iBz50dlMECqATo3fG0LrdEgw==",
+      "url": "https://registry.npmjs.org/empathic/-/empathic-2.1.0.tgz",
+      "filename": "empathic-2.1.0.tgz",
+      "sha256": "8f2f5d2aba4ca39b4bf16ee4a07380c2b4c1b01eb5273d471417cd2b96decffa",
+      "bytes": 5482
+    },
+    {
+      "path": "node_modules/.pnpm/esbuild@0.27.0/node_modules/esbuild",
+      "name": "esbuild",
+      "version": "0.27.0",
+      "integrity": "sha512-jd0f4NHbD6cALCyGElNpGAOtWxSq46l9X/sWB0Nzd5er4Kz2YTm+Vl0qKFT9KUJvD8+fiO8AvoHhFvEatfVixA==",
+      "url": "https://registry.npmjs.org/esbuild/-/esbuild-0.27.0.tgz",
+      "filename": "esbuild-0.27.0.tgz",
+      "sha256": "468755cfdfeba6df7d7d7a5d63058616e919eaa14295661627b19bc14bf94e12",
+      "bytes": 30946
+    },
+    {
+      "path": "node_modules/.pnpm/fdir@6.5.0_picomatch@4.0.7/node_modules/fdir",
+      "name": "fdir",
+      "version": "6.5.0",
+      "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+      "url": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "filename": "fdir-6.5.0.tgz",
+      "sha256": "241ddcd9f31e2a1fca405326017dbb8333ce174198e887f0f96387c29f0d365e",
+      "bytes": 9742
+    },
+    {
+      "path": "node_modules/.pnpm/get-tsconfig@4.14.3/node_modules/get-tsconfig",
+      "name": "get-tsconfig",
+      "version": "4.14.3",
+      "integrity": "sha512-++QEw4DIY7WGoukz+/+A/8dGYPT9l9yIadnmSgZ8Rjr3YVSVDipQSO9CdnJo9ePqFqUUqh+wk9uIaoiAwsiPkA==",
+      "url": "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-4.14.3.tgz",
+      "filename": "get-tsconfig-4.14.3.tgz",
+      "sha256": "6cb95a663ba4c9df1c3c193542795dd4ab290b1fb01c26b1794255d110c30716",
+      "bytes": 49036
+    },
+    {
+      "path": "node_modules/.pnpm/get-tsconfig@5.0.0-beta.6/node_modules/get-tsconfig",
+      "name": "get-tsconfig",
+      "version": "5.0.0-beta.6",
+      "integrity": "sha512-X6fBC0pmImC70gvX2zm56go9hx0MyoGVdG0tUCkg/D+Xnh5TJsOZ7iDbOdI3PvmtrDxnu1YdDufpK2QJX1Meqw==",
+      "url": "https://registry.npmjs.org/get-tsconfig/-/get-tsconfig-5.0.0-beta.6.tgz",
+      "filename": "get-tsconfig-5.0.0-beta.6.tgz",
+      "sha256": "d7a390a678fb8bbf1fc8524f7b54154a94f28c3013f7443ee2081e9ea6ae99bf",
+      "bytes": 34520
+    },
+    {
+      "path": "node_modules/.pnpm/hookable@6.1.2/node_modules/hookable",
+      "name": "hookable",
+      "version": "6.1.2",
+      "integrity": "sha512-+abwxtiEA52GCVIsQqut3S/uKTbUwYIp4Pe/vv+6py5XiXBCqMZHg6pA6Y5qhgLSEys0/cYuPbO0z1QFj5ZCmg==",
+      "url": "https://registry.npmjs.org/hookable/-/hookable-6.1.2.tgz",
+      "filename": "hookable-6.1.2.tgz",
+      "sha256": "24cad484d81ea7ccc280f6796a95b2f0ce2789243414dc54d5397b6324497e14",
+      "bytes": 7654
+    },
+    {
+      "path": "node_modules/.pnpm/import-without-cache@0.4.1/node_modules/import-without-cache",
+      "name": "import-without-cache",
+      "version": "0.4.1",
+      "integrity": "sha512-vXoV9PjKHEednCUu01e98TkImxy67e3BJXbTIOmIq4Hyzw3IAwYRcuPkfeTzJzwyyts4kjuA73x+pWJLc4f86A==",
+      "url": "https://registry.npmjs.org/import-without-cache/-/import-without-cache-0.4.1.tgz",
+      "filename": "import-without-cache-0.4.1.tgz",
+      "sha256": "21d6428e245824c1987fff12309765e3f515e601d5146626655cc741ebfc580b",
+      "bytes": 3384
+    },
+    {
+      "path": "node_modules/.pnpm/mri@1.2.0/node_modules/mri",
+      "name": "mri",
+      "version": "1.2.0",
+      "integrity": "sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==",
+      "url": "https://registry.npmjs.org/mri/-/mri-1.2.0.tgz",
+      "filename": "mri-1.2.0.tgz",
+      "sha256": "9e383990963c167baa471cc928a02eb1768ee2ffabf8117082a09b5213f9a575",
+      "bytes": 4448
+    },
+    {
+      "path": "node_modules/.pnpm/obug@2.2.1/node_modules/obug",
+      "name": "obug",
+      "version": "2.2.1",
+      "integrity": "sha512-XrsrhT5sybtKI6wakr2SPOlGZWWYbUXZ7a0jT8/QOeAPau+1X/bSegNe5YR75oJmEZQbKningirmGOEJCIk61Q==",
+      "url": "https://registry.npmjs.org/obug/-/obug-2.2.1.tgz",
+      "filename": "obug-2.2.1.tgz",
+      "sha256": "cbf042980f79918d07c46817fe18ed0db6a8e55893dd7347b7cad71e3e5f65a7",
+      "bytes": 10816
+    },
+    {
+      "path": "node_modules/.pnpm/obug@3.0.0/node_modules/obug",
+      "name": "obug",
+      "version": "3.0.0",
+      "integrity": "sha512-5vvB5+W7ePv+p3uqxi+RcW1XAzLW0/hxt3/4X4Lc4qHudzOhmBiBwOY6DRob4WnanAEGvNcLjF+KNOufrUoEQw==",
+      "url": "https://registry.npmjs.org/obug/-/obug-3.0.0.tgz",
+      "filename": "obug-3.0.0.tgz",
+      "sha256": "ecfec0c0318c048b6abde3c42f3a1c3fc35b3f69392a4b262b848aab76ff3d11",
+      "bytes": 9311
+    },
+    {
+      "path": "node_modules/.pnpm/package-manager-detector@1.8.0/node_modules/package-manager-detector",
+      "name": "package-manager-detector",
+      "version": "1.8.0",
+      "integrity": "sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==",
+      "url": "https://registry.npmjs.org/package-manager-detector/-/package-manager-detector-1.8.0.tgz",
+      "filename": "package-manager-detector-1.8.0.tgz",
+      "sha256": "fcf82d09555ad9ed291500b5c358c81e2a1860946b5b85e32477cbe31a59a6b1",
+      "bytes": 7930
+    },
+    {
+      "path": "node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+      "url": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "filename": "picocolors-1.1.1.tgz",
+      "sha256": "d3aedb2807967b7eb37fd11b03b7e3701e725af79c650d0812ff7213f8f882d9",
+      "bytes": 2625
+    },
+    {
+      "path": "node_modules/.pnpm/picomatch@4.0.7/node_modules/picomatch",
+      "name": "picomatch",
+      "version": "4.0.7",
+      "integrity": "sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==",
+      "url": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz",
+      "filename": "picomatch-4.0.7.tgz",
+      "sha256": "697b463be3cdbd9ffc8f4194fd5019a69ddf95875fb703d78b2b115cc9e740a8",
+      "bytes": 24326
+    },
+    {
+      "path": "node_modules/.pnpm/publint@0.3.24/node_modules/publint",
+      "name": "publint",
+      "version": "0.3.24",
+      "integrity": "sha512-9zS56KrKBoqi5Qt8h92uMP8TTM9AYZSgnmCo4u2priMqkOZvQnTsziZ2p5LJ2ywbYkAjoCDp2jda9u4cgFefIw==",
+      "url": "https://registry.npmjs.org/publint/-/publint-0.3.24.tgz",
+      "filename": "publint-0.3.24.tgz",
+      "sha256": "83ad64151c95c63a4347635bbe6b67719fc105a053c9cedf7b785d896719e7c0",
+      "bytes": 31507
+    },
+    {
+      "path": "node_modules/.pnpm/quansync@1.0.0/node_modules/quansync",
+      "name": "quansync",
+      "version": "1.0.0",
+      "integrity": "sha512-5xZacEEufv3HSTPQuchrvV6soaiACMFnq1H8wkVioctoH3TRha9Sz66lOxRwPK/qZj7HPiSveih9yAyh98gvqA==",
+      "url": "https://registry.npmjs.org/quansync/-/quansync-1.0.0.tgz",
+      "filename": "quansync-1.0.0.tgz",
+      "sha256": "79ff9faf2d1e62ce5fe30b70cbe5718e1bd6a69777f10d0a65a0d209c6da201a",
+      "bytes": 5071
+    },
+    {
+      "path": "node_modules/.pnpm/resolve-pkg-maps@1.0.0/node_modules/resolve-pkg-maps",
+      "name": "resolve-pkg-maps",
+      "version": "1.0.0",
+      "integrity": "sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==",
+      "url": "https://registry.npmjs.org/resolve-pkg-maps/-/resolve-pkg-maps-1.0.0.tgz",
+      "filename": "resolve-pkg-maps-1.0.0.tgz",
+      "sha256": "4a7cbdb7054b1dd6e466067129be9577b495ff69d02064913e1723405db0df76",
+      "bytes": 5194
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/rolldown-plugin-dts",
+      "name": "rolldown-plugin-dts",
+      "version": "0.28.6",
+      "integrity": "sha512-qKrFtBfRfR2hP233m7Ic9zf3wv6MSYdZghWKMdEO6dRYZGlNfINJAa1P5ZVvyHh3mrcd7IJQvIY8L9vnm+v5rQ==",
+      "url": "https://registry.npmjs.org/rolldown-plugin-dts/-/rolldown-plugin-dts-0.28.6.tgz",
+      "filename": "rolldown-plugin-dts-0.28.6.tgz",
+      "sha256": "8f288795bba6633b1e6e7f09aaf02dfcd7f49ebecdd113c90b920956c60f50d2",
+      "bytes": 30277
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.2.11/node_modules/rolldown",
+      "name": "rolldown",
+      "version": "1.2.11",
+      "integrity": "sha512-qpSwIyz0jHQq5qXBTNxFmE6664rJ7O+4TvPFOiOaBSrz8IOHc1koKKSqTM2H6u1UG1+TveuC6vaDHKXFOvb1Kw==",
+      "url": "https://registry.npmjs.org/rolldown/-/rolldown-1.2.11.tgz",
+      "filename": "rolldown-1.2.11.tgz",
+      "sha256": "3acd96aab699f4936c223ebe60a52882a22aaa7dba22393f97b30729dd26516b",
+      "bytes": 198125
+    },
+    {
+      "path": "node_modules/.pnpm/sade@1.8.1/node_modules/sade",
+      "name": "sade",
+      "version": "1.8.1",
+      "integrity": "sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==",
+      "url": "https://registry.npmjs.org/sade/-/sade-1.8.1.tgz",
+      "filename": "sade-1.8.1.tgz",
+      "sha256": "73dfd051a36ea90daf95c811ba503bb5230b24f86afbe755c254736dad5d045e",
+      "bytes": 10449
+    },
+    {
+      "path": "node_modules/.pnpm/synckit@0.11.13/node_modules/synckit",
+      "name": "synckit",
+      "version": "0.11.13",
+      "integrity": "sha512-eNRKgb3z66Yp3D2CixVujOUvXLFUTij/zVnV8KRyvFdQwpz7I5DS8UfRkTeLzb64u+dkzDSdelE24izu+zSSUg==",
+      "url": "https://registry.npmjs.org/synckit/-/synckit-0.11.13.tgz",
+      "filename": "synckit-0.11.13.tgz",
+      "sha256": "3e3ee301e44d9bea17a29dd936f9162bd9a5fd5ef8743466d5375cc3265fa96e",
+      "bytes": 25114
+    },
+    {
+      "path": "node_modules/.pnpm/tinyexec@1.3.1/node_modules/tinyexec",
+      "name": "tinyexec",
+      "version": "1.3.1",
+      "integrity": "sha512-GCvB3aoys96IuDFBMcTB46JOR6mdMtAToqwiW8JlWhsoh1mhHi/xn9ss/Dg7N555GiJyEt2qzoG/NHCwM6h1EA==",
+      "url": "https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz",
+      "filename": "tinyexec-1.3.1.tgz",
+      "sha256": "540b804f39c7716c232252085e4d43d9b10e2d89db39faaa1b31ed8cd93e2f1f",
+      "bytes": 9187
+    },
+    {
+      "path": "node_modules/.pnpm/tinyglobby@0.2.17/node_modules/tinyglobby",
+      "name": "tinyglobby",
+      "version": "0.2.17",
+      "integrity": "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==",
+      "url": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "filename": "tinyglobby-0.2.17.tgz",
+      "sha256": "afb4afae9175f8b873ac13e1d21cea0997a0bcb40c3598613a834490058cb562",
+      "bytes": 7873
+    },
+    {
+      "path": "node_modules/.pnpm/tree-kill@1.2.2/node_modules/tree-kill",
+      "name": "tree-kill",
+      "version": "1.2.2",
+      "integrity": "sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==",
+      "url": "https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz",
+      "filename": "tree-kill-1.2.2.tgz",
+      "sha256": "4a188633a6c3f39f12dca8b38bd682081e499459f6f07f362996d3e860e66061",
+      "bytes": 3243
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown",
+      "name": "tsdown",
+      "version": "0.23.0",
+      "integrity": "sha512-BaT+ep1xnj5hdyICLd5r5SYYE+TXnI1ATePLykv9vcKpHpFTWUWRH+x1AF/E2qcu3YB6+vI8IdyxIIIffEqw5Q==",
+      "url": "https://registry.npmjs.org/tsdown/-/tsdown-0.23.0.tgz",
+      "filename": "tsdown-0.23.0.tgz",
+      "sha256": "5b6ae24a627699db9563dcb34fd11d48bec7b33afde61bf8f241cc3560a71d40",
+      "bytes": 55654
+    },
+    {
+      "path": "node_modules/.pnpm/tsx@4.21.0/node_modules/tsx",
+      "name": "tsx",
+      "version": "4.21.0",
+      "integrity": "sha512-5C1sg4USs1lfG0GFb2RLXsdpXqBSEhAaA/0kPL01wxzpMqLILNxIxIOKiILz+cdg/pLnOUxFYOR5yhHU666wbw==",
+      "url": "https://registry.npmjs.org/tsx/-/tsx-4.21.0.tgz",
+      "filename": "tsx-4.21.0.tgz",
+      "sha256": "d403b8208816de76eddbbe5642bfefbbfe7c8c2109fa886e3710e0a1907f33a5",
+      "bytes": 154267
+    },
+    {
+      "path": "node_modules/.pnpm/typescript@7.0.2/node_modules/typescript",
+      "name": "typescript",
+      "version": "7.0.2",
+      "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+      "url": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+      "filename": "typescript-7.0.2.tgz",
+      "sha256": "da2513f4b95176d6dde8b51aab7afe8a927656c9d277369793f77f7e59371c08",
+      "bytes": 365612
+    },
+    {
+      "path": "node_modules/.pnpm/unconfig-core@7.5.0/node_modules/unconfig-core",
+      "name": "unconfig-core",
+      "version": "7.5.0",
+      "integrity": "sha512-Su3FauozOGP44ZmKdHy2oE6LPjk51M/TRRjHv2HNCWiDvfvCoxC2lno6jevMA91MYAdCdwP05QnWdWpSbncX/w==",
+      "url": "https://registry.npmjs.org/unconfig-core/-/unconfig-core-7.5.0.tgz",
+      "filename": "unconfig-core-7.5.0.tgz",
+      "sha256": "94d4ba5f47188808fa160eede68e0b39deb0fa82bd40db9fd2bdc233f915eed8",
+      "bytes": 2583
+    },
+    {
+      "path": "node_modules/.pnpm/unrun@0.3.1_synckit@0.11.13/node_modules/unrun",
+      "name": "unrun",
+      "version": "0.3.1",
+      "integrity": "sha512-onIck/oNnCaytwths1ZVp1LK2Gq2hPoyFhiHebObuUXqR3S0uHuLLaBK8K6mRRgV7Ptip8AnNvaUsgzwWwBZuA==",
+      "url": "https://registry.npmjs.org/unrun/-/unrun-0.3.1.tgz",
+      "filename": "unrun-0.3.1.tgz",
+      "sha256": "70946ecacb715b1c19436933f310575ba9290f454ce41ba7d49568abe3387115",
+      "bytes": 13271
+    },
+    {
+      "path": "node_modules/.pnpm/verkit@0.4.1/node_modules/verkit",
+      "name": "verkit",
+      "version": "0.4.1",
+      "integrity": "sha512-mMVzj0TXExtVdlDEq+Mzp0eyOuyznNpFobNM3uAqe3HVm/Ps2c+u17BligMkZjZCA6EiXpoon8iRTer3iu40SQ==",
+      "url": "https://registry.npmjs.org/verkit/-/verkit-0.4.1.tgz",
+      "filename": "verkit-0.4.1.tgz",
+      "sha256": "7e365ef868c537996dc19b54244466cbb29b5045406ab152fa96faf1803ab26c",
+      "bytes": 18435
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-ast@0.10.2/node_modules/yuku-ast",
+      "name": "yuku-ast",
+      "version": "0.10.2",
+      "integrity": "sha512-UnG9mA6giglCvSErft2/40TVFX750Sj1xgwddPLpG7J7rlr/P1wPADg9G2RK+d/1tNLtRVoLdMMOMVBB9561TQ==",
+      "url": "https://registry.npmjs.org/yuku-ast/-/yuku-ast-0.10.2.tgz",
+      "filename": "yuku-ast-0.10.2.tgz",
+      "sha256": "0528e544ae88e649cae185a73a0a3149de8d5de281223525c0ebb50694da52c4",
+      "bytes": 17375
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-codegen@0.10.2/node_modules/yuku-codegen",
+      "name": "yuku-codegen",
+      "version": "0.10.2",
+      "integrity": "sha512-hentl2dtrF6cPjiAirtkfxfFZBA6Hdm61UqRJ7cA0qrlDNMk9PZGOjw5w1mx3E0hu/6pHcJF4dJW+D0SXHPZOA==",
+      "url": "https://registry.npmjs.org/yuku-codegen/-/yuku-codegen-0.10.2.tgz",
+      "filename": "yuku-codegen-0.10.2.tgz",
+      "sha256": "f4ea9116966244be684a5450006ad9252a8d759c823458f833885c6522991918",
+      "bytes": 16098
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-parser@0.10.2/node_modules/yuku-parser",
+      "name": "yuku-parser",
+      "version": "0.10.2",
+      "integrity": "sha512-CgaU0/PPjCAIEZ3WQroosOxTY3eeKldAN3h+vk8pMNz4+jl1CZzBR4pW+K/rRPF112VooCL5FdjJoiMNjDrL2A==",
+      "url": "https://registry.npmjs.org/yuku-parser/-/yuku-parser-0.10.2.tgz",
+      "filename": "yuku-parser-0.10.2.tgz",
+      "sha256": "d5ac3f95579595bc2981f57b5eed227177cc40f8e8ae2cd89ffbe364bdd4b6ac",
+      "bytes": 15871
+    },
+    {
+      "path": "node_modules/@pnpm/exe.linux-x64",
+      "name": "@pnpm/exe.linux-x64",
+      "version": "12.6.0",
+      "integrity": "sha512-qFWBneHJAJ73W4whtbaFOL1M/7DBC6ILHXuxc7ZPtEhfPuT1zeZiGrmKHoMAfJA+mcm6xhOFljqVTUS+00Jabw==",
+      "url": "https://registry.npmjs.org/@pnpm/exe.linux-x64/-/exe.linux-x64-12.6.0.tgz",
+      "filename": "pnpm-exe.linux-x64-12.6.0.tgz",
+      "sha256": "2b5f62986b14f2891fb78e5b554e60e38f25987217fed578f0303bbfda5e124a",
+      "bytes": 24702322
+    },
+    {
+      "path": "node_modules/pnpm",
+      "name": "pnpm",
+      "version": "12.6.0",
+      "integrity": "sha512-PvaPlRyxEawgS0paFvCy3fDaVqluBBPoHYVdnwtV75JnFHCQKOHNAMQFwsX7e56OxNxGd3yAXQNzwvL/AP0g7A==",
+      "url": "https://registry.npmjs.org/pnpm/-/pnpm-12.6.0.tgz",
+      "filename": "pnpm-12.6.0.tgz",
+      "sha256": "05b7b921fbb31564505c967eabf825895a1cc18f50935c00be98815272cc9d56",
+      "bytes": 996484
+    }
+  ],
+  "symlinks": [
+    {
+      "path": "node_modules/.pnpm/@publint+pack@0.1.7/node_modules/tinyexec",
+      "target": "../../tinyexec@1.3.1/node_modules/tinyexec"
+    },
+    {
+      "path": "node_modules/.pnpm/@quansync+fs@1.1.0/node_modules/quansync",
+      "target": "../../quansync@1.0.0/node_modules/quansync"
+    },
+    {
+      "path": "node_modules/.pnpm/esbuild@0.27.0/node_modules/@esbuild/linux-x64",
+      "target": "../../../@esbuild+linux-x64@0.27.0/node_modules/@esbuild/linux-x64"
+    },
+    {
+      "path": "node_modules/.pnpm/fdir@6.5.0_picomatch@4.0.7/node_modules/picomatch",
+      "target": "../../picomatch@4.0.7/node_modules/picomatch"
+    },
+    {
+      "path": "node_modules/.pnpm/get-tsconfig@4.14.3/node_modules/resolve-pkg-maps",
+      "target": "../../resolve-pkg-maps@1.0.0/node_modules/resolve-pkg-maps"
+    },
+    {
+      "path": "node_modules/.pnpm/get-tsconfig@5.0.0-beta.6/node_modules/resolve-pkg-maps",
+      "target": "../../resolve-pkg-maps@1.0.0/node_modules/resolve-pkg-maps"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@esbuild/linux-x64",
+      "target": "../../@esbuild+linux-x64@0.27.0/node_modules/@esbuild/linux-x64"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@oxc-project/types",
+      "target": "../../@oxc-project+types@0.151.0/node_modules/@oxc-project/types"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@pkgr/core",
+      "target": "../../@pkgr+core@0.3.6/node_modules/@pkgr/core"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@publint/pack",
+      "target": "../../@publint+pack@0.1.7/node_modules/@publint/pack"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@quansync/fs",
+      "target": "../../@quansync+fs@1.1.0/node_modules/@quansync/fs"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@rolldown/binding-linux-x64-gnu",
+      "target": "../../@rolldown+binding-linux-x64-gnu@1.2.11/node_modules/@rolldown/binding-linux-x64-gnu"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@rolldown/pluginutils",
+      "target": "../../@rolldown+pluginutils@1.0.1/node_modules/@rolldown/pluginutils"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@typescript/typescript-linux-x64",
+      "target": "../../@typescript+typescript-linux-x64@7.0.2/node_modules/@typescript/typescript-linux-x64"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@yuku-codegen/binding-linux-x64-gnu",
+      "target": "../../@yuku-codegen+binding-linux-x64-gnu@0.10.2/node_modules/@yuku-codegen/binding-linux-x64-gnu"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@yuku-parser/binding-linux-x64-gnu",
+      "target": "../../@yuku-parser+binding-linux-x64-gnu@0.10.2/node_modules/@yuku-parser/binding-linux-x64-gnu"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@yuku-toolchain/types",
+      "target": "../../@yuku-toolchain+types@0.10.2/node_modules/@yuku-toolchain/types"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/cac",
+      "target": "../cac@7.0.0/node_modules/cac"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/defu",
+      "target": "../defu@6.1.7/node_modules/defu"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/dts-resolver",
+      "target": "../dts-resolver@3.0.0/node_modules/dts-resolver"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/empathic",
+      "target": "../empathic@2.1.0/node_modules/empathic"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/esbuild",
+      "target": "../esbuild@0.27.0/node_modules/esbuild"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/fdir",
+      "target": "../fdir@6.5.0_picomatch@4.0.7/node_modules/fdir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/get-tsconfig",
+      "target": "../get-tsconfig@5.0.0-beta.6/node_modules/get-tsconfig"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/hookable",
+      "target": "../hookable@6.1.2/node_modules/hookable"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/import-without-cache",
+      "target": "../import-without-cache@0.4.1/node_modules/import-without-cache"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/mri",
+      "target": "../mri@1.2.0/node_modules/mri"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/obug",
+      "target": "../obug@2.2.1/node_modules/obug"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/package-manager-detector",
+      "target": "../package-manager-detector@1.8.0/node_modules/package-manager-detector"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/picocolors",
+      "target": "../picocolors@1.1.1/node_modules/picocolors"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/picomatch",
+      "target": "../picomatch@4.0.7/node_modules/picomatch"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/publint",
+      "target": "../publint@0.3.24/node_modules/publint"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/quansync",
+      "target": "../quansync@1.0.0/node_modules/quansync"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/resolve-pkg-maps",
+      "target": "../resolve-pkg-maps@1.0.0/node_modules/resolve-pkg-maps"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/rolldown",
+      "target": "../rolldown@1.2.11/node_modules/rolldown"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/rolldown-plugin-dts",
+      "target": "../rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/rolldown-plugin-dts"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/sade",
+      "target": "../sade@1.8.1/node_modules/sade"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/synckit",
+      "target": "../synckit@0.11.13/node_modules/synckit"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/tinyexec",
+      "target": "../tinyexec@1.3.1/node_modules/tinyexec"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/tinyglobby",
+      "target": "../tinyglobby@0.2.17/node_modules/tinyglobby"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/tree-kill",
+      "target": "../tree-kill@1.2.2/node_modules/tree-kill"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/tsx",
+      "target": "../tsx@4.21.0/node_modules/tsx"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/unconfig-core",
+      "target": "../unconfig-core@7.5.0/node_modules/unconfig-core"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/unrun",
+      "target": "../unrun@0.3.1_synckit@0.11.13/node_modules/unrun"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/verkit",
+      "target": "../verkit@0.4.1/node_modules/verkit"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/yuku-ast",
+      "target": "../yuku-ast@0.10.2/node_modules/yuku-ast"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/yuku-codegen",
+      "target": "../yuku-codegen@0.10.2/node_modules/yuku-codegen"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/yuku-parser",
+      "target": "../yuku-parser@0.10.2/node_modules/yuku-parser"
+    },
+    {
+      "path": "node_modules/.pnpm/publint@0.3.24/node_modules/@publint/pack",
+      "target": "../../../@publint+pack@0.1.7/node_modules/@publint/pack"
+    },
+    {
+      "path": "node_modules/.pnpm/publint@0.3.24/node_modules/package-manager-detector",
+      "target": "../../package-manager-detector@1.8.0/node_modules/package-manager-detector"
+    },
+    {
+      "path": "node_modules/.pnpm/publint@0.3.24/node_modules/picocolors",
+      "target": "../../picocolors@1.1.1/node_modules/picocolors"
+    },
+    {
+      "path": "node_modules/.pnpm/publint@0.3.24/node_modules/sade",
+      "target": "../../sade@1.8.1/node_modules/sade"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/dts-resolver",
+      "target": "../../dts-resolver@3.0.0/node_modules/dts-resolver"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/get-tsconfig",
+      "target": "../../get-tsconfig@5.0.0-beta.6/node_modules/get-tsconfig"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/obug",
+      "target": "../../obug@3.0.0/node_modules/obug"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/rolldown",
+      "target": "../../rolldown@1.2.11/node_modules/rolldown"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/typescript",
+      "target": "../../typescript@7.0.2/node_modules/typescript"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/yuku-ast",
+      "target": "../../yuku-ast@0.10.2/node_modules/yuku-ast"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/yuku-codegen",
+      "target": "../../yuku-codegen@0.10.2/node_modules/yuku-codegen"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/yuku-parser",
+      "target": "../../yuku-parser@0.10.2/node_modules/yuku-parser"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.2.11/node_modules/@oxc-project/types",
+      "target": "../../../@oxc-project+types@0.151.0/node_modules/@oxc-project/types"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.2.11/node_modules/@rolldown/binding-linux-x64-gnu",
+      "target": "../../../@rolldown+binding-linux-x64-gnu@1.2.11/node_modules/@rolldown/binding-linux-x64-gnu"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.2.11/node_modules/@rolldown/pluginutils",
+      "target": "../../../@rolldown+pluginutils@1.0.1/node_modules/@rolldown/pluginutils"
+    },
+    {
+      "path": "node_modules/.pnpm/sade@1.8.1/node_modules/mri",
+      "target": "../../mri@1.2.0/node_modules/mri"
+    },
+    {
+      "path": "node_modules/.pnpm/synckit@0.11.13/node_modules/@pkgr/core",
+      "target": "../../../@pkgr+core@0.3.6/node_modules/@pkgr/core"
+    },
+    {
+      "path": "node_modules/.pnpm/tinyglobby@0.2.17/node_modules/fdir",
+      "target": "../../fdir@6.5.0_picomatch@4.0.7/node_modules/fdir"
+    },
+    {
+      "path": "node_modules/.pnpm/tinyglobby@0.2.17/node_modules/picomatch",
+      "target": "../../picomatch@4.0.7/node_modules/picomatch"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/cac",
+      "target": "../../cac@7.0.0/node_modules/cac"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/defu",
+      "target": "../../defu@6.1.7/node_modules/defu"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/empathic",
+      "target": "../../empathic@2.1.0/node_modules/empathic"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/hookable",
+      "target": "../../hookable@6.1.2/node_modules/hookable"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/import-without-cache",
+      "target": "../../import-without-cache@0.4.1/node_modules/import-without-cache"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/obug",
+      "target": "../../obug@2.2.1/node_modules/obug"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/picomatch",
+      "target": "../../picomatch@4.0.7/node_modules/picomatch"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/publint",
+      "target": "../../publint@0.3.24/node_modules/publint"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/rolldown",
+      "target": "../../rolldown@1.2.11/node_modules/rolldown"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/rolldown-plugin-dts",
+      "target": "../../rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/rolldown-plugin-dts"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tinyexec",
+      "target": "../../tinyexec@1.3.1/node_modules/tinyexec"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tinyglobby",
+      "target": "../../tinyglobby@0.2.17/node_modules/tinyglobby"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tree-kill",
+      "target": "../../tree-kill@1.2.2/node_modules/tree-kill"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsx",
+      "target": "../../tsx@4.21.0/node_modules/tsx"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/typescript",
+      "target": "../../typescript@7.0.2/node_modules/typescript"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/unconfig-core",
+      "target": "../../unconfig-core@7.5.0/node_modules/unconfig-core"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/unrun",
+      "target": "../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun"
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/verkit",
+      "target": "../../verkit@0.4.1/node_modules/verkit"
+    },
+    {
+      "path": "node_modules/.pnpm/tsx@4.21.0/node_modules/esbuild",
+      "target": "../../esbuild@0.27.0/node_modules/esbuild"
+    },
+    {
+      "path": "node_modules/.pnpm/tsx@4.21.0/node_modules/get-tsconfig",
+      "target": "../../get-tsconfig@4.14.3/node_modules/get-tsconfig"
+    },
+    {
+      "path": "node_modules/.pnpm/typescript@7.0.2/node_modules/@typescript/typescript-linux-x64",
+      "target": "../../../@typescript+typescript-linux-x64@7.0.2/node_modules/@typescript/typescript-linux-x64"
+    },
+    {
+      "path": "node_modules/.pnpm/unconfig-core@7.5.0/node_modules/@quansync/fs",
+      "target": "../../../@quansync+fs@1.1.0/node_modules/@quansync/fs"
+    },
+    {
+      "path": "node_modules/.pnpm/unconfig-core@7.5.0/node_modules/quansync",
+      "target": "../../quansync@1.0.0/node_modules/quansync"
+    },
+    {
+      "path": "node_modules/.pnpm/unrun@0.3.1_synckit@0.11.13/node_modules/rolldown",
+      "target": "../../rolldown@1.2.11/node_modules/rolldown"
+    },
+    {
+      "path": "node_modules/.pnpm/unrun@0.3.1_synckit@0.11.13/node_modules/synckit",
+      "target": "../../synckit@0.11.13/node_modules/synckit"
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-ast@0.10.2/node_modules/@yuku-toolchain/types",
+      "target": "../../../@yuku-toolchain+types@0.10.2/node_modules/@yuku-toolchain/types"
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-codegen@0.10.2/node_modules/@yuku-codegen/binding-linux-x64-gnu",
+      "target": "../../../@yuku-codegen+binding-linux-x64-gnu@0.10.2/node_modules/@yuku-codegen/binding-linux-x64-gnu"
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-codegen@0.10.2/node_modules/@yuku-toolchain/types",
+      "target": "../../../@yuku-toolchain+types@0.10.2/node_modules/@yuku-toolchain/types"
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-parser@0.10.2/node_modules/@yuku-parser/binding-linux-x64-gnu",
+      "target": "../../../@yuku-parser+binding-linux-x64-gnu@0.10.2/node_modules/@yuku-parser/binding-linux-x64-gnu"
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-parser@0.10.2/node_modules/@yuku-toolchain/types",
+      "target": "../../../@yuku-toolchain+types@0.10.2/node_modules/@yuku-toolchain/types"
+    },
+    {
+      "path": "node_modules/.pnpm/yuku-parser@0.10.2/node_modules/yuku-ast",
+      "target": "../../yuku-ast@0.10.2/node_modules/yuku-ast"
+    },
+    {
+      "path": "node_modules/tsdown",
+      "target": ".pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown"
+    },
+    {
+      "path": "node_modules/typescript",
+      "target": ".pnpm/typescript@7.0.2/node_modules/typescript"
+    },
+    {
+      "path": "node_modules/.bin/pnpm",
+      "target": "../pnpm/pnpm"
+    },
+    {
+      "path": "node_modules/.bin/pn",
+      "target": "../pnpm/pn"
+    },
+    {
+      "path": "node_modules/.bin/pnpx",
+      "target": "../pnpm/pnpx"
+    },
+    {
+      "path": "node_modules/.bin/pnx",
+      "target": "../pnpm/pnx"
+    }
+  ],
+  "binShims": [
+    {
+      "path": "node_modules/.bin/tsc",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../.pnpm/typescript@7.0.2/node_modules/typescript/node_modules:$basedir_abs/../.pnpm/typescript@7.0.2/node_modules:$basedir_abs/../.pnpm/node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../.pnpm/typescript@7.0.2/node_modules/typescript/node_modules:$basedir_abs/../.pnpm/typescript@7.0.2/node_modules:$basedir_abs/../.pnpm/node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../.pnpm/typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../.pnpm/typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../.pnpm/typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../.pnpm/typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../.pnpm/typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nfi\n# cmd-shim-target=../.pnpm/typescript@7.0.2/node_modules/typescript/bin/tsc\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.bin/tsdown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules:$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules:$basedir_abs/../.pnpm/node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules:$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules:$basedir_abs/../.pnpm/node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/dist/run.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/dist/run.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/dist/run.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/dist/run.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/dist/run.mjs\" \"$@\"\nfi\n# cmd-shim-target=../.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/dist/run.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/esbuild@0.27.0/node_modules/esbuild/node_modules/.bin/esbuild",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../bin/esbuild\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../bin/esbuild\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../bin/esbuild\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../bin/esbuild\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../bin/esbuild\" \"$@\"\nfi\n# cmd-shim-target=../../bin/esbuild\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/esbuild",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../esbuild@0.27.0/node_modules/esbuild/node_modules:$basedir_abs/../../esbuild@0.27.0/node_modules:$basedir_abs/..\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../esbuild@0.27.0/node_modules/esbuild/node_modules:$basedir_abs/../../esbuild@0.27.0/node_modules:$basedir_abs/..:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nfi\n# cmd-shim-target=../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/publint",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../publint@0.3.24/node_modules/publint/node_modules:$basedir_abs/../../publint@0.3.24/node_modules:$basedir_abs/..\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../publint@0.3.24/node_modules/publint/node_modules:$basedir_abs/../../publint@0.3.24/node_modules:$basedir_abs/..:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nfi\n# cmd-shim-target=../../publint@0.3.24/node_modules/publint/src/cli.js\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/rolldown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../rolldown@1.2.11/node_modules:$basedir_abs/..\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../rolldown@1.2.11/node_modules:$basedir_abs/..:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/tree-kill",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../tree-kill@1.2.2/node_modules/tree-kill/node_modules:$basedir_abs/../../tree-kill@1.2.2/node_modules:$basedir_abs/..\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../tree-kill@1.2.2/node_modules/tree-kill/node_modules:$basedir_abs/../../tree-kill@1.2.2/node_modules:$basedir_abs/..:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nfi\n# cmd-shim-target=../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/tsx",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../tsx@4.21.0/node_modules/tsx/node_modules:$basedir_abs/../../tsx@4.21.0/node_modules:$basedir_abs/..\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../tsx@4.21.0/node_modules/tsx/node_modules:$basedir_abs/../../tsx@4.21.0/node_modules:$basedir_abs/..:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/.bin/unrun",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/node_modules:$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules:$basedir_abs/..\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/node_modules:$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules:$basedir_abs/..:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/publint@0.3.24/node_modules/publint/node_modules/.bin/publint",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../src/cli.js\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../src/cli.js\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../src/cli.js\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../src/cli.js\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../src/cli.js\" \"$@\"\nfi\n# cmd-shim-target=../../src/cli.js\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/rolldown-plugin-dts/node_modules/.bin/rolldown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../../../../rolldown@1.2.11/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../../../../rolldown@1.2.11/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown-plugin-dts@0.28.6_rolldown@1.2.11_typescript@7.0.2/node_modules/rolldown-plugin-dts/node_modules/.bin/tsc",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/node_modules:$basedir_abs/../../../../../typescript@7.0.2/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/node_modules:$basedir_abs/../../../../../typescript@7.0.2/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nfi\n# cmd-shim-target=../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.2.11/node_modules/rolldown/node_modules/.bin/rolldown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../bin/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../bin/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../bin/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../bin/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../bin/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../bin/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tree-kill@1.2.2/node_modules/tree-kill/node_modules/.bin/tree-kill",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../cli.js\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../cli.js\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../cli.js\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../cli.js\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../cli.js\" \"$@\"\nfi\n# cmd-shim-target=../../cli.js\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/publint",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../publint@0.3.24/node_modules/publint/node_modules:$basedir_abs/../../../../../publint@0.3.24/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../publint@0.3.24/node_modules/publint/node_modules:$basedir_abs/../../../../../publint@0.3.24/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../publint@0.3.24/node_modules/publint/src/cli.js\" \"$@\"\nfi\n# cmd-shim-target=../../../../../publint@0.3.24/node_modules/publint/src/cli.js\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/rolldown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../../../../rolldown@1.2.11/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../../../../rolldown@1.2.11/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/tree-kill",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../tree-kill@1.2.2/node_modules/tree-kill/node_modules:$basedir_abs/../../../../../tree-kill@1.2.2/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../tree-kill@1.2.2/node_modules/tree-kill/node_modules:$basedir_abs/../../../../../tree-kill@1.2.2/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\" \"$@\"\nfi\n# cmd-shim-target=../../../../../tree-kill@1.2.2/node_modules/tree-kill/cli.js\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/tsc",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/node_modules:$basedir_abs/../../../../../typescript@7.0.2/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/node_modules:$basedir_abs/../../../../../typescript@7.0.2/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\" \"$@\"\nfi\n# cmd-shim-target=../../../../../typescript@7.0.2/node_modules/typescript/bin/tsc\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/tsdown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../dist/run.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../dist/run.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../dist/run.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../dist/run.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../dist/run.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../dist/run.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/tsx",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../tsx@4.21.0/node_modules/tsx/node_modules:$basedir_abs/../../../../../tsx@4.21.0/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../tsx@4.21.0/node_modules/tsx/node_modules:$basedir_abs/../../../../../tsx@4.21.0/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../../../../tsx@4.21.0/node_modules/tsx/dist/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsdown@0.23.0_publint@0.3.24_tsx@4.21.0_typescript@7.0.2_unrun@0.3.1_synckit@0.11.13_/node_modules/tsdown/node_modules/.bin/unrun",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/node_modules:$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/node_modules:$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../../../../unrun@0.3.1_synckit@0.11.13/node_modules/unrun/dist/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/node_modules/.bin/esbuild",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../esbuild@0.27.0/node_modules/esbuild/node_modules:$basedir_abs/../../../../../esbuild@0.27.0/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../esbuild@0.27.0/node_modules/esbuild/node_modules:$basedir_abs/../../../../../esbuild@0.27.0/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\" \"$@\"\nfi\n# cmd-shim-target=../../../../../esbuild@0.27.0/node_modules/esbuild/bin/esbuild\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/tsx@4.21.0/node_modules/tsx/node_modules/.bin/tsx",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../dist/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../dist/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../dist/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../dist/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../dist/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../dist/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/typescript@7.0.2/node_modules/typescript/node_modules/.bin/tsc",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../bin/tsc\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../bin/tsc\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../bin/tsc\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../bin/tsc\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../bin/tsc\" \"$@\"\nfi\n# cmd-shim-target=../../bin/tsc\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/unrun@0.3.1_synckit@0.11.13/node_modules/unrun/node_modules/.bin/rolldown",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../../../../rolldown@1.2.11/node_modules:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/node_modules:$basedir_abs/../../../../../rolldown@1.2.11/node_modules:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../../../../rolldown@1.2.11/node_modules/rolldown/bin/cli.mjs\n",
+      "mode": 493
+    },
+    {
+      "path": "node_modules/.pnpm/unrun@0.3.1_synckit@0.11.13/node_modules/unrun/node_modules/.bin/unrun",
+      "text": "#!/bin/sh\n# Resolve $0 through symlinks so basedir is the shim's real directory.\n# Cap hops at the kernel's ELOOP limit so a cycle cannot hang the shim.\n#\n# A shim runs with node_modules/.bin at the front of PATH, so readlink, sed,\n# uname, and printf go through `command -p`, which searches the system default\n# path instead. A dependency's bin cannot stand in for one of them and take over\n# the shim before it reaches its target. Directories come from `${link%/*}`,\n# which needs no helper at all.\nlink=\"$0\"\n# `${link%/*}` needs a separator to strip. A bare name came from a PATH lookup\n# and stands for a file in the current directory.\ncase \"$link\" in\n  */*|*\\\\*) ;;\n  *) link=\"./$link\" ;;\nesac\nhops=0\nwhile [ -L \"$link\" ] && [ \"$hops\" -lt 40 ]; do\n  hops=$((hops+1))\n  target=$(command -p readlink \"$link\")\n  case \"$target\" in\n    /*) link=\"$target\" ;;\n    *)  link=\"${link%/*}/$target\" ;;\n  esac\ndone\nbasedir=$(command -p printf '%s\\n' \"$link\" | command -p sed -e 's,\\\\,/,g')\nbasedir=\"${basedir%/*}\"\nbasedir_win=\"$basedir\"\nexe=\"\"\nmsys=\"\"\n\ncase `command -p uname -a` in\n  *CYGWIN*|*MINGW*|*MSYS*)\n    if converted=$(command -p cygpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n    elif command -v cygpath > /dev/null 2>&1; then\n      basedir_win=`cygpath -w \"$basedir\"`\n    fi\n    exe=\".exe\"\n    msys=\"true\"\n  ;;\n  *WSL2*)\n    if converted=$(command -p wslpath -w \"$basedir\" 2>/dev/null) && [ -n \"$converted\" ]; then\n      basedir_win=\"$converted\"\n      exe=\".exe\"\n    elif command -v wslpath > /dev/null 2>&1; then\n      basedir_win=\"$(wslpath -w \"$basedir\" 2> /dev/null)\"\n      if [ $? -ne 0 ] || [ -z \"$basedir_win\" ]; then\n        basedir_win=\"$basedir\"\n      else\n        exe=\".exe\"\n      fi\n    fi\n  ;;\nesac\n\nbasedir_abs=$(CDPATH= cd -P -- \"$basedir\" && pwd -P) || exit $?\nif [ -z \"$NODE_PATH\" ]; then\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules\"\nelse\n  export NODE_PATH=\"$basedir_abs/..:$basedir_abs/../../..:$basedir_abs/../../../../../node_modules:$NODE_PATH\"\nfi\nif [ -n \"$exe\" ] && [ -x \"$basedir/node.exe\" ]; then\n  exec \"$basedir/node.exe\"  \"$basedir_win/../../dist/cli.mjs\" \"$@\"\nelif [ -x \"$basedir/node\" ]; then\n  exec \"$basedir/node\"  \"$basedir_abs/../../dist/cli.mjs\" \"$@\"\nelif command -v node >/dev/null 2>&1; then\n  exec node  \"$basedir_abs/../../dist/cli.mjs\" \"$@\"\nelif [ -n \"$exe\" ] && command -v node.exe >/dev/null 2>&1; then\n  exec node.exe  \"$basedir_win/../../dist/cli.mjs\" \"$@\"\nelse\n  exec node  \"$basedir_abs/../../dist/cli.mjs\" \"$@\"\nfi\n# cmd-shim-target=../../dist/cli.mjs\n",
+      "mode": 493
+    }
+  ]
+}

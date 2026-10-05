@@ -1,0 +1,2005 @@
+[
+  {
+    "name": "ua-parser-js",
+    "repo": "faisalman/ua-parser-js",
+    "commit": "4121c59060c3f9b814f07978c361e44016028c74",
+    "url": "https://codeload.github.com/faisalman/ua-parser-js/tar.gz/4121c59060c3f9b814f07978c361e44016028c74",
+    "file": "sources/ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74.tar.gz",
+    "sha256": "cae43cc8f7ac4a7673ce9ea8c9ae5047b7148259f458ea166986847c84b946f8",
+    "bytes": 925305,
+    "member_count": 457,
+    "notice_paths": [
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/LICENSE.md",
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/THIRD_PARTY_NOTICES.md",
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/dist/icons/color/LICENSE.md",
+      "ua-parser-js-4121c59060c3f9b814f07978c361e44016028c74/dist/icons/mono/LICENSE.md"
+    ]
+  },
+  {
+    "name": "mathjax-src",
+    "repo": "mathjax/MathJax-src",
+    "commit": "fb987178c2d279a99b0db5ea02e751691703955e",
+    "url": "https://codeload.github.com/mathjax/MathJax-src/tar.gz/fb987178c2d279a99b0db5ea02e751691703955e",
+    "file": "sources/mathjax-src-fb987178c2d279a99b0db5ea02e751691703955e.tar.gz",
+    "sha256": "9fe7988432f3eba74b6bcb1e991c6ce496f0f361c15a8f4fbc7013a03f909a4b",
+    "bytes": 1012834,
+    "member_count": 977,
+    "notice_paths": [
+      "MathJax-src-fb987178c2d279a99b0db5ea02e751691703955e/LICENSE"
+    ]
+  },
+  {
+    "name": "speech-rule-engine",
+    "repo": "Speech-Rule-Engine/speech-rule-engine",
+    "commit": "d60c0650509e1dd9db004d22b077d05b63507657",
+    "url": "https://codeload.github.com/Speech-Rule-Engine/speech-rule-engine/tar.gz/d60c0650509e1dd9db004d22b077d05b63507657",
+    "file": "sources/speech-rule-engine-d60c0650509e1dd9db004d22b077d05b63507657.tar.gz",
+    "sha256": "b99689f5617670bf276fb06a5620f89581fca81d107e1b01adc9e44ad6c5570f",
+    "bytes": 4981439,
+    "member_count": 2476,
+    "notice_paths": [
+      "speech-rule-engine-d60c0650509e1dd9db004d22b077d05b63507657/LICENSE",
+      "speech-rule-engine-d60c0650509e1dd9db004d22b077d05b63507657/NOTICE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@asamuzakjp/dom-selector",
+        "version": "9.2.4"
+      }
+    ],
+    "repo": "asamuzaK/domSelector",
+    "commit": "d8b0e1f5d8235364474fb825a8d118be199349db",
+    "url": "https://codeload.github.com/asamuzaK/domSelector/tar.gz/d8b0e1f5d8235364474fb825a8d118be199349db",
+    "file": "sources/asamuzaK__domSelector-d8b0e1f5d8235364474fb825a8d118be199349db.tar.gz",
+    "sha256": "c0eec6de6b8c13b6f37f908cc8430f224e90a096756bfaa424ba30732bea249f",
+    "bytes": 297364,
+    "member_count": 150,
+    "notice_paths": [
+      "domSelector-d8b0e1f5d8235364474fb825a8d118be199349db/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@bramus/specificity",
+        "version": "2.4.2"
+      }
+    ],
+    "repo": "bramus/specificity",
+    "commit": "80938c4cf77518a4d4abe559eb5a5ff919626c39",
+    "url": "https://codeload.github.com/bramus/specificity/tar.gz/80938c4cf77518a4d4abe559eb5a5ff919626c39",
+    "file": "sources/bramus__specificity-80938c4cf77518a4d4abe559eb5a5ff919626c39.tar.gz",
+    "sha256": "870038ffe0cb83097101a48f0cbd8ea4d96d0e33be51c0fa83bbaf4873813214",
+    "bytes": 495321,
+    "member_count": 34,
+    "notice_paths": [
+      "specificity-80938c4cf77518a4d4abe559eb5a5ff919626c39/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@csstools/color-helpers",
+        "version": "6.1.2"
+      }
+    ],
+    "repo": "csstools/postcss-plugins",
+    "commit": "68489844957b0efaf7a5538ea108d70ea53dbe21",
+    "url": "https://codeload.github.com/csstools/postcss-plugins/tar.gz/68489844957b0efaf7a5538ea108d70ea53dbe21",
+    "file": "sources/csstools__postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21.tar.gz",
+    "sha256": "e8870f8caf239e95b5bdba903450b6d58aea6701176766bc0bfc55ea04738f03",
+    "bytes": 2492576,
+    "member_count": 6653,
+    "notice_paths": [
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/.github/bin/generate-docs/parallel-builds-notice.mjs",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/.github/bin/license/check-license.mjs",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/.github/bin/license/parse-license-field.mjs",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/cli/csstools-cli/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/experimental/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/experimental/postcss-gradient-stop-increments/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/experimental/postcss-nesting/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/base-cli/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/cascade-layer-name-parser/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/color-helpers/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/color-helpers/src/calculations/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/color-helpers/src/conversions/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/color-helpers/src/utils/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/css-calc/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/css-color-parser/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/css-parser-algorithms/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/css-syntax-patches-for-csstree/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/css-tokenizer/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/media-query-list-parser/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/pack-test/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/postcss-tape/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/selector-resolve-nested/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/selector-specificity/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/packages/utilities/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugin-packs/postcss-bundler/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugin-packs/postcss-preset-env/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins-stylelint/at-risk/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins-stylelint/formatter-github/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins-stylelint/no-at-nest-rule/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins-stylelint/no-invalid-at-import-rules-when-bundling/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/css-blank-pseudo/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/css-prefers-color-scheme/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-alpha-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-attribute-case-insensitive/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-base-plugin/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-browser-comments/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-cascade-layers/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-function-display-p3-linear/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-functional-notation/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-hex-alpha/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-mix-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-mix-variadic-function-arguments/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-color-rebeccapurple/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-conditional-values/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-container-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-content-alt-text/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-contrast-color-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-custom-media/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-custom-properties/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-custom-selectors/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-debug-logger/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-design-tokens/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-dir-pseudo-class/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-double-position-gradients/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-env-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-exponential-functions/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-extract/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-fit-tolerance-property/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-focus-visible/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-focus-within/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-font-format-keywords/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-font-width-property/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-gamut-mapping/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-gap-properties/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-global-data/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-gradients-interpolation-method/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-hwb-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-ic-unit/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-image-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-image-set-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-initial/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-is-pseudo-class/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-lab-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-light-dark-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-logical-float-and-clear/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-logical-overflow/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-logical-overscroll-behavior/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-logical-resize/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-logical-viewport-units/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-logical/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-media-minmax/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-minify/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-mixins/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-nested-calc/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-nesting/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-normalize-display-values/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-oklab-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-overflow-shorthand/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-place/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-position-area-property/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-private-rule/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-progressive-custom-properties/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-property-rule-optional-descriptors/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-property-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-pseudo-class-any-link/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-random-function/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-rebase-url/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-relative-color-syntax/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-rewrite-url/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-scope-pseudo-class/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-selector-not/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-sign-functions/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-slow-plugins/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-stepped-value-functions/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-syntax-descriptor-syntax-production/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-system-ui-font-family/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-text-decoration-shorthand/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-todo-or-die/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-trigonometric-functions/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/plugins/postcss-unset-value/LICENSE.md",
+      "postcss-plugins-68489844957b0efaf7a5538ea108d70ea53dbe21/sites/postcss-preset-env/blog/license-change.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@csstools/css-calc",
+        "version": "3.4.3"
+      }
+    ],
+    "repo": "csstools/postcss-plugins",
+    "commit": "504d5ed8923a3d23712e593338994f5819779da6",
+    "url": "https://codeload.github.com/csstools/postcss-plugins/tar.gz/504d5ed8923a3d23712e593338994f5819779da6",
+    "file": "sources/csstools__postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6.tar.gz",
+    "sha256": "5c309fa44013d34f99aab60e1c26f395969b9f99dc07ba81e3995a281b1b9a58",
+    "bytes": 2583854,
+    "member_count": 6891,
+    "notice_paths": [
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/.github/bin/generate-docs/parallel-builds-notice.mjs",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/.github/bin/license/check-license.mjs",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/.github/bin/license/parse-license-field.mjs",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/cli/csstools-cli/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/experimental/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/experimental/postcss-gradient-stop-increments/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/experimental/postcss-nesting/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/base-cli/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/cascade-layer-name-parser/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/color-helpers/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/color-helpers/src/calculations/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/color-helpers/src/conversions/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/color-helpers/src/utils/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/css-calc/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/css-color-parser/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/css-parser-algorithms/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/css-syntax-patches-for-csstree/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/css-tokenizer/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/custom-function-parser/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/media-query-list-parser/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/pack-test/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/postcss-tape/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/selector-resolve-nested/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/selector-specificity/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/packages/utilities/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugin-packs/postcss-bundler/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugin-packs/postcss-preset-env/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins-stylelint/at-risk/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins-stylelint/formatter-github/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins-stylelint/no-at-nest-rule/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins-stylelint/no-invalid-at-import-rules-when-bundling/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/css-blank-pseudo/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/css-prefers-color-scheme/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-alpha-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-attribute-case-insensitive/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-base-plugin/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-browser-comments/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-cascade-layers/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-function-display-p3-linear/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-functional-notation/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-hex-alpha/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-mix-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-mix-variadic-function-arguments/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-color-rebeccapurple/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-conditional-values/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-container-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-content-alt-text/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-contrast-color-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-custom-functions/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-custom-media/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-custom-properties/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-custom-selectors/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-debug-logger/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-design-tokens/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-dir-pseudo-class/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-double-position-gradients/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-env-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-exponential-functions/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-extract/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-fit-tolerance-property/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-focus-visible/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-focus-within/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-font-format-keywords/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-font-width-property/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-gamut-mapping/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-gap-properties/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-global-data/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-gradients-interpolation-method/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-hwb-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-ic-unit/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-image-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-image-set-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-initial/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-is-pseudo-class/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-lab-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-light-dark-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-logical-float-and-clear/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-logical-overflow/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-logical-overscroll-behavior/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-logical-resize/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-logical-viewport-units/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-logical/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-media-minmax/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-minify/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-mixins/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-nested-calc/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-nesting/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-normalize-display-values/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-oklab-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-overflow-shorthand/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-place/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-position-area-property/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-private-rule/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-progressive-custom-properties/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-property-rule-optional-descriptors/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-property-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-pseudo-class-any-link/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-random-function/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-rebase-url/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-relative-color-syntax/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-rewrite-url/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-scope-pseudo-class/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-selector-not/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-sign-functions/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-slow-plugins/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-stepped-value-functions/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-syntax-descriptor-syntax-production/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-system-ui-font-family/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-text-decoration-shorthand/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-todo-or-die/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-trigonometric-functions/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/plugins/postcss-unset-value/LICENSE.md",
+      "postcss-plugins-504d5ed8923a3d23712e593338994f5819779da6/sites/postcss-preset-env/blog/license-change.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@csstools/css-color-parser",
+        "version": "4.2.6"
+      }
+    ],
+    "repo": "csstools/postcss-plugins",
+    "commit": "251430543b2f03907ea14c8d36053113cbf1a5b8",
+    "url": "https://codeload.github.com/csstools/postcss-plugins/tar.gz/251430543b2f03907ea14c8d36053113cbf1a5b8",
+    "file": "sources/csstools__postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8.tar.gz",
+    "sha256": "40740d08ae1e6a79baadbeea3ead61354498457aae7aaf728446225deb49a434",
+    "bytes": 2584514,
+    "member_count": 6891,
+    "notice_paths": [
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/.github/bin/generate-docs/parallel-builds-notice.mjs",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/.github/bin/license/check-license.mjs",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/.github/bin/license/parse-license-field.mjs",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/cli/csstools-cli/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/experimental/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/experimental/postcss-gradient-stop-increments/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/experimental/postcss-nesting/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/base-cli/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/cascade-layer-name-parser/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/color-helpers/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/color-helpers/src/calculations/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/color-helpers/src/conversions/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/color-helpers/src/utils/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/css-calc/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/css-color-parser/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/css-parser-algorithms/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/css-syntax-patches-for-csstree/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/css-tokenizer/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/custom-function-parser/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/media-query-list-parser/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/pack-test/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/postcss-tape/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/selector-resolve-nested/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/selector-specificity/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/packages/utilities/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugin-packs/postcss-bundler/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugin-packs/postcss-preset-env/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins-stylelint/at-risk/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins-stylelint/formatter-github/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins-stylelint/no-at-nest-rule/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins-stylelint/no-invalid-at-import-rules-when-bundling/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/css-blank-pseudo/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/css-prefers-color-scheme/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-alpha-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-attribute-case-insensitive/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-base-plugin/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-browser-comments/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-cascade-layers/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-function-display-p3-linear/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-functional-notation/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-hex-alpha/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-mix-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-mix-variadic-function-arguments/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-color-rebeccapurple/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-conditional-values/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-container-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-content-alt-text/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-contrast-color-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-custom-functions/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-custom-media/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-custom-properties/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-custom-selectors/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-debug-logger/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-design-tokens/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-dir-pseudo-class/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-double-position-gradients/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-env-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-exponential-functions/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-extract/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-fit-tolerance-property/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-focus-visible/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-focus-within/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-font-format-keywords/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-font-width-property/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-gamut-mapping/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-gap-properties/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-global-data/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-gradients-interpolation-method/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-hwb-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-ic-unit/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-image-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-image-set-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-initial/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-is-pseudo-class/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-lab-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-light-dark-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-logical-float-and-clear/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-logical-overflow/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-logical-overscroll-behavior/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-logical-resize/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-logical-viewport-units/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-logical/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-media-minmax/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-minify/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-mixins/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-nested-calc/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-nesting/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-normalize-display-values/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-oklab-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-overflow-shorthand/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-place/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-position-area-property/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-private-rule/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-progressive-custom-properties/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-property-rule-optional-descriptors/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-property-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-pseudo-class-any-link/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-random-function/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-rebase-url/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-relative-color-syntax/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-rewrite-url/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-scope-pseudo-class/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-selector-not/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-sign-functions/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-slow-plugins/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-stepped-value-functions/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-syntax-descriptor-syntax-production/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-system-ui-font-family/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-text-decoration-shorthand/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-todo-or-die/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-trigonometric-functions/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/plugins/postcss-unset-value/LICENSE.md",
+      "postcss-plugins-251430543b2f03907ea14c8d36053113cbf1a5b8/sites/postcss-preset-env/blog/license-change.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@csstools/css-parser-algorithms",
+        "version": "4.0.2"
+      }
+    ],
+    "repo": "csstools/postcss-plugins",
+    "commit": "b574543bca424e19305c8bc5c86469f0e9ee72fb",
+    "url": "https://codeload.github.com/csstools/postcss-plugins/tar.gz/b574543bca424e19305c8bc5c86469f0e9ee72fb",
+    "file": "sources/csstools__postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb.tar.gz",
+    "sha256": "e273e1c1b292ebc25fd400ce2a18580ca1b8925556b67849115b90704830d1b3",
+    "bytes": 2567386,
+    "member_count": 6884,
+    "notice_paths": [
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/.github/bin/generate-docs/parallel-builds-notice.mjs",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/.github/bin/license/check-license.mjs",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/.github/bin/license/parse-license-field.mjs",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/cli/csstools-cli/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/experimental/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/experimental/postcss-gradient-stop-increments/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/experimental/postcss-nesting/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/base-cli/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/cascade-layer-name-parser/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/color-helpers/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/color-helpers/src/calculations/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/color-helpers/src/conversions/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/color-helpers/src/utils/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/css-calc/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/css-color-parser/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/css-parser-algorithms/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/css-syntax-patches-for-csstree/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/css-tokenizer/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/custom-function-parser/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/media-query-list-parser/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/pack-test/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/postcss-tape/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/selector-resolve-nested/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/selector-specificity/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/packages/utilities/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugin-packs/postcss-bundler/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugin-packs/postcss-preset-env/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins-stylelint/at-risk/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins-stylelint/formatter-github/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins-stylelint/no-at-nest-rule/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins-stylelint/no-invalid-at-import-rules-when-bundling/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/css-blank-pseudo/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/css-prefers-color-scheme/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-alpha-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-attribute-case-insensitive/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-base-plugin/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-browser-comments/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-cascade-layers/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-function-display-p3-linear/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-functional-notation/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-hex-alpha/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-mix-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-mix-variadic-function-arguments/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-color-rebeccapurple/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-conditional-values/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-container-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-content-alt-text/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-contrast-color-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-custom-functions/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-custom-media/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-custom-properties/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-custom-selectors/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-debug-logger/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-design-tokens/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-dir-pseudo-class/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-double-position-gradients/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-env-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-exponential-functions/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-extract/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-fit-tolerance-property/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-focus-visible/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-focus-within/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-font-format-keywords/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-font-width-property/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-gamut-mapping/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-gap-properties/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-global-data/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-gradients-interpolation-method/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-hwb-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-ic-unit/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-image-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-image-set-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-initial/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-is-pseudo-class/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-lab-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-light-dark-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-logical-float-and-clear/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-logical-overflow/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-logical-overscroll-behavior/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-logical-resize/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-logical-viewport-units/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-logical/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-media-minmax/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-minify/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-mixins/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-nested-calc/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-nesting/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-normalize-display-values/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-oklab-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-overflow-shorthand/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-place/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-position-area-property/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-private-rule/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-progressive-custom-properties/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-property-rule-optional-descriptors/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-property-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-pseudo-class-any-link/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-random-function/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-rebase-url/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-relative-color-syntax/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-rewrite-url/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-scope-pseudo-class/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-selector-not/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-sign-functions/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-slow-plugins/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-stepped-value-functions/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-syntax-descriptor-syntax-production/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-system-ui-font-family/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-text-decoration-shorthand/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-todo-or-die/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-trigonometric-functions/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/plugins/postcss-unset-value/LICENSE.md",
+      "postcss-plugins-b574543bca424e19305c8bc5c86469f0e9ee72fb/sites/postcss-preset-env/blog/license-change.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@csstools/css-syntax-patches-for-csstree",
+        "version": "1.1.15"
+      }
+    ],
+    "repo": "csstools/postcss-plugins",
+    "commit": "6919c06c0a164f521deee5cd0bc0bb6933cec230",
+    "url": "https://codeload.github.com/csstools/postcss-plugins/tar.gz/6919c06c0a164f521deee5cd0bc0bb6933cec230",
+    "file": "sources/csstools__postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230.tar.gz",
+    "sha256": "167b61656ee6656e6810125f20d7d700dac17c9a10a61d405d1c0504a60eecab",
+    "bytes": 2567226,
+    "member_count": 6884,
+    "notice_paths": [
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/.github/bin/generate-docs/parallel-builds-notice.mjs",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/.github/bin/license/check-license.mjs",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/.github/bin/license/parse-license-field.mjs",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/cli/csstools-cli/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/experimental/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/experimental/postcss-gradient-stop-increments/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/experimental/postcss-nesting/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/base-cli/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/cascade-layer-name-parser/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/color-helpers/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/color-helpers/src/calculations/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/color-helpers/src/conversions/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/color-helpers/src/utils/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/css-calc/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/css-color-parser/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/css-parser-algorithms/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/css-syntax-patches-for-csstree/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/css-tokenizer/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/custom-function-parser/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/media-query-list-parser/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/pack-test/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/postcss-tape/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/selector-resolve-nested/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/selector-specificity/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/packages/utilities/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugin-packs/postcss-bundler/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugin-packs/postcss-preset-env/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins-stylelint/at-risk/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins-stylelint/formatter-github/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins-stylelint/no-at-nest-rule/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins-stylelint/no-invalid-at-import-rules-when-bundling/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/css-blank-pseudo/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/css-prefers-color-scheme/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-alpha-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-attribute-case-insensitive/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-base-plugin/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-browser-comments/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-cascade-layers/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-function-display-p3-linear/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-functional-notation/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-hex-alpha/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-mix-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-mix-variadic-function-arguments/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-color-rebeccapurple/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-conditional-values/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-container-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-content-alt-text/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-contrast-color-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-custom-functions/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-custom-media/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-custom-properties/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-custom-selectors/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-debug-logger/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-design-tokens/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-dir-pseudo-class/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-double-position-gradients/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-env-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-exponential-functions/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-extract/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-fit-tolerance-property/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-focus-visible/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-focus-within/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-font-format-keywords/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-font-width-property/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-gamut-mapping/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-gap-properties/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-global-data/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-gradients-interpolation-method/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-hwb-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-ic-unit/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-image-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-image-set-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-initial/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-is-pseudo-class/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-lab-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-light-dark-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-logical-float-and-clear/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-logical-overflow/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-logical-overscroll-behavior/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-logical-resize/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-logical-viewport-units/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-logical/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-media-minmax/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-minify/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-mixins/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-nested-calc/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-nesting/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-normalize-display-values/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-oklab-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-overflow-shorthand/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-place/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-position-area-property/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-private-rule/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-progressive-custom-properties/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-property-rule-optional-descriptors/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-property-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-pseudo-class-any-link/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-random-function/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-rebase-url/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-relative-color-syntax/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-rewrite-url/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-scope-pseudo-class/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-selector-not/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-sign-functions/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-slow-plugins/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-stepped-value-functions/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-syntax-descriptor-syntax-production/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-system-ui-font-family/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-text-decoration-shorthand/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-todo-or-die/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-trigonometric-functions/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/plugins/postcss-unset-value/LICENSE.md",
+      "postcss-plugins-6919c06c0a164f521deee5cd0bc0bb6933cec230/sites/postcss-preset-env/blog/license-change.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@csstools/css-tokenizer",
+        "version": "4.0.2"
+      }
+    ],
+    "repo": "csstools/postcss-plugins",
+    "commit": "4cad0552728a803976c121586307742477d84171",
+    "url": "https://codeload.github.com/csstools/postcss-plugins/tar.gz/4cad0552728a803976c121586307742477d84171",
+    "file": "sources/csstools__postcss-plugins-4cad0552728a803976c121586307742477d84171.tar.gz",
+    "sha256": "6c3d93769e2da7eca0c8a5707e0ae1192748ffd60d870677f31973c51a0eba43",
+    "bytes": 2491954,
+    "member_count": 6653,
+    "notice_paths": [
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/.github/bin/generate-docs/parallel-builds-notice.mjs",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/.github/bin/license/check-license.mjs",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/.github/bin/license/parse-license-field.mjs",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/cli/csstools-cli/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/experimental/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/experimental/postcss-gradient-stop-increments/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/experimental/postcss-nesting/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/base-cli/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/cascade-layer-name-parser/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/color-helpers/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/color-helpers/src/calculations/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/color-helpers/src/conversions/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/color-helpers/src/utils/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/css-calc/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/css-color-parser/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/css-parser-algorithms/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/css-syntax-patches-for-csstree/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/css-tokenizer/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/media-query-list-parser/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/pack-test/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/postcss-tape/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/selector-resolve-nested/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/selector-specificity/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/packages/utilities/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugin-packs/postcss-bundler/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugin-packs/postcss-preset-env/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins-stylelint/at-risk/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins-stylelint/formatter-github/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins-stylelint/no-at-nest-rule/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins-stylelint/no-invalid-at-import-rules-when-bundling/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/css-blank-pseudo/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/css-has-pseudo/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/css-prefers-color-scheme/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-alpha-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-attribute-case-insensitive/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-base-plugin/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-browser-comments/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-cascade-layers/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-function-display-p3-linear/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-functional-notation/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-hex-alpha/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-mix-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-mix-variadic-function-arguments/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-color-rebeccapurple/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-conditional-values/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-container-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-content-alt-text/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-contrast-color-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-custom-media/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-custom-properties/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-custom-selectors/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-debug-logger/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-design-tokens/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-dir-pseudo-class/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-double-position-gradients/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-env-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-exponential-functions/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-extract/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-fit-tolerance-property/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-focus-visible/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-focus-within/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-font-format-keywords/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-font-width-property/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-gamut-mapping/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-gap-properties/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-global-data/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-gradients-interpolation-method/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-hwb-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-ic-unit/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-image-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-image-set-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-initial/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-is-pseudo-class/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-lab-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-light-dark-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-logical-float-and-clear/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-logical-overflow/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-logical-overscroll-behavior/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-logical-resize/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-logical-viewport-units/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-logical/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-media-minmax/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-media-queries-aspect-ratio-number-values/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-minify/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-mixins/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-nested-calc/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-nesting/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-normalize-display-values/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-oklab-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-overflow-shorthand/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-place/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-position-area-property/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-private-rule/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-progressive-custom-properties/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-property-rule-optional-descriptors/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-property-rule-prelude-list/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-pseudo-class-any-link/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-random-function/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-rebase-url/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-relative-color-syntax/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-rewrite-url/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-scope-pseudo-class/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-selector-not/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-sign-functions/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-slow-plugins/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-stepped-value-functions/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-syntax-descriptor-syntax-production/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-system-ui-font-family/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-text-decoration-shorthand/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-todo-or-die/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-trigonometric-functions/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/plugins/postcss-unset-value/LICENSE.md",
+      "postcss-plugins-4cad0552728a803976c121586307742477d84171/sites/postcss-preset-env/blog/license-change.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@fast-csv/format",
+        "version": "5.0.7"
+      },
+      {
+        "name": "@fast-csv/parse",
+        "version": "5.0.7"
+      },
+      {
+        "name": "fast-csv",
+        "version": "5.0.7"
+      }
+    ],
+    "repo": "C2FO/fast-csv",
+    "commit": "e8b8bf960defb26f945744242321afcd930f808a",
+    "url": "https://codeload.github.com/C2FO/fast-csv/tar.gz/e8b8bf960defb26f945744242321afcd930f808a",
+    "file": "sources/C2FO__fast-csv-e8b8bf960defb26f945744242321afcd930f808a.tar.gz",
+    "sha256": "cb7fc7eea64be537e80822c6c28b0c29e27f916493997656b3aee0df3320d61a",
+    "bytes": 486709,
+    "member_count": 392,
+    "notice_paths": [
+      "fast-csv-e8b8bf960defb26f945744242321afcd930f808a/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "@mdit/helper",
+        "version": "1.1.2"
+      },
+      {
+        "name": "@mdit/plugin-emoji",
+        "version": "1.2.2"
+      },
+      {
+        "name": "@mdit/plugin-inline-rule",
+        "version": "2.2.2"
+      },
+      {
+        "name": "@mdit/plugin-katex",
+        "version": "1.1.3"
+      },
+      {
+        "name": "@mdit/plugin-mathjax",
+        "version": "1.2.2"
+      },
+      {
+        "name": "@mdit/plugin-spoiler",
+        "version": "2.1.2"
+      },
+      {
+        "name": "@mdit/plugin-sub",
+        "version": "1.1.2"
+      },
+      {
+        "name": "@mdit/plugin-sup",
+        "version": "1.1.2"
+      },
+      {
+        "name": "@mdit/plugin-tex",
+        "version": "1.1.2"
+      }
+    ],
+    "repo": "mdit-plugins/mdit-plugins",
+    "commit": "f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "url": "https://codeload.github.com/mdit-plugins/mdit-plugins/tar.gz/f77fa56e8c1c8bede78559673447f8072ba3292e",
+    "file": "sources/mdit-plugins__mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e.tar.gz",
+    "sha256": "fc856b1dc8b45f8af730b41ff67170b36505cdd49d4af868bc8a82fc932e12e2",
+    "bytes": 678085,
+    "member_count": 852,
+    "notice_paths": [
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/helper/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-abbr/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-advanced-links/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-alert/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-align/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-anchor/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-attrs/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-container/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-dl/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-embed/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-emoji/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-figure/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-footnote/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-icon/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-img-lazyload/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-img-mark/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-img-size/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-include/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-ins/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-katex-slim/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-katex/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-layout/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-mark/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-mathjax-slim/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-mathjax/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-ruby/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-snippet/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-spoiler/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-stylize/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-sub/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-sup/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-tab/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-tasklist/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-tex/LICENSE",
+      "mdit-plugins-f77fa56e8c1c8bede78559673447f8072ba3292e/packages/plugin-uml/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "base32.js",
+        "version": "0.0.1"
+      }
+    ],
+    "repo": "mikepb/base32.js",
+    "commit": "ac54140633c50df34172d276a21339e873a9c9af",
+    "url": "https://codeload.github.com/mikepb/base32.js/tar.gz/ac54140633c50df34172d276a21339e873a9c9af",
+    "file": "sources/mikepb__base32.js-ac54140633c50df34172d276a21339e873a9c9af.tar.gz",
+    "sha256": "91af9bfb2fef581c546621b2ed92b87071429e1b3c570514dc5e05dc04740ac9",
+    "bytes": 5844,
+    "member_count": 15,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "bidi-js",
+        "version": "1.1.0"
+      }
+    ],
+    "repo": "lojjic/bidi-js",
+    "commit": "f7826ac23bf365552bf2ac3dd51296e5f3e72970",
+    "url": "https://codeload.github.com/lojjic/bidi-js/tar.gz/f7826ac23bf365552bf2ac3dd51296e5f3e72970",
+    "file": "sources/lojjic__bidi-js-f7826ac23bf365552bf2ac3dd51296e5f3e72970.tar.gz",
+    "sha256": "a32cacd1c4881a4e70ddce9792b57e2a0fd8c9bb3e517bfeead84354f9ab154f",
+    "bytes": 1757479,
+    "member_count": 34,
+    "notice_paths": [
+      "bidi-js-f7826ac23bf365552bf2ac3dd51296e5f3e72970/LICENSE.txt"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "co",
+        "version": "4.6.0"
+      }
+    ],
+    "repo": "tj/co",
+    "commit": "b54d18f8f472ad1314800e786993c4169a5ff9f8",
+    "url": "https://codeload.github.com/tj/co/tar.gz/b54d18f8f472ad1314800e786993c4169a5ff9f8",
+    "file": "sources/tj__co-b54d18f8f472ad1314800e786993c4169a5ff9f8.tar.gz",
+    "sha256": "d63d5eb3093374a525efdd133362a565ac9cee112e2c807d59490c1a9401de59",
+    "bytes": 9044,
+    "member_count": 21,
+    "notice_paths": [
+      "co-b54d18f8f472ad1314800e786993c4169a5ff9f8/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "css-tree",
+        "version": "3.2.1"
+      }
+    ],
+    "repo": "csstree/csstree",
+    "commit": "8a6caba481be4cae4b0e8690af643ff8e59271f2",
+    "url": "https://codeload.github.com/csstree/csstree/tar.gz/8a6caba481be4cae4b0e8690af643ff8e59271f2",
+    "file": "sources/csstree__csstree-8a6caba481be4cae4b0e8690af643ff8e59271f2.tar.gz",
+    "sha256": "25e2ded30a91f5bd7a880759edd578eaaf949c3072f50a801c7b144b29a14b83",
+    "bytes": 291187,
+    "member_count": 382,
+    "notice_paths": [
+      "csstree-8a6caba481be4cae4b0e8690af643ff8e59271f2/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "detect-europe-js",
+        "version": "0.1.2"
+      }
+    ],
+    "repo": "faisalman/detect-europe-js",
+    "commit": "6d64c65c14bf468062811bf10370c8a77d7d8e86",
+    "url": "https://codeload.github.com/faisalman/detect-europe-js/tar.gz/6d64c65c14bf468062811bf10370c8a77d7d8e86",
+    "file": "sources/faisalman__detect-europe-js-6d64c65c14bf468062811bf10370c8a77d7d8e86.tar.gz",
+    "sha256": "da44740647176cf2230818933a02d0d728bca524b68e3f99f616b157cb137ae6",
+    "bytes": 11525,
+    "member_count": 24,
+    "notice_paths": [
+      "detect-europe-js-6d64c65c14bf468062811bf10370c8a77d7d8e86/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "dompurify",
+        "version": "3.4.16"
+      }
+    ],
+    "repo": "cure53/DOMPurify",
+    "commit": "b9b9d80f7e401771c2ccaef5f45def7eec8f27d7",
+    "url": "https://codeload.github.com/cure53/DOMPurify/tar.gz/b9b9d80f7e401771c2ccaef5f45def7eec8f27d7",
+    "file": "sources/cure53__DOMPurify-b9b9d80f7e401771c2ccaef5f45def7eec8f27d7.tar.gz",
+    "sha256": "3fc92ddb30b7789990ea78ee77cd720ed6a58b6461aca45511dd367ab4c12111",
+    "bytes": 467674,
+    "member_count": 144,
+    "notice_paths": [
+      "DOMPurify-b9b9d80f7e401771c2ccaef5f45def7eec8f27d7/LICENSE",
+      "DOMPurify-b9b9d80f7e401771c2ccaef5f45def7eec8f27d7/LICENSE-MPL",
+      "DOMPurify-b9b9d80f7e401771c2ccaef5f45def7eec8f27d7/src/license_header"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "entities",
+        "version": "8.1.0"
+      }
+    ],
+    "repo": "fb55/entities",
+    "commit": "c71f5625c6bb604c63fb62ff500736b4563c4c00",
+    "url": "https://codeload.github.com/fb55/entities/tar.gz/c71f5625c6bb604c63fb62ff500736b4563c4c00",
+    "file": "sources/fb55__entities-c71f5625c6bb604c63fb62ff500736b4563c4c00.tar.gz",
+    "sha256": "4d3a62beaff7d3a5ff347eb632d7b98a7c310c52eed207a3f5e7162e93b95290",
+    "bytes": 135017,
+    "member_count": 62,
+    "notice_paths": [
+      "entities-c71f5625c6bb604c63fb62ff500736b4563c4c00/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "flatted",
+        "version": "3.4.4"
+      }
+    ],
+    "repo": "WebReflection/flatted",
+    "commit": "e6f5ca700c4ca8104a6a83472c8219e267bd5e84",
+    "url": "https://codeload.github.com/WebReflection/flatted/tar.gz/e6f5ca700c4ca8104a6a83472c8219e267bd5e84",
+    "file": "sources/WebReflection__flatted-e6f5ca700c4ca8104a6a83472c8219e267bd5e84.tar.gz",
+    "sha256": "4ba677605f9cdf0c15f75804231a655483a8ade0b3c2de0227c2b3ba8bcd8a4a",
+    "bytes": 331479,
+    "member_count": 68,
+    "notice_paths": [
+      "flatted-e6f5ca700c4ca8104a6a83472c8219e267bd5e84/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "ip2region",
+        "version": "2.3.0"
+      }
+    ],
+    "repo": "yourtion/node-ip2region",
+    "commit": "23fcbe6f58bea685749df5da23dece910019bda7",
+    "url": "https://codeload.github.com/yourtion/node-ip2region/tar.gz/23fcbe6f58bea685749df5da23dece910019bda7",
+    "file": "sources/yourtion__node-ip2region-23fcbe6f58bea685749df5da23dece910019bda7.tar.gz",
+    "sha256": "66340edf09c7e3fdfe3804aaaf7eb15080c6cfe1e5f3faaa1a8d0c3f3ba2489c",
+    "bytes": 4710177,
+    "member_count": 27,
+    "notice_paths": [
+      "node-ip2region-23fcbe6f58bea685749df5da23dece910019bda7/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "is-standalone-pwa",
+        "version": "0.1.1"
+      }
+    ],
+    "repo": "faisalman/is-standalone-pwa",
+    "commit": "a52aa091efcc3e5cb3a6b2d9d2da213d4e0d9510",
+    "url": "https://codeload.github.com/faisalman/is-standalone-pwa/tar.gz/a52aa091efcc3e5cb3a6b2d9d2da213d4e0d9510",
+    "file": "sources/faisalman__is-standalone-pwa-a52aa091efcc3e5cb3a6b2d9d2da213d4e0d9510.tar.gz",
+    "sha256": "e63eea55c871adf8578f4314338e20b1b57dbd7f0691aec5d7395dc83df3720a",
+    "bytes": 17112,
+    "member_count": 23,
+    "notice_paths": [
+      "is-standalone-pwa-a52aa091efcc3e5cb3a6b2d9d2da213d4e0d9510/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "katex",
+        "version": "0.18.10"
+      }
+    ],
+    "repo": "KaTeX/KaTeX",
+    "commit": "411da7029f5c095943c2805ce6db16c2be5f214d",
+    "url": "https://codeload.github.com/KaTeX/KaTeX/tar.gz/411da7029f5c095943c2805ce6db16c2be5f214d",
+    "file": "sources/KaTeX__KaTeX-411da7029f5c095943c2805ce6db16c2be5f214d.tar.gz",
+    "sha256": "82534fc7b91a6480d331d52e4e35a0bdc8b65d68e94bb2f656773e09e882ec47",
+    "bytes": 15578177,
+    "member_count": 771,
+    "notice_paths": [
+      "KaTeX-411da7029f5c095943c2805ce6db16c2be5f214d/LICENSE",
+      "KaTeX-411da7029f5c095943c2805ce6db16c2be5f214d/test/screenshotter/fonts/batang/LICENSE",
+      "KaTeX-411da7029f5c095943c2805ce6db16c2be5f214d/test/screenshotter/fonts/mincho/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "koa",
+        "version": "3.2.1"
+      }
+    ],
+    "repo": "koajs/koa",
+    "commit": "6984592d41946ed746f15afcb05554e073f64dad",
+    "url": "https://codeload.github.com/koajs/koa/tar.gz/6984592d41946ed746f15afcb05554e073f64dad",
+    "file": "sources/koajs__koa-6984592d41946ed746f15afcb05554e073f64dad.tar.gz",
+    "sha256": "0bf7e4eafd6441883322fdbf0aa14ea59accb95b8ee6fb35bb339505428b1289",
+    "bytes": 210424,
+    "member_count": 124,
+    "notice_paths": [
+      "koa-6984592d41946ed746f15afcb05554e073f64dad/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "koa-compose",
+        "version": "4.1.0"
+      }
+    ],
+    "repo": "koajs/compose",
+    "commit": "06e82e65a368ac12cd6405beaf19fd5d208a1477",
+    "url": "https://codeload.github.com/koajs/compose/tar.gz/06e82e65a368ac12cd6405beaf19fd5d208a1477",
+    "file": "sources/koajs__compose-06e82e65a368ac12cd6405beaf19fd5d208a1477.tar.gz",
+    "sha256": "c2e4ef4eb3e7ef77ab5a50cdb51af67aaca5a81aed3e4ce81d8fde06b59738f5",
+    "bytes": 3805,
+    "member_count": 11,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "koa-send",
+        "version": "3.3.0"
+      }
+    ],
+    "repo": "koajs/send",
+    "commit": "134a6f62464286e4c3109086fb73b6cc052daf78",
+    "url": "https://codeload.github.com/koajs/send/tar.gz/134a6f62464286e4c3109086fb73b6cc052daf78",
+    "file": "sources/koajs__send-134a6f62464286e4c3109086fb73b6cc052daf78.tar.gz",
+    "sha256": "747ea91c750d2f49c4abeda6dc9faa8809ea4df13a330e138ac9b08e3dd91625",
+    "bytes": 6739,
+    "member_count": 22,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "linkify-it",
+        "version": "6.1.0"
+      }
+    ],
+    "repo": "markdown-it/linkify-it",
+    "commit": "7c568a123a17727fa2f34a0abcabbd46437299c1",
+    "url": "https://codeload.github.com/markdown-it/linkify-it/tar.gz/7c568a123a17727fa2f34a0abcabbd46437299c1",
+    "file": "sources/markdown-it__linkify-it-7c568a123a17727fa2f34a0abcabbd46437299c1.tar.gz",
+    "sha256": "1dfd7b79600583ebcda373fc555178bbde329a383ee80bb65c18c60dc42f4246",
+    "bytes": 93695,
+    "member_count": 53,
+    "notice_paths": [
+      "linkify-it-7c568a123a17727fa2f34a0abcabbd46437299c1/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "long-timeout",
+        "version": "0.1.1"
+      }
+    ],
+    "repo": "tellnes/long-timeout",
+    "commit": "7a0ef28412d1b40e70800a07c093f05530dcf280",
+    "url": "https://codeload.github.com/tellnes/long-timeout/tar.gz/7a0ef28412d1b40e70800a07c093f05530dcf280",
+    "file": "sources/tellnes__long-timeout-7a0ef28412d1b40e70800a07c093f05530dcf280.tar.gz",
+    "sha256": "19284acd4564e22aa1def3471024209f157bf0c659040933ec04fe1d0f3e9c5e",
+    "bytes": 1332,
+    "member_count": 5,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "lru-cache",
+        "version": "11.5.3"
+      }
+    ],
+    "repo": "isaacs/node-lru-cache",
+    "commit": "7e71a1f3babdc68dfbadde91f28eaeea919dad9b",
+    "url": "https://codeload.github.com/isaacs/node-lru-cache/tar.gz/7e71a1f3babdc68dfbadde91f28eaeea919dad9b",
+    "file": "sources/isaacs__node-lru-cache-7e71a1f3babdc68dfbadde91f28eaeea919dad9b.tar.gz",
+    "sha256": "badb0e0fc47cea127cddaa7f3b048fea67cd314b43a1731ce38c75c90387f1fc",
+    "bytes": 142711,
+    "member_count": 99,
+    "notice_paths": [
+      "node-lru-cache-7e71a1f3babdc68dfbadde91f28eaeea919dad9b/LICENSE.md",
+      "node-lru-cache-7e71a1f3babdc68dfbadde91f28eaeea919dad9b/benchmark/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "markdown-it",
+        "version": "15.0.2"
+      }
+    ],
+    "repo": "markdown-it/markdown-it",
+    "commit": "3c51991c32aaa2b002a52c009334ebe5752c84b3",
+    "url": "https://codeload.github.com/markdown-it/markdown-it/tar.gz/3c51991c32aaa2b002a52c009334ebe5752c84b3",
+    "file": "sources/markdown-it__markdown-it-3c51991c32aaa2b002a52c009334ebe5752c84b3.tar.gz",
+    "sha256": "61a6e5a2187b1463254e34b102ad2581cab7636b3a388b52d4de4e5ed4afdcd5",
+    "bytes": 233905,
+    "member_count": 196,
+    "notice_paths": [
+      "markdown-it-3c51991c32aaa2b002a52c009334ebe5752c84b3/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "mdurl",
+        "version": "2.1.0"
+      }
+    ],
+    "repo": "markdown-it/mdurl",
+    "commit": "dd913f6290a4d8772240a401aab993eb65c5786d",
+    "url": "https://codeload.github.com/markdown-it/mdurl/tar.gz/dd913f6290a4d8772240a401aab993eb65c5786d",
+    "file": "sources/markdown-it__mdurl-dd913f6290a4d8772240a401aab993eb65c5786d.tar.gz",
+    "sha256": "f1a6304d777390c3ab274c629fc15eb8db7599e94cc5458873007e1b2674d63c",
+    "bytes": 51279,
+    "member_count": 28,
+    "notice_paths": [
+      "mdurl-dd913f6290a4d8772240a401aab993eb65c5786d/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "minipass",
+        "version": "7.1.3"
+      }
+    ],
+    "repo": "isaacs/minipass",
+    "commit": "ab4b3b05d0d557ac6bb178f38501b11d0c96454e",
+    "url": "https://codeload.github.com/isaacs/minipass/tar.gz/ab4b3b05d0d557ac6bb178f38501b11d0c96454e",
+    "file": "sources/isaacs__minipass-ab4b3b05d0d557ac6bb178f38501b11d0c96454e.tar.gz",
+    "sha256": "f8dc0c821ce90093f68711591e306ca9a31da8186032782fc7730d3d27b1a12a",
+    "bytes": 107196,
+    "member_count": 238,
+    "notice_paths": [
+      "minipass-ab4b3b05d0d557ac6bb178f38501b11d0c96454e/LICENSE.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "mj-context-menu",
+        "version": "1.0.0"
+      }
+    ],
+    "repo": "zorkow/context-menu",
+    "commit": "2156b7db7cac02ca8451deb4ee6075d55b591d37",
+    "url": "https://codeload.github.com/zorkow/context-menu/tar.gz/2156b7db7cac02ca8451deb4ee6075d55b591d37",
+    "file": "sources/zorkow__context-menu-2156b7db7cac02ca8451deb4ee6075d55b591d37.tar.gz",
+    "sha256": "b76e20fb8e1222a06553d9ff61318e951e37fae95bed62c1a46e72d6e213ddc0",
+    "bytes": 912880,
+    "member_count": 294,
+    "notice_paths": [
+      "context-menu-2156b7db7cac02ca8451deb4ee6075d55b591d37/LICENSE",
+      "context-menu-2156b7db7cac02ca8451deb4ee6075d55b591d37/doc/jsdoc/scripts/prettify/Apache-License-2.0.txt"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "nodemailer",
+        "version": "10.0.14"
+      }
+    ],
+    "repo": "nodemailer/nodemailer",
+    "commit": "aefd1da2af1e7c1641d1bdad7852476fcba8a57f",
+    "url": "https://codeload.github.com/nodemailer/nodemailer/tar.gz/aefd1da2af1e7c1641d1bdad7852476fcba8a57f",
+    "file": "sources/nodemailer__nodemailer-aefd1da2af1e7c1641d1bdad7852476fcba8a57f.tar.gz",
+    "sha256": "79c1552da74259371270c704159c9ed0d4b8759fe663ebcf7151050c8a81cbdd",
+    "bytes": 8865166,
+    "member_count": 227,
+    "notice_paths": [
+      "nodemailer-aefd1da2af1e7c1641d1bdad7852476fcba8a57f/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "nunjucks",
+        "version": "3.2.4"
+      }
+    ],
+    "repo": "mozilla/nunjucks",
+    "commit": "86a77f49da4779d55414d8337e1a4d7ec7582da5",
+    "url": "https://codeload.github.com/mozilla/nunjucks/tar.gz/86a77f49da4779d55414d8337e1a4d7ec7582da5",
+    "file": "sources/mozilla__nunjucks-86a77f49da4779d55414d8337e1a4d7ec7582da5.tar.gz",
+    "sha256": "a7c02a49fcdf08337a9d91a6a8b306bb4467bfd13241d8279a99c5a1e1f1563a",
+    "bytes": 2635139,
+    "member_count": 421,
+    "notice_paths": [
+      "nunjucks-86a77f49da4779d55414d8337e1a4d7ec7582da5/LICENSE",
+      "nunjucks-86a77f49da4779d55414d8337e1a4d7ec7582da5/docs/bower_components/bootstrap/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "package-json-from-dist",
+        "version": "1.0.1"
+      }
+    ],
+    "repo": "isaacs/package-json-from-dist",
+    "commit": "5a84db04548091c086c514d3bac5c3141e790b6f",
+    "url": "https://codeload.github.com/isaacs/package-json-from-dist/tar.gz/5a84db04548091c086c514d3bac5c3141e790b6f",
+    "file": "sources/isaacs__package-json-from-dist-5a84db04548091c086c514d3bac5c3141e790b6f.tar.gz",
+    "sha256": "b0f577104698fa12c8663cc4e9e29d1d0cf2c9a10ddf3b84c9af2df80cdceeed",
+    "bytes": 44082,
+    "member_count": 22,
+    "notice_paths": [
+      "package-json-from-dist-5a84db04548091c086c514d3bac5c3141e790b6f/LICENSE.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "parse5",
+        "version": "8.0.1"
+      }
+    ],
+    "repo": "inikulin/parse5",
+    "commit": "0d56627fc924d40f560fd260ade0e1a935e2369c",
+    "url": "https://codeload.github.com/inikulin/parse5/tar.gz/0d56627fc924d40f560fd260ade0e1a935e2369c",
+    "file": "sources/inikulin__parse5-0d56627fc924d40f560fd260ade0e1a935e2369c.tar.gz",
+    "sha256": "7a2abdd50e28a97e15116170fe38ca13a8c3b6a87d975e9af6fe3f96a2d78115",
+    "bytes": 465899,
+    "member_count": 232,
+    "notice_paths": [
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/LICENSE",
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/packages/parse5-html-rewriting-stream/LICENSE",
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/packages/parse5-htmlparser2-tree-adapter/LICENSE",
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/packages/parse5-parser-stream/LICENSE",
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/packages/parse5-plain-text-conversion-stream/LICENSE",
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/packages/parse5-sax-parser/LICENSE",
+      "parse5-0d56627fc924d40f560fd260ade0e1a935e2369c/packages/parse5/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "path-scurry",
+        "version": "2.0.2"
+      }
+    ],
+    "repo": "isaacs/path-scurry",
+    "commit": "1372560386e080834cfb0943e1aaaf5b2ec9b70b",
+    "url": "https://codeload.github.com/isaacs/path-scurry/tar.gz/1372560386e080834cfb0943e1aaaf5b2ec9b70b",
+    "file": "sources/isaacs__path-scurry-1372560386e080834cfb0943e1aaaf5b2ec9b70b.tar.gz",
+    "sha256": "c3e43ea190c9cc3fc819c1b8caa918aa9722f925bcb968b9d5a0437d1da83067",
+    "bytes": 87304,
+    "member_count": 35,
+    "notice_paths": [
+      "path-scurry-1372560386e080834cfb0943e1aaaf5b2ec9b70b/LICENSE.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "pg",
+        "version": "8.23.1"
+      },
+      {
+        "name": "pg-cloudflare",
+        "version": "1.4.1"
+      },
+      {
+        "name": "pg-connection-string",
+        "version": "2.14.1"
+      },
+      {
+        "name": "pg-protocol",
+        "version": "1.16.1"
+      }
+    ],
+    "repo": "brianc/node-postgres",
+    "commit": "0980cefebe0ae461da8883703be049fe13ca96cf",
+    "url": "https://codeload.github.com/brianc/node-postgres/tar.gz/0980cefebe0ae461da8883703be049fe13ca96cf",
+    "file": "sources/brianc__node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf.tar.gz",
+    "sha256": "421cf0181720c417a57e208bf39c32369a21eda908881c80bb41b8f102e811be",
+    "bytes": 442415,
+    "member_count": 427,
+    "notice_paths": [
+      "node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf/LICENSE",
+      "node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf/packages/pg-connection-string/LICENSE",
+      "node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf/packages/pg-pool/LICENSE",
+      "node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf/packages/pg-query-stream/LICENSE",
+      "node-postgres-0980cefebe0ae461da8883703be049fe13ca96cf/packages/pg/test/integration/client/notice-tests.js"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "pg-pool",
+        "version": "3.14.0"
+      }
+    ],
+    "repo": "brianc/node-postgres",
+    "commit": "544b1ce8152bc280e398dc1e8a66920abe6a640e",
+    "url": "https://codeload.github.com/brianc/node-postgres/tar.gz/544b1ce8152bc280e398dc1e8a66920abe6a640e",
+    "file": "sources/brianc__node-postgres-544b1ce8152bc280e398dc1e8a66920abe6a640e.tar.gz",
+    "sha256": "6c85e76fcbe7853e79454a19555b14e67f7d8980aae62e15d5e492269bc17bab",
+    "bytes": 417804,
+    "member_count": 415,
+    "notice_paths": [
+      "node-postgres-544b1ce8152bc280e398dc1e8a66920abe6a640e/LICENSE",
+      "node-postgres-544b1ce8152bc280e398dc1e8a66920abe6a640e/packages/pg-connection-string/LICENSE",
+      "node-postgres-544b1ce8152bc280e398dc1e8a66920abe6a640e/packages/pg-pool/LICENSE",
+      "node-postgres-544b1ce8152bc280e398dc1e8a66920abe6a640e/packages/pg-query-stream/LICENSE",
+      "node-postgres-544b1ce8152bc280e398dc1e8a66920abe6a640e/packages/pg/test/integration/client/notice-tests.js"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "pg-types",
+        "version": "2.2.0"
+      }
+    ],
+    "repo": "brianc/node-pg-types",
+    "commit": "d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+    "url": "https://codeload.github.com/brianc/node-pg-types/tar.gz/d9d9dfb87eb50914043cbc178c301b7dd3b0c50d",
+    "file": "sources/brianc__node-pg-types-d9d9dfb87eb50914043cbc178c301b7dd3b0c50d.tar.gz",
+    "sha256": "33442809b16ee7af5b298d5b5e34927c0cb90384f947272c94665a1adfdbf502",
+    "bytes": 35011,
+    "member_count": 18,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "pgpass",
+        "version": "1.0.5"
+      }
+    ],
+    "repo": "hoegaarden/pgpass",
+    "commit": "4230ed5e417ba6044ea7eb80b7c33db9ec301398",
+    "url": "https://codeload.github.com/hoegaarden/pgpass/tar.gz/4230ed5e417ba6044ea7eb80b7c33db9ec301398",
+    "file": "sources/hoegaarden__pgpass-4230ed5e417ba6044ea7eb80b7c33db9ec301398.tar.gz",
+    "sha256": "2ef4ad06db6d310e018762ff68d5564338f798453e8900e501866e19a5759d9c",
+    "bytes": 9274,
+    "member_count": 22,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "pure-uuid",
+        "version": "2.0.0"
+      }
+    ],
+    "repo": "rse/pure-uuid",
+    "commit": "c71cf83e608a1fabe1c0d1ba114214151c92bef5",
+    "url": "https://codeload.github.com/rse/pure-uuid/tar.gz/c71cf83e608a1fabe1c0d1ba114214151c92bef5",
+    "file": "sources/rse__pure-uuid-c71cf83e608a1fabe1c0d1ba114214151c92bef5.tar.gz",
+    "sha256": "50fca72319352123c77095bfab1900518fcefca595d4ed6f5cb50b71774bc342",
+    "bytes": 15494,
+    "member_count": 11,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "rimraf",
+        "version": "6.1.3"
+      }
+    ],
+    "repo": "isaacs/rimraf",
+    "commit": "f738c781d14fa7bc06f8e39e062d78f701fde3f1",
+    "url": "https://codeload.github.com/isaacs/rimraf/tar.gz/f738c781d14fa7bc06f8e39e062d78f701fde3f1",
+    "file": "sources/isaacs__rimraf-f738c781d14fa7bc06f8e39e062d78f701fde3f1.tar.gz",
+    "sha256": "138b97ce9e53ace0f2f963bb56b63290e00d703fbaf1567c845195faf524add9",
+    "bytes": 80394,
+    "member_count": 81,
+    "notice_paths": [
+      "rimraf-f738c781d14fa7bc06f8e39e062d78f701fde3f1/LICENSE.md",
+      "rimraf-f738c781d14fa7bc06f8e39e062d78f701fde3f1/benchmark/old-rimraf/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "balanced-match",
+        "version": "4.0.4"
+      }
+    ],
+    "repo": "juliangruber/balanced-match",
+    "commit": "adf286f7c6142102f932c8d7c7066463741a0036",
+    "url": "https://codeload.github.com/juliangruber/balanced-match/tar.gz/adf286f7c6142102f932c8d7c7066463741a0036",
+    "file": "sources/juliangruber__balanced-match-adf286f7c6142102f932c8d7c7066463741a0036.tar.gz",
+    "sha256": "0bada29cb569d91561d8e2283646571c43e8cb5ff2eb068a43996e2f753030b2",
+    "bytes": 42017,
+    "member_count": 22,
+    "notice_paths": [
+      "balanced-match-adf286f7c6142102f932c8d7c7066463741a0036/LICENSE.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "brace-expansion",
+        "version": "5.0.12"
+      }
+    ],
+    "repo": "juliangruber/brace-expansion",
+    "commit": "f3410159d768f56c9d9f4511d3e1b46425fc1099",
+    "url": "https://codeload.github.com/juliangruber/brace-expansion/tar.gz/f3410159d768f56c9d9f4511d3e1b46425fc1099",
+    "file": "sources/juliangruber__brace-expansion-f3410159d768f56c9d9f4511d3e1b46425fc1099.tar.gz",
+    "sha256": "e57626607779f7b931f3c329f37e316a3e1ec3144e5bd1639d134bb0d979a49d",
+    "bytes": 55224,
+    "member_count": 25,
+    "notice_paths": [
+      "brace-expansion-f3410159d768f56c9d9f4511d3e1b46425fc1099/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "glob",
+        "version": "13.0.6"
+      }
+    ],
+    "repo": "isaacs/node-glob",
+    "commit": "e80cb38ae60d6cbff9e75f39032a994858994d35",
+    "url": "https://codeload.github.com/isaacs/node-glob/tar.gz/e80cb38ae60d6cbff9e75f39032a994858994d35",
+    "file": "sources/isaacs__node-glob-e80cb38ae60d6cbff9e75f39032a994858994d35.tar.gz",
+    "sha256": "1ecedc9d71cd7cfe36fa97817ff3a1fe54e82fa2969d8647dc24555f49862d8e",
+    "bytes": 998950,
+    "member_count": 90,
+    "notice_paths": [
+      "node-glob-e80cb38ae60d6cbff9e75f39032a994858994d35/LICENSE.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "minimatch",
+        "version": "10.2.6"
+      }
+    ],
+    "repo": "isaacs/minimatch",
+    "commit": "ded1bbd01beca62a5978bc1650ed0a1ccf9039d5",
+    "url": "https://codeload.github.com/isaacs/minimatch/tar.gz/ded1bbd01beca62a5978bc1650ed0a1ccf9039d5",
+    "file": "sources/isaacs__minimatch-ded1bbd01beca62a5978bc1650ed0a1ccf9039d5.tar.gz",
+    "sha256": "cc7a51e542f094a580e7fbfb5d4f772c488f26fb81862347348e8508b1cbf264",
+    "bytes": 110715,
+    "member_count": 63,
+    "notice_paths": [
+      "minimatch-ded1bbd01beca62a5978bc1650ed0a1ccf9039d5/LICENSE.md"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "saxes",
+        "version": "6.0.0"
+      }
+    ],
+    "repo": "lddubeau/saxes",
+    "commit": "211fa0ebec9b628affc09219199639887174bfc3",
+    "url": "https://codeload.github.com/lddubeau/saxes/tar.gz/211fa0ebec9b628affc09219199639887174bfc3",
+    "file": "sources/lddubeau__saxes-211fa0ebec9b628affc09219199639887174bfc3.tar.gz",
+    "sha256": "220974846392c1066935c239cc73d1701d7271f7d5c400d080080f564fd1399c",
+    "bytes": 218220,
+    "member_count": 88,
+    "notice_paths": [
+      "saxes-211fa0ebec9b628affc09219199639887174bfc3/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "source-map",
+        "version": "0.5.7"
+      }
+    ],
+    "repo": "mozilla/source-map",
+    "commit": "326dd955a366569759d9537ef5f0f167c89d92d2",
+    "url": "https://codeload.github.com/mozilla/source-map/tar.gz/326dd955a366569759d9537ef5f0f167c89d92d2",
+    "file": "sources/mozilla__source-map-326dd955a366569759d9537ef5f0f167c89d92d2.tar.gz",
+    "sha256": "9cd6434c8141ea17c7cd5fc96be717d7f0b82bbfcda3b5e0d5b679325ffb8799",
+    "bytes": 2638746,
+    "member_count": 62,
+    "notice_paths": [
+      "source-map-326dd955a366569759d9537ef5f0f167c89d92d2/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "source-map-js",
+        "version": "1.2.2"
+      }
+    ],
+    "repo": "7rulnik/source-map-js",
+    "commit": "0a1d334fd1e55a47df97fcd60a7915d46df3b08a",
+    "url": "https://codeload.github.com/7rulnik/source-map-js/tar.gz/0a1d334fd1e55a47df97fcd60a7915d46df3b08a",
+    "file": "sources/7rulnik__source-map-js-0a1d334fd1e55a47df97fcd60a7915d46df3b08a.tar.gz",
+    "sha256": "8d30daaa527cd12d2e197ae44a9b2c62a3113651b2b3235c1f7afe99bf4d0ef2",
+    "bytes": 4528682,
+    "member_count": 67,
+    "notice_paths": [
+      "source-map-js-0a1d334fd1e55a47df97fcd60a7915d46df3b08a/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "string-hash",
+        "version": "1.1.3"
+      }
+    ],
+    "repo": "darkskyapp/string-hash",
+    "commit": "5bf7547a91372c399f4052cc1094a93f73e10284",
+    "url": "https://codeload.github.com/darkskyapp/string-hash/tar.gz/5bf7547a91372c399f4052cc1094a93f73e10284",
+    "file": "sources/darkskyapp__string-hash-5bf7547a91372c399f4052cc1094a93f73e10284.tar.gz",
+    "sha256": "bb8ffbc4e580f5428a78c15f2798fd3380cfe6d77e8bc4741bcf6cfaadb72b23",
+    "bytes": 1552,
+    "member_count": 7,
+    "notice_paths": []
+  },
+  {
+    "packages": [
+      {
+        "name": "think-model",
+        "version": "1.5.4"
+      }
+    ],
+    "repo": "thinkjs/think-model",
+    "commit": "66201030bb2349eb99cf09cabbcc6478a9eaeb73",
+    "url": "https://codeload.github.com/thinkjs/think-model/tar.gz/66201030bb2349eb99cf09cabbcc6478a9eaeb73",
+    "file": "sources/thinkjs__think-model-66201030bb2349eb99cf09cabbcc6478a9eaeb73.tar.gz",
+    "sha256": "931399b9ac061b72f14612df74d8a425f5307597e734fe4c26d6f1b31d55a4b0",
+    "bytes": 25542,
+    "member_count": 41,
+    "notice_paths": [
+      "think-model-66201030bb2349eb99cf09cabbcc6478a9eaeb73/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "think-trace",
+        "version": "1.0.18"
+      }
+    ],
+    "repo": "thinkjs/think-trace",
+    "commit": "3189396f5f5099225b1bbb3b0a9d8f67bb4b8ba3",
+    "url": "https://codeload.github.com/thinkjs/think-trace/tar.gz/3189396f5f5099225b1bbb3b0a9d8f67bb4b8ba3",
+    "file": "sources/thinkjs__think-trace-3189396f5f5099225b1bbb3b0a9d8f67bb4b8ba3.tar.gz",
+    "sha256": "bd6f3226ad902808ec3c7753a9e4893cf4df8f2832dacfb92d5b1b820c03ed7f",
+    "bytes": 132983,
+    "member_count": 34,
+    "notice_paths": [
+      "think-trace-3189396f5f5099225b1bbb3b0a9d8f67bb4b8ba3/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "tldts",
+        "version": "7.4.16"
+      },
+      {
+        "name": "tldts-core",
+        "version": "7.4.16"
+      }
+    ],
+    "repo": "remusao/tldts",
+    "commit": "b9519e00ba47ad557cc9fc0416ea0cf5f89a4a12",
+    "url": "https://codeload.github.com/remusao/tldts/tar.gz/b9519e00ba47ad557cc9fc0416ea0cf5f89a4a12",
+    "file": "sources/remusao__tldts-b9519e00ba47ad557cc9fc0416ea0cf5f89a4a12.tar.gz",
+    "sha256": "4da02786517c7cf9895f7daab4212c6cfd28f2be2117d155b885385634fbca81",
+    "bytes": 380494,
+    "member_count": 160,
+    "notice_paths": [
+      "tldts-b9519e00ba47ad557cc9fc0416ea0cf5f89a4a12/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "tough-cookie",
+        "version": "6.0.2"
+      }
+    ],
+    "repo": "salesforce/tough-cookie",
+    "commit": "40708dd809cfb1dd658270dc85597bf9f68a6ccc",
+    "url": "https://codeload.github.com/salesforce/tough-cookie/tar.gz/40708dd809cfb1dd658270dc85597bf9f68a6ccc",
+    "file": "sources/salesforce__tough-cookie-40708dd809cfb1dd658270dc85597bf9f68a6ccc.tar.gz",
+    "sha256": "b1431dbd58db5adaac90fd03d8b66d1f2f7e783646937b9353dc1d7b7ccb00b4",
+    "bytes": 161871,
+    "member_count": 256,
+    "notice_paths": [
+      "tough-cookie-40708dd809cfb1dd658270dc85597bf9f68a6ccc/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "content-type",
+        "version": "2.1.0"
+      }
+    ],
+    "repo": "jshttp/content-type",
+    "commit": "8c2fedda8b40bd519c3ca49cc2a80aebaa1446e3",
+    "url": "https://codeload.github.com/jshttp/content-type/tar.gz/8c2fedda8b40bd519c3ca49cc2a80aebaa1446e3",
+    "file": "sources/jshttp__content-type-8c2fedda8b40bd519c3ca49cc2a80aebaa1446e3.tar.gz",
+    "sha256": "0fc3e5e5574f3eb7ac5cd20cdbcaf1c78eec39efc673271130da3da57ff75fa9",
+    "bytes": 9328,
+    "member_count": 18,
+    "notice_paths": [
+      "content-type-8c2fedda8b40bd519c3ca49cc2a80aebaa1446e3/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "ua-is-frozen",
+        "version": "0.1.2"
+      }
+    ],
+    "repo": "faisalman/ua-is-frozen",
+    "commit": "46043fa3abcd90f56d146c72f6efd061c1acdf4d",
+    "url": "https://codeload.github.com/faisalman/ua-is-frozen/tar.gz/46043fa3abcd90f56d146c72f6efd061c1acdf4d",
+    "file": "sources/faisalman__ua-is-frozen-46043fa3abcd90f56d146c72f6efd061c1acdf4d.tar.gz",
+    "sha256": "8c6c02f46441013949b77bbdf7a56643cf1303f6b7c10b542fff8fa644fa8e03",
+    "bytes": 17790,
+    "member_count": 23,
+    "notice_paths": [
+      "ua-is-frozen-46043fa3abcd90f56d146c72f6efd061c1acdf4d/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "uc.micro",
+        "version": "3.0.0"
+      }
+    ],
+    "repo": "markdown-it/uc.micro",
+    "commit": "c740a5dadc1090203cb21e6f28bf215ad9ddec28",
+    "url": "https://codeload.github.com/markdown-it/uc.micro/tar.gz/c740a5dadc1090203cb21e6f28bf215ad9ddec28",
+    "file": "sources/markdown-it__uc.micro-c740a5dadc1090203cb21e6f28bf215ad9ddec28.tar.gz",
+    "sha256": "1a338b1032e29ecf89605605ed54405b9c1fbe770ec5e13a3af3bff3b522a2ca",
+    "bytes": 9243,
+    "member_count": 14,
+    "notice_paths": [
+      "uc.micro-c740a5dadc1090203cb21e6f28bf215ad9ddec28/LICENSE.txt"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "undici",
+        "version": "8.11.2"
+      }
+    ],
+    "repo": "nodejs/undici",
+    "commit": "7e016ad7e5bd6540170069a9a28b1e633b29664f",
+    "url": "https://codeload.github.com/nodejs/undici/tar.gz/7e016ad7e5bd6540170069a9a28b1e633b29664f",
+    "file": "sources/nodejs__undici-7e016ad7e5bd6540170069a9a28b1e633b29664f.tar.gz",
+    "sha256": "54fd39a7d4e0aa8c492a76653ee5c0d4b4ee9b9866863f343cca1268acbfe716",
+    "bytes": 1201538,
+    "member_count": 906,
+    "notice_paths": [
+      "undici-7e016ad7e5bd6540170069a9a28b1e633b29664f/LICENSE",
+      "undici-7e016ad7e5bd6540170069a9a28b1e633b29664f/lib/web/fetch/LICENSE",
+      "undici-7e016ad7e5bd6540170069a9a28b1e633b29664f/test/busboy/LICENSE",
+      "undici-7e016ad7e5bd6540170069a9a28b1e633b29664f/test/node-fetch/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "validator",
+        "version": "13.15.35"
+      }
+    ],
+    "repo": "validatorjs/validator.js",
+    "commit": "7a8079709cd4cb27b2a1846e6f6508d68c9d928f",
+    "url": "https://codeload.github.com/validatorjs/validator.js/tar.gz/7a8079709cd4cb27b2a1846e6f6508d68c9d928f",
+    "file": "sources/validatorjs__validator.js-7a8079709cd4cb27b2a1846e6f6508d68c9d928f.tar.gz",
+    "sha256": "a3b2685135d5c5de4dd725a084bcefb93b82940eb9d14a27ceabdd5ccfbecd78",
+    "bytes": 161006,
+    "member_count": 157,
+    "notice_paths": [
+      "validator.js-7a8079709cd4cb27b2a1846e6f6508d68c9d928f/LICENSE",
+      "validator.js-7a8079709cd4cb27b2a1846e6f6508d68c9d928f/src/lib/isLicensePlate.js",
+      "validator.js-7a8079709cd4cb27b2a1846e6f6508d68c9d928f/src/lib/toFloat.js"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "whatwg-url",
+        "version": "17.2.0"
+      }
+    ],
+    "repo": "jsdom/whatwg-url",
+    "commit": "65ef489415cd0497dc842117f60ebde2969462dc",
+    "url": "https://codeload.github.com/jsdom/whatwg-url/tar.gz/65ef489415cd0497dc842117f60ebde2969462dc",
+    "file": "sources/jsdom__whatwg-url-65ef489415cd0497dc842117f60ebde2969462dc.tar.gz",
+    "sha256": "fa82c32d4b4332f09b53fbbd6af908cd185c3a9e852af06c6c400834e3f8d0a0",
+    "bytes": 52946,
+    "member_count": 50,
+    "notice_paths": [
+      "whatwg-url-65ef489415cd0497dc842117f60ebde2969462dc/LICENSE.txt"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "wicked-good-xpath",
+        "version": "1.3.0"
+      }
+    ],
+    "repo": "google/wicked-good-xpath",
+    "commit": "ce916fcfaf97247e3b8ec6cada64a6f6687175b4",
+    "url": "https://codeload.github.com/google/wicked-good-xpath/tar.gz/ce916fcfaf97247e3b8ec6cada64a6f6687175b4",
+    "file": "sources/google__wicked-good-xpath-ce916fcfaf97247e3b8ec6cada64a6f6687175b4.tar.gz",
+    "sha256": "53f4323b20ac133e98ce8ee128e55c11c0cf0a48fb2682daffb2e43f1d08a137",
+    "bytes": 47136,
+    "member_count": 93,
+    "notice_paths": [
+      "wicked-good-xpath-ce916fcfaf97247e3b8ec6cada64a6f6687175b4/LICENSE",
+      "wicked-good-xpath-ce916fcfaf97247e3b8ec6cada64a6f6687175b4/src/LICENSE",
+      "wicked-good-xpath-ce916fcfaf97247e3b8ec6cada64a6f6687175b4/test/LICENSE"
+    ]
+  },
+  {
+    "packages": [
+      {
+        "name": "xmlbuilder",
+        "version": "11.0.1"
+      }
+    ],
+    "repo": "oozcitak/xmlbuilder-js",
+    "commit": "fc3301d1bd7bde1351bdb95532b420f0ca9f5862",
+    "url": "https://codeload.github.com/oozcitak/xmlbuilder-js/tar.gz/fc3301d1bd7bde1351bdb95532b420f0ca9f5862",
+    "file": "sources/oozcitak__xmlbuilder-js-fc3301d1bd7bde1351bdb95532b420f0ca9f5862.tar.gz",
+    "sha256": "db26a189e763776a49303c5f158e5a66f462b4191061356edc488b7b5d87b1b3",
+    "bytes": 51164,
+    "member_count": 132,
+    "notice_paths": [
+      "xmlbuilder-js-fc3301d1bd7bde1351bdb95532b420f0ca9f5862/LICENSE"
+    ]
+  },
+  {
+    "repo": "publicsuffix/list",
+    "commit": "a179a48c465e818cfd8d626691cb317985da87fb",
+    "url": "https://codeload.github.com/publicsuffix/list/tar.gz/a179a48c465e818cfd8d626691cb317985da87fb",
+    "file": "sources/publicsuffix-list-a179a48c465e818cfd8d626691cb317985da87fb.tar.gz",
+    "sha256": "82eb3b2bcbf5de2fc600c996aa4f2339baf255b6c16e8b523bdbf808be598335",
+    "bytes": 306529
+  },
+  {
+    "package": "xmlchars",
+    "version": "2.2.0",
+    "repository": "https://github.com/lddubeau/xmlchars",
+    "tag": "v2.2.0",
+    "annotatedTagObject": "10f4e78216412f407248d4bfda5e88c250d8182d",
+    "commit": "1b54de0e417a1744a505f101b28314466b380bb0",
+    "url": "https://codeload.github.com/lddubeau/xmlchars/tar.gz/1b54de0e417a1744a505f101b28314466b380bb0",
+    "sha256": "e9e1e37d810a6d23638a1535015b72f14ccc3c782b71b8f73b05aa2d4784fb9b",
+    "sizeBytes": 40571,
+    "typescriptSources": [
+      "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xml/1.0/ed4.ts",
+      "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xml/1.0/ed5.ts",
+      "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xml/1.1/ed2.ts",
+      "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/src/xmlns/1.0/ed3.ts",
+      "xmlchars-1b54de0e417a1744a505f101b28314466b380bb0/test/xmlchars.spec.ts"
+    ],
+    "tagResolution": "git ls-remote refs/tags/v2.2.0 and peeled object",
+    "file": "sources/lddubeau__xmlchars-1b54de0e417a1744a505f101b28314466b380bb0.tar.gz"
+  },
+  {
+    "component": "llhttp",
+    "version": "9.3.1",
+    "kind": "source",
+    "commit": "06b12e87f209da43e3e9e0f958b7464a4a218896",
+    "url": "https://codeload.github.com/nodejs/llhttp/tar.gz/06b12e87f209da43e3e9e0f958b7464a4a218896",
+    "sha256": "074c8b930cab82731db85dd6960b5499bc060609174b691cb07356a1b95a0585",
+    "sizeBytes": 6286625,
+    "file": "sources/nodejs__llhttp-source-06b12e87f209da43e3e9e0f958b7464a4a218896.tar.gz"
+  },
+  {
+    "component": "llhttp",
+    "version": "9.3.1",
+    "kind": "release",
+    "commit": "4fce8cac9433aa4728428bb3b26880d32ad05c88",
+    "url": "https://codeload.github.com/nodejs/llhttp/tar.gz/4fce8cac9433aa4728428bb3b26880d32ad05c88",
+    "sha256": "ac1d762ad696e05cc6f8be52465632a2700af662b4682b2e6d13228d92fd5c09",
+    "sizeBytes": 39211,
+    "file": "sources/nodejs__llhttp-release-4fce8cac9433aa4728428bb3b26880d32ad05c88.tar.gz"
+  }
+]

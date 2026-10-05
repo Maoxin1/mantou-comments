@@ -1,0 +1,113 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+Verified 1396 exact source files from c4b0f1ebb9a7970d36493d4c3580f3f43e098fa5
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+npm warn gitignore-fallback No .npmignore file found, using .gitignore for file exclusion. Consider creating a .npmignore file to explicitly control published files.
+npm notice
+npm notice 📦  @waline/vercel@1.43.4
+npm notice Tarball Contents
+npm notice 1.0kB __tests__/__snapshots__/xss.spec.js.snap
+npm notice 2.4kB __tests__/comment-count.spec.js
+npm notice 86B __tests__/fixtures/vercel/index.cjs
+npm notice 1.7kB __tests__/fixtures/vercel/index.html
+npm notice 1.0kB __tests__/fixtures/vercel/vercel.json
+npm notice 1.8kB __tests__/github-storage.spec.js
+npm notice 3.7kB __tests__/markdown.spec.js
+npm notice 2.9kB __tests__/notify-spam.spec.js
+npm notice 1.8kB __tests__/notify.spec.js
+npm notice 2.8kB __tests__/storage-order.spec.js
+npm notice 6.4kB __tests__/token.spec.js
+npm notice 3.4kB __tests__/xss.spec.js
+npm notice 1.1kB Dockerfile
+npm notice 1.3kB Dockerfile.alpine
+npm notice 481B Dockerfile.source-build-alpine
+npm notice 18.0kB LICENSE
+npm notice 780B README.md
+npm notice 526B development.js
+npm notice 470B docker-compose.yml
+npm notice 1.2kB index.js
+npm notice 24.0kB openapi.yaml
+npm notice 1.9kB package.json
+npm notice 3.7kB src/config/adapter.js
+npm notice 3.3kB src/config/config.js
+npm notice 932B src/config/extend.js
+npm notice 1.5kB src/config/middleware.js
+npm notice 266B src/config/netlify.js
+npm notice 21B src/config/router.js
+npm notice 313B src/controller/article.js
+npm notice 1.2kB src/controller/comment.js
+npm notice 4.5kB src/controller/comment/rss.js
+npm notice 1.1kB src/controller/db.js
+npm notice 1.4kB src/controller/index.js
+npm notice 1.4kB src/controller/oauth.js
+npm notice 2.2kB src/controller/rest.js
+npm notice 329B src/controller/token.js
+npm notice 414B src/controller/token/2fa.js
+npm notice 634B src/controller/user.js
+npm notice 308B src/controller/user/password.js
+npm notice 294B src/controller/verification.js
+npm notice 1.7kB src/extend/controller.js
+npm notice 4.2kB src/extend/think.js
+npm notice 3.7kB src/locales/de.json
+npm notice 3.3kB src/locales/en.json
+npm notice 3.6kB src/locales/es.json
+npm notice 3.6kB src/locales/fr.json
+npm notice 3.3kB src/locales/id.json
+npm notice 718B src/locales/index.js
+npm notice 3.5kB src/locales/it.json
+npm notice 4.0kB src/locales/jp.json
+npm notice 3.6kB src/locales/ko-KR.json
+npm notice 3.5kB src/locales/pt-BR.json
+npm notice 4.3kB src/locales/ru.json
+npm notice 3.8kB src/locales/vi-VN.json
+npm notice 3.4kB src/locales/zh-CN.json
+npm notice 3.4kB src/locales/zh-TW.json
+npm notice 232B src/logic/article.js
+npm notice 5.1kB src/logic/base.js
+npm notice 241B src/logic/comment.js
+npm notice 349B src/logic/comment/rss.js
+npm notice 892B src/logic/db.js
+npm notice 107B src/logic/oauth.js
+npm notice 357B src/logic/token.js
+npm notice 515B src/logic/token/2fa.js
+npm notice 143B src/logic/user.js
+npm notice 178B src/logic/user/password.js
+npm notice 896B src/middleware/dashboard.js
+npm notice 444B src/middleware/fetch-oauth-service.js
+npm notice 274B src/middleware/plugin.js
+npm notice 857B src/middleware/prefix-warning.js
+npm notice 204B src/middleware/version.js
+npm notice 1.3kB src/service/akismet.js
+npm notice 1.3kB src/service/avatar.js
+npm notice 6.7kB src/service/core.js
+npm notice 816B src/service/markdown/highlight.js
+npm notice 2.0kB src/service/markdown/index.js
+npm notice 1.3kB src/service/markdown/xss.js
+npm notice 14.8kB src/service/notify.js
+npm notice 581B src/service/storage/base.js
+npm notice 6.2kB src/service/storage/cloudbase.js
+npm notice 9.2kB src/service/storage/github.js
+npm notice 11.2kB src/service/storage/leancloud.js
+npm notice 4.8kB src/service/storage/mongodb.js
+npm notice 3.1kB src/service/storage/mysql.js
+npm notice 2.1kB src/service/storage/order.js
+npm notice 2.0kB src/service/storage/postgresql.js
+npm notice 273B src/service/storage/sqlite.js
+npm notice 79B src/service/storage/tidb.js
+npm notice 393B vanilla.js
+npm notice Bundled Dependencies
+npm notice @waline/core
+npm notice Tarball Details
+npm notice name: @waline/vercel
+npm notice version: 1.43.4
+npm notice filename: waline-vercel-1.43.4.tgz
+npm notice package size: 80.9 kB
+npm notice unpacked size: 335.2 kB
+npm notice shasum: 17bd48d87493afbe5db1bb9cc58d68fbc2433c6a
+npm notice integrity: sha512-g6qblq8i5H0By[...]OmRzA0XHJfydw==
+npm notice bundled deps: 1
+npm notice bundled files: 0
+npm notice own files: 95
+npm notice total files: 95
+npm notice
+waline-vercel-1.43.4.tgz
+BUILD_WORKDIR/final-server-pack/waline-vercel-1.43.4.tgz: OK

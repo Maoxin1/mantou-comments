@@ -1,0 +1,209 @@
+[
+  {
+    "name": "ua-parser-js",
+    "requested_version": "2.0.10",
+    "url": "https://registry.npmjs.org/ua-parser-js/2.0.10",
+    "file": "registry/ua-parser-js.json",
+    "sha256": "0f2a14212eb85eaca2813384416eef0775930b692921050eb276fc6d608f238c",
+    "version": "2.0.10",
+    "gitHead": "4121c59060c3f9b814f07978c361e44016028c74",
+    "repository": {
+      "url": "git+https://github.com/faisalman/ua-parser-js.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "a28f1087ef5a3fff5aeb6bd86258841bfb6327b8",
+      "tarball": "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-2.0.10.tgz",
+      "fileCount": 211,
+      "integrity": "sha512-t+3Ktbq0Ies2vaSezfOaWiolH4OigQIO1dk+1xDpOydB1COVPocVYOrEV5rqZ0kFY9XYG1v9LutCyMgYBpABcw==",
+      "signatures": [
+        {
+          "sig": "MEUCIQCjs+Hl2CX10mF9+Xh3oJsEP7x1i89aZx7BzGe5OjzXBwIgNtGWYLsqYypFKwQzcDlokprPHn4mdgL5qnU6VMZgi90=",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/ua-parser-js@2.0.10",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 1320012
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "@mathjax/src",
+    "requested_version": "4.1.3",
+    "url": "https://registry.npmjs.org/%40mathjax%2Fsrc/4.1.3",
+    "file": "registry/@mathjax__src.json",
+    "sha256": "1f4c7a4d8eede4c5165ace80efcacef01e1240d08a7e002a049336c4a4732db4",
+    "version": "4.1.3",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/mathjax/Mathjax-src.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "b2830c296182c63bd3191d9034abbba6e9166463",
+      "tarball": "https://registry.npmjs.org/@mathjax/src/-/src-4.1.3.tgz",
+      "fileCount": 4287,
+      "integrity": "sha512-rIrWquuBSoJuoMBdC/1qD+AUHTorlccPicoVy6P2xbUgnuDBpCcpbHtOAsB8L3hdCHtNBg92lF8e3Fz+pkcQbw==",
+      "signatures": [
+        {
+          "sig": "MEYCIQC+N2tMLfsdHIaeHLAPaeHkaH8PKr01DfrurZoHybD5LwIhANw5xxR8qkoZdS/GVDNVgzLGTY3hWvw9y5B2rgtwihCu",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "attestations": {
+        "url": "https://registry.npmjs.org/-/npm/v1/attestations/@mathjax%2fsrc@4.1.3",
+        "provenance": {
+          "predicateType": "https://slsa.dev/provenance/v1"
+        }
+      },
+      "unpackedSize": 33726950
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "@mathjax/mathjax-newcm-font",
+    "requested_version": "4.1.3",
+    "url": "https://registry.npmjs.org/%40mathjax%2Fmathjax-newcm-font/4.1.3",
+    "file": "registry/@mathjax__mathjax-newcm-font.json",
+    "sha256": "fdfebd3cd3ac565788b2e22843bf525ff5f6c13b9c0ec9a11664b2909cb53812",
+    "version": "4.1.3",
+    "gitHead": "b3b77f655ed2d9009078301626e27b56dcfa90d9",
+    "repository": {
+      "url": "git+https://github.com/mathjax/MathJax-fonts.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "cb107f923c22962f627d90fab2b01c532fd2d8db",
+      "tarball": "https://registry.npmjs.org/@mathjax/mathjax-newcm-font/-/mathjax-newcm-font-4.1.3.tgz",
+      "fileCount": 1124,
+      "integrity": "sha512-gzAB3dFHilHX1l5x2xUqRL+1jDQt3Fyza1DkEMVXWC4E8SvsGdlgEza47HYi2WhVcgfkvf4zgUGzuhbq3Pjlew==",
+      "signatures": [
+        {
+          "sig": "MEQCICRLlB3yXteIUyx1vSLS1t9Q6E/K9NFuyDmF1nd29PXtAiAhN16sAraP1Mi8yG627PN3qIeH6nXt3mDQuXqYKhPsEg==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 49247851
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "@mathjax/mathjax-tex-font",
+    "requested_version": "4.1.3",
+    "url": "https://registry.npmjs.org/%40mathjax%2Fmathjax-tex-font/4.1.3",
+    "file": "registry/@mathjax__mathjax-tex-font.json",
+    "sha256": "1fa23024a92402871f5669a63f428e6e3286fef5236dcaed8b03129814863101",
+    "version": "4.1.3",
+    "gitHead": "b3b77f655ed2d9009078301626e27b56dcfa90d9",
+    "repository": {
+      "url": "git+https://github.com/mathjax/MathJax-fonts.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "49d10b3d845ea2d8c3d4dee725502127b51d41b6",
+      "tarball": "https://registry.npmjs.org/@mathjax/mathjax-tex-font/-/mathjax-tex-font-4.1.3.tgz",
+      "fileCount": 325,
+      "integrity": "sha512-9B78brBEmmAwyumaREIyM1gF2HgDamDIXA36UyeXWxX7XrpLdmoSB5NLIf/c6tEA4L6xNrIdMxfgY6YX/kcSNw==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCOgZ8uJFq0qhz8EXSUZvoKXdRe61rnRsWDQwhiY3iWagIhAKXWs56nOQTNX+TcsfTrOoigm/uHhUG7uTT+sywem+qC",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 9267774
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "speech-rule-engine",
+    "requested_version": "5.0.0-rc.4",
+    "url": "https://registry.npmjs.org/speech-rule-engine/5.0.0-rc.4",
+    "file": "registry/speech-rule-engine.json",
+    "sha256": "9776b3299dbac7228c2ddb6248aeadd35a61cb2fd2f72694fc0c515881ae95ac",
+    "version": "5.0.0-rc.4",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/zorkow/speech-rule-engine.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "3679c029a8884f607b75e976adf08edd2f5be5dd",
+      "tarball": "https://registry.npmjs.org/speech-rule-engine/-/speech-rule-engine-5.0.0-rc.4.tgz",
+      "fileCount": 796,
+      "integrity": "sha512-3dFcH2QtQNhtvUUc09TxoaEK4WG03B9Z57krFG9jocrKykKGu35BhIkWr0vgEAxZZomEWkeluff69y/EbYzP4Q==",
+      "signatures": [
+        {
+          "sig": "MEYCIQCkD4/zniV3qKjOAOGo/cgI0Zrsgkk9Zivd19Uk/LrspQIhANk80yvucFjUqHGByMzPohIEzaKusHezItOsyz4Psrkp",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 6833210
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "mj-context-menu",
+    "requested_version": "1.0.0",
+    "url": "https://registry.npmjs.org/mj-context-menu/1.0.0",
+    "file": "registry/mj-context-menu.json",
+    "sha256": "54ddad4a881e5cd72c4f81963cbfa95ae376d45fccd3ccfcd342b6adf61e1f13",
+    "version": "1.0.0",
+    "gitHead": "2156b7db7cac02ca8451deb4ee6075d55b591d37",
+    "repository": {
+      "url": "git+https://github.com/zorkow/context-menu.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "143edb0a57161d1743fabf0f8459f4cb65ef19bc",
+      "tarball": "https://registry.npmjs.org/mj-context-menu/-/mj-context-menu-1.0.0.tgz",
+      "fileCount": 239,
+      "integrity": "sha512-OSgBFQRCVhrZwRa9lhqnKcJU92dd/YXgBjup0uyeuj9bOaVsf4myOyrjU4PfhYkdDk6AqVUTov7v5uFMvIbduA==",
+      "signatures": [
+        {
+          "sig": "MEQCIDj/AhZydxmZ4Xgb0k4h8+PYiEX6pSA84yU2fAF5dKRzAiAvY/pbsQZbDsx5iESF4lIWNHvA63rq3HIIYFmwinyZSQ==",
+          "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+        }
+      ],
+      "unpackedSize": 434019
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "mhchemparser",
+    "requested_version": "4.2.1",
+    "url": "https://registry.npmjs.org/mhchemparser/4.2.1",
+    "file": "registry/mhchemparser.json",
+    "sha256": "62c5faf8d8506b166e5c316b64a4b05ec421146c6d142d5c273354e2a03e197a",
+    "version": "4.2.1",
+    "gitHead": "2159346e2bb45ec6beaf64b617e0e5a049b4d200",
+    "repository": {
+      "url": "git+https://github.com/mhchem/mhchemParser.git",
+      "type": "git"
+    },
+    "dist": {
+      "shasum": "d73982e66bc06170a85b1985600ee9dabe157cb0",
+      "tarball": "https://registry.npmjs.org/mhchemparser/-/mhchemparser-4.2.1.tgz",
+      "fileCount": 14,
+      "integrity": "sha512-kYmyrCirqJf3zZ9t/0wGgRZ4/ZJw//VwaRVGA75C4nhE60vtnIzhl9J9ndkX/h6hxSN7pjg/cE0VxbnNM+bnDQ==",
+      "signatures": [
+        {
+          "sig": "MEYCIQD7hPag1Cc4CGKuim1KBZmAduvWutm6N6WaT15xe6DIRgIhAIKIaZT19KvoqJ1P3f0PEe+yrgQ8VeGgB8V8p3DZCics",
+          "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+        }
+      ],
+      "unpackedSize": 276593
+    },
+    "dist-tags": null
+  },
+  {
+    "name": "@mathjax/font-tools",
+    "requested_version": null,
+    "url": "https://registry.npmjs.org/%40mathjax%2Ffont-tools",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

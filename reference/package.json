@@ -1,0 +1,22 @@
+{
+  "name": "mantou-waline-backend-preparation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disabled-by-default Waline backend candidate; not a production deployment",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 test/*.test.cjs",
+    "check": "node --check index.cjs && node --check src/candidate.cjs && node --check src/policy.cjs && node --check src/bootstrap.cjs"
+  },
+  "dependencies": {
+    "@waline/vercel": "1.43.4"
+  },
+  "overrides": {
+    "request": {
+      "form-data": "2.5.6",
+      "qs": "6.16.0"
+    }
+  }
+}

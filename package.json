@@ -1,0 +1,20 @@
+{
+  "name": "mantou-waline-backend-preparation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Disabled-by-default Waline backend candidate; not a production deployment",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "test": "npm run test:application && npm run test:reference",
+    "check": "node --check index.cjs && node --check src/candidate.cjs && node --check src/policy.cjs && node --check src/bootstrap.cjs",
+    "build:derivative": "python scripts/build-derivative.py",
+    "test:application": "node --test --test-concurrency=1 test/*.test.cjs",
+    "test:reference": "node scripts/run-reference-regressions.cjs"
+  },
+  "dependencies": {
+    "@waline/vercel": "file:vendor/generated/mantou-waline-postgresql-1.43.4-mantou.1.tgz"
+  },
+  "license": "AGPL-3.0-or-later"
+}

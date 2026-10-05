@@ -1,0 +1,55 @@
+[
+  {
+    "name": "ua-parser-js",
+    "commit": "4121c59060c3f9b814f07978c361e44016028c74",
+    "overlap_count": 211,
+    "matches": 211,
+    "mismatches": [],
+    "notice_hashes": [
+      {
+        "path": "LICENSE.md",
+        "sha256": "677a9f8c04196ea6cea9a1da75b9e3923d3e82c82de010d6081a163afdcefd76"
+      }
+    ]
+  },
+  {
+    "name": "@mathjax/src",
+    "commit": "fb987178c2d279a99b0db5ea02e751691703955e",
+    "overlap_count": 634,
+    "matches": 633,
+    "mismatches": [
+      {
+        "path": "package.json",
+        "matches": false,
+        "upstream_sha256": "4db22add5f0b83a1e496c9f73c1ed5c2cea5cd6710d19dc7d36cb43e6cf9e953",
+        "installed_sha256": "385eb710405477cfbc7760becdc8acd26cacc563519f3e7f9f185769299401d3"
+      }
+    ],
+    "notice_hashes": [
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "name": "speech-rule-engine",
+    "commit": "d60c0650509e1dd9db004d22b077d05b63507657",
+    "overlap_count": 6,
+    "matches": 5,
+    "mismatches": [
+      {
+        "path": "package.json",
+        "matches": false,
+        "upstream_sha256": "298b221f1e86e042e784e00615007ef45321e0ad37b37f258431be10aa8d73e5",
+        "installed_sha256": "b98b54c03ef1a14518d6c360a57c6cb441fddb9f719a6e19d1efdafb3d87bb87"
+      }
+    ],
+    "notice_hashes": [
+      {
+        "path": "LICENSE",
+        "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      }
+    ]
+  }
+]
