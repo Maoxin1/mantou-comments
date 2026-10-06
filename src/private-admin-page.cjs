@@ -88,7 +88,7 @@ async function readForm(req, fields) {
   return Object.fromEntries(entries);
 }
 
-function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, expiresAt, getModels, acquireBootstrap } = {}) {
+function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, expiresAt, getModels, acquireBootstrap, moderationEnabled = false, moderationPaths = null } = {}) {
   let url;
   try { url = new URL(origin); } catch { /* validated below */ }
   if (!url || url.protocol !== 'https:' || url.origin !== origin || url.username || url.password ||
@@ -98,10 +98,12 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
       typeof ownerAccessKey !== 'string' || !/^[\x21-\x7e]{43,1024}$/.test(ownerAccessKey) ||
       typeof jwtSecret !== 'string' || !/^[\x21-\x7e]{43,1024}$/.test(jwtSecret) || equal(ownerAccessKey, jwtSecret) ||
       !Number.isSafeInteger(expiresAt) || expiresAt <= Date.now() || expiresAt > Date.now() + 86400000 ||
-      typeof getModels !== 'function' || typeof acquireBootstrap !== 'function') {
+      typeof getModels !== 'function' || typeof acquireBootstrap !== 'function' || typeof moderationEnabled !== 'boolean' ||
+      (moderationPaths !== null && (!Array.isArray(moderationPaths) || !moderationPaths.length || moderationPaths.length > 8 || moderationPaths.some(p => typeof p !== 'string' || !/^\/(?:p|works)\/[^/?#\u0000-\u0020]+\/$/.test(p))))) {
     throw new TypeError('Invalid private administrator configuration');
   }
   const accountIdentity = Object.freeze({ email: identity.email, displayName: identity.displayName });
+  const moderationThreads = moderationPaths === null ? null : new Set(moderationPaths);
   const audience = origin + '/__private';
   const password = new PasswordHash();
   let modelPromise;
@@ -244,13 +246,44 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
         res.setHeader('set-cookie', [cookie(OWNER_COOKIE, '', 0), cookie(ADMIN_COOKIE, '', 0)]);
         return redirect(res, '/__private/access');
       }
-      if (req.method !== 'GET') return deny(res, 405);
+      if (req.method !== 'GET' && !(moderationEnabled && req.method === 'POST')) return deny(res, 405);
       const token = readCookie(req, ADMIN_COOKIE);
       const proof = verify(token, 'admin');
       if (!proof || !equal(proof.owner, owner.jti) || !validSubject(proof.sub)) return deny(res, 401);
       const core = await coreFor(owner);
-      const account = await core.auth.resolveSession({ token }, context());
+      const adminContext = context();
+      const account = await core.auth.resolveSession({ token }, adminContext);
       if (!isApprovedAdmin(account)) return deny(res, 401);
+      if (moderationEnabled) {
+        adminContext.state.userInfo = account;
+        if (req.method === 'POST') {
+          const form = await readForm(req, ['csrf', 'objectId']);
+          if (!checkCsrf(form.csrf, owner, '/__private')) return deny(res);
+          if (!validSubject(form.objectId)) return deny(res, 400);
+          const store = await models();
+          const rows = await store.Comment.select({ objectId: form.objectId }, { limit: 1, field: ['objectId', 'status', 'url'] });
+          if (!Array.isArray(rows) || rows.length !== 1) return deny(res, 404);
+          if (moderationThreads && !moderationThreads.has(rows[0].url)) return deny(res);
+          if (rows[0].status !== 'waiting') return send(res, 409, 'Comment is no longer waiting', '<p><a href="/__private">Back to moderation</a></p>' + logoutForm(owner));
+          try {
+            // Only this status transition is exposed. No edit, delete, account,
+            // notification or public-reader capability is added by this page.
+            await core.comment.update({ objectId: form.objectId, data: { status: 'approved' } }, adminContext);
+          } catch {
+            return send(res, 503, 'Approval result is unknown', '<p>Do not submit approval again until an authorized read-only comment check resolves the outcome.</p>' + logoutForm(owner));
+          }
+          return redirect(res, '/__private');
+        }
+        const queue = await core.comment.listForAdmin({ status: 'waiting', page: 1, pageSize: 20 }, adminContext);
+        if (!queue || !Array.isArray(queue.data) || queue.data.length > 20) throw new Error('Unavailable moderation queue');
+        const entries = queue.data.map(row => {
+          if (moderationThreads && !moderationThreads.has(row.url)) throw new Error('Comment outside acceptance scope');
+          if (!validSubject(String(row.objectId)) || row.status !== 'waiting') throw new Error('Unavailable comment');
+          const parent = row.pid ? 'Reply to ' + escapeHtml(row.pid) : 'Root comment';
+          return '<li><h3>Comment ' + escapeHtml(row.objectId) + '</h3><p>' + parent + '</p><p>Page: <code>' + escapeHtml(row.url ?? '') + '</code></p><p>Reader: ' + escapeHtml(row.nick ?? '') + '</p><pre>' + escapeHtml(String(row.comment ?? '').slice(0, 2000)) + '</pre><form method="post" action="/__private">' + hiddenCsrf(owner, '/__private') + '<input type="hidden" name="objectId" value="' + escapeHtml(row.objectId) + '"><button type="submit">Approve comment ' + escapeHtml(row.objectId) + '</button></form></li>';
+        }).join('');
+        return send(res, 200, 'Signed in', '<p>Administrator: ' + escapeHtml(accountIdentity.displayName) + '</p><h2>Waiting comments</h2><p>Only approval is available. The queue shows at most 20 waiting comments; reader email and network metadata are not displayed.</p>' + (entries ? '<ol>' + entries + '</ol>' : '<p>No waiting comments.</p>') + logoutForm(owner));
+      }
       return send(res, 200, 'Signed in', '<p>Administrator: ' + escapeHtml(accountIdentity.displayName) + '</p><p>Private administrator authentication is ready. Moderation controls are not included in this staged page.</p>' + logoutForm(owner));
     } catch (error) {
       if (error instanceof RequestError) {

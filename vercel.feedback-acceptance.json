@@ -1,0 +1,30 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
+  "regions": ["sin1"],
+  "env": { "NODEJS_HELPERS": "0" },
+  "build": { "env": { "NODEJS_HELPERS": "0" } },
+  "functions": { "api/feedback-acceptance.js": { "maxDuration": 30, "includeFiles": "preview-site/**" } },
+  "rewrites": [
+    { "source": "/__private", "destination": "/api/feedback-acceptance" },
+    { "source": "/__private/access", "destination": "/api/feedback-acceptance" },
+    { "source": "/__private/login", "destination": "/api/feedback-acceptance" },
+    { "source": "/__private/logout", "destination": "/api/feedback-acceptance" },
+    { "source": "/api/comment", "destination": "/api/feedback-acceptance" },
+    { "source": "/api/article", "destination": "/api/feedback-acceptance" },
+    { "source": "/p/20260803/", "destination": "/api/feedback-acceptance" },
+    { "source": "/en/p/20260803/", "destination": "/api/feedback-acceptance" },
+    { "source": "/works/mantou-checklist-pwa/", "destination": "/api/feedback-acceptance" },
+    { "source": "/en/works/mantou-checklist-pwa/", "destination": "/api/feedback-acceptance" },
+    { "source": "/css/:path*", "destination": "/api/feedback-acceptance" },
+    { "source": "/js/:path*", "destination": "/api/feedback-acceptance" },
+    { "source": "/lib/:path*", "destination": "/api/feedback-acceptance" },
+    { "source": "/images/:path*", "destination": "/api/feedback-acceptance" },
+    { "source": "/favicon.ico", "destination": "/api/feedback-acceptance" },
+    { "source": "/favicon-32x32.png", "destination": "/api/feedback-acceptance" },
+    { "source": "/favicon-16x16.png", "destination": "/api/feedback-acceptance" },
+    { "source": "/apple-touch-icon.png", "destination": "/api/feedback-acceptance" },
+    { "source": "/:path*", "destination": "/api/disabled" }
+  ]
+}
