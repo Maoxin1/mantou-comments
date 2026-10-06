@@ -121,6 +121,8 @@ test('private page: access screen is escaped, script-free, no-store and has no a
   assert.equal(r.status, 200); assert.equal(r.headers['cache-control'], 'no-store');
   assert.match(r.headers['content-security-policy'], /default-src 'none'/);
   assert.match(r.headers['content-security-policy'], /frame-ancestors 'none'/);
+  assert.match(r.text, /href="https:\/\/github\.com\/Maoxin1\/mantou-comments"/);
+  assert.match(r.text, /Source and licenses/);
   assert.doesNotMatch(r.text, /<script|onclick=|Synthetic <Owner>|synthetic-owner@|SYNTHETIC_OWNER_KEY/);
   assert.equal(f.calls.models, 0); assert.equal(f.calls.leases, 0);
 });

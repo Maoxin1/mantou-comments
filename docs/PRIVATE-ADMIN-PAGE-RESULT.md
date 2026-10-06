@@ -5,6 +5,7 @@
 ## Implemented
 
 - Separate owner-held capability before password input or storage. This is possession authorization, not Vercel visitor identity; broad project-member login is insufficient.
+- A visible Source and licenses link on every private page, preserving the corresponding-source offer.
 - Server-bound approved identity; closed public signup/OAuth; no mail or notification services. Reader email stays optional.
 - Separate signing key, purpose-bound HS256, issuer/audience checks, Secure/HttpOnly/SameSite cookies, role/email reread, route-bound CSRF, exact origin/host/form fields, 4 KiB body and five-second read limits. Fixed private window at most 24 hours; cookies at most 15 minutes.
 - Locked single-administrator creation using installed bcrypt. Unknown COMMIT outcomes prohibit resubmission pending read-only reconciliation. Logout clears browser cookies; copied stateless tokens expire rather than being server-revoked.
@@ -17,7 +18,7 @@ The final receipt is verification/private-admin-local-result.json. Original 85 t
 
 No local PostgreSQL server was available. Headless visual capture was blocked by the local sandbox's socket restriction; markup and actual local HTTP behavior passed, but screenshots are not claimed. The existing public entrypoint and prior diagnostic profile remain unchanged.
 
-Vercel's default Node helpers consume request bodies before the handler. The optional profile sets NODEJS_HELPERS=0 for build and runtime; runtime refuses any other value. A fresh real build must verify bundled dynamic source dependencies and .vc-config.json shouldAddHelpers:false, then routed access-form behavior and a synthetic invalid-key POST before the owner enters secrets. No installed Vercel builder was available, so this remains a build gate. Do not use env pull or export production credentials.
+Vercel's default Node helpers consume request bodies before the handler. The optional profile sets NODEJS_HELPERS=0 for build and runtime; runtime refuses any other value. A fresh real build must verify bundled dynamic source dependencies and .vc-config.json shouldAddHelpers:false, then routed access-form behavior and a synthetic invalid-key POST before the owner enters secrets. The previously installed official @vercel/node 18.0.0 and @vercel/nft 1.10.0 were subsequently located. A clean-environment offline trace includes all five dynamically loaded storage/schema files and the resolved nested @waline/core entry and dependencies. This is not a remote build or live-runtime acceptance; that gate remains. Do not use env pull or export production credentials.
 
 Last known audit: 0 findings at 2026-10-05 12:44 UTC, unchanged lock SHA-256 62a039f5430cc756528907c062408f436c65d073999adffa8d91d63a318871d9. No new audit transmission or dependency change.
 

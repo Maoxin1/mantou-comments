@@ -23,7 +23,7 @@
   "liveCredentialsCreated": false,
   "publicationOrDeploymentPerformed": false,
   "browserVisualCheck": "Not completed; headless browser local socket permission blocked",
-  "vercelBuild": "Not executed; actual packaged dependencies and shouldAddHelpers:false remain acceptance gates",
+  "vercelBuild": "Offline local tracing checked with @vercel/node18.0.0 and @vercel/nft1.10.0; remote build, packaged dependency execution and shouldAddHelpers:false remain acceptance gates",
   "audit": {
     "timestampUtc": "2026-10-05T12:44:00Z",
     "knownFindings": 0,
@@ -43,5 +43,18 @@
     "vercelNodeSourceCommit": "c628be7835e03a965b93e9cf9e2bd5ac2acbf5eb",
     "inspectedPackageVersion": "12.0.1",
     "requiredBuildAndRuntimeFlag": "NODEJS_HELPERS=0"
+  },
+  "offlineTrace": {
+    "tracedFiles": 3177,
+    "requiredDynamicFilesPresent": true,
+    "actualNestedCoreEntryPresent": true,
+    "realDatabase": false
+  },
+  "sourceOfferRegression": {
+    "redPass": 20,
+    "redFail": 1,
+    "greenPass": 21,
+    "greenFail": 0,
+    "existingAssertionsPreserved": true
   }
 }

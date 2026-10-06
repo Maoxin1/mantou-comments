@@ -37,7 +37,7 @@ function send(res, status, title, body = '') {
   res.setHeader('referrer-policy', 'no-referrer');
   res.setHeader('permissions-policy', 'camera=(), microphone=(), geolocation=()');
   res.setHeader('content-security-policy', "default-src 'none'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'; object-src 'none'");
-  res.end('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>' + escapeHtml(title) + '</title></head><body><main><h1>' + escapeHtml(title) + '</h1>' + body + '</main></body></html>');
+  res.end('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>' + escapeHtml(title) + '</title></head><body><main><h1>' + escapeHtml(title) + '</h1>' + body + '</main><footer><p><a href="https://github.com/Maoxin1/mantou-comments" rel="noreferrer">Source and licenses</a></p></footer></body></html>');
 }
 const deny = (res, status = 403) => send(res, status, status === 404 ? 'Not found' : 'Request unavailable');
 function redirect(res, location) { res.setHeader('location', location); send(res, 303, 'Continue'); }
