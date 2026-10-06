@@ -105,6 +105,22 @@ async function fixture(t, options = {}) {
   return { request, access, form, setup, login, models, calls, statements, config };
 }
 
+test('private page: form-compatible referrer policy retains the strict origin boundary', async t => {
+  const f = await fixture(t);
+  const page = await f.request('/__private/access');
+  assert.equal(page.status, 200);
+  assert.equal(page.headers['referrer-policy'], 'same-origin');
+  assert.match(page.text, /<form method="post" action="\/__private\/access">/);
+  const accepted = await f.request('/__private/access', { method: 'POST', body: { ownerAccessKey: OWNER_KEY } });
+  assert.equal(accepted.status, 303);
+  for (const origin of ['null', 'https://evil.invalid']) {
+    const rejected = await f.request('/__private/access', { method: 'POST', body: { ownerAccessKey: OWNER_KEY }, headers: { origin } });
+    assert.equal(rejected.status, 403);
+    assert.equal(rejected.headers['set-cookie'], undefined);
+  }
+  assert.deepEqual(f.calls, { models: 0, leases: 0, inserts: 0, disposed: 0 });
+});
+
 test('private page: inert import and explicit separate configuration required', () => {
   const { createPrivateAdminPage } = require('../src/private-admin-page.cjs');
   for (const delta of [{}, { ownerAccessKey: 'short' }, { jwtSecret: OWNER_KEY }, { origin: 'http://unsafe.invalid' }, { origin: ORIGIN + '/path' }, { expiresAt: Date.now() - 1 }, { expiresAt: Date.now() + 90000000 }]) {
