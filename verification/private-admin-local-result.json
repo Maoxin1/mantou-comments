@@ -1,0 +1,47 @@
+{
+  "timestampUtc": "2026-10-06T00:55:46.553070+00:00",
+  "scope": "private local preparation only",
+  "basePublicCommit": "39a7f99749f267a2f7712689faec0214854b00eb",
+  "tests": {
+    "application": 131,
+    "reference": 4,
+    "total": 135,
+    "failed": 0,
+    "original85Retained": true
+  },
+  "freshBundleInstall": {
+    "command": "npm ci --offline --ignore-scripts --no-audit --no-fund",
+    "packages": 285,
+    "success": true
+  },
+  "freshBundleTest": {
+    "command": "npm test",
+    "total": 135,
+    "failed": 0
+  },
+  "liveDatabaseExecuted": false,
+  "liveCredentialsCreated": false,
+  "publicationOrDeploymentPerformed": false,
+  "browserVisualCheck": "Not completed; headless browser local socket permission blocked",
+  "vercelBuild": "Not executed; actual packaged dependencies and shouldAddHelpers:false remain acceptance gates",
+  "audit": {
+    "timestampUtc": "2026-10-05T12:44:00Z",
+    "knownFindings": 0,
+    "freshAudit": false,
+    "unchangedLockSha256": "62a039f5430cc756528907c062408f436c65d073999adffa8d91d63a318871d9"
+  },
+  "review": "Independent security review GO for local-only artifact; not deployment acceptance",
+  "testLimits": [
+    "HTTP tests use synthetic MemoryModel",
+    "Adapter and joined integration tests use real pinned core/model/parser with fake pg transport",
+    "No local PostgreSQL server or real SQL execution",
+    "Logout clears browser cookies; copied stateless tokens remain valid until expiry"
+  ],
+  "privacy": "No real owner email, environment file, credential file or authenticated session included; new fixtures are synthetic",
+  "license": "Upstream notices retained; dependency sources unchanged and available in existing source-2026-10-05 Release",
+  "runtimeEvidence": {
+    "vercelNodeSourceCommit": "c628be7835e03a965b93e9cf9e2bd5ac2acbf5eb",
+    "inspectedPackageVersion": "12.0.1",
+    "requiredBuildAndRuntimeFlag": "NODEJS_HELPERS=0"
+  }
+}

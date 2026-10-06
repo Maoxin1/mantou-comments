@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
+  "regions": ["sin1"],
+  "env": { "NODEJS_HELPERS": "0" },
+  "build": { "env": { "NODEJS_HELPERS": "0" } },
+  "functions": { "api/private-admin.js": { "maxDuration": 30 } },
+  "rewrites": [
+    { "source": "/__private", "destination": "/api/private-admin" },
+    { "source": "/__private/access", "destination": "/api/private-admin" },
+    { "source": "/__private/setup", "destination": "/api/private-admin" },
+    { "source": "/__private/login", "destination": "/api/private-admin" },
+    { "source": "/__private/logout", "destination": "/api/private-admin" },
+    { "source": "/:path*", "destination": "/api/disabled" }
+  ]
+}

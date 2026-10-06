@@ -67,3 +67,8 @@ The phase-classification update passed a fresh offline install and all 65 tests 
 ## Same-endpoint direct diagnostic candidate (2026-10-05)
 
 The diagnostic can use the existing PGHOST_UNPOOLED only when it exactly matches the configured pooled endpoint with its -pooler suffix removed; missing/mismatched identity fails closed. Strict TLS, read-only startup/SQL and timeouts stay intact. All 70 tests pass, but the live root cause remains unconfirmed. See [evidence and interpretation](docs/DIRECT-DIAGNOSTIC-CANDIDATE.md).
+
+
+## Private setup and login preparation (2026-10-06)
+
+The optional owner-gated setup/login page and real PostgreSQL adapter wiring pass a fresh offline install and all 135 local tests (131 application plus four reference). The public entrypoint stays disabled. Tests use synthetic accounts and fake pg transport; no real administrator creation or deployed login acceptance is claimed. See [the implementation and release gates](docs/PRIVATE-ADMIN-PAGE-RESULT.md). The optional profile requires NODEJS_HELPERS=0 during both build and runtime, separately provisioned owner/session secrets, an absolute private window, and owner-controlled credential entry. Existing dependency sources and licenses remain unchanged.
