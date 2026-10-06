@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
+  "regions": ["sin1"],
+  "env": {"NODEJS_HELPERS": "0", "PUBLIC_COMMENTS_ENABLED": "true"},
+  "build": {"env": {"NODEJS_HELPERS": "0"}},
+  "functions": {"api/public-comments.js": {"maxDuration": 30, "includeFiles": "{config/published-threads.json,node_modules/@waline/vercel/src/service/storage/**}"}},
+  "rewrites": [
+    {"source": "/api/comment", "destination": "/api/public-comments"},
+    {"source": "/__private", "destination": "/api/public-comments"},
+    {"source": "/__private/access", "destination": "/api/public-comments"},
+    {"source": "/__private/login", "destination": "/api/public-comments"},
+    {"source": "/__private/logout", "destination": "/api/public-comments"},
+    {"source": "/:path*", "destination": "/api/disabled"}
+  ]
+}

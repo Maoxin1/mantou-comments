@@ -1,0 +1,239 @@
+{
+  "generatedBy": "Official Vercel CLI bundled @vercel/routing-utils",
+  "cliVersion": "62.2.0",
+  "profileSHA256": "2239553956c854f08362c677d3dff4aadcbc7272a2f7ab31de206ae8402cc752",
+  "previousWildcardRoutes": [
+    {
+      "src": "^\\/css(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))?$",
+      "dest": "/api/feedback-acceptance?path=$1",
+      "check": true
+    },
+    {
+      "src": "^\\/js(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))?$",
+      "dest": "/api/feedback-acceptance?path=$1",
+      "check": true
+    },
+    {
+      "src": "^\\/lib(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))?$",
+      "dest": "/api/feedback-acceptance?path=$1",
+      "check": true
+    },
+    {
+      "src": "^\\/images(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))?$",
+      "dest": "/api/feedback-acceptance?path=$1",
+      "check": true
+    }
+  ],
+  "fixedRoutes": [
+    {
+      "src": "^\\/__private$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/__private\\/access$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/__private\\/login$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/__private\\/logout$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/api\\/comment$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/api\\/article$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/apple-touch-icon\\.png$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/css\\/style\\.min\\.f8b403af11aa277e6b4a6cc9a677b0aa082f8bc91f7d0d9c385adfa421617d2e\\.css$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/en\\/p\\/20260803\\/$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/en\\/works\\/mantou-checklist-pwa\\/$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/favicon-16x16\\.png$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/favicon-32x32\\.png$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/favicon\\.ico$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/images\\/feedback-helpful\\.svg$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/images\\/identity\\/mantou-wordmark-ink\\.svg$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/images\\/identity\\/mantou-wordmark-paper\\.svg$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/images\\/mantou-checklist-preview-20261005\\.png$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/js\\/follow\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/js\\/home-filters\\.min\\.1bc2e97788c5030f8df1c88513d4db05a975d394e6e5df942bb08f44c0e838da\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/js\\/reader-feedback\\.e91f7b83ed7377e588de0bac938aa04b8fcb4fde28d611648623ba81d9132ce6\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/js\\/reader-feedback\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/js\\/theme\\.min\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/animate\\/animate\\.min\\.css$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/clipboard\\/clipboard\\.min\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/fontawesome-free\\/all\\.min\\.css$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/images\\/loading\\.gif$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/sharer\\/sharer\\.min\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/simple-icons\\/icons\\/line\\.min\\.svg$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/waline\\/3\\.15\\.2\\/waline\\.50435b0c843ccd693d7182d5789cc02553d12ce02662c0328bae274e1c6ad47e\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/waline\\/3\\.15\\.2\\/waline\\.css$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/waline\\/3\\.15\\.2\\/waline\\.js$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-brands-400\\.ttf$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-brands-400\\.woff2$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-regular-400\\.ttf$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-regular-400\\.woff2$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-solid-900\\.ttf$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-solid-900\\.woff2$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-v4compatibility\\.ttf$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/lib\\/webfonts\\/fa-v4compatibility\\.woff2$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/p\\/20260803\\/$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^\\/works\\/mantou-checklist-pwa\\/$",
+      "dest": "/api/feedback-acceptance",
+      "check": true
+    },
+    {
+      "src": "^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))?$",
+      "dest": "/api/disabled?path=$1",
+      "check": true
+    }
+  ]
+}

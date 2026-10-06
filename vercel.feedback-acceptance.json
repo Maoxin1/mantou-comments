@@ -1,0 +1,192 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci --ignore-scripts --no-audit --no-fund",
+  "regions": [
+    "sin1"
+  ],
+  "env": {
+    "NODEJS_HELPERS": "0"
+  },
+  "build": {
+    "env": {
+      "NODEJS_HELPERS": "0"
+    }
+  },
+  "functions": {
+    "api/feedback-acceptance.js": {
+      "maxDuration": 30,
+      "includeFiles": "preview-site/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/__private",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/__private/access",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/__private/login",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/__private/logout",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/api/comment",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/api/article",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/apple-touch-icon.png",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/css/style.min.f8b403af11aa277e6b4a6cc9a677b0aa082f8bc91f7d0d9c385adfa421617d2e.css",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/en/p/20260803/",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/en/works/mantou-checklist-pwa/",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/favicon-16x16.png",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/favicon-32x32.png",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/images/feedback-helpful.svg",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/images/identity/mantou-wordmark-ink.svg",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/images/identity/mantou-wordmark-paper.svg",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/images/mantou-checklist-preview-20261005.png",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/js/follow.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/js/home-filters.min.1bc2e97788c5030f8df1c88513d4db05a975d394e6e5df942bb08f44c0e838da.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/js/reader-feedback.e91f7b83ed7377e588de0bac938aa04b8fcb4fde28d611648623ba81d9132ce6.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/js/reader-feedback.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/js/theme.min.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/animate/animate.min.css",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/clipboard/clipboard.min.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/fontawesome-free/all.min.css",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/images/loading.gif",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/sharer/sharer.min.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/simple-icons/icons/line.min.svg",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/waline/3.15.2/waline.50435b0c843ccd693d7182d5789cc02553d12ce02662c0328bae274e1c6ad47e.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/waline/3.15.2/waline.css",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/waline/3.15.2/waline.js",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-brands-400.ttf",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-brands-400.woff2",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-regular-400.ttf",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-regular-400.woff2",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-solid-900.ttf",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-solid-900.woff2",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-v4compatibility.ttf",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/lib/webfonts/fa-v4compatibility.woff2",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/p/20260803/",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/works/mantou-checklist-pwa/",
+      "destination": "/api/feedback-acceptance"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/api/disabled"
+    }
+  ]
+}

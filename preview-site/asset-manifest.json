@@ -1,0 +1,219 @@
+{
+  "sourceRepository": "Maoxin1/mantou-blog",
+  "sourceCommit": "14f507bcc931418cf760a175660b95bb9aec6f82",
+  "hugo": "0.154.5 extended",
+  "syntheticBuildServer": "https://comments.example.test",
+  "pages": 4,
+  "files": [
+    {
+      "url": "/apple-touch-icon.png",
+      "file": "apple-touch-icon.png",
+      "bytes": 4043,
+      "sha256": "d8318a6d378baad8acb837a771deb86f4d7ec87dae0d39f452f757042b5ecc64"
+    },
+    {
+      "url": "/css/style.min.f8b403af11aa277e6b4a6cc9a677b0aa082f8bc91f7d0d9c385adfa421617d2e.css",
+      "file": "css/style.min.f8b403af11aa277e6b4a6cc9a677b0aa082f8bc91f7d0d9c385adfa421617d2e.css",
+      "bytes": 147910,
+      "sha256": "f8b403af11aa277e6b4a6cc9a677b0aa082f8bc91f7d0d9c385adfa421617d2e"
+    },
+    {
+      "url": "/en/p/20260803/",
+      "file": "en/p/20260803/index.html",
+      "bytes": 17863,
+      "sha256": "0de7619a6929ea4ae7b9d8cbdd2768cec4f9bb8867ef0a84f279620fd8ad9cbe"
+    },
+    {
+      "url": "/en/works/mantou-checklist-pwa/",
+      "file": "en/works/mantou-checklist-pwa/index.html",
+      "bytes": 26338,
+      "sha256": "96c99415da2173e12e12c2822629044dfb70fc817c4d339742f6ac20d8cb4f5c"
+    },
+    {
+      "url": "/favicon-16x16.png",
+      "file": "favicon-16x16.png",
+      "bytes": 548,
+      "sha256": "65a760b69cd45efff3237cde3e6a03a67075bab8b4c9418bccea38d5fa9b025d"
+    },
+    {
+      "url": "/favicon-32x32.png",
+      "file": "favicon-32x32.png",
+      "bytes": 1036,
+      "sha256": "654f55b6e51e98daac6de8195eed155188eef65c3f58377dc38965dff93380e3"
+    },
+    {
+      "url": "/favicon.ico",
+      "file": "favicon.ico",
+      "bytes": 6975,
+      "sha256": "8060b8281fa715f5f709745b34e595998b75d6f48fe6f0229b1fef7901c5cd3c"
+    },
+    {
+      "url": "/images/feedback-helpful.svg",
+      "file": "images/feedback-helpful.svg",
+      "bytes": 291,
+      "sha256": "3736cfa3c7d1b3e2faecb42b7dbb6296993f2b186c7e081fa9da6e2e1220fd58"
+    },
+    {
+      "url": "/images/identity/mantou-wordmark-ink.svg",
+      "file": "images/identity/mantou-wordmark-ink.svg",
+      "bytes": 7517,
+      "sha256": "141da57b2776ed4c055e0a96558a9e8a81880fb965a90fa5551a2f3dbda7d80d"
+    },
+    {
+      "url": "/images/identity/mantou-wordmark-paper.svg",
+      "file": "images/identity/mantou-wordmark-paper.svg",
+      "bytes": 7517,
+      "sha256": "473b187de8c38881a7418c0329c5eae1070bfdccc063671e56dadfe988925294"
+    },
+    {
+      "url": "/images/mantou-checklist-preview-20261005.png",
+      "file": "images/mantou-checklist-preview-20261005.png",
+      "bytes": 43073,
+      "sha256": "cdc50b82c8e410d750b85be41b82574e5010694c4c0f5b062fafec9fced68198"
+    },
+    {
+      "url": "/js/follow.js",
+      "file": "js/follow.js",
+      "bytes": 1312,
+      "sha256": "e7b33610839fe239cb08bada630cdbdefb74150009b18a39c2c384a5f868948e"
+    },
+    {
+      "url": "/js/home-filters.min.1bc2e97788c5030f8df1c88513d4db05a975d394e6e5df942bb08f44c0e838da.js",
+      "file": "js/home-filters.min.1bc2e97788c5030f8df1c88513d4db05a975d394e6e5df942bb08f44c0e838da.js",
+      "bytes": 679,
+      "sha256": "1bc2e97788c5030f8df1c88513d4db05a975d394e6e5df942bb08f44c0e838da"
+    },
+    {
+      "url": "/js/reader-feedback.e91f7b83ed7377e588de0bac938aa04b8fcb4fde28d611648623ba81d9132ce6.js",
+      "file": "js/reader-feedback.e91f7b83ed7377e588de0bac938aa04b8fcb4fde28d611648623ba81d9132ce6.js",
+      "bytes": 6806,
+      "sha256": "e91f7b83ed7377e588de0bac938aa04b8fcb4fde28d611648623ba81d9132ce6"
+    },
+    {
+      "url": "/js/reader-feedback.js",
+      "file": "js/reader-feedback.js",
+      "bytes": 6806,
+      "sha256": "e91f7b83ed7377e588de0bac938aa04b8fcb4fde28d611648623ba81d9132ce6"
+    },
+    {
+      "url": "/js/theme.min.js",
+      "file": "js/theme.min.js",
+      "bytes": 20009,
+      "sha256": "56973626b16227cef98bc62768cfd86a7ef79890e9f6fb86bc53b3eaee737274"
+    },
+    {
+      "url": "/lib/animate/animate.min.css",
+      "file": "lib/animate/animate.min.css",
+      "bytes": 71750,
+      "sha256": "5fbaeb9f8e25d7e0143bae61d4b1802c16ce7390b96ceb2d498b0d96ff4c853f"
+    },
+    {
+      "url": "/lib/clipboard/clipboard.min.js",
+      "file": "lib/clipboard/clipboard.min.js",
+      "bytes": 9160,
+      "sha256": "e17a1d816e13c0826e0ed7febfabc3277f45571234bde0bf9120829a7169edc9"
+    },
+    {
+      "url": "/lib/fontawesome-free/all.min.css",
+      "file": "lib/fontawesome-free/all.min.css",
+      "bytes": 100782,
+      "sha256": "0df5a33710e433de1f5415b1d47e4130ca7466aee5b81955f1045c4844bbb3ed"
+    },
+    {
+      "url": "/lib/images/loading.gif",
+      "file": "lib/images/loading.gif",
+      "bytes": 4178,
+      "sha256": "298ad3ffc38de0d78a845bf1b70f0dd317a3836af385ae9fcf94ed457d9aa1da"
+    },
+    {
+      "url": "/lib/sharer/sharer.min.js",
+      "file": "lib/sharer/sharer.min.js",
+      "bytes": 7411,
+      "sha256": "cc31d902aa4f3fcc8bb8c81aa534a4e2103e9b11f65b9fbd5b7156e089889ceb"
+    },
+    {
+      "url": "/lib/simple-icons/icons/line.min.svg",
+      "file": "lib/simple-icons/icons/line.min.svg",
+      "bytes": 1164,
+      "sha256": "bd2c4297f6c95b499f789432c602fd0eddfea05305f7079837c9dc2485e44d52"
+    },
+    {
+      "url": "/lib/waline/3.15.2/waline.50435b0c843ccd693d7182d5789cc02553d12ce02662c0328bae274e1c6ad47e.js",
+      "file": "lib/waline/3.15.2/waline.50435b0c843ccd693d7182d5789cc02553d12ce02662c0328bae274e1c6ad47e.js",
+      "bytes": 263404,
+      "sha256": "50435b0c843ccd693d7182d5789cc02553d12ce02662c0328bae274e1c6ad47e"
+    },
+    {
+      "url": "/lib/waline/3.15.2/waline.css",
+      "file": "lib/waline/3.15.2/waline.css",
+      "bytes": 22609,
+      "sha256": "33b834ad78fe25aa433f7968986d50f43cac1b0b669c393a0bb608d1a68717a7"
+    },
+    {
+      "url": "/lib/waline/3.15.2/waline.js",
+      "file": "lib/waline/3.15.2/waline.js",
+      "bytes": 263404,
+      "sha256": "50435b0c843ccd693d7182d5789cc02553d12ce02662c0328bae274e1c6ad47e"
+    },
+    {
+      "url": "/lib/webfonts/fa-brands-400.ttf",
+      "file": "lib/webfonts/fa-brands-400.ttf",
+      "bytes": 181852,
+      "sha256": "e523f49c12b13a176014af1a46ae5a0545b136bf56d496426aa881026d0c318a"
+    },
+    {
+      "url": "/lib/webfonts/fa-brands-400.woff2",
+      "file": "lib/webfonts/fa-brands-400.woff2",
+      "bytes": 105536,
+      "sha256": "404c746c8f7e3f9b7611a8f23d908c1a32a5c972236b9d89bb68b05d9bf4b905"
+    },
+    {
+      "url": "/lib/webfonts/fa-regular-400.ttf",
+      "file": "lib/webfonts/fa-regular-400.ttf",
+      "bytes": 60520,
+      "sha256": "4e96a7e098e36fd493194c64e973ba5237da65760c7b746217e63c830326a9ac"
+    },
+    {
+      "url": "/lib/webfonts/fa-regular-400.woff2",
+      "file": "lib/webfonts/fa-regular-400.woff2",
+      "bytes": 23940,
+      "sha256": "6a274e7629c0d71dcf8cab1e7733687ebfe32e2c53b4ca9fad050b4f1d5471f3"
+    },
+    {
+      "url": "/lib/webfonts/fa-solid-900.ttf",
+      "file": "lib/webfonts/fa-solid-900.ttf",
+      "bytes": 388460,
+      "sha256": "03f2986c0824c68bdaf1e16947352f5fe417d03741806097fa9ea7131fe3a019"
+    },
+    {
+      "url": "/lib/webfonts/fa-solid-900.woff2",
+      "file": "lib/webfonts/fa-solid-900.woff2",
+      "bytes": 154228,
+      "sha256": "d76fb4e841748a3f6bc63efa23156e02631c283bf41f84efcbdaf339ea3e1b73"
+    },
+    {
+      "url": "/lib/webfonts/fa-v4compatibility.ttf",
+      "file": "lib/webfonts/fa-v4compatibility.ttf",
+      "bytes": 10556,
+      "sha256": "86a687cf5ade691e19aa03720ffa7c1ba99dd137f36cc61980eec447f2160627"
+    },
+    {
+      "url": "/lib/webfonts/fa-v4compatibility.woff2",
+      "file": "lib/webfonts/fa-v4compatibility.woff2",
+      "bytes": 4960,
+      "sha256": "0db31befb4837c56bf176e879a715b5cdf457553fc7e8877f974b4c6ef75b1b1"
+    },
+    {
+      "url": "/p/20260803/",
+      "file": "p/20260803/index.html",
+      "bytes": 18374,
+      "sha256": "cf9ea94527d6e294d91d981a089d11f6342a3fec4b91f614b43087cdd64c2cff"
+    },
+    {
+      "url": "/works/mantou-checklist-pwa/",
+      "file": "works/mantou-checklist-pwa/index.html",
+      "bytes": 26425,
+      "sha256": "be61dbf4551e6d0e2aa4f819bd631ec4a6fd126d090b2d6ebace82aa9ed4c2f2"
+    }
+  ]
+}
