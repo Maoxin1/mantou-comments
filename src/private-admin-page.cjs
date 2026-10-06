@@ -88,7 +88,7 @@ async function readForm(req, fields) {
   return Object.fromEntries(entries);
 }
 
-function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, expiresAt, getModels, acquireBootstrap, moderationEnabled = false, moderationPaths = null } = {}) {
+function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, expiresAt, getModels, acquireBootstrap, moderationEnabled = false, moderationPaths = null, setupEnabled = true } = {}) {
   let url;
   try { url = new URL(origin); } catch { /* validated below */ }
   if (!url || url.protocol !== 'https:' || url.origin !== origin || url.username || url.password ||
@@ -98,7 +98,7 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
       typeof ownerAccessKey !== 'string' || !/^[\x21-\x7e]{43,1024}$/.test(ownerAccessKey) ||
       typeof jwtSecret !== 'string' || !/^[\x21-\x7e]{43,1024}$/.test(jwtSecret) || equal(ownerAccessKey, jwtSecret) ||
       !Number.isSafeInteger(expiresAt) || expiresAt <= Date.now() || expiresAt > Date.now() + 86400000 ||
-      typeof getModels !== 'function' || typeof acquireBootstrap !== 'function' || typeof moderationEnabled !== 'boolean' ||
+      typeof getModels !== 'function' || typeof acquireBootstrap !== 'function' || typeof moderationEnabled !== 'boolean' || typeof setupEnabled !== 'boolean' ||
       (moderationPaths !== null && (!Array.isArray(moderationPaths) || !moderationPaths.length || moderationPaths.length > 8 || moderationPaths.some(p => typeof p !== 'string' || !/^\/(?:p|works)\/[^/?#\u0000-\u0020]+\/$/.test(p))))) {
     throw new TypeError('Invalid private administrator configuration');
   }
@@ -187,6 +187,7 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
       const owner = ownerFor(req);
       if (!owner) return deny(res);
       if (req.url === '/__private/setup') {
+        if (!setupEnabled) return deny(res);
         if (req.method === 'GET') {
           const store = await models();
           const existing = await store.Users.select({}, { limit: 1, field: ['id'] });
@@ -216,7 +217,7 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
         return send(res, 503, 'Setup could not be confirmed', '<p>Do not submit setup again until an authorized read-only account check resolves the outcome.</p>');
       }
       if (req.url === '/__private/login') {
-        if (req.method === 'GET') return send(res, 200, 'Administrator sign in', '<p>' + escapeHtml(accountIdentity.email) + '</p><form method="post" action="/__private/login">' + hiddenCsrf(owner, '/__private/login') + '<label>Password <input type="password" name="password" autocomplete="current-password" required maxlength="72"></label><button type="submit">Sign in</button></form><p><a href="/__private/setup">First-time setup</a></p>' + logoutForm(owner));
+        if (req.method === 'GET') return send(res, 200, 'Administrator sign in', '<p>' + escapeHtml(accountIdentity.email) + '</p><form method="post" action="/__private/login">' + hiddenCsrf(owner, '/__private/login') + '<label>Password <input type="password" name="password" autocomplete="current-password" required maxlength="72"></label><button type="submit">Sign in</button></form>' + (setupEnabled ? '<p><a href="/__private/setup">First-time setup</a></p>' : '') + logoutForm(owner));
         const form = await readForm(req, ['csrf', 'password']);
         if (!checkCsrf(form.csrf, owner, req.url)) return deny(res);
         if (!validPassword(form.password)) return deny(res, 400);

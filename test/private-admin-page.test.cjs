@@ -121,6 +121,17 @@ test('private page: form-compatible referrer policy retains the strict origin bo
   assert.deepEqual(f.calls, { models: 0, leases: 0, inserts: 0, disposed: 0 });
 });
 
+test('private page: release setup is closed even after owner authentication and is absent from sign-in', async t => {
+  const f = await fixture(t, { config: { setupEnabled: false } });
+  const owner = await f.access();
+  const login = await f.request('/__private/login', { headers: { cookie: owner } });
+  assert.equal(login.status, 200);
+  assert.doesNotMatch(login.text, /First-time setup|href="\/__private\/setup"/);
+  assert.equal((await f.request('/__private/setup', { headers: { cookie: owner } })).status, 403);
+  assert.equal((await f.request('/__private/setup', { method: 'POST', headers: { cookie: owner }, body: { csrf: 'synthetic' } })).status, 403);
+  assert.deepEqual(f.calls, { models: 0, leases: 0, inserts: 0, disposed: 0 });
+});
+
 test('private page: inert import and explicit separate configuration required', () => {
   const { createPrivateAdminPage } = require('../src/private-admin-page.cjs');
   for (const delta of [{}, { ownerAccessKey: 'short' }, { jwtSecret: OWNER_KEY }, { origin: 'http://unsafe.invalid' }, { origin: ORIGIN + '/path' }, { expiresAt: Date.now() - 1 }, { expiresAt: Date.now() + 90000000 }]) {

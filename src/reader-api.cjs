@@ -1,5 +1,5 @@
 'use strict';
-// Protected acceptance adapter only. No public entrypoint imports this factory.
+// Shared reader implementation with separate protected and public factories.
 // The caller must verify the exact protected deployment and supply its bounded
 // thread allowlist and existing PostgreSQL models. No account/session, mail,
 // webhook, avatar network, region or user-agent capability is supplied.
@@ -52,6 +52,32 @@ async function readJSON(req) {
 function createReaderAPI({origin,expiresAt,allowedPaths,getModels,maxCommentsPerPath=2}={}) {
   let expected;try{expected=new URL(origin);}catch{}
   if(!expected || expected.protocol!=='https:' || expected.origin!==origin || expected.username || expected.password || !Number.isSafeInteger(expiresAt) || expiresAt<=Date.now() || expiresAt>Date.now()+86400000 || !Array.isArray(allowedPaths) || !allowedPaths.length || allowedPaths.length>8 || allowedPaths.some(p=>typeof p!=='string' || !/^\/(?:p|works)\/[^/?#\u0000-\u0020]+\/$/.test(p)) || typeof getModels!=='function' || !Number.isInteger(maxCommentsPerPath) || maxCommentsPerPath<1 || maxCommentsPerPath>4)throw new TypeError('Invalid protected reader configuration');
+  return createReaderEngine({origin,expected,expiresAt,allowedPaths,getModels,maxCommentsPerPath,publicReader:false});
+}
+
+// Public routes accept only the configured blog origin. CORS never grants
+// credentials or arbitrary origins; it is not a bot/rate-limiting mechanism.
+function createPublicReaderAPI({origin,blogOrigin,allowedPaths,getModels}={}) {
+  let expected,blog;try{expected=new URL(origin);blog=new URL(blogOrigin);}catch{}
+  if(!expected||!blog||expected.protocol!=='https:'||blog.protocol!=='https:'||expected.origin!==origin||blog.origin!==blogOrigin||origin===blogOrigin||typeof getModels!=='function'||!Array.isArray(allowedPaths)||!allowedPaths.length||allowedPaths.length>10000||new Set(allowedPaths).size!==allowedPaths.length||allowedPaths.some(p=>typeof p!=='string'||!/^\/(?:p|works)\/[A-Za-z0-9_-]+\/$/.test(p)))throw new TypeError('Invalid public reader configuration');
+  const engine=createReaderEngine({origin,expected,expiresAt:Infinity,allowedPaths,getModels,maxCommentsPerPath:null,publicReader:true,blogOrigin});
+  return async(req,res)=>{
+    res.setHeader('vary','Origin');
+    const headers=req.headers??{};
+    if(headers.host!==expected.host||headers.authorization||(headers.origin!==undefined&&headers.origin!==blogOrigin)||(['POST','OPTIONS'].includes(req.method)&&headers.origin!==blogOrigin))return reply(res,403,{errno:403,errmsg:'Reader origin is not allowed'});
+    if(headers.origin===blogOrigin)res.setHeader('access-control-allow-origin',blogOrigin);
+    if(req.method==='OPTIONS'){
+      const method=headers['access-control-request-method'];
+      const requested=headers['access-control-request-headers'];
+      let url;try{if(typeof req.url==='string'&&req.url.startsWith('/')&&!req.url.startsWith('//'))url=new URL(req.url,origin);}catch{}
+      const query=new Set(method==='POST'?['lang']:['url','path','type','page','pageSize','sortBy','lang']);
+      if(!url||url.pathname!=='/api/comment'||[...url.searchParams.keys()].some(k=>!query.has(k)||url.searchParams.getAll(k).length!==1)||!['GET','POST'].includes(method)||(requested!==undefined&&(typeof requested!=='string'||requested.split(',').some(h=>h.trim().toLowerCase()!=='content-type'))))return reply(res,403,{errno:403,errmsg:'Preflight is not allowed'});
+      res.statusCode=204;res.setHeader('cache-control','no-store');res.setHeader('access-control-allow-methods','GET, POST, OPTIONS');res.setHeader('access-control-allow-headers','Content-Type');return res.end();
+    }
+    return engine(req,res);
+  };
+}
+function createReaderEngine({origin,expected,expiresAt,allowedPaths,getModels,maxCommentsPerPath,publicReader,blogOrigin}) {
   const threads=new Set(allowedPaths);
   let corePromise,modelsPromise;
   const models=()=>modelsPromise??=Promise.resolve().then(getModels);
@@ -61,13 +87,15 @@ function createReaderAPI({origin,expiresAt,allowedPaths,getModels,maxCommentsPer
   return async function protectedReaderAPI(req,res) {
     let attemptedWrite=false;
     try {
-      if(Date.now()>=expiresAt || req.headers?.host!==expected.host || req.headers.authorization || (req.headers['sec-fetch-site'] && !['same-origin','none'].includes(req.headers['sec-fetch-site'])))throw new InputError(403);
+      if(Date.now()>=expiresAt || req.headers?.host!==expected.host || req.headers.authorization || (!publicReader&&req.headers['sec-fetch-site'] && !['same-origin','none'].includes(req.headers['sec-fetch-site'])))throw new InputError(403);
       if(!['GET','POST'].includes(req.method))throw new InputError(405);
-      if(req.headers.origin && req.headers.origin!==origin)throw new InputError(403);
-      if(req.method==='POST' && req.headers.origin!==origin)throw new InputError(403);
+      const requestOrigin=publicReader?blogOrigin:origin;
+      if(req.headers.origin && req.headers.origin!==requestOrigin)throw new InputError(403);
+      if(req.method==='POST' && req.headers.origin!==requestOrigin)throw new InputError(403);
       if(typeof req.url!=='string'||!req.url.startsWith('/')||req.url.startsWith('//'))throw new InputError(404);
       const url=new URL(req.url,origin);
       if(!['/api/comment','/api/article'].includes(url.pathname))throw new InputError(404);
+      if(publicReader&&url.pathname==='/api/article')throw new InputError(404);
       const allowedQuery=new Set(url.pathname==='/api/article'?['path','type','lang']:(req.method==='POST'?['lang']:['url','path','type','page','pageSize','sortBy','lang']));
       for(const key of url.searchParams.keys()){if(!allowedQuery.has(key)||url.searchParams.getAll(key).length!==1)throw new InputError();}
       if(req.method==='GET') {
@@ -102,9 +130,11 @@ function createReaderAPI({origin,expiresAt,allowedPaths,getModels,maxCommentsPer
       if(body.link || (body.ua?.length??0)>2048 || (body.at!==undefined&&([...body.at].length>255||/[\u0000-\u001f\u007f]/.test(body.at))))throw new InputError();
       const path=thread(body.url);
       const store=await models();
-      const existing=await store.Comment.count({url:path});
-      if(existing===null || existing===undefined || !Number.isSafeInteger(Number(existing)) || Number(existing)<0)throw new Error('Unavailable comment count');
-      if(Number(existing)>=maxCommentsPerPath)throw new InputError(409);
+      if(maxCommentsPerPath!==null){
+        const existing=await store.Comment.count({url:path});
+        if(existing===null || existing===undefined || !Number.isSafeInteger(Number(existing)) || Number(existing)<0)throw new Error('Unavailable comment count');
+        if(Number(existing)>=maxCommentsPerPath)throw new InputError(409);
+      }
       const input={nick:body.nick.trim(),comment:body.comment,url:path,...(body.mail!==undefined?{mail:body.mail}:{})};
       if(body.pid){
         if(!id(body.pid)||!id(body.rid))throw new InputError();
@@ -129,4 +159,4 @@ function createReaderAPI({origin,expiresAt,allowedPaths,getModels,maxCommentsPer
     }
   };
 }
-module.exports={createReaderAPI};
+module.exports={createReaderAPI,createPublicReaderAPI};
