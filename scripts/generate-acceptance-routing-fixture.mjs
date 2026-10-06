@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import {createHash} from 'node:crypto';
+const root=process.cwd();
+const cliDirectory=process.argv[2];
+if(!cliDirectory)throw new Error('Provide an isolated official vercel@62.2.0 package directory');
+const cliPackage=JSON.parse(fs.readFileSync(path.join(cliDirectory,'package.json'),'utf8'));
+if(cliPackage.name!=='vercel'||cliPackage.version!=='62.2.0')throw new Error('Pinned CLI mismatch');
+const chunks=path.join(cliDirectory,'dist/chunks');
+const file=fs.readdirSync(chunks).find(name=>name.endsWith('.js')&&fs.readFileSync(path.join(chunks,name),'utf8').includes('var require_dist4=__commonJS({"../routing-utils/dist/index.js"'));
+if(!file)throw new Error('Official bundled routing converter not found');
+const imported=await import(pathToFileURL(path.join(chunks,file)));
+const routing=imported.require_dist();
+const profileBytes=fs.readFileSync(path.join(root,'vercel.feedback-acceptance.json'));
+const profile=JSON.parse(profileBytes);
+const previousWildcards=['css','js','lib','images'].map(group=>({source:'/'+group+'/:path*',destination:'/api/feedback-acceptance'}));
+const fixture={generatedBy:'Official Vercel CLI bundled @vercel/routing-utils',cliVersion:'62.2.0',profileSHA256:createHash('sha256').update(profileBytes).digest('hex'),previousWildcardRoutes:routing.convertRewrites(previousWildcards),fixedRoutes:routing.convertRewrites(profile.rewrites)};
+const output=path.join(root,'test/fixtures/feedback-acceptance-routing.json');
+fs.mkdirSync(path.dirname(output),{recursive:true});
+fs.writeFileSync(output,JSON.stringify(fixture,null,2)+'\n');
+console.log(JSON.stringify({fixtureGenerated:true,normalizedRoutes:fixture.fixedRoutes.length,cliVersion:'62.2.0',networkCalls:false,credentialsRead:false}));
+
