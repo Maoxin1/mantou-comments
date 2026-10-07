@@ -1,6 +1,6 @@
 # Mantou comments: source snapshot
 
-Current local release preparation: see [public release candidate](docs/PUBLIC-RELEASE-CANDIDATE.md). Protected real acceptance has completed; public enablement is still pending owner approval. The default entrypoint remains disabled. Historical checkpoints below describe their own dates, not the latest live state.
+Current local discussion-sync candidate: see [public release candidate](docs/PUBLIC-RELEASE-CANDIDATE.md). The first guest-comments release has completed protected acceptance and production reader verification. This candidate adds verified production-blog registry refresh; publication of this change is still pending owner approval. The default entrypoint remains disabled. Historical checkpoints below describe their own dates, not the latest live state.
 
 Reporting update: 56 local tests pass. A separate protected HTML diagnostic report preserves explicit failure status instead of losing a 503 response to the browser error page. See [first-attempt evidence and reporting limits](docs/DIAGNOSTIC-REPORTING-FIX.md). This update does not establish database acceptance.
 

@@ -23,10 +23,27 @@ after it expires the private page closes while public comments remain pending
 and public approved reads continue. Reopening moderation requires a separately
 authorized owner-controlled configuration and deployment session.
 
-`config/published-threads.json` contains canonical paths extracted from the
-matched Hugo production build (209 discussions, 418 language pages at this
-checkpoint). A new article or work requires refreshing this registry and the
-backend before enabling comments on its page; editing existing text does not.
+`config/published-threads.json` retains the 209 previously verified discussion
+paths as a shipped fallback. The production blog generates `/feedback/threads.json`
+from the exact published article/work HTML. The backend reads only that fixed
+HTTPS URL and `/version.json`, without credentials or redirects. It accepts the
+new list only when its exact source commit matches a `main` publication and its
+schema, canonical paths, uniqueness, count and size pass validation.
+
+Requests share a disposable per-instance cache for 60 seconds. A cold instance
+fetches the public artifacts again; this cache is a performance optimization,
+not durable data storage. Concurrent requests share one refresh, unknown paths
+cannot force extra refreshes inside the interval, and a failed refresh retains
+the last verified list or shipped fallback. Each upstream request is bounded to
+1.5 seconds. A valid empty list closes all discussions; an updated list replaces
+the previous list, so unpublished paths stop accepting submissions after refresh.
+No stored comments are deleted. A new article/work enters the list with the
+ordinary blog production build, without another backend deployment.
+
+`x-discussion-registry-version` identifies the public source commit used for an
+accepted discussion, or `fallback` if no remote snapshot has been verified.
+Refresh logs contain only a fixed event/result, public commit, count and bounded
+failure category; they do not log upstream error messages or request credentials.
 The strict registry avoids storing arbitrary invented discussion paths. CORS
 does not prevent non-browser spam, and this candidate adds no distributed rate
 limiter or external anti-spam service. Review traffic/quotas before launch.
