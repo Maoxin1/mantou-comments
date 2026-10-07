@@ -7,7 +7,7 @@ const HOST='mantou-comments-synthetic-mantous-projects-af7e7067.vercel.app';
 function fixture(overrides={}){
  const env={VERCEL_ENV:'production',VERCEL_PROJECT_ID:'prj_NtBPfOSSwqaOLH0tejtx7Da5eE9Q',NODEJS_HELPERS:'0',PUBLIC_COMMENTS_ENABLED:'true',VERCEL_URL:HOST,PRIVATE_ADMIN_ENABLED:'true',PRIVATE_ADMIN_EXPIRES_AT:new Date(Date.now()+3600000).toISOString().replace(/\.\d{3}Z$/,'Z'),PRIVATE_ADMIN_ACCESS_KEY:'A'.repeat(64),JWT_TOKEN:'B'.repeat(64),PRIVATE_ADMIN_EMAIL:'synthetic@example.invalid',PRIVATE_ADMIN_DISPLAY_NAME:'Synthetic',...overrides};
  const models={Comment:new MemoryModel(),Users:new MemoryModel(),Counter:new MemoryModel()};let acquisitions=0;
- const handler=createPublicComments(env,{createAdapter:()=>({getModels:()=>{acquisitions++;return models;}})});
+ const handler=createPublicComments(env,{createAdapter:()=>({getModels:()=>{acquisitions++;return models;}}),createThreadRegistry:()=>({isAllowed:async path=>paths.includes(path)})});
  async function call(url,host=HOST){const req=Readable.from([]);Object.assign(req,{url,method:'GET',headers:{host}});const res={headers:{},setHeader(k,v){this.headers[k]=v;},end(s){this.text=s;}};await handler(req,res);return res;}
  return{call,env,models,acquisitions:()=>acquisitions};
 }

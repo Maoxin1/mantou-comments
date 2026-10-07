@@ -4,6 +4,7 @@ const disabled=require('../index.cjs');
 const {createPublicReaderAPI}=require('../src/reader-api.cjs');
 const {createPrivateAdminPage}=require('../src/private-admin-page.cjs');
 const {createPrivatePostgresqlAdapter}=require('../src/private-postgresql-adapter.cjs');
+const {createPublishedThreadRegistry}=require('../src/published-thread-registry.cjs');
 const THREADS=require('../config/published-threads.json');
 const PROJECT='prj_NtBPfOSSwqaOLH0tejtx7Da5eE9Q';
 const PUBLIC_HOSTS=new Set(['mantou-comments.vercel.app','mantou-comments-mantous-projects-af7e7067.vercel.app']);
@@ -11,11 +12,15 @@ const BLOG_ORIGIN='https://mantou-blog.pages.dev';
 const GENERATED_HOST=/^mantou-comments-[a-z0-9]+-mantous-projects-af7e7067\.vercel\.app$/;
 const PRIVATE=new Set(['/__private','/__private/access','/__private/login','/__private/logout']);
 function createPublicComments(environment,dependencies={}){
-  let adapter;
+  let adapter,registry;
   const readers=new Map(),administrators=new Map();
   const getModels=()=>{
     adapter??=(dependencies.createAdapter??createPrivatePostgresqlAdapter)({environment:()=>environment});
     return adapter.getModels();
+  };
+  const isThreadAllowed=value=>{
+    registry??=(dependencies.createThreadRegistry??createPublishedThreadRegistry)({fallbackPaths:THREADS.paths,...(dependencies.fetchManifest?{fetchImpl:dependencies.fetchManifest}:{}),onRefresh:event=>console.info(JSON.stringify(event))});
+    return registry.isAllowed(value);
   };
   return async(req,res)=>{
     try{
@@ -27,7 +32,7 @@ function createPublicComments(environment,dependencies={}){
       if(typeof req.url!=='string'||!req.url.startsWith('/')||req.url.startsWith('//'))return disabled(req,res);
       const origin='https://'+host,path=new URL(req.url,origin).pathname;
       if(path==='/api/comment'){
-        if(!readers.has(host))readers.set(host,(dependencies.createReader??createPublicReaderAPI)({origin,blogOrigin:BLOG_ORIGIN,allowedPaths:THREADS.paths,getModels}));
+        if(!readers.has(host))readers.set(host,(dependencies.createReader??createPublicReaderAPI)({origin,blogOrigin:BLOG_ORIGIN,allowedPaths:THREADS.paths,isThreadAllowed,getThreadRegistryVersion:()=>registry?.getVersion?.()??null,getModels}));
         return await readers.get(host)(req,res);
       }
       if(host!==env.VERCEL_URL||!GENERATED_HOST.test(host)||!PRIVATE.has(req.url)||!['GET','POST'].includes(req.method))return disabled(req,res);

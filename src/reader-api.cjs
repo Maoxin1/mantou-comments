@@ -57,10 +57,12 @@ function createReaderAPI({origin,expiresAt,allowedPaths,getModels,maxCommentsPer
 
 // Public routes accept only the configured blog origin. CORS never grants
 // credentials or arbitrary origins; it is not a bot/rate-limiting mechanism.
-function createPublicReaderAPI({origin,blogOrigin,allowedPaths,getModels}={}) {
+function createPublicReaderAPI({origin,blogOrigin,allowedPaths,isThreadAllowed,getThreadRegistryVersion,getModels}={}) {
   let expected,blog;try{expected=new URL(origin);blog=new URL(blogOrigin);}catch{}
   if(!expected||!blog||expected.protocol!=='https:'||blog.protocol!=='https:'||expected.origin!==origin||blog.origin!==blogOrigin||origin===blogOrigin||typeof getModels!=='function'||!Array.isArray(allowedPaths)||!allowedPaths.length||allowedPaths.length>10000||new Set(allowedPaths).size!==allowedPaths.length||allowedPaths.some(p=>typeof p!=='string'||!/^\/(?:p|works)\/[A-Za-z0-9_-]+\/$/.test(p)))throw new TypeError('Invalid public reader configuration');
-  const engine=createReaderEngine({origin,expected,expiresAt:Infinity,allowedPaths,getModels,maxCommentsPerPath:null,publicReader:true,blogOrigin});
+  if(isThreadAllowed!==undefined&&typeof isThreadAllowed!=='function')throw new TypeError('Invalid public discussion resolver');
+  if(getThreadRegistryVersion!==undefined&&typeof getThreadRegistryVersion!=='function')throw new TypeError('Invalid discussion version reader');
+  const engine=createReaderEngine({origin,expected,expiresAt:Infinity,allowedPaths,isThreadAllowed,getThreadRegistryVersion,getModels,maxCommentsPerPath:null,publicReader:true,blogOrigin});
   return async(req,res)=>{
     res.setHeader('vary','Origin');
     const headers=req.headers??{};
@@ -77,12 +79,12 @@ function createPublicReaderAPI({origin,blogOrigin,allowedPaths,getModels}={}) {
     return engine(req,res);
   };
 }
-function createReaderEngine({origin,expected,expiresAt,allowedPaths,getModels,maxCommentsPerPath,publicReader,blogOrigin}) {
+function createReaderEngine({origin,expected,expiresAt,allowedPaths,isThreadAllowed,getThreadRegistryVersion,getModels,maxCommentsPerPath,publicReader,blogOrigin}) {
   const threads=new Set(allowedPaths);
   let corePromise,modelsPromise;
   const models=()=>modelsPromise??=Promise.resolve().then(getModels);
   const core=()=>corePromise??=models().then(store=>createRequire(require.resolve('@waline/vercel/package.json'))('@waline/core').createWalineCore({models:createReaderModelView(store),config:{audit:true,forceLogin:false,disableRegion:true,disableUserAgent:true},services:{markdown:{render:value=>escape(value).replace(/\r?\n/g,'<br>')}},logger:{debug(){},info(){},warn(){},error(){}}}));
-  const thread=value=>{if(typeof value!=='string'||!threads.has(value))throw new InputError();return value;};
+  const thread=async(value,res)=>{if(typeof value!=='string'||(publicReader&&(value.length>200||!/^\/(?:p|works)\/[A-Za-z0-9_-]+\/$/.test(value))))throw new InputError();const allowed=isThreadAllowed?await isThreadAllowed(value):threads.has(value);if(allowed!==true)throw new InputError();if(publicReader&&getThreadRegistryVersion){const version=getThreadRegistryVersion();res.setHeader('x-discussion-registry-version',typeof version==='string'&&/^[a-f0-9]{40}$/.test(version)?version:'fallback');}return value;};
   const context=()=>({state:{oauthServices:[]},headers:{}});
   return async function protectedReaderAPI(req,res) {
     let attemptedWrite=false;
@@ -101,11 +103,11 @@ function createReaderEngine({origin,expected,expiresAt,allowedPaths,getModels,ma
       if(req.method==='GET') {
         if(url.pathname==='/api/article') {
           if(url.searchParams.get('type')!=='reaction0')throw new InputError();
-          const result=await (await core()).counter.get({path:thread(url.searchParams.get('path')),type:['reaction0']},context());
+          const result=await (await core()).counter.get({path:await thread(url.searchParams.get('path'),res),type:['reaction0']},context());
           return reply(res,200,{errno:0,data:result});
         }
         if(url.searchParams.has('url')&&url.searchParams.has('path'))throw new InputError();
-        const path=thread(url.searchParams.get('url')??url.searchParams.get('path'));
+        const path=await thread(url.searchParams.get('url')??url.searchParams.get('path'),res);
         if(url.searchParams.has('type')) {
           if(url.searchParams.get('type')!=='count')throw new InputError();
           return reply(res,200,projectPublicResponse({errno:0,data:await(await core()).comment.count({url:path},context())}));
@@ -128,7 +130,7 @@ function createReaderEngine({origin,expected,expiresAt,allowedPaths,getModels,ma
       if(!body.nick?.trim() || [...body.nick].length>255 || /[\u0000-\u001f\u007f]/.test(body.nick) || !body.comment?.trim() || [...body.comment].length>1000 || body.comment.includes('\0'))throw new InputError();
       if(body.mail && (body.mail.length>255 || !/^[^\s@\u0000-\u001f\u007f]+@[^\s@\u0000-\u001f\u007f]+\.[^\s@\u0000-\u001f\u007f]+$/.test(body.mail)))throw new InputError();
       if(body.link || (body.ua?.length??0)>2048 || (body.at!==undefined&&([...body.at].length>255||/[\u0000-\u001f\u007f]/.test(body.at))))throw new InputError();
-      const path=thread(body.url);
+      const path=await thread(body.url,res);
       const store=await models();
       if(maxCommentsPerPath!==null){
         const existing=await store.Comment.count({url:path});
