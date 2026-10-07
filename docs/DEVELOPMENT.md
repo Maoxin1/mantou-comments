@@ -22,8 +22,8 @@ npm ls --all
 
 The first `npm test` permits registry reads for the four historical reference
 regressions and primes the cache. The second invokes the same unchanged tests
-with the reference helper's default offline install. Both must pass all 37
-assertions. Keep using the same `MANTOU_NPM_CACHE` value on future test runs, or
+with the reference helper's default offline install. Both must pass every current application and reference
+assertion (the original source snapshot had 37). Keep using the same `MANTOU_NPM_CACHE` value on future test runs, or
 repeat the explicit network-priming command for a new cache. Do not silently skip
 reference tests or install their retired SDKs into the application. The helper
 creates and removes a separate temporary reference installation automatically.
@@ -58,3 +58,16 @@ source/build archives are deliberately omitted from Git. The recipes and locks
 remain browsable in this checkout. Exact core replay requires Node 24.20.0;
 exact server repacking additionally requires npm 11.9.0 and is hardcoded to
 dry-run mode. Nothing in these commands publishes, creates a database or deploys.
+
+
+## Repository validation workflow
+
+The `Validate` workflow runs on pull requests, main and manual dispatch.
+It uses read-only repository permissions, locked installation with lifecycle
+scripts disabled, syntax checks, the current application suite and all four
+unchanged reference regressions. The first run primes an isolated reference
+cache, and the second uses its default offline reference install. No production
+credential, database, deployment, administrator or repository-permission change
+is part of this workflow. The draft PR publishes this workflow with owner approval. Check its exact head
+run before claiming hosted validation. Requiring its result in branch protection
+is a separate repository-permission decision.

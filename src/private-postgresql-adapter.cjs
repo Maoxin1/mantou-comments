@@ -243,6 +243,34 @@ function createPrivatePostgresqlAdapter({ environment } = {}) {
             return ['select', 'update'].includes(method) ? result.map(row => normalizeRow(row)) : method === 'add' ? normalizeRow(result, true) : result;
           } catch { throw unavailable(); }
         }]));
+        if (name === 'Comment') facade.transitionStatus = async input => {
+          try {
+            if (closed || !input || typeof input !== 'object' || Array.isArray(input) ||
+                Object.keys(input).length !== 4 || !['objectId', 'from', 'to', 'url'].every(key => Object.hasOwn(input, key))) throw unavailable();
+            const { objectId, from, to, url } = input;
+            // The pinned schema uses a positive int4 comment key. Match the
+            // exact previously read URL as well as the source status so a
+            // concurrent move cannot escape the caller's moderation scope.
+            if (!['string', 'number'].includes(typeof objectId) || !/^[1-9]\d{0,9}$/.test(String(objectId)) || Number(objectId) > 2147483647 ||
+                typeof url !== 'string' || !url.length || url.includes('\0') ||
+                !((from === 'waiting' && (to === 'approved' || to === 'spam')) || (from === 'spam' && to === 'waiting'))) throw unavailable();
+            const before = await facade.select({ objectId, status: from, url }, { limit: 1 });
+            if (before.length === 0) return null;
+            if (before.length !== 1) throw unavailable();
+            if (String(before[0].objectId) !== String(objectId) || before[0].status !== from || before[0].url !== url) return null;
+            // Do not use inherited storage.update: it SELECTs by the supplied
+            // filter, then drops that filter and writes by id alone. The pinned
+            // Think builder keeps all predicates in one UPDATE and returns its
+            // affected-row count through the existing bounded transaction path.
+            const changed = await storage.model(storage.tableName)
+              .where({ id: objectId, status: from, url }).update({ status: to });
+            if (changed === 0) return null;
+            if (changed !== 1) throw unavailable();
+            // This is the selected snapshot plus the committed transition, not
+            // a post-write reread that could observe a later concurrent change.
+            return { ...before[0], status: to };
+          } catch { throw unavailable(); }
+        };
         return [name, Object.freeze(facade)];
       })));
       return models;
