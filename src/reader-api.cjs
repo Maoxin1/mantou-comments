@@ -67,7 +67,10 @@ function createPublicReaderAPI({origin,blogOrigin,allowedPaths,isThreadAllowed,g
     res.setHeader('vary','Origin');
     const headers=req.headers??{};
     if(headers.host!==expected.host||headers.authorization||(headers.origin!==undefined&&headers.origin!==blogOrigin)||(['POST','OPTIONS'].includes(req.method)&&headers.origin!==blogOrigin))return reply(res,403,{errno:403,errmsg:'Reader origin is not allowed'});
-    if(headers.origin===blogOrigin)res.setHeader('access-control-allow-origin',blogOrigin);
+    if(headers.origin===blogOrigin){
+      res.setHeader('access-control-allow-origin',blogOrigin);
+      if(getThreadRegistryVersion)res.setHeader('access-control-expose-headers','x-discussion-registry-version');
+    }
     if(req.method==='OPTIONS'){
       const method=headers['access-control-request-method'];
       const requested=headers['access-control-request-headers'];

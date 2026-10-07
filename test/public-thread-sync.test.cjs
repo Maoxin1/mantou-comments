@@ -17,6 +17,16 @@ function fixture(){
 test('public sync: a newly published identifier supports guest waiting comments without a backend restart',async()=>{
  const f=fixture();assert.ok(!paths.includes(NEW));const read=await f.call('/api/comment?path='+NEW);assert.equal(read.status,200);assert.equal(read.headers['x-discussion-registry-version'],SHA);const result=await f.call('/api/comment',{method:'POST',body:{nick:'Synthetic',comment:'Synthetic automatic discussion',mail:'',url:NEW}});assert.equal(result.status,200);assert.equal(result.body.data.status,'waiting');assert.equal(f.models.Comment.rows.length,1);assert.equal((await f.call('/api/comment?path='+NEW)).body.data.count,0);assert.equal(f.fetches(),2);assert.equal(f.models.Users.rows.length,0);assert.equal(f.models.Counter.rows.length,0);
 });
+test('public sync: only the trusted blog may read the public registry version through CORS',async()=>{
+ const f=fixture();
+ const read=await f.call('/api/comment?path='+NEW);
+ assert.equal(read.status,200);assert.equal(read.headers['access-control-allow-origin'],BLOG);
+ assert.equal(read.headers['access-control-expose-headers'],'x-discussion-registry-version');
+ assert.equal(read.headers['access-control-allow-credentials'],undefined);
+ const denied=await f.call('/api/comment?path='+NEW,{headers:{origin:'https://evil.invalid'}});
+ assert.equal(denied.status,403);assert.equal(denied.headers['access-control-expose-headers'],undefined);
+ assert.equal(denied.headers['x-discussion-registry-version'],undefined);
+});
 test('public sync: origin, preflight, malformed paths and forbidden routes are checked before registry or database access',async()=>{
  const f=fixture();assert.equal((await f.call('/api/comment?path='+NEW,{headers:{origin:'https://evil.invalid'}})).status,403);assert.equal((await f.call('/api/comment',{method:'OPTIONS',headers:{'access-control-request-method':'GET'}})).status,204);assert.equal((await f.call('/api/comment?path=/en'+NEW)).status,400);assert.equal((await f.call('/api/user')).status,503);assert.equal(f.fetches(),0);assert.equal(f.acquired(),0);
 });
