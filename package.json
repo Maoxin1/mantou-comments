@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "npm run test:application && npm run test:reference",
-    "check": "node --check index.cjs && node --check src/candidate.cjs && node --check src/policy.cjs && node --check src/bootstrap.cjs && node --check diagnostic.cjs && node --check src/postgresql-diagnostic.cjs && node --check src/protected-diagnostic-handler.cjs && node --check deployment/staged-readonly.cjs && node --check api/readonly.js && node --check api/disabled.js && node --check src/diagnostic-report.cjs",
+    "check": "node --check index.cjs && node --check src/candidate.cjs && node --check src/policy.cjs && node --check src/bootstrap.cjs && node --check diagnostic.cjs && node --check src/postgresql-diagnostic.cjs && node --check src/protected-diagnostic-handler.cjs && node --check deployment/staged-readonly.cjs && node --check api/readonly.js && node --check api/disabled.js && node --check src/diagnostic-report.cjs && node --check src/private-admin-page.cjs && node --check src/private-postgresql-adapter.cjs && node --check deployment/public-comments.cjs",
     "build:derivative": "python scripts/build-derivative.py",
     "test:application": "node --test --test-concurrency=1 test/*.test.cjs",
     "test:reference": "node scripts/run-reference-regressions.cjs",

@@ -35,7 +35,7 @@ function createPublicComments(environment,dependencies={}){
         if(!readers.has(host))readers.set(host,(dependencies.createReader??createPublicReaderAPI)({origin,blogOrigin:BLOG_ORIGIN,allowedPaths:THREADS.paths,isThreadAllowed,getThreadRegistryVersion:()=>registry?.getVersion?.()??null,getModels}));
         return await readers.get(host)(req,res);
       }
-      if(host!==env.VERCEL_URL||!GENERATED_HOST.test(host)||!PRIVATE.has(req.url)||!['GET','POST'].includes(req.method))return disabled(req,res);
+      if(host!==env.VERCEL_URL||!GENERATED_HOST.test(host)||!(PRIVATE.has(req.url)||(req.method==='GET'&&req.url.startsWith('/__private?')))||!['GET','POST'].includes(req.method))return disabled(req,res);
       const expiry=env.PRIVATE_ADMIN_EXPIRES_AT;
       const expiresAt=typeof expiry==='string'&&/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/.test(expiry)?Date.parse(expiry):NaN;
       if(env.PRIVATE_ADMIN_ENABLED!=='true'||!Number.isFinite(expiresAt)||new Date(expiresAt).toISOString().replace('.000Z','Z')!==expiry||Date.now()>=expiresAt||expiresAt>Date.now()+86400000){

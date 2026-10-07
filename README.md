@@ -1,6 +1,36 @@
-# Mantou comments: source snapshot
+# Mantou comments
 
-Current local discussion-sync candidate: see [public release candidate](docs/PUBLIC-RELEASE-CANDIDATE.md). The first guest-comments release has completed protected acceptance and production reader verification. This candidate adds verified production-blog registry refresh; publication of this change is still pending owner approval. The default entrypoint remains disabled. Historical checkpoints below describe their own dates, not the latest live state.
+## Current service and this checkout
+
+The guest-comment service and automatic production-blog discussion registry were
+released through [PR #1](https://github.com/Maoxin1/mantou-comments/pull/1) and
+[PR #2](https://github.com/Maoxin1/mantou-comments/pull/2). The recorded production
+source baseline is `90017d11cf9704d0bc49efac6f4668afaebd8288`; a source checkout
+alone is not evidence of the currently deployed version.
+
+The live release uses `deployment/public-comments.cjs` and its reviewed Vercel
+profile. The default `index.cjs` intentionally stays disabled. Public readers use
+`https://mantou-comments.vercel.app/api/comment`; private administration is only
+on the protected generated deployment host, never a formal public alias.
+
+This reviewed change prepares paginated waiting/rejected queues and reversible
+rejection. It has not been deployed. It also adds a no-secret
+GitHub validation workflow; no service, environment or protection setting is
+changed by these files. See [routine moderation and release boundaries](docs/ROUTINE-MODERATION.md).
+
+The existing owner key, password, short session, CSRF and absolute private-window
+expiry remain required. Expiry closes moderation, while approved reads and new
+waiting submissions continue. Reopening or replacing this access model needs a
+separate owner-approved configuration/deployment session. Never put access keys,
+passwords, generated private access links or production data into repository files.
+
+## Historical source and acceptance checkpoints
+
+The following records describe their original dates and do not override the
+current service summary above.
+
+
+Discussion-sync preparation checkpoint: see [public release candidate](docs/PUBLIC-RELEASE-CANDIDATE.md). The first guest-comments release has completed protected acceptance and production reader verification. This candidate adds verified production-blog registry refresh; publication of this change is still pending owner approval. The default entrypoint remains disabled. Historical checkpoints below describe their own dates, not the latest live state.
 
 Reporting update: 56 local tests pass. A separate protected HTML diagnostic report preserves explicit failure status instead of losing a 503 response to the browser error page. See [first-attempt evidence and reporting limits](docs/DIAGNOSTIC-REPORTING-FIX.md). This update does not establish database acceptance.
 
