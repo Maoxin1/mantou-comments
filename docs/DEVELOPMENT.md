@@ -71,3 +71,10 @@ credential, database, deployment, administrator or repository-permission change
 is part of this workflow. The draft PR publishes this workflow with owner approval. Check its exact head
 run before claiming hosted validation. Requiring its result in branch protection
 is a separate repository-permission decision.
+
+## Optional isolated moderation acceptance
+
+The default suite keeps synthetic models and fake transport. A separate,
+explicitly opted-in browser/real-PostgreSQL harness and its observed scope are
+documented in [the 2026-11-13 acceptance record](ROUTINE-MODERATION-ACCEPTANCE-20261113.md).
+It accepts only the local fixture setup, never production connection settings.

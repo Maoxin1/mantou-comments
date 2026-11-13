@@ -1,7 +1,8 @@
-# Routine moderation preparation — 2026-10-07
+# Routine moderation — source and release boundaries
 
-This change is submitted for draft-PR review and hosted validation. Deployment
-requires separate authorization.
+The source change has local browser and PostgreSQL acceptance evidence dated
+2026-11-13; see [the acceptance record](ROUTINE-MODERATION-ACCEPTANCE-20261113.md).
+Deployment and live moderation remain separate operations.
 It does not change the existing protected host, owner key, administrator identity,
 password, CSRF checks, short session or absolute private access deadline.
 
@@ -45,5 +46,5 @@ Do not remove the deadline or disable deployment protection as a shortcut.
 5. Real comment writes or moderation require their own authorized bounded scenario;
    local fake-driver and browser tests do not prove production durability
 
-Production access, secrets, environment changes, reopening, merge and deployment
-are outside this draft-PR preparation. Historical release/source notices remain intact.
+Production access, secrets, environment changes, reopening and deployment
+remain outside source maintenance. Historical release/source notices remain intact.
