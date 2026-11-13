@@ -54,7 +54,7 @@ function readCookie(req, name) {
   return value.length > 0 && value.length <= 4096 ? value : null;
 }
 class RequestError extends Error { constructor(status) { super('Invalid request'); this.status = status; } }
-async function readForm(req, fields) {
+async function readForm(req, fields, optionalFields = []) {
   if (typeof req.headers['content-type'] !== 'string' || !/^application\/x-www-form-urlencoded(?:;\s*charset=utf-8)?$/i.test(req.headers['content-type'])) throw new RequestError(415);
   const length = req.headers['content-length'];
   if (req.headers['transfer-encoding'] !== undefined || typeof length !== 'string' || !/^(0|[1-9]\d*)$/.test(length)) throw new RequestError(400);
@@ -84,8 +84,24 @@ async function readForm(req, fields) {
   try { decodeURIComponent(raw.replace(/\+/g, ' ')); } catch { throw new RequestError(400); }
   const form = new URLSearchParams(raw);
   const entries = [...form.entries()];
-  if (entries.length !== fields.length || fields.some(name => form.getAll(name).length !== 1) || entries.some(([name]) => !fields.includes(name))) throw new RequestError(400);
+  if (fields.some(name => form.getAll(name).length !== 1) || optionalFields.some(name => form.getAll(name).length > 1) || entries.some(([name]) => !fields.includes(name) && !optionalFields.includes(name))) throw new RequestError(400);
   return Object.fromEntries(entries);
+}
+
+const PAGE_SIZE = 20;
+const MAX_PAGE = 10000;
+function navigation(view = 'waiting', page = '1') {
+  if (!['waiting', 'spam'].includes(view) || !/^[1-9]\d{0,4}$/.test(page) || Number(page) > MAX_PAGE) throw new RequestError(400);
+  return { view, page: Number(page) };
+}
+const queueUrl = ({ view, page }) => '/__private?view=' + view + '&page=' + page;
+function readNavigation(target) {
+  const raw = target.slice('/__private?'.length);
+  try { decodeURIComponent(raw.replace(/\+/g, ' ')); } catch { throw new RequestError(400); }
+  if (raw.includes('#')) throw new RequestError(400);
+  const query = new URLSearchParams(raw);
+  if ([...query.keys()].some(key => !['view', 'page'].includes(key) || query.getAll(key).length !== 1)) throw new RequestError(400);
+  return navigation(query.get('view') ?? 'waiting', query.get('page') ?? '1');
 }
 
 function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, expiresAt, getModels, acquireBootstrap, moderationEnabled = false, moderationPaths = null, setupEnabled = true } = {}) {
@@ -141,8 +157,16 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
   const logoutForm = owner => '<form method="post" action="/__private/logout">' + hiddenCsrf(owner, '/__private/logout') + '<button type="submit">Sign out</button></form>';
   async function coreFor(owner) {
     const core = createRequire(require.resolve('@waline/vercel/package.json'))('@waline/core');
+    const store = await models();
+    // Limit both queue rows and counts consistently for the historical bounded
+    // acceptance profile. Stable ordering avoids gaps for equal timestamps.
+    const scoped = where => ({ ...where, ...(moderationThreads ? { url: ['IN', [...moderationThreads]] } : {}) });
+    const queueModels = { ...store, Comment: {
+      select: (where, options = {}) => store.Comment.select(scoped(where), { ...options, order: [{ field: 'insertedAt', direction: 'desc', nulls: 'last' }, { field: 'objectId', direction: 'desc' }] }),
+      count: (where, options) => store.Comment.count(scoped(where), options),
+    } };
     return core.createWalineCore({
-      models: await models(),
+      models: queueModels,
       config: { audit: true, disableRegion: true, disableUserAgent: true },
       // No signup, OAuth, avatar fetch, mail, reset, two-factor mutation, or
       // notification capability is provided or routed.
@@ -170,7 +194,12 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
   return async function privateAdminPage(req, res) {
     try {
       if (Date.now() >= expiresAt || secondsRemaining() < 1 || req.headers?.host !== url.host) return deny(res);
-      if (!ROUTES.has(req.url)) return deny(res, 404);
+      let queueLocation = { view: 'waiting', page: 1 };
+      const hasNavigation = typeof req.url === 'string' && req.url.startsWith('/__private?');
+      if (hasNavigation) {
+        if (!moderationEnabled || req.method !== 'GET') return deny(res, 404);
+        queueLocation = readNavigation(req.url);
+      } else if (!ROUTES.has(req.url)) return deny(res, 404);
       if (!['GET', 'POST'].includes(req.method)) return deny(res, 405);
       if (req.headers['sec-fetch-site'] && !['same-origin', 'none'].includes(req.headers['sec-fetch-site'])) return deny(res);
       if (req.method === 'POST' && req.headers.origin !== origin) return deny(res);
@@ -258,32 +287,58 @@ function createPrivateAdminPage({ origin, identity, ownerAccessKey, jwtSecret, e
       if (moderationEnabled) {
         adminContext.state.userInfo = account;
         if (req.method === 'POST') {
-          const form = await readForm(req, ['csrf', 'objectId']);
+          const form = await readForm(req, ['csrf', 'objectId'], ['action', 'view', 'page']);
           if (!checkCsrf(form.csrf, owner, '/__private')) return deny(res);
           if (!validSubject(form.objectId)) return deny(res, 400);
+          if ((form.view === undefined) !== (form.page === undefined)) return deny(res, 400);
+          const destination = form.view === undefined ? '/__private' : queueUrl(navigation(form.view, form.page));
+          const action = form.action ?? 'approve'; // Previously issued approval forms remain valid.
+          const transition = { approve: ['waiting', 'approved'], spam: ['waiting', 'spam'], restore: ['spam', 'waiting'] };
+          if (!Object.hasOwn(transition, action)) return deny(res, 400);
+          const [from, to] = transition[action];
           const store = await models();
           const rows = await store.Comment.select({ objectId: form.objectId }, { limit: 1, field: ['objectId', 'status', 'url'] });
           if (!Array.isArray(rows) || rows.length !== 1) return deny(res, 404);
           if (moderationThreads && !moderationThreads.has(rows[0].url)) return deny(res);
-          if (rows[0].status !== 'waiting') return send(res, 409, 'Comment is no longer waiting', '<p><a href="/__private">Back to moderation</a></p>' + logoutForm(owner));
+          if (rows[0].status !== from) return send(res, 409, 'Comment status has changed', '<p>Refresh the queue before trying again. <a href="' + escapeHtml(destination) + '">Back to moderation</a></p>' + logoutForm(owner));
           try {
-            // Only this status transition is exposed. No edit, delete, account,
-            // notification or public-reader capability is added by this page.
-            await core.comment.update({ objectId: form.objectId, data: { status: 'approved' } }, adminContext);
+            // Do not use the inherited select-then-update helper here: it drops
+            // the expected-status predicate. This narrow capability performs
+            // one conditional UPDATE through the existing query builder.
+            const changed = await store.Comment.transitionStatus({ objectId: form.objectId, from, to, url: rows[0].url });
+            if (!changed) return send(res, 409, 'Comment status has changed', '<p>Refresh the queue before trying again. <a href="' + escapeHtml(destination) + '">Back to moderation</a></p>' + logoutForm(owner));
           } catch {
-            return send(res, 503, 'Approval result is unknown', '<p>Do not submit approval again until an authorized read-only comment check resolves the outcome.</p>' + logoutForm(owner));
+            const operation = action === 'approve' ? 'approval' : 'moderation';
+            return send(res, 503, 'Moderation result is unknown', '<p>Do not submit ' + operation + ' again until an authorized read-only comment check resolves the outcome.</p>' + logoutForm(owner));
           }
-          return redirect(res, '/__private');
+          return redirect(res, destination);
         }
-        const queue = await core.comment.listForAdmin({ status: 'waiting', page: 1, pageSize: 20 }, adminContext);
-        if (!queue || !Array.isArray(queue.data) || queue.data.length > 20) throw new Error('Unavailable moderation queue');
+        if (moderationThreads) {
+          // The bounded acceptance profile deliberately fails closed if the
+          // database contains pending rows beyond its approved discussions.
+          const store = await models();
+          const outside = await store.Comment.count({ url: ['NOT IN', [...moderationThreads]], status: ['IN', ['waiting', 'spam']] });
+          const missingUrl = await store.Comment.count({ url: null, status: ['IN', ['waiting', 'spam']] });
+          if (outside !== 0 || missingUrl !== 0) throw new Error('Comment outside acceptance scope');
+        }
+        const queue = await core.comment.listForAdmin({ status: queueLocation.view, page: queueLocation.page, pageSize: PAGE_SIZE }, adminContext);
+        if (!queue || !Array.isArray(queue.data) || queue.data.length > PAGE_SIZE || !Number.isSafeInteger(queue.totalPages) || queue.totalPages < 0) throw new Error('Unavailable moderation queue');
+        const lastPage = Math.max(1, Math.min(queue.totalPages, MAX_PAGE));
+        if (queueLocation.page > lastPage) return redirect(res, queueUrl({ ...queueLocation, page: lastPage }));
+        const formFields = hiddenCsrf(owner, '/__private') + '<input type="hidden" name="view" value="' + queueLocation.view + '"><input type="hidden" name="page" value="' + queueLocation.page + '">';
         const entries = queue.data.map(row => {
           if (moderationThreads && !moderationThreads.has(row.url)) throw new Error('Comment outside acceptance scope');
-          if (!validSubject(String(row.objectId)) || row.status !== 'waiting') throw new Error('Unavailable comment');
+          if (!validSubject(String(row.objectId)) || row.status !== queueLocation.view) throw new Error('Unavailable comment');
           const parent = row.pid ? 'Reply to ' + escapeHtml(row.pid) : 'Root comment';
-          return '<li><h3>Comment ' + escapeHtml(row.objectId) + '</h3><p>' + parent + '</p><p>Page: <code>' + escapeHtml(row.url ?? '') + '</code></p><p>Reader: ' + escapeHtml(row.nick ?? '') + '</p><pre>' + escapeHtml(String(row.comment ?? '').slice(0, 2000)) + '</pre><form method="post" action="/__private">' + hiddenCsrf(owner, '/__private') + '<input type="hidden" name="objectId" value="' + escapeHtml(row.objectId) + '"><button type="submit">Approve comment ' + escapeHtml(row.objectId) + '</button></form></li>';
+          const approve = '<form method="post" action="/__private">' + formFields + '<input type="hidden" name="objectId" value="' + escapeHtml(row.objectId) + '"><button type="submit">Approve comment ' + escapeHtml(row.objectId) + '</button></form>';
+          const action = queueLocation.view === 'waiting' ? 'spam' : 'restore';
+          const label = action === 'spam' ? 'Reject / mark as spam' : 'Restore to waiting';
+          return '<li><h3>Comment ' + escapeHtml(row.objectId) + '</h3><p>' + parent + '</p><p>Page: <code>' + escapeHtml(row.url ?? '') + '</code></p><p>Reader: ' + escapeHtml(row.nick ?? '') + '</p><pre>' + escapeHtml(String(row.comment ?? '').slice(0, 2000)) + '</pre>' + (queueLocation.view === 'waiting' ? approve : '') + '<form method="post" action="/__private">' + formFields + '<input type="hidden" name="objectId" value="' + escapeHtml(row.objectId) + '"><input type="hidden" name="action" value="' + action + '"><button type="submit">' + label + '</button></form></li>';
         }).join('');
-        return send(res, 200, 'Signed in', '<p>Administrator: ' + escapeHtml(accountIdentity.displayName) + '</p><h2>Waiting comments</h2><p>Only approval is available. The queue shows at most 20 waiting comments; reader email and network metadata are not displayed.</p>' + (entries ? '<ol>' + entries + '</ol>' : '<p>No waiting comments.</p>') + logoutForm(owner));
+        const link = (location, label) => '<a href="' + escapeHtml(queueUrl(location)) + '">' + label + '</a>';
+        const tabs = '<nav aria-label="Moderation queues">' + link({ view: 'waiting', page: 1 }, 'Waiting comments') + ' | ' + link({ view: 'spam', page: 1 }, 'Rejected / spam') + '</nav>';
+        const pagination = '<nav aria-label="Queue pages">' + (queueLocation.page > 1 ? link({ ...queueLocation, page: queueLocation.page - 1 }, 'Previous page') + ' · ' : '') + 'Page ' + queueLocation.page + ' of ' + lastPage + (queueLocation.page < lastPage ? ' · ' + link({ ...queueLocation, page: queueLocation.page + 1 }, 'Next page') : '') + '</nav>';
+        return send(res, 200, 'Signed in', '<p>Administrator: ' + escapeHtml(accountIdentity.displayName) + '</p>' + tabs + '<h2>' + (queueLocation.view === 'waiting' ? 'Waiting comments' : 'Rejected / spam') + '</h2><p>Rejecting keeps the comment private and recoverable. Restoring returns it to waiting, without publishing. Each page shows at most 20 comments; reader email and network metadata are not displayed.</p>' + pagination + (entries ? '<ol>' + entries + '</ol>' : '<p>No comments in this queue.</p>') + logoutForm(owner));
       }
       return send(res, 200, 'Signed in', '<p>Administrator: ' + escapeHtml(accountIdentity.displayName) + '</p><p>Private administrator authentication is ready. Moderation controls are not included in this staged page.</p>' + logoutForm(owner));
     } catch (error) {

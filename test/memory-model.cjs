@@ -50,6 +50,12 @@ class MemoryModel {
     for (const row of rows) Object.assign(row, structuredClone(data));
     return structuredClone(rows);
   }
+  // Test-only equivalent of the adapter's atomic predicate; update() mutates
+  // synchronously so concurrent fixtures cannot interleave select and write.
+  async transitionStatus({ objectId, from, to, url }) {
+    const [row] = await this.update({ status: to }, { objectId, status: from, url });
+    return row ?? null;
+  }
   async delete(where) { this.rows = this.rows.filter((row) => !matches(row, where)); }
 }
 module.exports = { MemoryModel };
