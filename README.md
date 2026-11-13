@@ -1,17 +1,21 @@
 # Mantou comments: source snapshot
 
-Current local discussion-sync candidate: see [public release candidate](docs/PUBLIC-RELEASE-CANDIDATE.md). The first guest-comments release has completed protected acceptance and production reader verification. This candidate adds verified production-blog registry refresh; publication of this change is still pending owner approval. The default entrypoint remains disabled. Historical checkpoints below describe their own dates, not the latest live state.
+## Current source status — 2026-11-13
 
-Reporting update: 56 local tests pass. A separate protected HTML diagnostic report preserves explicit failure status instead of losing a 503 response to the browser error page. See [first-attempt evidence and reporting limits](docs/DIAGNOSTIC-REPORTING-FIX.md). This update does not establish database acceptance.
+This PostgreSQL-only Waline source tree keeps the default `index.cjs` entrypoint
+disabled (503). The optional public-comments profile is packaged separately;
+see [release-profile behavior and boundaries](docs/PUBLIC-RELEASE-CANDIDATE.md).
+The disabled default is a property of this checkout, not a claim that no service
+has ever been deployed.
 
-Latest diagnostic preparation: 51 local tests pass (47 application/diagnostic and four unchanged reference regressions), with a fresh offline installation and zero known audit findings at the earlier 47-test checkpoint. Both default entrypoints remain disabled. A separate staged read-only diagnostic adapter is available only for an explicitly reviewed protected deployment; it is not database or production acceptance. See [diagnostic scope and limits](docs/POSTGRESQL-DIAGNOSTIC.md).
+- Main includes the discussion-registry synchronization merged in [PR #2](https://github.com/Maoxin1/mantou-comments/pull/2).
+- Earlier protected guest-comment acceptance and production-reader checks are historical evidence. Live routing, database access and moderation availability were not revalidated by this documentation update.
+- [Draft PR #3](https://github.com/Maoxin1/mantou-comments/pull/3) adds paginated reversible moderation and validation CI. Its branch has passing automated checks; browser rendering and real PostgreSQL persistence remain pending. These changes are not on main.
+- [Earlier README status checkpoints](docs/history/readme-status-before-20261113.md) retain the 51/56-test diagnostic stages. Other dated checkpoints below also describe their own revisions, not today's test count or security status.
 
-A disabled-by-default, PostgreSQL-only Waline backend candidate, with security
-boundaries, deterministic derivation, original tests, license choices and
-source-provenance evidence. Approved public target: `Maoxin1/mantou-comments`.
-
-This is a **source prerelease**, not a live comment service. `index.cjs` returns
-503. No database, administrator, service integration or deployment is enabled.
+Source provenance, corresponding-source assets, notices and license choices
+remain part of this repository. Changes to source documentation do not enable a
+deployment profile, extend private-administration access or change the database.
 
 ## Start here
 
