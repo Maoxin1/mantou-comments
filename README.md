@@ -10,7 +10,7 @@ has ever been deployed.
 
 - Main includes the discussion-registry synchronization merged in [PR #2](https://github.com/Maoxin1/mantou-comments/pull/2).
 - Earlier protected guest-comment acceptance and production-reader checks are historical evidence. Live routing, database access and moderation availability were not revalidated by this documentation update.
-- [Draft PR #3](https://github.com/Maoxin1/mantou-comments/pull/3) adds paginated reversible moderation and validation CI. Its branch has passing automated checks; browser rendering and real PostgreSQL persistence remain pending. These changes are not on main.
+- [PR #3](https://github.com/Maoxin1/mantou-comments/pull/3) adds paginated reversible moderation and validation CI. Its runtime passed local browser rendering, real PostgreSQL transitions and normal-restart persistence checks on 2026-11-13; see [acceptance scope](docs/ROUTINE-MODERATION-ACCEPTANCE-20261113.md). Source merge does not establish production deployment or reopen private access.
 - [Earlier README status checkpoints](docs/history/readme-status-before-20261113.md) retain the 51/56-test diagnostic stages. Other dated checkpoints below also describe their own revisions, not today's test count or security status.
 
 Source provenance, corresponding-source assets, notices and license choices

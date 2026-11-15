@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-13",
+  "source_head": "538ad77196fef5549d21ddb52c42e8d1fedbc1ba",
+  "runtime_blobs": {
+    "deployment/public-comments.cjs": "1698eeb50394f5e7a7c7947e088a3547a2112a92",
+    "src/private-admin-page.cjs": "2ee467ce80543c6bfb12982a158623855778a566",
+    "src/private-postgresql-adapter.cjs": "ebe4cfc44b389259a1ea4dc3e0da74e5b7478b9a"
+  },
+  "passed": true,
+  "checks": [
+    "real browser login and both queue pages over real PostgreSQL; pending comments remain private",
+    "page-two rejection commits to PostgreSQL, preserves page and remains private",
+    "restore commits to waiting without publishing",
+    "real competing SQL update wins; stale approval returns 409 and cannot overwrite rejection",
+    "separate explicit approval publishes only the selected synthetic comment",
+    "mobile/desktop real rendering, form navigation and malformed pagination checks pass without page errors",
+    "fresh adapter and connections read committed states with verified TLS"
+  ],
+  "engine": "PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit",
+  "server_restart": {
+    "passed": true,
+    "rows": [
+      {
+        "id": 103,
+        "status": "approved"
+      },
+      {
+        "id": 104,
+        "status": "spam"
+      },
+      {
+        "id": 105,
+        "status": "waiting"
+      }
+    ],
+    "version": "PostgreSQL 16.2 (Ubuntu 16.2-1ubuntu4) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 13.2.0-23ubuntu3) 13.2.0, 64-bit",
+    "scope": "normal restart of isolated PostgreSQL 16.2; no crash or production/Neon durability claim"
+  },
+  "harness_sha256": "fcd38c3c8ac4bc7305bbf2892a5a5b17ebcbb08b7f3863a4dc352589db34b737",
+  "scope": "Local isolated PostgreSQL 16.2 with synthetic accounts/comments, real pg wire protocol and validated TLS; generated browser origin mapped to loopback. Not Neon hosted service, Vercel SSO/protection, production moderation, crash recovery or performance evidence."
+}
